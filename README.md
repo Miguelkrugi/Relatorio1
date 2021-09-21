@@ -93,9 +93,26 @@ Foi a pensar nestas grandes necessidades que será desenvolvida a "BusyBrain", u
 ## 4. Ideia e Conceito
 
 Como foi dito anteriormente, foi com base na falta de produtividade que afeta grande parte da sociedade atual (com o surgimento de redes sociais, por exemplo), que foi pensada a app "BusyBrain" (cérebro ocupado / cérebro focado).
-A BusyBrain será uma aplicação simples e fácil de usar, com uma interface atrativa e de fácil compreensão das suas funcionalidades, por exemplo.
+A BusyBrain será uma aplicação simples e fácil de usar, com uma interface atrativa e simples.
 Apesar de existirem várias apps com o mesmo propósito, a BusyBrain promete "expandir" as configurações presentes em qualquer app que possua o mesmo objetivo. Com funcionalidades que distingam a BusyBrain de todas as outras apps do mesmo género.
-A app também permitirá adicionar tarefas a serem realizadas no tempo estipulado, assim como adicionar notas em cada uma delas. 
+A app também permitirá adicionar tarefas a serem realizadas no tempo estipulado, assim como adicionar notas em cada uma delas.
+Entre outras configurações, o utilizador poderá escolher de entre 4 técnicas comprovadas que permitem um maior foco e produtividade ao realizar tarefas, selecionar música ambiente, bloquear Wi-Fi quando um timer de foco iniciar e bloquear outras apps que o utilizador considere distrativas. 
+Caso o utilizador tenha muita dificuldade em se concentrar nas suas tarefas, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações que considere distrativas até o timer estipulado (30 minutos ou 60 minutos) terminar.
+A localização será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as tarefas, entre outras funcionalidades (como procurar por livrarias e bibliotecas próximas do utilizador, caso queira comprar livros etc...). Após selecionar o local, um GPS será ativado (em tempo real), da rota que se inicia na localização atual do utilizador, e termina no local escolhido.
+
+## 5. Objetivos
+
+Apesar das vantagens que o BusyBrain poderá oferecer, o seu principal objetivo será sempre promover a produtividade do utilizador de uma forma simples e eficaz. Com a ajuda de diversas funcionalidades como o bloqueio de aplicações, será possivel atingir outros objetivos a que a aplicação se compromete a atingir, como melhorar a capacidade de foco do utilizador. 
+Gerir o tempo e saber aproveitá-lo, é também um dos objetivos do BusyBrain. Desta forma, utilizando a localização do utilizador, esse objetivo será possivel de alcançar, exibindo sempre os locais mais próximos para o utilizador aproveitar da melhor forma possivel o seu tempo livre de tarefas.
+Para os utilizadores que queiram adquirir conhecimento, o BusyBrain (utilizando a localização), conseguirá também indicar bibliotecas e livrarias próximas do utilizador. 
+A acessibilidade da app também é essencial. Desta forma, não existirá limites para bloqueios de apps ou websites. Todas as funcionalidades serão gratuitas, de maneira a garantir uma experiência completa ao utilizador, destacando-se de muitas outras aplicações deste género, no mercado.
+
+## 6. Público-Alvo
+
+Uma das grandes qualidades do BusyBrain será, entre outras, a acessibilidade, não existindo assim, um público-alvo especifico. Todas as pessoas que tenham dificuldades de foco em tarefas do dia-a-dia, de gestão de tempo e até de bom proveito do mesmo, poderão utilizar o BusyBrain.
+A app está desenhada especificamente para ajudar a resolver este tipo de problemas que é muitas vezes prejudicial seja em que ambiente for.
+
+
 
 
 
