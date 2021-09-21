@@ -92,6 +92,10 @@ Foi a pensar nestas grandes necessidades que será desenvolvida a "BusyBrain", u
 
 ## 4. Ideia e Conceito
 
+Como foi dito anteriormente, foi com base na falta de produtividade que afeta grande parte da sociedade atual (com o surgimento de redes sociais, por exemplo), que foi pensada a app "BusyBrain" (cérebro ocupado / cérebro focado).
+A BusyBrain será uma aplicação simples e fácil de usar, com uma interface atrativa e de fácil compreensão das suas funcionalidades, por exemplo.
+Apesar de existirem várias apps com o mesmo propósito, a BusyBrain promete "expandir" as configurações presentes em qualquer app que possua o mesmo objetivo. Com funcionalidades que distingam a BusyBrain de todas as outras apps do mesmo género.
+A app também permitirá adicionar tarefas a serem realizadas no tempo estipulado, assim como adicionar notas em cada uma delas. 
 
 
 
