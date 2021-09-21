@@ -107,10 +107,12 @@ Gerir o tempo e saber aproveitá-lo, é também um dos objetivos do BusyBrain. D
 Para os utilizadores que queiram adquirir conhecimento, o BusyBrain (utilizando a localização), conseguirá também indicar bibliotecas e livrarias próximas do utilizador. 
 A acessibilidade da app também é essencial. Desta forma, não existirá limites para bloqueios de apps ou websites. Todas as funcionalidades serão gratuitas, de maneira a garantir uma experiência completa ao utilizador, destacando-se de muitas outras aplicações deste género, no mercado.
 
-## 6. Público-Alvo
+## 6. Público-Alvo 
 
 Uma das grandes qualidades do BusyBrain será, entre outras, a acessibilidade, não existindo assim, um público-alvo especifico. Todas as pessoas que tenham dificuldades de foco em tarefas do dia-a-dia, de gestão de tempo e até de bom proveito do mesmo, poderão utilizar o BusyBrain.
-A app está desenhada especificamente para ajudar a resolver este tipo de problemas que é muitas vezes prejudicial seja em que ambiente for.
+A app está desenhada especificamente para ajudar a resolver este tipo de problemas que é muitas vezes prejudicial para a produtividade de uma pessoa, seja em que ambiente for.
+
+
 
 
 
