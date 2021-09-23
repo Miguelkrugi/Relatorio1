@@ -80,9 +80,9 @@ Contudo, apesar da enorme utilidade, atratividade e simplicidade que esta app po
 
 Após debates de diversas ideias propostas, surgiu a <strong>BusyBrain.</strong> 
 A BusyBrain seria então, uma aplicação simples de usar, com grande utilidade e que ajudaria a resolver um problema que é bastante recorrente nos dias de hoje: <strong>Foco e Produtividade.</strong>
-A sua forte concorrência foi a ideia da app "GlitchFlix", uma vez que era dificil encontrar pontos que "desiquilibrassem a balança", de forma a facilitar a escolha.
-No entanto, foi optada uma solução mais util e simples de desenvolver, utilizando diversos métodos de foco em tarefas comprovados e bastante utilizados, permitindo gerir e aproveitar o tempo durante as tarefas do dia-a-dia.
-Após dias de discussão e de esboços de estruturas para ambas as aplicações, foi concluido que a melhor solução a adotar seria a BusyBrain.
+A sua forte concorrente foi a app "GlitchFix", porque tinha caracteristicas semelhantes á BusyBrain.
+No entanto, a decisão recaiu sobre a BusyBrain, por ter uma maior utilidade e o seu desenvolvimento ser mais simples. Utiliza diversos métodos de concentração nas diversas tarefas do dia a dia, contribui para a produtividade do utilizador, assim como uma melhor gestão do tempo.
+Após dias de discussão e de esboços de estruturas para ambas as aplicações, e de acordo com as caracteristicas descritas acima concluimos que a melhor solução seria a BusyBrain.
 
 ## 3. Problema
 
@@ -109,8 +109,11 @@ A acessibilidade da app também é essencial. Desta forma, não existirá limite
 
 ## 6. Público-Alvo 
 
-Uma das grandes qualidades do BusyBrain será, entre outras, a acessibilidade, não existindo assim, um público-alvo especifico. Todas as pessoas que tenham dificuldades de foco em tarefas do dia-a-dia, de gestão de tempo e até de bom proveito do mesmo, poderão utilizar o BusyBrain.
-A app está desenhada especificamente para ajudar a resolver este tipo de problemas que é muitas vezes prejudicial para a produtividade de uma pessoa, seja em que ambiente for.
+ Todas as pessoas que tenham dificuldades de foco em tarefas do dia-a-dia, de gestão de tempo e até de bom proveito do mesmo, poderão utilizar o BusyBrain. Desta forma, a aplicação não possui um público-alvo especifico, no entanto, esta está desenhada especificamente para ajudar a melhorar a produtividade durante a execução de tarefas do dia-a-dia, melhorar o foco durante essas execuções, permitir uma melhor gestão do tempo e aproveitamento do mesmo através de diversas funcionalidades que destacam a BusyBrain no mercado de apps com o mesmo propósito.
+ 
+## 7. Aplicações-Base (Pesquisa de apps semelhantes) 
+
+
 
 
 
