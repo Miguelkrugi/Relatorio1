@@ -144,9 +144,8 @@ Para estruturar de forma mais clara o conceito e os propósitos da aplicação, 
 
  * Desenvolver e tornar a aplicação totalmente gratuita e leve para todos os dispositivos
  * Interfaces simples e fáceis de manusear
- * Combater o vicio nos dispositivos eletrónicos 
+ * Combater o vicio nos dispositivos eletrónicos e a falta de produtividade (contribuindo para o foco e concentração nas tarefas a serem realizadas)
  * Eliminar distrações, priorizando a execução de tarefas do dia-a-dia.
- * Combater a falta de produtividade (contribuindo para o foco e concenteação nas tarefas a serem realizadas)
  * Facilitar a gestão do tempo (dentro e fora do tempo de trabalho)
  
 ### Aplicação Gratuita
@@ -158,8 +157,37 @@ Face a este problema, foi decidido que a "BusyBrain" não possuirá planos pagos
 
 A grande acessibilidade da "BusyBrain" complementa-se com a sua interface simples, atrativa e fácil de usar. 
 Este requisito é essencial para a aquisição e retenção de utilizadores, assim como incentivá-los a continuar a utilizar a app, reduzindo a probabilidade de "abandono" da app, e incrementando a probabilidade de uso da mesma.
+A criação de Layout's simples, evita também problemas futuros, tais como a correção de erros de "navegação" na aplicação, dificuldade quanto a ajustes em diversos dispositivos, entre outros. Todos estes percalços envolvem custos elevados. Desta forma, a criação de uma interface intuitiva, atrativa e simples, beneficia não só os utilizadores como também a aplicação (manutenção, atualizações, correções de bugs, etc.), causando menos problemas e "preocupações" aos desenvolvedores quanto aos custos.
+É frequente ocorrerem várias duvidas relativamente ao uso da aplicação por parte dos clientes, no entanto, se a interface for intuitiva, o contacto do cliente com o serviço de apoio será menos frequente. 
+Deste modo, os custos do apoio ao cliente podem ser bastante reduzidos. Uma interface amigável e de fácil utilização, minimiza as ocorrências de erros ou dúvidas por parte dos utilizadores, garantindo também uma maior satisfação durante a experiência de utilização da app.
 
-A criação de Layout's simples, evita problemas futuros, tais como a correção de erros de "navegação" na aplicação, ajustes em diversos dispositivos, entre outros. Todos estes percalços envolvem custos elevados. Desta forma, a criação de uma interface intuitiva, atrativa e simples, beneficia não só os utilizadores como também o negócio, na medida em que causa menos problemas e frustrações aos responsáveis pelo design e evita custos e recursos adicionais. Assim, a projeção do design de interface do utilizador, quando bem executada, reduz custos, tempo e esforço ao longo das fases posteriores, o que significa que as decisões estratégicas tomadas no arranque do projeto determinam o custo e a performance no futuro.
+### Combate ao vicio, eliminação de distrações e aumento da produtividade
+
+A rápida evolução tecnológica das últimas décadas tem vindo a transformar drasticamente a dinâmica das nossas vidas, as nossas rotinas e amplamente a vida social.
+Diariamente surgem novas aplicações e serviços para as mais diversas finalidades, de forma a facilitar o nosso dia-a-dia. No entanto, todos estes fatores trariam mais benificios caso não existisse o "excesso" de utilização destes serviços/aplicações (redes sociais, jogos, etc.), que, infelizmente, causa grandes dependências dos pequenos ecrãs.
+Sendo estes dispositivos a nossa "vida" em formato digital, não só já não podemos passar tempo sem eles, como os mesmos nos "ocupam" cada vez mais horas diariamente sem nos apercebermos disso. 
+Tudo em excesso é prejudicial, e o uso abusivo destes dispositivos não é excepção. Em qualquer situação em que estamos parados (esperar pelo autocarro, pela comida no restaurante ou esperar por um amigo, etc.), o primeiro instinto é pegar no telemóvel para passar mais depressa o tempo.
+Estas dependências podem causar graves problemas de saúde, como por exemplo a Depressão, Ansiedade e Insónias.
+
+Desta forma, a "BusyBrain" procura combater este vicio, ajudando o utilizador a evitar estas dependências do aparelho. Através de métodos de concentração e foco comprovados (entre outras configurações e funcionalidades), a "BusyBrain" possibilita ao utilizador largar o aparelho e focar-se nas suas tarefas, aumentando a sua produtividade, aumentando a capacidade de foco e concentração e eliminando possiveis distrações derivadas dos aparelhos eletrónicos.
+
+Através do bloqueio de apps ou bloqueio de websites que o utilizador considere distrativo(as), será possivel evitar possiveis distrações causadas pelos dispositivos. Também será possivel silenciar totalmente o telemóvel ou desativar a ligação Wi-Fi do dispositivo (evitar a recepção notificações, evitar acesso á web, etc.), de forma a alcançar o mesmo objetivo (eliminação de distrações durante o tempo de execução de tarefas).
+
+## Gestão de Tempo
+
+Em qualquer ambiente, seja no trabalho ou na vida pessoal, o tempo passa bastante rápido. No trabalho, por exemplo, é essencial gerir bem o tempo, de forma a cumprir todas as tarefas do dia. No entanto, este feito pode ser dificil de conseguir, uma vez que, com a dependência dos aparelhos eletrónicos e com uma grande capacidade de distração, a organização de tarefas e o cumprimento das mesmas torna-se bastante complicada. 
+Gerir o tempo envolve a estruturação de horários e do tempo de execução de cada tarefa a ser realizada durante o dia. Infelizmente, apesar do conceito ser simples, uma boa gestão de tempo é muitas vezes dificil de alcançar.
+
+Por esta razão, a "BusyBrain" está também desenhada especificamente para permitir ao utilizador gerir melhor o seu tempo, tornando-o mais produtivo e menos "stressado" com o tempo disponivel para realizar as suas tarefas.
+Através da utilização das 4 principais técnicas de foco e produtividade disponiveis na app, este feito de uma boa gestão do tempo disponivel para executar tarefas tornar-se-á possivel. 
+
+De forma a concretizar este objetivo, a "BusyBrain" ainda acederá á localização do utilizador, exibindo-lhe cafés, restaurantes e bares, que o user poderá frequentar "fora" do tempo de realização das suas tarefas.
+A localização também será utilizada para exibir livrarias e  bibliotecas próximas do utilizador, caso este queira comprar ou consultar livros, por exemplo.
+
+Também será possivel criar, editar e ajustar horários, dependendo das necessidades do user.
+
+### Público-Alvo
+
 
 ## 2. Aplicação Escolhida
 
