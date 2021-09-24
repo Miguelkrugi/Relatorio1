@@ -137,6 +137,30 @@ Após selecionar o local, um GPS/Tracker será ativado (em tempo real), exibindo
 
 Para tornar a app mais acessivel, esta será totalmente gratuita, sem planos pagos (algo bastante comum em aplicações do mesmo género).  
 
+## 6. Objetivos
+
+A app estará desenhada especificamente para auxiliar as pessoas que possuem maior dificuldade em se concentrarem nas suas tarefas do dia-a-dia. No entanto, esta poderá ser utilizada por qualquer pessoa, de forma gratuita. 
+Para estruturar de forma mais clara o conceito e os propósitos da aplicação, foram definidos vários objetivos a alcançar com a criação da "BusyBrain":
+
+ * Desenvolver e tornar a aplicação totalmente gratuita e leve para todos os dispositivos
+ * Interfaces simples e fáceis de manusear
+ * Combater o vicio nos dispositivos eletrónicos 
+ * Eliminar distrações, priorizando a execução de tarefas do dia-a-dia.
+ * Combater a falta de produtividade (contribuindo para o foco e concenteação nas tarefas a serem realizadas)
+ * Facilitar a gestão do tempo (dentro e fora do tempo de trabalho)
+ 
+### Aplicação Gratuita
+
+Após breves pesquisas de diversas apps com o mesmo objetivo da "BusyBrain", uma das grandes desvantagens existentes na concorrência era a limitação do uso de algumas funcionalidades, podendo ser somente utilizadas, caso o utilizador comprasse planos "Premium", o que impediria uma utilização completa da app. 
+Face a este problema, foi decidido que a "BusyBrain" não possuirá planos pagos, de modo a garantir uma experiência completa ao utilizador. Além de totalmente gratuita, a "BusyBrain" deverá ser uma app "leve" para qualquer dispositivo (garantindo uma melhor acessibilidade), de forma a ajudar a economizar internet, bateria e memória do dispositivo. 
+
+### Interfaces Simples
+
+A grande acessibilidade da "BusyBrain" complementa-se com a sua interface simples, atrativa e fácil de usar. 
+Este requisito é essencial para a aquisição e retenção de utilizadores, assim como incentivá-los a continuar a utilizar a app, reduzindo a probabilidade de "abandono" da app, e incrementando a probabilidade de uso da mesma.
+
+A criação de Layout's simples, evita problemas futuros, tais como a correção de erros de "navegação" na aplicação, ajustes em diversos dispositivos, entre outros. Todos estes percalços envolvem custos elevados. Desta forma, a criação de uma interface intuitiva, atrativa e simples, beneficia não só os utilizadores como também o negócio, na medida em que causa menos problemas e frustrações aos responsáveis pelo design e evita custos e recursos adicionais. Assim, a projeção do design de interface do utilizador, quando bem executada, reduz custos, tempo e esforço ao longo das fases posteriores, o que significa que as decisões estratégicas tomadas no arranque do projeto determinam o custo e a performance no futuro.
+
 ## 2. Aplicação Escolhida
 
 Após debates de diversas ideias propostas, surgiu a <strong>BusyBrain.</strong> 
