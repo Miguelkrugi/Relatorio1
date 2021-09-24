@@ -193,6 +193,30 @@ No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse públi
 
 ## 8. Pesquisa
 
+Para entender que configurações poderiam destacar a "BusyBrain" no mercado, foram analisadas 3 aplicações ("Brain Focus", "Focus To-Do" e "Serene") que possuem o mesmo objetivo que a "BusyBrain": Foco e Produtividade. As apps foram instaladas e testadas, sendo ainda analisadas críticas publicadas na página da app na Play Store (excepto a app "Serene", que somente funciona para sistemas macOS). Logicamente, foram analisadas diversas configurações de todas as apps selecionadas.
+
+### Brain Focus
+
+A "Brain Focus Productivity Timer" é uma app desenvolvida pela empresa "Brain Focus", que serve para gerir melhor o tempo, utilizando essencialmente a técnica Pomodoro.
+Após a instalação, foram listadas algumas configurações que podiam tornar a "BusyBrain" mais interessante e completa:
+
+* Desativar Wi-Fi quando iniciada uma sessão de trabalho.
+* Diversos "themes" (Vermelho, Verde, Azul, Dark, etc.).
+* Notificação antes do fim de uma sessão de trabalho.
+* Remoção de anuncios (somente na versão Pro).
+
+### Focus To-Do
+
+
+
+### Serene
+
+BRAIN FOCUS
+FOCUS TODO
+SERENADE
+
+### BusyBrain
+
 ## 2. Aplicação Escolhida
 
 Após debates de diversas ideias propostas, surgiu a <strong>BusyBrain.</strong> 
