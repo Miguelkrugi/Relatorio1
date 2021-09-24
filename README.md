@@ -274,6 +274,8 @@ Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Fo
      * Endereço
      * Distância
 
+//Nota: O Hardcore Timer bloqueia totalmente o telemóvel (Wi-Fi, telemovel silenciado, apps bloqueadas e websites bloqueados durante o timer). Até o timer não acabar, não será possivel reativar o uso do telemóvel (bloqueio total).
+
 # 10. Guia de Teste (1)
                    
 
