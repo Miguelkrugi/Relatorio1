@@ -186,8 +186,12 @@ A localização também será utilizada para exibir livrarias e  bibliotecas pr�
 
 Também será possivel criar, editar e ajustar horários, dependendo das necessidades do user.
 
-### Público-Alvo
+## 7. Público-Alvo
 
+O público-alvo da "BusyBrain" será toda a população que possua problemas de vicio no telemóvel, distração, gestão de tempo e/ou concenctração durante a realização das suas tarefas diárias e que queiram eliminar distrações, aumentar a produtividade, gerir melhor o seu tempo, etc.
+No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse público, qualquer pessoa poderá utilizar a "BusyBrain" e disfrutar de todas as funcionalidades e vantagens que a app oferece.
+
+## 8. Pesquisa
 
 ## 2. Aplicação Escolhida
 
