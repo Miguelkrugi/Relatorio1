@@ -15,7 +15,7 @@ O projeto seguirá essencialmente a arquitetura MVC (Model, View, Controller), u
 
 De seguida encontram-se os tópicos que irão ser abordados neste relatório, permitindo uma melhor compreensão do conceito por detrás do projeto a desenvolver:
 
-## Indice:
+## Indice
 
 * Introdução
 * Preparação (Setup)
@@ -42,37 +42,37 @@ Este relatório foi criado para permitir uma melhor compreensão sobre a estrutu
 
 A primeira semana letiva, (13 de Setembro - 16 de Setembro), foi dedicada á preparação do setup para permitir o desenvolvimento do projeto. Foram instalados os programas "Android Studio", "Visual Code / Spring Boot", "GitHub", "PostgreSQL", "Slack" e "Odoo", cada um deles possuindo a sua função, que, posteriormente, ajudarão a desenvolver a aplicação. Outras fontes de pesquisa tais como "GeeksForGeeks", "DevMedia" ou "YouTube" foram utilizadas para consulta do funcionamento de cada um destes programas mencionados anteriormente, de forma a permitir uma maior familiarização para com os mesmos. De seguida encontram-se listadas as funções de cada ferramenta utilizada para o desenvolvimento do projeto:
 
-### Android Studio
+### Android Studio:
 
 O Android Studio é um ambiente de desenvolvimento integrado (IDE), baseado no IDE Intellij Idea, para desenvolver aplicações para dispositivos Android, utilizando maioritariamente as linguagens de programação "Java" e "Kotlin".
 O Android Studio possui ainda editor simples de layout, que permite que o desenvolvedor arraste elementos de interface para a "Activity" (tela da aplicação), podendo também pré-visualizar alterações realizadas, etc.
 Esta ferramenta será então utilizada para desenvolver toda a interface da aplicação.
 
-### Visual Code
+### Visual Code:
 
 O Visual Studio Code é um editor de código criado pela Microsoft e disponivel para Windows, Linux e macOS. 
 Sendo um dos editores mais reconhecidos e completos do mercado, o Visual Studio Code será usado juntamente com a framework "Spring Boot", de modo a desenvolver models e controllers (elementos importantes da arquitetura MVC, utilizada para desenvolver a app).
 
-### Spring Boot
+### Spring Boot:
 
 O Spring Boot é uma "extensão" da framework Spring, desenvolvida para a linguagem Java. Esta ferramenta será complementada com o editor de código "Visual Studio Code", de forma a facilitar o desenvolvimento da REST API (permitindo posteriormente conectar a app com a base de dados).
 
-### PostgreSQL 
+### PostgreSQL:
 
 O PostgreSQL é um dos mais conhecidos, avançados e completos SGBD's do mercado. Possui diversas vantagens face a outros SGBD's, tais como a efetuação de consultas complexas em bases de dados, suporte á modelagem MR, diferentes linguagens de programação estruturadas, tais como PL/pgSQL, PL/Python, PL/Java, entre outras.
 Será a ultima "camada" da arquitetura MVC, uma vez que será na base de dados onde todas as informações de utilizadores, etc., serão guardadas. 
 
-### GitHub
+### GitHub:
 
 O GitHub é uma plataforma de hospedagem de código e documentação, totalmente gratuito e o mais reconhecido no mercado. Permite que qualquer utilizador disponibilize os seus códigos e projetos de forma gratuita, criando repositórios para armazenar esses mesmos códigos/projetos.
 No entanto, no contexto deste projeto, o GitHub será utilizado para armazenar toda a documentação a ser entregue nas respectivas entregas do projeto.
 
-### Slack
+### Slack:
 
 O Slack é uma plataforma/app de envio de mensagens, criada para facilitar a comunicação entre pessoas (por exemplo num projeto, empresa, etc.).
 Será utilizada para manter uma comunicação mais rápida com os docentes envolvidos no projeto, etc.
 
-### Odoo
+### Odoo:
 
 O Odoo permite a criação de deadlines e tasks para uma melhor organização e gestão do projeto (não exigida no briefing).
 
@@ -148,12 +148,12 @@ Para estruturar de forma mais clara o conceito e os propósitos da aplicação, 
  * Eliminar distrações, priorizando a execução de tarefas do dia-a-dia.
  * Facilitar a gestão do tempo (dentro e fora do tempo de trabalho)
  
-### Aplicação Gratuita
+### Aplicação Gratuita:
 
 Após breves pesquisas de diversas apps com o mesmo objetivo da "BusyBrain", uma das grandes desvantagens existentes na concorrência era a limitação do uso de algumas funcionalidades, podendo ser somente utilizadas, caso o utilizador comprasse planos "Premium", o que impediria uma utilização completa da app. 
 Face a este problema, foi decidido que a "BusyBrain" não possuirá planos pagos, de modo a garantir uma experiência completa ao utilizador. Além de totalmente gratuita, a "BusyBrain" deverá ser uma app "leve" para qualquer dispositivo (garantindo uma melhor acessibilidade), de forma a ajudar a economizar internet, bateria e memória do dispositivo. 
 
-### Interfaces Simples
+### Interfaces Simples:
 
 A grande acessibilidade da "BusyBrain" complementa-se com a sua interface simples, atrativa e fácil de usar. 
 Este requisito é essencial para a aquisição e retenção de utilizadores, assim como incentivá-los a continuar a utilizar a app, reduzindo a probabilidade de "abandono" da app, e incrementando a probabilidade de uso da mesma.
@@ -161,7 +161,7 @@ A criação de Layout's simples, evita também problemas futuros, tais como a co
 É frequente ocorrerem várias duvidas relativamente ao uso da aplicação por parte dos clientes, no entanto, se a interface for intuitiva, o contacto do cliente com o serviço de apoio será menos frequente. 
 Deste modo, os custos do apoio ao cliente podem ser bastante reduzidos. Uma interface amigável e de fácil utilização, minimiza as ocorrências de erros ou dúvidas por parte dos utilizadores, garantindo também uma maior satisfação durante a experiência de utilização da app.
 
-### Combate ao vicio, eliminação de distrações e aumento da produtividade
+### Combate ao vicio, eliminação de distrações e aumento da produtividade:
 
 A rápida evolução tecnológica das últimas décadas tem vindo a transformar drasticamente a dinâmica das nossas vidas, as nossas rotinas e amplamente a vida social.
 Diariamente surgem novas aplicações e serviços para as mais diversas finalidades, de forma a facilitar o nosso dia-a-dia. No entanto, todos estes fatores trariam mais benificios caso não existisse o "excesso" de utilização destes serviços/aplicações (redes sociais, jogos, etc.), que, infelizmente, causa grandes dependências dos pequenos ecrãs.
@@ -276,7 +276,7 @@ Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Fo
 
 //Nota: O Hardcore Timer bloqueia totalmente o telemóvel (Wi-Fi, telemovel silenciado, apps bloqueadas e websites bloqueados durante o timer). Até o timer não acabar, não será possivel reativar o uso do telemóvel (bloqueio total).
 
-# 10. Guia de Teste (1)
+# 10. Guião de Teste (1)
                    
 
 
