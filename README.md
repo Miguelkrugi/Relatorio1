@@ -17,37 +17,48 @@ De seguida encontram-se os tópicos que irão ser abordados neste relatório, pe
 
 ## Indice:
 
-* Preparação
+* Introdução
+* Preparação (Setup)
 * Ideias
-* Aplicação Escolhida
 * Problema
 * Ideia e Conceito
 * Objetivos
 * Público-Alvo (Target)
-* Aplicações-Base (Pesquisa de apps semelhantes)
+* Pesquisa
+* Guião de Utilização
 * Informações Adicionais
 
-## 1. Preparação
+## 1. Introdução
 
-A primeira semana letiva do semestre (13 de Setembro - 16 de Setembro), foi dedicada á preparação do setup para permitir o desenvolvimento do projeto. Foram instalados os programas "Android Studio", "Visual Code / Spring Boot", "GitHub", "PostgreSQL", "Slack" e "Odoo", cada um deles possuindo a sua função, que, consequentemente, acabará por permitir o avanço do desenvolvimento da aplicação mobile.
-Outras referências tais como "GeeksForGeeks", "DevMedia" ou "YouTube" foram utilizadas para consulta do funcionamento de cada um destes programas mencionados anteriormente, de forma a permitir uma maior familiarização para com os mesmos. 
+No âmbito multi-disciplinar do 1º Semestre do 2º ano de Licenciatura em Engenharia Informática do Instituto de Artes Visuais, Design e Marketing (IADE), foi proposto um projeto semestral, que consiste na Idealização, Implementação e Apresentação de uma aplicação mobile (app), desenvolvida para dispositivos Android.  
 
-Funções de cada ferramenta utilizada:
+Este projeto abrange todas as Unidades Curriculares do Semestre (Base de Dados, Programação de Dispositivos Móveis, Programação Orientada a Objetos, Matemática Discreta, Competências Comunicacionais e Projeto de Desenvolvimento Móvel), assim como a utilização e aplicação dos conhecimentos adquiridos em cada uma das UC’s, ao longo do semestre. O projeto seguirá essencialmente a arquitetura MVC (Model, View, Controller), utilizada frequentemente para o desenvolvimento de aplicações. Com o uso de ferramentas como "Android Studio", "Spring Boot" e "PostgreSQL", será possivel criar e implementar as funcionalidades desejadas para a aplicação a ser desenvolvida. 
 
-* Android Studio --> Interface da Aplicação Mobile
-* Visual Code --> IDE para uso da framework "Spring Boot"
-* Spring Boot --> Framework para a construção de API e implementação de controllers e models
-* PostgreSQL --> Base de Dados
-* GitHub --> Publicar futuros relatórios e atualizações quinzenais
-* Slack --> Comunicação de grupo, bem como para com os restantes colegas de curso
-* Odoo --> Criação de deadlines e tasks para melhor gestão do projeto (não exigida no briefing do projeto)
+O projeto será complementado com relatórios quinzenais, de forma a demonstrar o progresso de desenvolvimento da aplicação ao longo do semestre.  
 
-*Nota: Na fonte "YouTube", foram consultados os seguintes canais ("Edureka", "Amigoscode" e "freecodecamp")
+Este relatório foi criado para permitir uma melhor compreensão sobre a estrutura, conceito e possivel funcionamento da app a desenvolver durante o periodo letivo.  
 
-## 2. Ideias
+## 2. Preparação (Setup)
 
-Durante a primeira semana, o grupo reuniu-se algumas vezes para realizar um Brainstorming, e discutir ideias que pudessem recorrer á localização do utilizador (requisito obrigatório para o desenvolvimento do projeto) e que permitissem solucionar problemas da sociedade.
-Várias ideias foram descartadas, no entanto, após várias discussões, uma foi selecionada. Encontram-se, de seguida, algumas ideias que foram propostas mas no entanto, descartadas:
+A primeira semana letiva, (13 de Setembro - 16 de Setembro), foi dedicada á preparação do setup para permitir o desenvolvimento do projeto. Foram instalados os programas "Android Studio", "Visual Code / Spring Boot", "GitHub", "PostgreSQL", "Slack" e "Odoo", cada um deles possuindo a sua função, que, posteriormente, ajudarão a desenvolver a aplicação. Outras fontes de pesquisa tais como "GeeksForGeeks", "DevMedia" ou "YouTube" foram utilizadas para consulta do funcionamento de cada um destes programas mencionados anteriormente, de forma a permitir uma maior familiarização para com os mesmos. De seguida encontram-se listadas as funções de cada
+
+Funções de cada ferramenta utilizada: 
+
+Android Studio --> Interface da Aplicação Mobile 
+
+Visual Code --> IDE para uso da framework "Spring Boot" 
+
+Spring Boot --> Framework para a construção de API e implementação de controllers e models (essencial para a futura comunicação com a database) 
+
+PostgreSQL --> Base de Dados 
+
+GitHub --> Publicar futuros relatórios e atualizações quinzenais 
+
+Slack --> Comunicação de grupo, bem como para com os restantes colegas de curso 
+
+Odoo --> Criação de deadlines e tasks para melhor gestão do projeto (não exigida no briefing do projeto) 
+
+*Nota: Na fonte "YouTube", foram consultados os seguintes canais ("Edureka", "Amigoscode" e "freecodecamp"). Mais informações sobre as ferramentas utilizadas estão disponiveis na secção “Informações Adicionais”. 
 
 ### HardGear:
 
