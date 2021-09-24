@@ -23,7 +23,7 @@ De seguida encontram-se os tópicos que irão ser abordados neste relatório, pe
 * Problema
 * Ideia e Conceito
 * Objetivos
-* Público-Alvo (Target)
+* Público-Alvo (Target e Persona)
 * Pesquisa
 * Guião de Utilização
 * Informações Adicionais
