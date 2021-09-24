@@ -247,7 +247,35 @@ Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Fo
 
 //Nota: Ao longo do desenvolvimento do projeto algumas funcionalidades poderão ser adicionadas, removidas ou não implementadas.
 
+## 9. Informações adicionais
 
+* Tipos de Timers:
+                   
+                   
+     * Pomodoro Timer (Foco: 25 minutos | Small Break: 5 minutos | Long Break: 30 minutos --> Aconselhado realizar 4 sessões antes do Long Break)
+     
+     * DeskTime Extra (Foco: 57 minutos | Break: 17 minutos | Long Break: 45 minutos --> Aconselhado realizar 2 sessões antes do Long Break)
+     
+     * Ultradian Rhythm (Foco: 90 minutos | Break: 30 minutos | Long Break: 60 minutos --> Aconselhado realizar 2 sessões antes do Long Break)
+     
+     * FlowTime (Foco: Até o utilizador se sentir distraido/cansado | Break: 5 minutos | Long Break: 15 minutos)
+     
+     * Hardcore Timer (Foco: 45 minutos | Break: 10 minutos | Long Break: 30 minutos --> Aconselhado realizar 4 sessões antes do Long Break)
+                   
+* Uso da Localização:
+
+     * Procurar por cafés, restaurantes e bares perto do local do utilizador (raio de 10 km | GPS Tracker em tempo real)
+     
+     * Procurar por livrarias e bibliotecas (raio de 50 km | GPS Tracker em tempo real)
+     
+* Infos sobre os locais exibidos:
+
+     * Nome do local 
+     * Endereço
+     * Distância
+
+# 10. Guia de Teste (1)
+                   
 
 
 
