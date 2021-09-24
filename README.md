@@ -203,13 +203,29 @@ Após a instalação, foram listadas algumas configurações que podiam tornar a
 * Desativar Wi-Fi quando iniciada uma sessão de trabalho.
 * Diversos "themes" (Vermelho, Verde, Azul, Dark, etc.).
 * Notificação antes do fim de uma sessão de trabalho.
+* Timer definido pelo user.
 * Remoção de anuncios (somente na versão Pro).
 
 ### Focus To-Do
 
+A "Focus To-Do" é uma app que foi desenvolvida pela empresa "Pomodoro Timer & To Do List - SuperElement SoftProdutividade". Esta app combina a técnica Pomodoro com sistema de criação e gestão de tarefas a serem realizadas.
+Após a análise desta app, foram também listadas algumas das funcionalidades que esta aplicação oferece:
 
+* Criar tarefas e planear o dia.
+* Adicionar notas ás tarefas.
+* Bloqueio de apps
+* Som ambiente para a sessão de trabalho.
+* Tela sempre ativada.
 
 ### Serene
+
+A "Serene" é uma aplicação desenvolvida pela empresa "Serene". É uma das apps mais completas do género e possui uma grande variedade de opções e funcionalidades. Por ser somente desenvolvida para macOS, esta não pôde ser instalada, no entanto foram verifacadas algumas configurações interessantes, a partir do website da própria app, que pudessem servir de base para outras funcionalidades na "BusyBrain":
+
+* Bloqueio de websites
+* Silenciador de telemóvel
+* Planear as tarefas do dia
+
+//Nota: A "Serene" é uma app paga.
 
 BRAIN FOCUS
 FOCUS TODO
@@ -217,42 +233,25 @@ SERENADE
 
 ### BusyBrain
 
-## 2. Aplicação Escolhida
+Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Focus To-Do, Serene), foi estruturada uma lista de várias funcionalidades que irão compor a app:
 
-Após debates de diversas ideias propostas, surgiu a <strong>BusyBrain.</strong> 
-A BusyBrain seria então, uma aplicação simples de usar, com grande utilidade e que ajudaria a resolver um problema que é bastante recorrente nos dias de hoje: <strong>Foco e Produtividade.</strong>
-A sua forte concorrente foi a app "GlitchFix", porque tinha caracteristicas semelhantes á BusyBrain.
-No entanto, a decisão recaiu sobre a BusyBrain, por ter uma maior utilidade e o seu desenvolvimento ser mais simples. Utiliza diversos métodos de concentração nas diversas tarefas do dia a dia, contribui para a produtividade do utilizador, assim como uma melhor gestão do tempo.
-Após dias de discussão e de esboços de estruturas para ambas as aplicações, e de acordo com as caracteristicas descritas acima concluimos que a melhor solução seria a BusyBrain.
+* Timers com diversos métodos de foco, concentração e produtividade durante a execução de tarefas
+* Adicionar, editar e eliminar tarefas
+* Adicionar descrições e notas ás tarefas
+* Bloquear apps (escolhidas pelo utilizador)
+* Bloquear websites (escolhidos pelo utilizador)
+* Desativar o Wi-Fi quando uma sessão de trabalho é iniciada
+* Som ambiente para as sessões de trabalho
+* Small breaks e Long breaks (variam de acordo com o tipo de timer)
+* Exibir lista de cafés, bares e restaurantes para os breaks (com GPS em tempo real)
+* Exibir lista de livrarias e bibliotecas (com GPS em tempo real)
+* Modo "Hardcore Timer"
+* Silenciador de telemóvel
+* Adicionar, editar e eliminar horários
 
-## 3. Problema
+//Nota: Ao longo do desenvolvimento do projeto algumas funcionalidades poderão ser adicionadas, removidas ou não implementadas.
 
-Um dos problemas que grande parte da sociedade sofre, é a distração, que muitas vezes prejudica negativamente qualquer pessoa no seu dia-a-dia, quer seja no trabalho, em casa, na faculdade, e em qualquer outro lugar. Consequentemente, a distração desencadeia uma má gestão do tempo disponivel e o bom aproveitamento do mesmo. 
-Aplicações como Instagram, Twitter ou WhatsApp são fortes influenciadores da distração durante a execução de tarefas do quotidiano. 
-Foi a pensar nestas grandes necessidades que será desenvolvida a "BusyBrain", uma aplicação que promete melhorar o foco e a gestão de tempo nas mais variadas tarefas do dia-a-dia, seja em que ambiente for, facilitando alcançar algo extremamente benéfico no nosso dia-a-dia: a <strong>produtividade.</strong>
 
-## 4. Ideia e Conceito
-
-Como foi dito anteriormente, foi com base na falta de produtividade que afeta grande parte da sociedade atual (com o surgimento de redes sociais, por exemplo), que foi pensada a app "BusyBrain" (cérebro ocupado / cérebro focado).
-A BusyBrain será uma aplicação simples e fácil de usar, com uma interface atrativa e simples.
-Apesar de existirem várias apps com o mesmo propósito, a BusyBrain promete "expandir" as configurações presentes em qualquer app que possua o mesmo objetivo. Com funcionalidades que distingam a BusyBrain de todas as outras apps do mesmo género.
-A app também permitirá adicionar tarefas a serem realizadas no tempo estipulado, assim como adicionar notas em cada uma delas.
-Entre outras configurações, o utilizador poderá escolher de entre 4 técnicas comprovadas que permitem um maior foco e produtividade ao realizar tarefas, selecionar música ambiente, bloquear Wi-Fi quando um timer de foco iniciar e bloquear outras apps que o utilizador considere distrativas. 
-Caso o utilizador tenha muita dificuldade em se concentrar nas suas tarefas, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações que considere distrativas até o timer estipulado (30 minutos ou 60 minutos) terminar.
-A localização será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as tarefas, entre outras funcionalidades (como procurar por livrarias e bibliotecas próximas do utilizador, caso queira comprar livros etc...). Após selecionar o local, um GPS será ativado (em tempo real), da rota que se inicia na localização atual do utilizador, e termina no local escolhido.
-
-## 5. Objetivos
-
-Apesar das vantagens que o BusyBrain poderá oferecer, o seu principal objetivo será sempre promover a produtividade do utilizador de uma forma simples e eficaz. Com a ajuda de diversas funcionalidades como o bloqueio de aplicações, será possivel atingir outros objetivos a que a aplicação se compromete a atingir, como melhorar a capacidade de foco do utilizador. 
-Gerir o tempo e saber aproveitá-lo, é também um dos objetivos do BusyBrain. Desta forma, utilizando a localização do utilizador, esse objetivo será possivel de alcançar, exibindo sempre os locais mais próximos para o utilizador aproveitar da melhor forma possivel o seu tempo livre de tarefas.
-Para os utilizadores que queiram adquirir conhecimento, o BusyBrain (utilizando a localização), conseguirá também indicar bibliotecas e livrarias próximas do utilizador. 
-A acessibilidade da app também é essencial. Desta forma, não existirá limites para bloqueios de apps ou websites. Todas as funcionalidades serão gratuitas, de maneira a garantir uma experiência completa ao utilizador, destacando-se de muitas outras aplicações deste género, no mercado.
-
-## 6. Público-Alvo 
-
- Todas as pessoas que tenham dificuldades de foco em tarefas do dia-a-dia, de gestão de tempo e até de bom proveito do mesmo, poderão utilizar o BusyBrain. Desta forma, a aplicação não possui um público-alvo especifico, no entanto, esta está desenhada especificamente para ajudar a melhorar a produtividade durante a execução de tarefas do dia-a-dia, melhorar o foco durante essas execuções, permitir uma melhor gestão do tempo e aproveitamento do mesmo através de diversas funcionalidades que destacam a BusyBrain no mercado de apps com o mesmo propósito.
- 
-## 7. Aplicações-Base (Pesquisa de apps semelhantes) 
 
 
 
