@@ -195,7 +195,7 @@ No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse públi
 
 Para entender que configurações poderiam destacar a "BusyBrain" no mercado, foram analisadas 3 aplicações ("Brain Focus", "Focus To-Do" e "Serene") que possuem o mesmo objetivo que a "BusyBrain": Foco e Produtividade. As apps foram instaladas e testadas, sendo ainda analisadas críticas publicadas na página da app na Play Store (excepto a app "Serene", que somente funciona para sistemas macOS). Logicamente, foram analisadas diversas configurações de todas as apps selecionadas.
 
-### Brain Focus
+### Brain Focus:
 
 A "Brain Focus Productivity Timer" é uma app desenvolvida pela empresa "Brain Focus", que serve para gerir melhor o tempo, utilizando essencialmente a técnica Pomodoro.
 Após a instalação, foram listadas algumas configurações que podiam tornar a "BusyBrain" mais interessante e completa:
@@ -206,7 +206,7 @@ Após a instalação, foram listadas algumas configurações que podiam tornar a
 * Timer definido pelo user.
 * Remoção de anuncios (somente na versão Pro).
 
-### Focus To-Do
+### Focus To-Do:
 
 A "Focus To-Do" é uma app que foi desenvolvida pela empresa "Pomodoro Timer & To Do List - SuperElement SoftProdutividade". Esta app combina a técnica Pomodoro com sistema de criação e gestão de tarefas a serem realizadas.
 Após a análise desta app, foram também listadas algumas das funcionalidades que esta aplicação oferece:
@@ -217,7 +217,7 @@ Após a análise desta app, foram também listadas algumas das funcionalidades q
 * Som ambiente para a sessão de trabalho.
 * Tela sempre ativada.
 
-### Serene
+### Serene:
 
 A "Serene" é uma aplicação desenvolvida pela empresa "Serene". É uma das apps mais completas do género e possui uma grande variedade de opções e funcionalidades. Por ser somente desenvolvida para macOS, esta não pôde ser instalada, no entanto foram verifacadas algumas configurações interessantes, a partir do website da própria app, que pudessem servir de base para outras funcionalidades na "BusyBrain":
 
@@ -225,15 +225,11 @@ A "Serene" é uma aplicação desenvolvida pela empresa "Serene". É uma das app
 * Silenciador de telemóvel
 * Planear as tarefas do dia
 
-//Nota: A "Serene" é uma app paga.
+//Nota: A "Serene" é uma app paga (4$/mês | 14 dias de trial/demo).
 
-BRAIN FOCUS
-FOCUS TODO
-SERENADE
+### BusyBrain:
 
-### BusyBrain
-
-Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Focus To-Do, Serene), foi estruturada uma lista de várias funcionalidades que irão compor a app:
+Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Focus To-Do, Serene), foi estruturada uma lista de várias funcionalidades que irão compor a app da "BusyBrain":
 
 * Timers com diversos métodos de foco, concentração e produtividade durante a execução de tarefas
 * Adicionar, editar e eliminar tarefas
