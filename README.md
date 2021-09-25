@@ -277,15 +277,17 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 ### Splash-Screen:
 
 A primeira tela a surgir quando a app é iniciada, será uma tela do tipo "Splash-Screen". Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Geralmente, este tipo de tela apresenta o logótipo da app ou uma barra de "loading". 
-Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 4 segundos, redirecionando o utilizador para a "Main Activity" da app, após esse tempo de espera.
+Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 4 segundos, redirecionando o utilizador para a tela de login da app, após esse tempo de espera.
 
 ![Splash Screen](https://static.wixstatic.com/media/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.png/v1/fill/w_408,h_750,al_c,lg_1,q_85/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.webp)
 
 *Nota: Imagem utilizada somente para fins ilustrativos.
 
-### Main Activity 
+### Login Activity
 
-Após o tempo de espera na tela de Splash-Screen, o utilizador é redirecionado para a 
+Após o tempo de espera na tela de Splash-Screen, o utilizador é redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity").
+
+![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
                    
 
 
