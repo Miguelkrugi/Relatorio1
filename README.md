@@ -285,7 +285,7 @@ Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-
 
 ### Login Activity
 
-Após o tempo de espera na tela de Splash-Screen, o utilizador é redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity").
+Após o tempo de espera na tela de Splash-Screen, o utilizador é redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login, o utilizador terá de introduzir o seu Username e a sua password. Para o registo do user na app, este terá que introduzir 
 
 ![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
                    
