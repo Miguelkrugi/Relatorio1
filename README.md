@@ -268,7 +268,24 @@ Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Fo
 
 //Nota: O Hardcore Timer bloqueia totalmente o telemóvel (Wi-Fi, telemovel silenciado, apps bloqueadas e websites bloqueados durante o timer). Até o timer não acabar, não será possivel reativar o uso do telemóvel (bloqueio total).
 
-# 10. Guião de Teste (1)
+# 10. Guiões de Teste
+
+Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de teste. O primeiro guião inclui o uso dos timers ("core" da aplicação), e os outros 2 guiões de teste incluem o uso de funcionalidades secundárias:
+
+## Guião de Teste - Core 
+
+### Splash-Screen:
+
+A primeira tela a surgir quando a app é iniciada, será uma tela do tipo "Splash-Screen". Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Geralmente, este tipo de tela apresenta o logótipo da app ou uma barra de "loading". 
+Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 4 segundos, redirecionando o utilizador para a "Main Activity" da app, após esse tempo de espera.
+
+![Splash Screen](https://static.wixstatic.com/media/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.png/v1/fill/w_408,h_750,al_c,lg_1,q_85/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.webp)
+
+*Nota: Imagem utilizada somente para fins ilustrativos.
+
+### Main Activity 
+
+Após o tempo de espera na tela de Splash-Screen, o utilizador é redirecionado para a 
                    
 
 
