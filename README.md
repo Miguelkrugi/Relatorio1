@@ -334,7 +334,16 @@ A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que s
 
 ### Long Break 
 
+A tela de Long Break pode ser acedida selecionando a opção "Long Break" na tela do timer. 
+Nesta tela estarão disponiveis as funcionalidades de procura de cafés, bares, restaurantes, livrarias e bibliotecas, dependendo da localização atual do user.
 
+![Pomodoro Long Break](https://static.wixstatic.com/media/302737_6f1546ab940a4b26ab13c7b63ff4017e~mv2.png/v1/fill/w_404,h_726,al_c,lg_1,q_85/302737_6f1546ab940a4b26ab13c7b63ff4017e~mv2.webp)
 
+![DeskTime Long Break](https://static.wixstatic.com/media/302737_3cbe99409a454f2db4b2fefae1579b55~mv2.png/v1/fill/w_406,h_727,al_c,lg_1,q_85/302737_3cbe99409a454f2db4b2fefae1579b55~mv2.webp)
 
+![Ultradian Long Break](https://static.wixstatic.com/media/302737_6ac565815e0442d6a3f8d7efcfa06058~mv2.png/v1/fill/w_404,h_728,al_c,lg_1,q_85/302737_6ac565815e0442d6a3f8d7efcfa06058~mv2.webp)
+
+![FlowTime Long Break](https://static.wixstatic.com/media/302737_b5316df272664f65bad6f56c66168995~mv2.png/v1/fill/w_405,h_727,al_c,lg_1,q_85/302737_b5316df272664f65bad6f56c66168995~mv2.webp)
+
+![Hardcore Long Break](https://static.wixstatic.com/media/302737_f6cf13f1d6334d9297f3b9fbc6e0278c~mv2.png/v1/fill/w_400,h_722,al_c,lg_1,q_85/302737_f6cf13f1d6334d9297f3b9fbc6e0278c~mv2.webp)
 
