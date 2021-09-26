@@ -314,13 +314,21 @@ Na tela principal ainda se encontra um botão "hamburguer", que exibirá uma bar
 
 A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer e FlowTime Timer). As telas de "Small Breaks" possuem os mesmos layouts das telas de "timer", no entanto, com algumas diferenças:
 
-![Pomodoro Small Break](https://static.wixstatic.com/media/302737_2cfaa94fed824c22a1187a9b425a10f7~mv2.png/v1/fill/w_402,h_727,al_c,lg_1,q_85/302737_2cfaa94fed824c22a1187a9b425a10f7~mv2.webp)
+* O botão com o icone de uma "roda dentada", permite aceder ás definições.
+* O menu "hamburguer", permite aceder ás funcionalidades que utilizam a localização do user.
+* A opção "Back to Timer", permite regressar á tela do timer que está a ser utilizado.
+* A opção "Long Break", permite aceder á tela do "intervalo maior".
+* O botão de "Play" permite iniciar o "break timer". 
 
-![DeskTime Small Break](https://static.wixstatic.com/media/302737_832510e458e34a59afa43ba1a44e2003~mv2.png/v1/fill/w_406,h_731,al_c,lg_1,q_85/302737_832510e458e34a59afa43ba1a44e2003~mv2.webp)
+![Pomodoro Small Break](https://static.wixstatic.com/media/302737_912154eb7fc04b059e02d9cb8dfddb95~mv2.png/v1/fill/w_405,h_727,al_c,lg_1,q_85/302737_912154eb7fc04b059e02d9cb8dfddb95~mv2.webp)
 
-![Ultradian Small Break](https://static.wixstatic.com/media/302737_c01c5e32265a4e8da11c2532db8dc5bf~mv2.png/v1/fill/w_407,h_726,al_c,lg_1,q_85/302737_c01c5e32265a4e8da11c2532db8dc5bf~mv2.webp)
+![DeskTime Small Break](https://static.wixstatic.com/media/302737_32aa7318dd4a4464a9d522e554743632~mv2.png/v1/fill/w_401,h_728,al_c,lg_1,q_85/302737_32aa7318dd4a4464a9d522e554743632~mv2.webp)
 
-![FlowTime Small Break](https://static.wixstatic.com/media/302737_fd485b7858cf490697b1994885911fc5~mv2.png/v1/fill/w_407,h_727,al_c,lg_1,q_85/302737_fd485b7858cf490697b1994885911fc5~mv2.webp)
+![Ultradian Small Break](https://static.wixstatic.com/media/302737_db8c18721d4649f8b8ea508b0e49fd32~mv2.png/v1/fill/w_407,h_726,al_c,lg_1,q_85/302737_db8c18721d4649f8b8ea508b0e49fd32~mv2.webp)
+
+![FlowTime Small Break](https://static.wixstatic.com/media/302737_a0ac2f49dcef45299152cdbb928228af~mv2.png/v1/fill/w_403,h_725,al_c,lg_1,q_85/302737_a0ac2f49dcef45299152cdbb928228af~mv2.webp)
+
+### Long Break 
 
 
 
