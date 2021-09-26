@@ -308,6 +308,8 @@ Na tela principal ainda se encontra um botão "hamburguer", que exibirá uma bar
 
 ![FlowTime Timer](https://static.wixstatic.com/media/302737_765b9727138d4e71ad0668c8b26e1e2b~mv2.png/v1/fill/w_409,h_726,al_c,lg_1,q_85/302737_765b9727138d4e71ad0668c8b26e1e2b~mv2.webp)
 
+![Hardcore Timer](https://static.wixstatic.com/media/302737_e5adf5c95b21406ba121218cb9ec1173~mv2.png/v1/fill/w_406,h_727,al_c,lg_1,q_85/302737_e5adf5c95b21406ba121218cb9ec1173~mv2.webp)
+
 *Nota: Todos os timers terão o mesmo "layout", no entanto com gradientes distintos.
 
 ### Small Break Activity
