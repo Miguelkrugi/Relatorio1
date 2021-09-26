@@ -326,7 +326,9 @@ A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que s
 
 ![Ultradian Small Break](https://static.wixstatic.com/media/302737_db8c18721d4649f8b8ea508b0e49fd32~mv2.png/v1/fill/w_407,h_726,al_c,lg_1,q_85/302737_db8c18721d4649f8b8ea508b0e49fd32~mv2.webp)
 
-![FlowTime Small Break](https://static.wixstatic.com/media/302737_a0ac2f49dcef45299152cdbb928228af~mv2.png/v1/fill/w_403,h_725,al_c,lg_1,q_85/302737_a0ac2f49dcef45299152cdbb928228af~mv2.webp)
+![FlowTime Small Break](https://static.wixstatic.com/media/302737_86a43603a376480b891c85bc8e803062~mv2.png/v1/fill/w_407,h_727,al_c,lg_1,q_85/302737_86a43603a376480b891c85bc8e803062~mv2.webp)
+
+![Hardcore Small Break](https://static.wixstatic.com/media/302737_d20e61ec1ab04bbea72f2df12c428c51~mv2.png/v1/fill/w_404,h_728,al_c,lg_1,q_85/302737_d20e61ec1ab04bbea72f2df12c428c51~mv2.webp)
 
 ### Long Break 
 
