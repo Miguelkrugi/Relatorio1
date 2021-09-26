@@ -312,12 +312,13 @@ Na tela principal ainda se encontra um botão "hamburguer", que exibirá uma bar
 
 ### Small Break Activity
 
+A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer e FlowTime Timer). As telas de "Small Breaks" possuem os mesmos layouts das telas de "timer", no entanto, com algumas diferenças:
 
+![Pomodoro Small Break](https://static.wixstatic.com/media/302737_2cfaa94fed824c22a1187a9b425a10f7~mv2.png/v1/fill/w_402,h_727,al_c,lg_1,q_85/302737_2cfaa94fed824c22a1187a9b425a10f7~mv2.webp)
 
+![DeskTime Small Break](https://static.wixstatic.com/media/302737_832510e458e34a59afa43ba1a44e2003~mv2.png/v1/fill/w_406,h_731,al_c,lg_1,q_85/302737_832510e458e34a59afa43ba1a44e2003~mv2.webp)
 
-
-
-
+![Ultradian Small Break](https://static.wixstatic.com/media/302737_c01c5e32265a4e8da11c2532db8dc5bf~mv2.png/v1/fill/w_407,h_726,al_c,lg_1,q_85/302737_c01c5e32265a4e8da11c2532db8dc5bf~mv2.webp)
 
 
 
