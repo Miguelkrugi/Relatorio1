@@ -351,7 +351,13 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 
 ![Hardcore Long Break](https://static.wixstatic.com/media/302737_f6cf13f1d6334d9297f3b9fbc6e0278c~mv2.png/v1/fill/w_400,h_722,al_c,lg_1,q_85/302737_f6cf13f1d6334d9297f3b9fbc6e0278c~mv2.webp)
 
-### 
+## Guião de Teste - Localização
+
+A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos "breaks" entre as sessões de trabalho, caso este o deseje. 
+Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
+O botão com um icone de uma chávena de café, ao ser clicado, exibe uma ListView com cafés, bares e restaurantes próximos ao utilizador.
+O botão com um icone de um livro, ao ser clicado, exibe uma ListView de livrarias e bibliotecas próximas ao utilizador.
+A exibição destes locais variará com a localização atual do user e com o tempo de "long break" do timer selecionado.
 
 
 
