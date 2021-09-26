@@ -320,6 +320,8 @@ A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que s
 
 ![Ultradian Small Break](https://static.wixstatic.com/media/302737_c01c5e32265a4e8da11c2532db8dc5bf~mv2.png/v1/fill/w_407,h_726,al_c,lg_1,q_85/302737_c01c5e32265a4e8da11c2532db8dc5bf~mv2.webp)
 
+![FlowTime Small Break](https://static.wixstatic.com/media/302737_fd485b7858cf490697b1994885911fc5~mv2.png/v1/fill/w_407,h_727,al_c,lg_1,q_85/302737_fd485b7858cf490697b1994885911fc5~mv2.webp)
+
 
 
 
