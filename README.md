@@ -357,7 +357,15 @@ A Localização do utilizador será utilizada para exibir locais que o user pode
 Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
 O botão com um icone de uma chávena de café, ao ser clicado, exibe uma ListView com cafés, bares e restaurantes próximos ao utilizador.
 O botão com um icone de um livro, ao ser clicado, exibe uma ListView de livrarias e bibliotecas próximas ao utilizador.
+Ambas as telas de Listview apresentam o mesmo layout e as mesmas funcionalidades, no entanto, com "backgrounds" distintos.
+
 A exibição destes locais variará com a localização atual do user e com o tempo de "long break" do timer selecionado.
 
 
+![ListView de Cafes Bares e Restaurantes](https://static.wixstatic.com/media/302737_d249333949c64c578fbcb8182a7c0b4a~mv2.png/v1/fill/w_406,h_731,al_c,lg_1,q_85/302737_d249333949c64c578fbcb8182a7c0b4a~mv2.webp)
 
+*Interface demo da ListView de Cafés, Restaurantes e Bares
+
+![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
+
+*Interface demo da ListView de Livrarias e Bibliotecas
