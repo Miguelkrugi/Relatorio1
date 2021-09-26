@@ -285,14 +285,32 @@ Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-
 
 ### Login Activity
 
-Após o tempo de espera na tela de Splash-Screen, o utilizador é redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login, o utilizador terá de introduzir o seu Username e a sua password. Para o registo do user na app, este terá que introduzir o seu nome, 
-
+Após o tempo de espera na tela de Splash-Screen, o utilizador é redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login (da app), o utilizador terá de introduzir o seu Username e a sua password (métodos de login com a Google ou Facebook podem variar). Após a inserção dos dados, o user será redirecionado para a tela principal da app (Main Activity).
 ![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
                    
+### Register Activity
 
+Caso o utilizador não possua uma conta na "BusyBrain", este deve-se registar na tela de Registo, que pode ser acedida pela tela de Login. 
+Para o registo do user na app, este terá que introduzir o seu username, email, password, sexo (Masculino ou Feminino) e numero de telemóvel. O username será posteriormente exibido na barra lateral da "activity" principal, e o Email e Numero de telemóvel serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso o mesmo deseje recebê-las.
 
+![Register Page](https://static.wixstatic.com/media/302737_038b203d0fd148fa84eca913ee70e754~mv2.png/v1/fill/w_411,h_733,al_c,lg_1,q_85/302737_038b203d0fd148fa84eca913ee70e754~mv2.webp)
 
+### Main Activity
 
+Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. Na parte inferior da tela principal, estão exibidos os botões "Small Break" e "Long Break". Ao clicar num desses botões, o utilizador será novamente redirecionado para as activities de "Small Break" ou "Long Break", dependendo do botão ativado. 
+Na tela principal ainda se encontra um botão "hamburguer", que exibirá uma barra lateral com diversas configurações que podem ser personalizadas durante a sessão de trabalho.
+
+![Main Activity](https://static.wixstatic.com/media/302737_51db1c79239e4a188a2473e6fe473022~mv2.png/v1/fill/w_410,h_729,al_c,lg_1,q_85/302737_51db1c79239e4a188a2473e6fe473022~mv2.webp)
+
+![DeskTime Timer](https://static.wixstatic.com/media/302737_c632e847634e485cb7c5beb880df347c~mv2.png/v1/fill/w_408,h_731,al_c,lg_1,q_85/302737_c632e847634e485cb7c5beb880df347c~mv2.webp)
+
+![Ultradian Rythm](https://static.wixstatic.com/media/302737_681c86f24b994661a1dec72bf5d5f0dd~mv2.png/v1/fill/w_405,h_725,al_c,lg_1,q_85/302737_681c86f24b994661a1dec72bf5d5f0dd~mv2.webp)
+
+![FlowTime Timer](https://static.wixstatic.com/media/302737_765b9727138d4e71ad0668c8b26e1e2b~mv2.png/v1/fill/w_409,h_726,al_c,lg_1,q_85/302737_765b9727138d4e71ad0668c8b26e1e2b~mv2.webp)
+
+*Nota: Todos os timers terão o mesmo "layout", no entanto com gradientes distintos.
+
+### Small Break Activity
 
 
 
