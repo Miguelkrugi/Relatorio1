@@ -121,7 +121,7 @@ A "BusyBrain" (cérebro ocupado / cérebro focado), será uma aplicação simple
 
 Entre diversas configurações, o utilizador poderá escolher de entre 4 técnicas comprovadas que contribuem para um maior foco e produtividade ao realizar tarefas do quotidiano  (Pomodoro Timer, DeskTime, Ritmos Ultradian e FlowTime), selecionar música ambiente, bloquear Wi-Fi quando um "timer de foco" iniciar, bloquear outras apps que o utilizador considere distrativas e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar nas suas tarefas, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações que considere distrativas até o timer estipulado (30 minutos ou 60 minutos) terminar. 
 
-Além disso, a app também permitirá adicionar tarefas a serem realizadas no tempo estipulado, assim como adicionar notas em cada uma delas.  
+Além disso, a app também permitirá adicionar tarefas a serem realizadas no tempo estipulado, assim como adicionar descrições em cada uma delas.  
 
 A localização (requisito obrigatório para a realização do projeto) será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as tarefas. Caso o utilizador tenha interesse, poderá também  procurar por livrarias e bibliotecas próximas de si, caso queira consultar ou comprar livros.  
 
@@ -224,8 +224,7 @@ A "Serene" é uma aplicação desenvolvida pela empresa "Serene". É uma das app
 Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Focus To-Do, Serene), foi estruturada uma lista de várias funcionalidades que irão compor a app da "BusyBrain":
 
 * Timers com diversos métodos de foco, concentração e produtividade durante a execução de tarefas
-* Adicionar, editar e eliminar tarefas
-* Adicionar descrições e notas ás tarefas
+* Adicionar, editar e eliminar tarefas (e descrições das tarefas)
 * Bloquear apps (escolhidas pelo utilizador)
 * Bloquear websites (escolhidos pelo utilizador)
 * Desativar o Wi-Fi quando uma sessão de trabalho é iniciada
@@ -235,7 +234,6 @@ Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Fo
 * Exibir lista de livrarias e bibliotecas (com GPS em tempo real)
 * Modo "Hardcore Timer"
 * Silenciador de telemóvel
-* Adicionar, editar e eliminar horários
 
 //Nota: Ao longo do desenvolvimento do projeto algumas funcionalidades poderão ser adicionadas, removidas ou não implementadas.
 
@@ -277,7 +275,7 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 ### Splash-Screen:
 
 A primeira tela a surgir quando a app é iniciada, será uma tela do tipo "Splash-Screen". Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Geralmente, este tipo de tela apresenta o logótipo da app ou uma barra de "loading". 
-Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 4 segundos, redirecionando o utilizador para a tela de login da app, após esse tempo de espera.
+Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 5/6 segundos, redirecionando o utilizador para a tela de login da app, após esse tempo de espera.
 
 ![Splash Screen](https://static.wixstatic.com/media/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.png/v1/fill/w_408,h_750,al_c,lg_1,q_85/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.webp)
 
@@ -384,4 +382,19 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 Após selecionar um item da ListView, o utilizador será redirecionado para um GPS Tracker (em tempo real). O GPS Tracker definirá automaticamente uma rota entre a posição atual do utilizador e o local selecionado, acompanhando em tempo real o progresso do percurso do utilizador até ao seu destino. 
 O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na zona inferior da tela.
 
+![Eliminar Rota](https://static.wixstatic.com/media/302737_127c5a2d66964ca7b589a5dd4aa5743e~mv2.png/v1/fill/w_423,h_744,al_c,lg_1,q_85/302737_127c5a2d66964ca7b589a5dd4aa5743e~mv2.webp)
+
+
+## Guião de Teste - Funcionalidades Secundárias
+
+A app terá diversas funcionalidades secundárias, tais como: 
+
+* Música ambiente 
+* Bloquear apps (definidos pelo utilizador)
+* Bloquear websites (definidos pelo utilizador, inserindo os url)
+* Desativar Wi-Fi durante as sessões de trabalho
+* Adicionar tarefas e remover tarefas
+* Silenciar telemóvel (notificações, etc.)
+
+Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), excepto a funcionalidade de adicionar e remover tarefas. 
 
