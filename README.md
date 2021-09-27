@@ -396,5 +396,46 @@ A app terá diversas funcionalidades secundárias, tais como:
 * Adicionar tarefas e remover tarefas
 * Silenciar telemóvel (notificações, etc.)
 
-Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), excepto a funcionalidade de adicionar e remover tarefas. 
+Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer). 
+
+![Barra Lateral](https://static.wixstatic.com/media/302737_6d68e942895942e4940f628ad6bf0d97~mv2.png/v1/fill/w_402,h_728,al_c,lg_1,q_85/302737_6d68e942895942e4940f628ad6bf0d97~mv2.webp)
+
+
+### Música Ambiente
+
+A primeira configuração disponivel na barra lateral, será a opção de ativar música ambiente durante as sessões de trabalho. 
+Para ativar esta opção, basta clicar no icone de "burger menu", acedendo á barra lateral de configurações. 
+Na barra lateral de configurações, o utilizador deve selecionar a opção "Musica Ambiente". Selecionando esta opção, erá ser exibida um "sublayout" do tipo ListView, onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
+
+* Nenhum (None)
+* Floresta (Florest)
+* Noite (Night)
+* Praia (Beach)
+* Chuva (Rain)
+* Lareira (Fireplace)
+* Lo-Fi #1 (Lo-Fi Music #1)
+* Lo-Fi #2 (Lo-Fi Music #2)
+
+Após a seleção do som, este começará a ser reproduzido. Caso o utilizador queira "desativar" o som ambiente, basta selecionar a opção "Nenhum".
+
+![Musica Ambiente Popup](https://static.wixstatic.com/media/302737_00e570902ea4439ba5e353b051e4012a~mv2.png/v1/fill/w_304,h_464,al_c,lg_1,q_85/302737_00e570902ea4439ba5e353b051e4012a~mv2.webp)
+
+*Na imagem não consta a opção "None", devido a uma falha na interface demo.
+
+### Bloquar Apps (definidas pelo utilizador)
+
+Uma funcionalidade comum neste tipo de apps, é a possibilidade de bloqueio de algumas apps que o utilizador possua no seu dispositivo e considere distrativas (a seleção das apps é realizada pelo user).
+A "BusyBrain" possui esta funcionalidade, que pode ser acedida selecionando a opção "Bloquear Apps" , que se encontra na barra lateral das "activities" de timer:
+
+
+
+
+
+
+
+
+
+
+
+
 
