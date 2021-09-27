@@ -369,3 +369,19 @@ A exibição destes locais variará com a localização atual do user e com o te
 ![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
 
 *Interface demo da ListView de Livrarias e Bibliotecas
+
+### "Search" de ListView
+
+Na zona inferior de ambas as telas de "ListView" (Cafés, Bares, Restaurantes, Livrarias e Bibliotecas), encontra-se um botão de "pesquisa" na ListView, representada pelo icone de uma lupa.
+Este botão permitirá ao utilizador, digitar o nome de um café, bar, restaurante, livraria ou biblioteca e pesquisar (na ListView), possiveis estabelecimentos com esse nome, de forma a encontrar um estabelecimento especifico de forma mais rápida e simples.
+
+![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
+
+*Icone de pesquisa na zona inferior da tela.
+
+### GPS Tracker
+
+Após selecionar um item da ListView, o utilizador será redirecionado para um GPS Tracker (em tempo real). O GPS Tracker definirá automaticamente uma rota entre a posição atual do utilizador e o local selecionado, acompanhando em tempo real o progresso do percurso do utilizador até ao seu destino. 
+O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na zona inferior da tela.
+
+
