@@ -319,7 +319,7 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 Após selecionar um item da ListView, o utilizador será redirecionado para um GPS Tracker (em tempo real). O GPS Tracker definirá automaticamente uma rota entre a posição atual do utilizador e o local selecionado, acompanhando em tempo real o progresso do percurso do utilizador até ao seu destino. 
 O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na zona inferior da tela.
 
-![Eliminar Rota](https://static.wixstatic.com/media/302737_127c5a2d66964ca7b589a5dd4aa5743e~mv2.png/v1/fill/w_423,h_744,al_c,lg_1,q_85/302737_127c5a2d66964ca7b589a5dd4aa5743e~mv2.webp)
+![Eliminar Rota](https://user-images.githubusercontent.com/48087662/135146147-7dcc090d-164a-4b35-91a9-f74c9a00faee.png)
 
 
 ## Guião de Teste - Funcionalidades Secundárias
@@ -423,7 +423,9 @@ O dispositivo deixará de estar silenciado quando o timer for pausado, ou quando
 
 ### Adicionar e remover tarefas
 
-![](https://user-images.githubusercontent.com/48087662/135121934-1200cc74-2da8-464c-b97d-a429140bde45.png)
+Para ajudar o utilizador a realizar de forma eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. Para utilizar esta funcionalidade, o utilizador deve clicar no icone que se encontra no canto superior direito (das telas de timer, break ou long break). Após o clique, o user será redirecionado para uma nova "activity":
+
+![](https://user-images.githubusercontent.com/48087662/135140514-2d935e67-7573-49c9-a305-fbcd0fac2c81.png)
 
 
 
