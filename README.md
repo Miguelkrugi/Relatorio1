@@ -394,7 +394,7 @@ A app terá diversas funcionalidades secundárias, tais como:
 * Bloquear websites (definidos pelo utilizador, inserindo os url)
 * Desativar Wi-Fi durante as sessões de trabalho
 * Adicionar tarefas e remover tarefas
-* Silenciar telemóvel (notificações, etc.)
+* Silenciar telemóvel (notificações- Autorização de "Não Incomodar")
 
 Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer). 
 
@@ -422,10 +422,35 @@ Após a seleção do som, este começará a ser reproduzido. Caso o utilizador q
 
 *Na imagem não consta a opção "None", devido a uma falha na interface demo.
 
-### Bloquar Apps (definidas pelo utilizador)
+### Bloquear Apps (definidas pelo utilizador)
 
-Uma funcionalidade comum neste tipo de apps, é a possibilidade de bloqueio de algumas apps que o utilizador possua no seu dispositivo e considere distrativas (a seleção das apps é realizada pelo user).
+Uma funcionalidade comum neste tipo de apps, é a possibilidade de bloqueio de algumas apps que o utilizador possua no seu dispositivo e considere distrativas (a seleção das apps é realizada pelo user). O bloqueio de apps será possivel sobrepondo a "BusyBrain" a outras apps (necessária permissão do utilizador para a sobreposição).
 A "BusyBrain" possui esta funcionalidade, que pode ser acedida selecionando a opção "Bloquear Apps" , que se encontra na barra lateral das "activities" de timer:
+
+![Bloquear Apps](https://static.wixstatic.com/media/302737_28e17edfd12f4240b28f6404940b3430~mv2.png/v1/fill/w_414,h_739,al_c,lg_1,q_85/302737_28e17edfd12f4240b28f6404940b3430~mv2.webp)
+
+O utilizador deve selecionar qual/quais a(s) app(s) bloquear, clicando na checkbox da app que deseja bloquear e clicar no botão "Guardar". Após clicar no botão "Guardar", as apps ficarão inacessiveis até o utilizador voltar a ativá-las (excepto no "Hardcore Mode Timer").
+
+Ao bloquear as apps, estas:
+
+* Serão ocultadas do painel de apps do dispositivo (surgirão no painel de apps, quando forem novamente ativadas).
+* Serão bloqueadas por uma tela de bloqueio após se iniciar uma delas.
+
+*Nota: Uma destas técnicas será aplicada no projeto.
+
+### Bloqueio Websites (definidos pelo utilizador)
+
+A possibilidade de bloquear websites é menos comum em diversas apps, cujo objetivo é garantir que o user seja mais produtivo nas suas tarefas diárias (mesmo objetivo da "BusyBrain").
+Esta funcionalidade, assim como bloqueio de apps, pode ser acedida na barra lateral, selecionando a opção "Bloqueio de Websites". Após selecionar essa opção, o user será redirecionado para uma nova activity.
+
+![Bloquear Websites](https://static.wixstatic.com/media/302737_be2c94b01b83426a8f891363bc1db51d~mv2.png/v1/fill/w_418,h_739,al_c,lg_1,q_85/302737_be2c94b01b83426a8f891363bc1db51d~mv2.webp)
+
+Na zona inferior da tela ("Website Suggestions") estão exibidos alguns websites de acesso rápido (por padrão). Para bloquear um dos websites padrão, basta marcar as checkboxes e clicar no botão "Save".
+
+Para um website especifico basta inserir o URL na caixa da zona superior da tela e clicar no botão "+". Se o utilizador quiser retirar algum website, basta selecionar o botão "Ver websites bloqueados". Ao clicar no botão, o utilizador será redirecionado para uma nova activity.
+
+![Bloquear Apps]()
+
 
 
 
