@@ -4,14 +4,14 @@
 
 * Trabalho realizado por: Miguel Cruz e Wesley Augusto
 * Relatório: Conceito
+* 
 * Curso: Engenharia Informática
-* Universidade: IADE
+* Universidade: IADE Creative University
 
 ## Indice
 
-* Introdução
-* Preparação (Setup)
-* Ideias
+* Resumo
+* Palavras-Chave
 * Problema
 * Ideia e Conceito
 * Objetivos
@@ -20,96 +20,13 @@
 * Guião de Utilização
 * Informações Adicionais
 
-## 1. Introdução
+## 1. Problema
 
-No âmbito multi-disciplinar do 1º Semestre do 2º ano de Licenciatura em Engenharia Informática do Instituto de Artes Visuais, Design e Marketing (IADE), foi proposto um projeto semestral, que consiste na Idealização, Implementação e Apresentação de uma aplicação mobile (app), desenvolvida para dispositivos Android.  
+Um dos maiores problemas derivados dos vicios nos dispositivos, é a grande facilidade de distração nas tarefas do dia-a-dia, dificultando posteriormente o foco e a concentração durante a realização das mesmas. Um estudo realizado pelo "King College" em Londres, concluiu que 1 em cada 4 jovens apresenta vicios nos pequenos ecrãs, afetando principalmente a sua produtividade no dia-a-dia. A dificuldade de gestão de tempo também é um problema frequentemente associado a estes vicios, uma vez que o tempo que os jovens "passam" á frente dos telemóveis não é controlado.
+Para muitos pesquisadores, este conjunto de problemas pode ser considerado um "sintoma" de desenvolvimento de problemas mentais.
+Outro estudo publicado no jornal "BMC Psychiatry", revela que , em 42 mil jovens estudados, 23% apresentam grande um grande vicio e dependência nos dispositivos, desenvolvendo posteriormente outros problemas como ansiedade, cyberbullying, depressão, solidão, redução da auto-estima e má gestão de tempo.
 
-Este projeto abrange todas as Unidades Curriculares do Semestre (Base de Dados, Programação de Dispositivos Móveis, Programação Orientada a Objetos, Matemática Discreta, Competências Comunicacionais e Projeto de Desenvolvimento Móvel), assim como a utilização e aplicação dos conhecimentos adquiridos em cada uma das UC’s, ao longo do semestre. O projeto seguirá essencialmente a arquitetura MVC (Model, View, Controller), utilizada frequentemente para o desenvolvimento de aplicações. Com o uso de ferramentas como "Android Studio", "Spring Boot" e "PostgreSQL", será possivel criar e implementar as funcionalidades desejadas para a aplicação a ser desenvolvida. 
-
-O projeto será complementado com relatórios quinzenais, de forma a demonstrar o progresso de desenvolvimento da aplicação ao longo do semestre.  
-
-Este relatório foi criado para permitir uma melhor compreensão sobre a estrutura, conceito e possivel funcionamento da app a desenvolver durante o periodo letivo.  
-
-## 2. Preparação (Setup)
-
-A primeira semana letiva, (13 de Setembro - 16 de Setembro), foi dedicada á preparação do setup para permitir o desenvolvimento do projeto. Foram instalados os programas "Android Studio", "Visual Code / Spring Boot", "GitHub", "PostgreSQL", "Slack" e "Odoo", cada um deles possuindo a sua função, que, posteriormente, ajudarão a desenvolver a aplicação. Outras fontes de pesquisa tais como "GeeksForGeeks", "DevMedia" ou "YouTube" foram utilizadas para consulta do funcionamento de cada um destes programas mencionados anteriormente, de forma a permitir uma maior familiarização para com os mesmos. De seguida encontram-se listadas as funções de cada ferramenta utilizada para o desenvolvimento do projeto:
-
-### Android Studio:
-
-O Android Studio é um ambiente de desenvolvimento integrado (IDE), baseado no IDE Intellij Idea, para desenvolver aplicações para dispositivos Android, utilizando maioritariamente as linguagens de programação "Java" e "Kotlin".
-O Android Studio possui ainda editor simples de layout, que permite que o desenvolvedor arraste elementos de interface para a "Activity" (tela da aplicação), podendo também pré-visualizar alterações realizadas, etc.
-Esta ferramenta será então utilizada para desenvolver toda a interface da aplicação.
-
-### Visual Code:
-
-O Visual Studio Code é um editor de código criado pela Microsoft e disponivel para Windows, Linux e macOS. 
-Sendo um dos editores mais reconhecidos e completos do mercado, o Visual Studio Code será usado juntamente com a framework "Spring Boot", de modo a desenvolver models e controllers (elementos importantes da arquitetura MVC, utilizada para desenvolver a app).
-
-### Spring Boot:
-
-O Spring Boot é uma "extensão" da framework Spring, desenvolvida para a linguagem Java. Esta ferramenta será complementada com o editor de código "Visual Studio Code", de forma a facilitar o desenvolvimento da REST API (permitindo posteriormente conectar a app com a base de dados).
-
-### PostgreSQL:
-
-O PostgreSQL é um dos mais conhecidos, avançados e completos SGBD's do mercado. Possui diversas vantagens face a outros SGBD's, tais como a efetuação de consultas complexas em bases de dados, suporte á modelagem MR, diferentes linguagens de programação estruturadas, tais como PL/pgSQL, PL/Python, PL/Java, entre outras.
-Será a ultima "camada" da arquitetura MVC, uma vez que será na base de dados onde todas as informações de utilizadores, etc., serão guardadas. 
-
-### GitHub:
-
-O GitHub é uma plataforma de hospedagem de código e documentação, totalmente gratuito e o mais reconhecido no mercado. Permite que qualquer utilizador disponibilize os seus códigos e projetos de forma gratuita, criando repositórios para armazenar esses mesmos códigos/projetos.
-No entanto, no contexto deste projeto, o GitHub será utilizado para armazenar toda a documentação a ser entregue nas respectivas entregas do projeto.
-
-### Slack:
-
-O Slack é uma plataforma/app de envio de mensagens, criada para facilitar a comunicação entre pessoas (por exemplo num projeto, empresa, etc.).
-Será utilizada para manter uma comunicação mais rápida com os docentes envolvidos no projeto, etc.
-
-### Odoo:
-
-O Odoo permite a criação de deadlines e tasks para uma melhor organização e gestão do projeto (não exigida no briefing).
-
-*Nota: Na fonte "YouTube", foram consultados os seguintes canais ("Edureka", "Amigoscode" e "freecodecamp"). Mais informações sobre as ferramentas utilizadas estão disponiveis na secção “Informações Adicionais”. 
-
-## 3. Ideias
-
-Durante a primeira semana, o grupo reuniu-se algumas vezes para realizar um Brainstorming, de modo a propor e a discutir ideias que cumprissem o requisito obrigatório para o desenvolvimento do projeto: a Localização.  
-
-Uma das preocupações do grupo foi encontrar soluções para os problemas e necessidades da população. 
-
-Várias ideias surgiram durante os Brainstorming, todas com finalidades e propósitos distintos, baseando-se em diversas necessidades da população. 
-
-Para compreender melhor o progresso de Idealização da aplicação, estão de seguida listadas todas as ideias que surgiram, até ao momento da decisão final da ideia a seguir, para a construção da aplicação: 
-
-### HardGear:
-
-A HardGear foi a primeira ideia a surgir durante um dos Brainstorming realizados. O principal objetivo seria facilitar a compra de produtos Hardware e Acessórios, através da utilização da localização do utilizador. 
-O utilizador pesquisaria o produto desejado (peças para PC, videojogos, consolas, etc), e a app devolveria uma ListView com as lojas num determinado raio de km. Permitiria posteriormente ao utilizador, comparar as distâncias e os preços e selecionar a loja mais acessivel para adquirir o produto desejado. Para facilitar o percurso da localização atual até á loja, seria utilizado um sistema de GPS Tracker em tempo real. 
-
-Contudo, a ideia foi descartada após o surgimento de outras ideias mais abrangentes (Public Target), acessiveis e interessantes. 
-
-### PayWrite:
-
-A PayWrite surgiu durante a primeira aula da UC de Projeto de Desenvolvimento Móvel, no entanto foi descartada no decorrer da mesma aula. A PayWrite seria uma aplicação gratuita, que pagaria aos seus utilizadores para escreverem Crónicas, Criticas, Opiniões ou até livros, de forma a incentivar os jovens para a prática da escrita, envolvendo-os na área da Literatura. 
-No entanto, a PayWrite não utiliza o requisito principal do projeto para nenhuma das suas funcionalidades, sendo, deste modo, descartada. 
-
-### BookFinder:
-
-O BookFinder foi a terceira ideia a surgir, ainda baseada na área da Literatura. Esta aplicação permitiria, utilizando a localização, encomendar os livros desejados de forma mais rápida, utilizando estafetas, por exemplo. Possuiria também uma lista de livros favoritos e uma lista de livros comprados. 
-Considerando o valor dos livros somado com o valor da viagem do estafeta, foi concluido que o preço poderia não ser tão apelativo quanto comparado com os preços dos mesmos livros vendidos em lojas fisicas (Worten, FNAC, etc), razão pela qual esta ideia foi descartada. 
-
-### GlitchFix:
-
-A GlitchFix surgiu no fim da primeira semana letiva(13 de Setembro - 16 de Setembro), e foi uma forte concorrente da app selecionada, devido á sua forte utilidade e simplicidade de manuseamento. Esta aplicação seria um "market" de diversos serviços como manutenção, lavagem de automóveis, limpezas ao domicilio, entre outros. Com apenas a um clique de distância, a app permitiria ao utilizador pesquisar pelo serviço desejado e requisitar o mesmo, sem demoras. 
-Bastaria selecionar o serviço desejado, e um especialista (próximo ao local do utilizador - localização) dirigiria-se ao domicilio para realizar o serviço. No fim do mesmo, ocorreria o pagamento em PayPal ou em dinheiro. 
-Contudo, apesar da enorme utilidade, atratividade e simplicidade que esta app poderia ter, a dúvida sobre a qualidade e "veracidade" dos serviços descartou esta ideia, uma vez que a GlitchFix possuiria uma outra aplicação: a GlitchFix Business, que permitiria ao especialista registar o seu serviço e posteriormente disponibilizado na GlitchFix. 
-
-## 4. Problema
-
-Como é sabido, a tecnologia tem evoluido exponencialmente nos ultimos anos. Diariamente são criados novos dispositivos, apps e outros vários tipos de tecnologias e serviços, de forma a atender ás necessidades da população. Atualmente, já existem aplicações para todo o tipo de finalidades, desde serviços ao domicilio, até ao entretenimento, passando pela saúde e informação. 
-
-Todos os dias, surgem novos problemas e tentam-se criar soluções eficazes e simples para reduzir o seu impacto negativo na sociedade, utilizando a tecnologia. No entanto, tudo em excesso é prejudicial, e o uso da tecnologia não é excepção. Com o surgimento de jogos e redes sociais, por exemplo, um grande problema surgiu, fruto do excesso da utilização destas aplicações, que, através dos seus algoritmos (recomendação constante de conteúdos baseados nos gostos do utilizador), contribuiu para o vicio em dispositivos eletrónicos, principalmente por parte dos jovens, que cada vez mais se tornam dependentes desses meios. Dependências essas que posteriormente prejudicam a vida tanto profissional quanto pessoal do individuo, impedindo-o muitas vezes, de concretizar as suas tarefas e obrigações diariamente.  
-
-Problema derivado desses vicios é a grande facilidade de distração, dificultando o foco e a concentração em tarefas importantes do dia-a-dia.  Posteriormente, essa dificuldade desencadeia uma má gestão do tempo disponivel.   
+Um dos maiores problemas derivados dessesvicios é a grande facilidade de distração, dificultando o foco e a concentração em tarefas importantes do dia-a-dia.  Posteriormente, essa dificuldade desencadeia uma má gestão do tempo disponivel.   
 
  Foi a pensar neste grande problema, que surgiu a "BusyBrain", uma aplicação que promete melhorar o foco e a gestão de tempo nas mais variadas tarefas do dia-a-dia, seja em que ambiente for, facilitando alcançar algo extremamente benéfico no nosso dia-a-dia: a produtividade. 
  
@@ -449,7 +366,7 @@ Na zona inferior da tela ("Website Suggestions") estão exibidos alguns websites
 
 Para um website especifico basta inserir o URL na caixa da zona superior da tela e clicar no botão "+". Se o utilizador quiser retirar algum website, basta selecionar o botão "Ver websites bloqueados". Ao clicar no botão, o utilizador será redirecionado para uma nova activity.
 
-![Bloquear Apps]()
+![Websites Bloqueados]()
 
 
 
