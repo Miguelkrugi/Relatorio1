@@ -364,9 +364,33 @@ Esta funcionalidade, assim como bloqueio de apps, pode ser acedida na barra late
 
 Na zona inferior da tela ("Website Suggestions") estão exibidos alguns websites de acesso rápido (por padrão). Para bloquear um dos websites padrão, basta marcar as checkboxes e clicar no botão "Save".
 
-Para um website especifico basta inserir o URL na caixa da zona superior da tela e clicar no botão "+". Se o utilizador quiser retirar algum website, basta selecionar o botão "Ver websites bloqueados". Ao clicar no botão, o utilizador será redirecionado para uma nova activity.
+Para um website especifico basta inserir o URL na caixa da zona superior da tela e clicar no botão "+". Se o utilizador quiser retirar algum website, basta selecionar o botão "Ver websites bloqueados". Ao clicar no botão, o utilizador será redirecionado para uma nova activity:
 
-![Websites Bloqueados]()
+![Websites Bloqueados #1](https://user-images.githubusercontent.com/48087662/135092625-1a6db390-f75a-461d-8914-973473c5b81c.png)
+
+Na nova "activity", serão exibidos os websites que se encontram bloqueados.
+Para o utilizador ativar novamente o acesso a um website, este deve selecionar o icone de "caixote de lixo", que eliminará o bloqueio do website selecionado.
+
+
+![Websites Bloqueados #2](https://user-images.githubusercontent.com/48087662/135094286-b3203161-bf08-412f-aaa8-2f25e71e4b35.png)
+
+A segunda versão desta "activity", utiliza um botão de "Guardar" para guardar as alterações realizadas (remoção de bloqueio de websites). Para realizar a remoção de um bloqueio, o user deve selecionar o icone de "caixote de lixo", e de seguida clicar no botão "Guardar" para remover o bloqueio definitivamente.
+
+*Nota: Uma das duas versões será implementada no projeto.
+
+### Desativar Wi-Fi em sessões de trabalho:
+
+Na barra lateral das telas de timer, encontra-se a opção de desativar o Wi-Fi em sessões de trabalho, ou seja, quando o timer é iniciado. Para ativar esta opção basta clicar no "switch":
+
+![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
+
+Selecionando o switch, a funcionalidade irá estar ativada. Quando um dos timers for iniciado, a ligação Wi-Fi do dispositivo será desativada até o timer ser pausado ou terminar.
+
+### Silenciar Telemóvel
+
+O opção de "Silenciar Telemóvel", permite silenciar Notificações, Vibrações e Multimédia de forma simultânea ao iniciar um timer.
+Para ativar
+
 
 
 
