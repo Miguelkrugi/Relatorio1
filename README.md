@@ -215,15 +215,15 @@ Para o registo do user na app, este terá que introduzir o seu username, email, 
 Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. Na parte inferior da tela principal, estão exibidos os botões "Small Break" e "Long Break". Ao clicar num desses botões, o utilizador será novamente redirecionado para as activities de "Small Break" ou "Long Break", dependendo do botão ativado. 
 Na tela principal ainda se encontra um botão "hamburguer", que exibirá uma barra lateral com diversas configurações que podem ser personalizadas durante a sessão de trabalho.
 
-![Main Activity](https://static.wixstatic.com/media/302737_51db1c79239e4a188a2473e6fe473022~mv2.png/v1/fill/w_410,h_729,al_c,lg_1,q_85/302737_51db1c79239e4a188a2473e6fe473022~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135121934-1200cc74-2da8-464c-b97d-a429140bde45.png)
 
-![DeskTime Timer](https://static.wixstatic.com/media/302737_c632e847634e485cb7c5beb880df347c~mv2.png/v1/fill/w_408,h_731,al_c,lg_1,q_85/302737_c632e847634e485cb7c5beb880df347c~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135124578-860c341e-92b0-4d0b-9423-3e47fd71b75f.png)
 
-![Ultradian Rythm](https://static.wixstatic.com/media/302737_681c86f24b994661a1dec72bf5d5f0dd~mv2.png/v1/fill/w_405,h_725,al_c,lg_1,q_85/302737_681c86f24b994661a1dec72bf5d5f0dd~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135124843-7f38d7ad-88d8-4921-9a68-dee5a554d9ec.png)
 
-![FlowTime Timer](https://static.wixstatic.com/media/302737_765b9727138d4e71ad0668c8b26e1e2b~mv2.png/v1/fill/w_409,h_726,al_c,lg_1,q_85/302737_765b9727138d4e71ad0668c8b26e1e2b~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135125054-a66411fc-15bd-432d-a9a9-3a607f2ad0bd.png)
 
-![Hardcore Timer](https://static.wixstatic.com/media/302737_e5adf5c95b21406ba121218cb9ec1173~mv2.png/v1/fill/w_406,h_727,al_c,lg_1,q_85/302737_e5adf5c95b21406ba121218cb9ec1173~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
 
 *Nota: Todos os timers terão o mesmo "layout", no entanto com gradientes distintos.
 
@@ -237,15 +237,25 @@ A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que s
 * A opção "Long Break", permite aceder á tela do "intervalo maior".
 * O botão de "Play" permite iniciar o "break timer". 
 
-![Pomodoro Small Break](https://static.wixstatic.com/media/302737_912154eb7fc04b059e02d9cb8dfddb95~mv2.png/v1/fill/w_405,h_727,al_c,lg_1,q_85/302737_912154eb7fc04b059e02d9cb8dfddb95~mv2.webp)
+#POMODORO SMALL BREAK
 
-![DeskTime Small Break](https://static.wixstatic.com/media/302737_32aa7318dd4a4464a9d522e554743632~mv2.png/v1/fill/w_401,h_728,al_c,lg_1,q_85/302737_32aa7318dd4a4464a9d522e554743632~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135128980-c72fc8f0-5c12-4681-8a2d-5c24169c5a5d.png)
 
-![Ultradian Small Break](https://static.wixstatic.com/media/302737_db8c18721d4649f8b8ea508b0e49fd32~mv2.png/v1/fill/w_407,h_726,al_c,lg_1,q_85/302737_db8c18721d4649f8b8ea508b0e49fd32~mv2.webp)
+#DESKTIME SMALL BREAK
 
-![FlowTime Small Break](https://static.wixstatic.com/media/302737_86a43603a376480b891c85bc8e803062~mv2.png/v1/fill/w_407,h_727,al_c,lg_1,q_85/302737_86a43603a376480b891c85bc8e803062~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135129313-d5b8e308-f76a-4a91-a343-f32466cff689.png)
 
-![Hardcore Small Break](https://static.wixstatic.com/media/302737_d20e61ec1ab04bbea72f2df12c428c51~mv2.png/v1/fill/w_404,h_728,al_c,lg_1,q_85/302737_d20e61ec1ab04bbea72f2df12c428c51~mv2.webp)
+#ULTRADIAN SMALL BREAK
+
+![](https://user-images.githubusercontent.com/48087662/135130244-7c4c1276-7560-4a62-ac7d-450bbb225a63.png)
+
+#FLOWTIME SMALL BREAK
+
+![](https://user-images.githubusercontent.com/48087662/135130854-572e38fc-d56f-4787-85bf-b47b3a017c3d.png)
+
+#HARDCORE SMALL BREAK
+
+![](https://user-images.githubusercontent.com/48087662/135132042-e7d21f0d-817b-4bc4-b9c6-e9b8303aff9e.png)
 
 ### Long Break 
 
@@ -256,15 +266,25 @@ A opção representada com o icone de um livro, exibe livrarias e bibliotecas pe
 Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona novamente o utilizador á tela do timer.
 
 
-![Pomodoro Long Break](https://static.wixstatic.com/media/302737_6f1546ab940a4b26ab13c7b63ff4017e~mv2.png/v1/fill/w_404,h_726,al_c,lg_1,q_85/302737_6f1546ab940a4b26ab13c7b63ff4017e~mv2.webp)
+#HARDCORE LONG BREAK
 
-![DeskTime Long Break](https://static.wixstatic.com/media/302737_3cbe99409a454f2db4b2fefae1579b55~mv2.png/v1/fill/w_406,h_727,al_c,lg_1,q_85/302737_3cbe99409a454f2db4b2fefae1579b55~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135132687-7cd66428-2ad4-4b19-b6a5-7088f26f599c.png)
 
-![Ultradian Long Break](https://static.wixstatic.com/media/302737_6ac565815e0442d6a3f8d7efcfa06058~mv2.png/v1/fill/w_404,h_728,al_c,lg_1,q_85/302737_6ac565815e0442d6a3f8d7efcfa06058~mv2.webp)
+#POMODORO LONG BREAK
 
-![FlowTime Long Break](https://static.wixstatic.com/media/302737_b5316df272664f65bad6f56c66168995~mv2.png/v1/fill/w_405,h_727,al_c,lg_1,q_85/302737_b5316df272664f65bad6f56c66168995~mv2.webp)
+![](https://user-images.githubusercontent.com/48087662/135132879-7591726a-161f-4078-a9c7-56daba9060bf.png)
 
-![Hardcore Long Break](https://static.wixstatic.com/media/302737_f6cf13f1d6334d9297f3b9fbc6e0278c~mv2.png/v1/fill/w_400,h_722,al_c,lg_1,q_85/302737_f6cf13f1d6334d9297f3b9fbc6e0278c~mv2.webp)
+#DESKTIME LONG BREAK
+
+![](https://user-images.githubusercontent.com/48087662/135133194-3a0d94a6-596b-4fc9-ae5f-acdd5ad9fb1b.png)
+
+#ULTRADIAN LONG BREAK
+
+![](https://user-images.githubusercontent.com/48087662/135133486-42d47824-4e2c-49c0-a111-36cc6fc77730.png)
+
+#FLOWTIME LONG BREAK
+
+![](https://user-images.githubusercontent.com/48087662/135133682-84568b49-fbdb-42bf-a028-2a713445fca5.png)
 
 ## Guião de Teste - Localização
 
@@ -403,11 +423,7 @@ O dispositivo deixará de estar silenciado quando o timer for pausado, ou quando
 
 ### Adicionar e remover tarefas
 
-
-
-
-
-
+![](https://user-images.githubusercontent.com/48087662/135121934-1200cc74-2da8-464c-b97d-a429140bde45.png)
 
 
 
