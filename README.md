@@ -385,13 +385,23 @@ Na barra lateral das telas de timer, encontra-se a opção de desativar o Wi-Fi 
 ![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
 
 Selecionando o switch, a funcionalidade irá estar ativada. Quando um dos timers for iniciado, a ligação Wi-Fi do dispositivo será desativada até o timer ser pausado ou terminar.
+Esta opção é bastante util, uma vez que impede a total receção de notificações durante a sessão de trabalho, garantindo que o utilizador seja mais produtivo, eliminando distrações e focando-se na tarefa a realizar.
+
+![Wi-Fi Desativado](https://user-images.githubusercontent.com/48087662/135110301-aece6c13-c384-40fd-aac2-86bfa207e7ea.png)
+
+*Nota: Após a ativação da opção "Desativar Wi-Fi em sessões de trabalho"
 
 ### Silenciar Telemóvel
 
-O opção de "Silenciar Telemóvel", permite silenciar Notificações, Vibrações e Multimédia de forma simultânea ao iniciar um timer.
-Para ativar
+O opção de "Silenciar Telemóvel", permite silenciar Notificações, Vibrações e Multimédia de forma simultânea ao iniciar um timer. Para ativar esta opção, o user deve aceder á barra lateral e clicar no "switch" da opção "Silenciar Dispositivo".
 
+![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
 
+![Modo Silencioso](https://user-images.githubusercontent.com/48087662/135116081-8e2a5be2-4e31-42a5-8639-cbf6d94e8dba.png)
+
+O dispositivo deixará de estar silenciado quando o timer for pausado, ou quando o tempo do mesmo terminar.
+
+### Adicionar e remover tarefas
 
 
 
