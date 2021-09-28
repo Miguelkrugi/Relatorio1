@@ -4,7 +4,7 @@
 
 * Trabalho realizado por: Miguel Cruz e Wesley Augusto
 * Relatório: Conceito
-* 
+* UC's envolvidas: 
 * Curso: Engenharia Informática
 * Universidade: IADE Creative University
 
@@ -431,8 +431,10 @@ Para adicionar tarefas á "To-Do list", o utilizador deve clicar no simbolo "+".
 
 ![](https://user-images.githubusercontent.com/48087662/135158505-d4ea5f52-dd75-4733-9b33-92383d472705.png)
 
+Ao pressionar em "Adicionar", uma nova tarefa surgirá na lista de tarefas.
+Para o utilizador remover uma tarefa, basta clicar no icone de "caixote do lixo" na tarefa desejada. Após o clique, a tarefa será removida.
 
-Ao pressionar em "Guardar", uma nova tarefa surgirá na lista de tarefas. 
+Para selecionar as tarefas já realizadas, basta clicar no "Radio Button" de uma tarefa especifica (a "box" da tarefa será preenchida com a cor verde após o clique).
 
 
 
