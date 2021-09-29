@@ -5,6 +5,7 @@
 * Trabalho realizado por: Miguel Cruz e Wesley Augusto
 * Relatório: Conceito
 * UC's envolvidas: Projeto de Desenvolvimento Móvel, Programação Orientada a Objetos, Matemática Discreta, Base de Dados, Programação de Dispositivos Móveis e Competências Comunicacionais
+* Ferramentas utilizadas: Android Studio | VS Code | Spring Boot Framework | PostgreSQL | Asana | Odoo | GitHub | Slack
 * Ano de Curso: 2º Ano | 1º Semestre
 * Curso: Engenharia Informática
 * Universidade: IADE - Faculdade de Design, Tecnologia e Comunicação
@@ -40,27 +41,27 @@ Queremos chegar as camadas jovens, estudantes e também aos colaboradorers das e
 
 ## 2. Palavras-Chave
 
-Localização, Produtividade, Concentarção,*Device Adition*, *Time management
+Localização, Produtividade, Concentarção,*Device Adition*, *Time management*
 
 ## 3. Problema
-Uma das consequencias do uso excessivo dos dispositivos é a facilidade com que nos distraimos nas tarefas do dia-a-dia. Aumenta a dificuldade em nos focar e concentrar durante a realização das mesmas. Um estudo realizado pelo "King College" em Londres, concluiu que 1 em cada 4 jovens e viciado nos pequenos ecrãs, afetando seriamente a sua produtividade no dia-a-dia. 
-A dificuldade na gestão do tempo tambem esta associado a esta problematica, uma vez que o tempo que os jovens "passam" á frente dos ecras não é controlado.
-Para muitos pesquisadores, este conjunto de problemas pode ser considerado um "sintoma" de desenvolvimento de problemas mentais.
-Outro estudo publicado no jornal "BMC Psychiatry", revela que, em 42 mil jovens analisados, 23% apresentam uma forte dependência dos dispositivos, desenvolvendo posteriormente  problemas de ansiedade, cyberbullying, depressão, solidão, redução da auto-estima.
+Uma das consequencias do uso excessivo dos dispositivos é a facilidade com que nos distraimos nas tarefas do dia-a-dia. Aumenta a dificuldade de foco e concentração durante a realização das mesmas. Um estudo realizado pelo "King College" em Londres, concluiu que 1 em cada 4 jovens é viciado nos pequenos ecrãs, o que, diversas vezes, afeta seriamente a sua produtividade no dia-a-dia. 
+A dificuldade na gestão do tempo também está associada a esta problematica, uma vez que o tempo que os jovens "passam" á frente dos ecrãs não é controlado.
+Para muitos pesquisadores, este conjunto de problemas pode ser considerado um "combustível" para o desenvolvimento de problemas mentais.
+Outro estudo publicado no jornal "BMC Psychiatry", revela que, em 42 mil jovens analisados, 23% apresentam uma forte dependência dos dispositivos eletrónicos, desenvolvendo posteriormente problemas de ansiedade, cyberbullying, depressão, solidão e redução da auto-estima, por exemplo.
 
-Foi a pensar neste problema, que surgiu a "BusyBrain", uma aplicação que pretende melhorar o foco e a gestão de tempo nas mais variadas tarefas do dia-a-dia, seja em que ambiente for. O grande objectivo e alcançar maior produtividade, maior concentraçao, diminuir dependencia e melhorar a saude das pessoas. 
+Foi a pensar neste problema, que surgiu a "BusyBrain", uma aplicação que pretende melhorar o foco e a gestão de tempo nas mais variadas tarefas do dia-a-dia, seja em que ambiente for. O grande objectivo é alcançar uma maior produtividade, maior concentração e diminuir a dependência, melhorando a saúde e bem-estar da população. 
  
 ## 4. Ideia e Conceito
 
-Tendo como factores principais a falta de produtividade, ma gestao do tempo e dependencia, que afeta grande parte das pessoa, foi idealizada uma app para garantir o foco e a concentração nas tarefas diárias, utilizando diversos métodos ja comprovados. A app chama se “BusyBrain”.
+Tendo como factores principais a falta de produtividade, má gestao do tempo e a elevada dependência de maior parte da população em dispositivos eletrónicos, foi idealizada uma app para garantir o foco e a concentração nas tarefas diárias, utilizando diversos métodos já comprovados. A app chama se “BusyBrain”.
 
-A "BusyBrain" (cérebro ocupado / cérebro focado), será uma aplicação simples e fácil de usar, com uma interface atrativa e moderna. Apesar de existirem várias apps com o mesmo propósito, a “BusyBrain” pretende "expandir" as configurações presentes em qualquer app que possua o mesmo objetivo, distinguindo-a no mercado.  
+A "BusyBrain" (cérebro ocupado / cérebro focado), será uma aplicação simples e fácil de usar, com uma interface atrativa e moderna. Apesar de existirem várias apps com o mesmo propósito, a “BusyBrain” pretende "expandir" as configurações e funcionalidades presentes em qualquer app que possua o mesmo objetivo, distinguindo-a no mercado.  
 
-Entre diversas configurações, o utilizador poderá escolher de entre 4 técnicas comprovadas que irao contribuir para um maior foco e produtividade ao realizar tarefas do quotidiano  (Pomodoro Timer, DeskTime, Ritmos Ultradian e FlowTime), selecionar música ambiente, bloquear Wi-Fi quando um "timer de foco" iniciar, bloquear outras apps que o utilizador considere distrativas e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar nas suas tarefas, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações que considere distrativas até o timer estipulado (30 minutos ou 60 minutos) terminar. 
+Entre diversas configurações e funcionalidades, o utilizador poderá escolher de entre 4 técnicas comprovadas que irão contribuir para um maior foco e produtividade ao realizar tarefas do quotidiano (Pomodoro Timer, DeskTime, Ritmos Ultradian e FlowTime), selecionar música ambiente durante as sessões de trabalho, bloquear Wi-Fi quando uma "sessão de trabalho" iniciar, bloquear outras apps que o utilizador considere distrativas e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar nas suas tarefas, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações que considere distrativas até o tempo do timer estipulado (30 minutos ou 60 minutos), terminar. 
 
-Além disso, a app também permitirá adicionar tarefas a serem realizadas no tempo estipulado, assim como adicionar descrições em cada uma delas.  
+Além disso, a app também permitirá adicionar tarefas a serem realizadas no tempo estipulado. 
 
-A localização (requisito obrigatório para a realização do projeto) será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as tarefas. Caso o utilizador tenha interesse, poderá também  procurar livrarias e bibliotecas próximas de si, caso queira consultar ou comprar livros.  
+A localização (requisito obrigatório para a realização do projeto) será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as tarefas (sessões de trabalho). Caso o utilizador tenha interesse, poderá também procurar por livrarias e bibliotecas próximas de si, caso queira consultar ou comprar livros.  
 
 Após selecionar o local, um GPS/Tracker será ativado (em tempo real), exibindo a rota, que se inicia na localização atual do utilizador, terminando no local previamente selecionado. 
 
