@@ -27,21 +27,20 @@
 
 O principal objetivo do projeto semestral é desenhar e implementar uma app para dispositivos Android, que utilize como requisito principal a localização do dispositivo / utilizador. 
 
-Os dispositivos são um foco de distraçao, pelo numero de aplicações disponiveis, redes sociais, jogos e notificaçoes que sao constantemente recebidas pelos utilizadores.
-A facilidade de acesso e a rapidez com que se pode aceder a qualquer "coisa" cria dependencia nos seus utilizadores, afectando seriamente a sua saude.
+Os dispositivos são um foco de distração, pelo numero de aplicações disponíveis, redes sociais, jogos e notificações, que sao constantemente recebidas pelos utilizadores.
+A facilidade de acesso e a rapidez com que se pode aceder a qualquer "coisa" cria dependência nos seus utilizadores, afectando seriamente a sua saúde.
 
-Esta aplicação pretende ser uma ferramenta de ajuda na melhoria da produtividade, maior concentraçao e melhor gestão do tempo nas mais variadas tarefas do dia-a-dia.
-Para alem disso pretende diminuir gradualmente a dependencia a "estar sempre ligado", permitindo ao utilizador localizar outros pontos de interesse.
+Esta aplicação pretende ser uma ferramenta de ajuda na melhoria da produtividade, maior concentração e melhor gestão do tempo nas mais variadas tarefas do dia-a-dia.
+Para além disso pretende diminuir gradualmente a dependência de "estar sempre ligado", permitindo ao utilizador descobrir outros pontos de interesse.
 
-Pretende ser uma aplicação simples, com varias funcionalidades, versatil e util.
-E direcionado a pessoas com dificuldade de concentracao.
-Queremos chegar as camadas jovens, estudantes e também aos colaboradorers das empresas.
+Pretende ser uma aplicação simples, com diversas funcionalidades, versátil e útil.
+É uma app direcionada a pessoas com grandes dificuldades de gestão de tempo, concentração e produtividade no dia-a-dia, devido á aquisição de dependência dos aparelhos.
 
-
+O grande objetivo é tornar a camada jovem mais produtiva, uma vez que é nesta onde mais são verificados casos de vicio e dependência dos pequenos ecrãs.
 
 ## 2. Palavras-Chave
 
-Localização, Produtividade, Concentração,*Device Adiction*, *Time Management*
+Localização, Produtividade, Concentração, Bem-Estar,*Device Adiction*, *Time Management*, *Health* 
 
 ## 3. Problema
 Uma das consequências do uso excessivo dos dispositivos é a facilidade com que nos distraimos nas tarefas do dia-a-dia, o que, posteriormente, aumenta a dificuldade de foco e concentração durante a realização das mesmas. Um estudo realizado pelo "King College" em Londres, concluiu que 1 em cada 4 jovens apresenta vicios nos pequenos ecrãs, o que, diversas vezes, afeta seriamente o individuo tanto a niveis profissionais como a niveis pessoais. 
@@ -224,7 +223,8 @@ Esta "activity" apenas exibirá o logótipo da app.
 
 ### Login Activity
 
-Após o tempo de espera na tela de Splash-Screen, o utilizador é automaticamente redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login (da app), o utilizador terá de introduzir o seu Username e a sua password (métodos de login com a Google ou Facebook podem variar). Após a inserção dos dados, o user será redirecionado para a tela principal da app (Main Activity).
+Após o tempo de espera na tela de Splash-Screen, o utilizador é automaticamente redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login (da app), o utilizador terá de introduzir o seu Username e a sua password (métodos de login com a Google ou Facebook podem variar). Após a inserção dos dados, o user será redirecionado para a tela principal da app.
+
 ![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
                    
 ### Register Activity
@@ -239,28 +239,29 @@ Para o registo do user na app, este terá que introduzir o seu username, email, 
 Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. Na parte inferior da tela principal, estão exibidos os botões "Small Break" e "Long Break". Ao clicar num desses botões, o utilizador será redirecionado para as activities de "Small Break" ou "Long Break", dependendo do botão ativado. 
 Na tela principal ainda se encontra um botão do tipo "hambúrguer", que exibirá uma barra lateral com diversas configurações que podem ser personalizadas durante a sessão de trabalho.
 
-![](https://user-images.githubusercontent.com/48087662/135121934-1200cc74-2da8-464c-b97d-a429140bde45.png)
+![](https://user-images.githubusercontent.com/48087662/135124843-7f38d7ad-88d8-4921-9a68-dee5a554d9ec.png)
 
 ![](https://user-images.githubusercontent.com/48087662/135124578-860c341e-92b0-4d0b-9423-3e47fd71b75f.png)
 
-![](https://user-images.githubusercontent.com/48087662/135124843-7f38d7ad-88d8-4921-9a68-dee5a554d9ec.png)
+![](https://user-images.githubusercontent.com/48087662/135121934-1200cc74-2da8-464c-b97d-a429140bde45.png)
 
-![](https://user-images.githubusercontent.com/48087662/135125054-a66411fc-15bd-432d-a9a9-3a607f2ad0bd.png)
+![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
 
 #### Editar Timer
 
 A possibilidade de editar a duração de cada sessão de trabalho é exclusiva do método "FlowTime". Neste timer, o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
 
-![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
+![](https://user-images.githubusercontent.com/48087662/135125054-a66411fc-15bd-432d-a9a9-3a607f2ad0bd.png)
 
 A personalização do tempo pode ser realizada clicando no botão "Editar Timer", que se encontra debaixo do contador. Após o clique, surgirá um pequeno pop-up onde o utilizador poderá definir um novo tempo (minutos e segundos). 
-Definido o tempo, basta clicar no botão "Alterar" ou "Guardar", e o contador será atualizado com uma nova duração.
+Definido o tempo, basta clicar no botão "OK", e o contador será atualizado com uma nova duração.
 
-![]()
+![](https://user-images.githubusercontent.com/48087662/135478953-ca04abe0-5df5-46c8-8833-ddd489f744ec.png)
+
 
 ### Small Break Activity
 
-A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer< Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
+A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer, Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
 
 * O botão que se localiza no canto superior direito da tela, permite aceder ás activities de adicionar e eliminar tarefas.
 * O botão do tipo "hambúrguer", permite a configurações de bloqueio (apps e websites), silenciamento do dispositivo, desativação do Wi-Fi quando um timer é iniciado e o Logout.
@@ -348,7 +349,7 @@ A app terá diversas funcionalidades secundárias, tais como:
 * Adicionar tarefas e remover tarefas
 * Silenciar telemóvel (notificações- Autorização de "Não Incomodar")
 
-Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer). 
+Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), que pode ser acedida clicando no icone de "hambúrguer". 
 
 ![Barra Lateral](https://static.wixstatic.com/media/302737_6d68e942895942e4940f628ad6bf0d97~mv2.png/v1/fill/w_402,h_728,al_c,lg_1,q_85/302737_6d68e942895942e4940f628ad6bf0d97~mv2.webp)
 
@@ -374,7 +375,7 @@ Após a seleção do som, este começará a ser reproduzido. Caso o utilizador q
 
 *Na imagem não consta a opção "None", devido a uma falha na interface demo.
 
-### Bloquear Apps (definidas pelo utilizador)
+### Bloqueio de Apps (definidas pelo utilizador)
 
 Uma funcionalidade comum neste tipo de apps, é a possibilidade de bloqueio de algumas apps que o utilizador possua no seu dispositivo e considere distrativas (a seleção das apps é realizada pelo user). O bloqueio de apps será possivel sobrepondo a "BusyBrain" a outras apps (necessária permissão do utilizador para a sobreposição).
 A "BusyBrain" possui esta funcionalidade, que pode ser acedida selecionando a opção "Bloquear Apps" , que se encontra na barra lateral das "activities" de timer:
@@ -390,7 +391,7 @@ Ao bloquear as apps, estas:
 
 *Nota: Uma destas técnicas será aplicada no projeto.
 
-### Bloqueio Websites (definidos pelo utilizador)
+### Bloqueio de Websites (definidos pelo utilizador)
 
 A possibilidade de bloquear websites é menos comum em diversas apps, cujo objetivo é garantir que o user seja mais produtivo nas suas tarefas diárias (mesmo objetivo da "BusyBrain").
 Esta funcionalidade, assim como bloqueio de apps, pode ser acedida na barra lateral, selecionando a opção "Bloqueio de Websites". Após selecionar essa opção, o user será redirecionado para uma nova activity.
@@ -451,6 +452,9 @@ Para o utilizador remover uma tarefa, basta clicar no icone de "caixote do lixo"
 
 Para selecionar as tarefas já realizadas, basta clicar no "Radio Button" de uma tarefa especifica (a "box" da tarefa será preenchida com a cor verde após o clique).
 
+### Logout
+
+Caso o utilizador queira sair da sua conta na app, deverá aceder á barra lateral e clicar no icone de "Turn Off". Ao clicar, o utilizador será redirecionado para a tela de Login.
 
 
 
