@@ -41,11 +41,11 @@ Queremos chegar as camadas jovens, estudantes e também aos colaboradorers das e
 
 ## 2. Palavras-Chave
 
-Localização, Produtividade, Concentarção,*Device Adition*, *Time management*
+Localização, Produtividade, Concentração,*Device Adiction*, *Time Management*
 
 ## 3. Problema
-Uma das consequencias do uso excessivo dos dispositivos é a facilidade com que nos distraimos nas tarefas do dia-a-dia. Aumenta a dificuldade de foco e concentração durante a realização das mesmas. Um estudo realizado pelo "King College" em Londres, concluiu que 1 em cada 4 jovens é viciado nos pequenos ecrãs, o que, diversas vezes, afeta seriamente a sua produtividade no dia-a-dia. 
-A dificuldade na gestão do tempo também está associada a esta problematica, uma vez que o tempo que os jovens "passam" á frente dos ecrãs não é controlado.
+Uma das consequências do uso excessivo dos dispositivos é a facilidade com que nos distraimos nas tarefas do dia-a-dia, o que, posteriormente, aumenta a dificuldade de foco e concentração durante a realização das mesmas. Um estudo realizado pelo "King College" em Londres, concluiu que 1 em cada 4 jovens apresenta vicios nos pequenos ecrãs, o que, diversas vezes, afeta seriamente o individuo tanto a niveis profissionais como a niveis pessoais. 
+A dificuldade na gestão do tempo também está associada a esta problemática, uma vez que o tempo que os jovens "passam" á frente dos ecrãs não é controlado.
 Para muitos pesquisadores, este conjunto de problemas pode ser considerado um "combustível" para o desenvolvimento de problemas mentais.
 Outro estudo publicado no jornal "BMC Psychiatry", revela que, em 42 mil jovens analisados, 23% apresentam uma forte dependência dos dispositivos eletrónicos, desenvolvendo posteriormente problemas de ansiedade, cyberbullying, depressão, solidão e redução da auto-estima, por exemplo.
 
@@ -53,15 +53,15 @@ Foi a pensar neste problema, que surgiu a "BusyBrain", uma aplicação que prete
  
 ## 4. Ideia e Conceito
 
-Tendo como factores principais a falta de produtividade, má gestao do tempo e a elevada dependência de maior parte da população em dispositivos eletrónicos, foi idealizada uma app para garantir o foco e a concentração nas tarefas diárias, utilizando diversos métodos já comprovados. A app chama se “BusyBrain”.
+Tendo como factores principais a falta de produtividade, má gestão do tempo e a elevada dependência de maior parte da população em dispositivos eletrónicos, foi idealizada uma app para garantir o foco e a concentração nas tarefas diárias, através da utilização de diversos métodos já comprovados. A app chama se “BusyBrain”.
 
 A "BusyBrain" (cérebro ocupado / cérebro focado), será uma aplicação simples e fácil de usar, com uma interface atrativa e moderna. Apesar de existirem várias apps com o mesmo propósito, a “BusyBrain” pretende "expandir" as configurações e funcionalidades presentes em qualquer app que possua o mesmo objetivo, distinguindo-a no mercado.  
 
-Entre diversas configurações e funcionalidades, o utilizador poderá escolher de entre 4 técnicas comprovadas que irão contribuir para um maior foco e produtividade ao realizar tarefas do quotidiano (Pomodoro Timer, DeskTime, Ritmos Ultradian e FlowTime), selecionar música ambiente durante as sessões de trabalho, bloquear Wi-Fi quando uma "sessão de trabalho" iniciar, bloquear outras apps que o utilizador considere distrativas e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar nas suas tarefas, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações que considere distrativas até o tempo do timer estipulado (30 minutos ou 60 minutos), terminar. 
+Entre diversas configurações e funcionalidades, o utilizador poderá escolher de entre 4 técnicas comprovadas que irão contribuir para um maior foco e produtividade ao realizar tarefas do quotidiano (Pomodoro Timer, DeskTime, Ritmos Ultradian e FlowTime), selecionar música ambiente durante as sessões de trabalho, bloquear Wi-Fi quando uma "sessão de trabalho" (timer) iniciar, bloquear outras apps que o utilizador considere distrativas e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações e websites que considere distrativas(os), até o tempo do timer estipulado (30 minutos ou 60 minutos), terminar. 
 
-Além disso, a app também permitirá adicionar tarefas a serem realizadas no tempo estipulado. 
+Além disso, a app também permitirá adicionar tarefas a serem realizadas durante o dia. 
 
-A localização (requisito obrigatório para a realização do projeto) será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as tarefas (sessões de trabalho). Caso o utilizador tenha interesse, poderá também procurar por livrarias e bibliotecas próximas de si, caso queira consultar ou comprar livros.  
+A localização (requisito obrigatório para a realização do projeto) será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as sessões de trabalho. Caso o utilizador tenha interesse, poderá também procurar por livrarias e bibliotecas próximas de si, caso queira consultar ou comprar livros. Estas duas funcionalidades contribuem para que o utilizador descubra novos pontos de interesse.
 
 Após selecionar o local, um GPS/Tracker será ativado (em tempo real), exibindo a rota, que se inicia na localização atual do utilizador, terminando no local previamente selecionado. 
 
@@ -70,86 +70,88 @@ Para tornar a app mais acessivel, esta será totalmente gratuita, sem planos pag
 ## 5. Objetivos
 
 A app estará desenhada especificamente para auxiliar as pessoas que possuem maior dificuldade em se concentrarem nas suas tarefas do dia-a-dia. No entanto, esta poderá ser utilizada por qualquer pessoa, de forma gratuita. 
-Para estruturar de forma mais clara o conceito e os propósitos da aplicação, foram definidos vários objetivos a alcançar com a criação da "BusyBrain":
+Para estruturar de forma mais clara os propósitos da aplicação, foram definidos vários objetivos a alcançar com a criação e desenvolvimento da "BusyBrain":
 
- * Desenvolver e tornar a aplicação totalmente gratuita e leve para todos os dispositivos
- * Interfaces simples e fáceis de manusear
- * Combater o vicio nos dispositivos eletrónicos e a falta de produtividade (contribuindo para o foco e concentração nas tarefas a serem realizadas)
+ * Ser uma app totalmente gratuita e leve para todos os dispositivos
+ * App com interfaces simples e fáceis de manusear
+ * Combater o vicio nos dispositivos eletrónicos e a falta de produtividade (garantindo foco e concentração nas tarefas a serem realizadas)
  * Eliminar distrações, priorizando a execução de tarefas do dia-a-dia.
- * Facilitar a gestão do tempo (dentro e fora do tempo de trabalho)
- * Melhorar a saude das pessoas aumentando o seu bem estar
+ * Facilitar a gestão do tempo (dentro e fora das sessões de trabalho)
+ * Melhorar a saúde e o bem-estar da população (principalmente o público-alvo)
  
 ### Aplicação Gratuita:
 
-Após breves pesquisas de diversas apps com o mesmo objetivo da "BusyBrain", uma das grandes desvantagens da concorrência e a limitação do uso de algumas funcionalidades, ficando apenas acessiveis no caso do utilizador comprar planos "Premium", o que impede uma utilização completa da app. 
+Após breves pesquisas de diversas apps com o mesmo objetivo da "BusyBrain", uma das grandes desvantagens da concorrência é a limitação do uso de algumas funcionalidades, ficando apenas acessiveis no caso do utilizador comprar planos "Premium", o que impede uma utilização completa da app. 
 Face a este problema, foi decidido que a "BusyBrain" não possuirá planos pagos, de modo a garantir uma experiência completa ao utilizador. Além de totalmente gratuita, a "BusyBrain" deverá ser uma app "leve" para qualquer dispositivo (garantindo uma melhor acessibilidade), de forma a ajudar a economizar internet, bateria e memória do dispositivo. 
 
 ### Interfaces Simples:
 
 A grande acessibilidade da "BusyBrain" complementa-se com a sua interface simples, atrativa e fácil de usar. 
-Este requisito é essencial para a aquisição e retenção de utilizadores, assim como incentivá-los a continuar a utilizar a app, reduzindo a probabilidade de "abandono" da app, e incrementando a probabilidade de uso da mesma.
-A criação de Layout's simples, evita também problemas futuros, tais como a correção de erros de "navegação" na aplicação, dificuldade quanto a ajustes em diversos dispositivos, entre outros. Todos estes percalços envolvem custos elevados. Desta forma, a criação de uma interface intuitiva, atrativa e simples, beneficia não só os utilizadores como também a aplicação (manutenção, atualizações, correções de bugs, etc.), causando menos problemas e "preocupações" aos desenvolvedores quanto aos custos.
-É frequente ocorrerem várias duvidas relativamente ao uso da aplicação por parte dos clientes, no entanto, se a interface for intuitiva, o contacto do cliente com o serviço de apoio será menos frequente. 
-Deste modo, o custo do apoio ao cliente pode ser bastante reduzido. Uma interface amigável e de fácil utilização, minimiza a ocorrência de erros ou dúvidas por parte dos utilizadores, garantindo também uma maior satisfação durante a experiência de utilização da app.
+Este requisito é essencial para a aquisição e retenção de utilizadores, assim como incentivá-los a continuar a utilizar a "BusyBrain", reduzindo a probabilidade de "abandono" da app.
+A criação de Layout's simples, evita também problemas futuros, tais como a correção de erros de "navegação" na aplicação, dificuldade quanto a ajustes em diversos dispositivos, entre outros. Todos estes percalços envolvem custos elevados. Desta forma, a criação de uma interface intuitiva, atrativa e simples, beneficia não só os utilizadores como também a aplicação (manutenção, atualizações, correções de bugs, etc.), causando menos problemas e "preocupações" aos desenvolvedores.
+É frequente ocorrerem várias dúvidas relativamente ao uso da aplicação por parte dos utilizadores, no entanto, se a interface for intuitiva, o contacto do cliente (utilizador) com o serviço de apoio será menos frequente. Deste modo, o custo do apoio ao cliente pode ser bastante reduzido.
 
-### Combate ao vicio, eliminação de distrações e aumento da produtividade:
+Outras vantagens da app possuir uma interface amigável e de fácil utilização, é a minimização da ocorrência de erros ou dúvidas por parte dos utilizadores, e a garantia de uma  maior satisfação durante a experiência de utilização da app.
+
+### Combate ao vicio, eliminação de distrações e a falta de produtividade:
 
 A rápida evolução tecnológica das últimas décadas tem vindo a transformar drasticamente a dinâmica das nossas vidas, as nossas rotinas e amplamente a vida social.
-Diariamente surgem novas aplicações e serviços para as mais diversas finalidades, de forma a facilitar o nosso dia-a-dia. No entanto, todos estes fatores trariam mais benificios caso não existisse o "excesso" de utilização destes serviços/aplicações (redes sociais, jogos, etc.), que, infelizmente, causa grande dependência dos pequenos ecrãs.
-Estes dispositivos sao a nossa "vida" em formato digital, já não podemos passar sem eles. Os mesmos "ocupam nos" cada vez mais horas sem nos apercebermos disso.
+Diariamente surgem novas aplicações e serviços para as mais diversas finalidades, de forma a facilitar o nosso dia-a-dia. No entanto, todos estes fatores trariam mais beneficios caso não existisse o "excesso" de utilização destes serviços/aplicações (redes sociais, jogos, etc.), que, infelizmente, causa grande dependência dos pequenos ecrãs.
+Estes dispositivos são a nossa "vida" em formato digital. Os mesmos "ocupam nos" cada vez mais "tempo" sem nos apercebermos disso.
 
 Tudo em excesso é prejudicial, e o uso abusivo destes dispositivos não é excepção. Em qualquer situação da nossa vida, como esperar pelo autocarro, pela comida no restaurante ou esperar por um amigo, o primeiro instinto é pegar no telemóvel, pois parece que o tempo passa mais depressa e porque temos que estar ligados.
 Esta dependência causa graves problemas de saúde, como por exemplo a Depressão, Ansiedade e Insónias.
 
 Desta forma, a "BusyBrain" procura combater este vicio, ajudando o utilizador a evitar a dependência do aparelho. Através de métodos de concentração e foco (diferentes configurações e funcionalidades), a "BusyBrain" ajuda o utilizador a largar o aparelho, focar-se nas suas tarefas e localizar novos pontos de interesse.
 
-Desta forma, a "BusyBrain" pretende combater este vicio através do bloqueio de apps ou bloqueio de websites que o utilizador considere distrativo(as). Também será possivel silenciar totalmente o telemóvel ou desativar a ligação Wi-Fi do dispositivo (evitar a recepção notificações e acesso á web, etc .
+Para ajudar a eliminar distrações, a BusyBrain permite o bloqueio de apps ou bloqueio de websites que o utilizador considere distrativo(as). Também permitirá silenciar totalmente o telemóvel ou desativar a ligação Wi-Fi do dispositivo (evitar a recepção notificações e acesso á web, etc) .
 
 ## Gestão de Tempo
 
-Em qualquer ambiente, seja no trabalho ou na vida pessoal, o tempo passa bastante rápido. No trabalho, por exemplo, é essencial uma boa gestao do tempo, de forma a cumprir todas as tarefas do dia. No entanto, este objectivo pode ser dificil de conseguir.
-Gerir bem o tempo obriga a ter um correcta estruturação de horários e dos tempos de execução de cada tarefa que se pretende realizar durante o dia. 
+Em qualquer ambiente, seja no trabalho ou na vida pessoal, o tempo passa bastante rápido. No trabalho, por exemplo, é essencial uma boa gestão do tempo, de forma a cumprir todas as tarefas do dia. No entanto, este objectivo pode ser dificil de alcançar. 
+
+Gerir bem o tempo obriga a ter uma correcta estruturação de horários e dos tempos de execução de cada tarefa que se pretende realizar durante o dia. 
 
 Por esta razão, a "BusyBrain" está também desenhada especificamente para ajudar o utilizador a gerir melhor o seu tempo, tornando-o mais produtivo e diminuindo os niveis de stress.
-Uma das suas funcionalidades sera facilitar nos momento de pausa, e acedendo á localização do utilizador, exibir cafés, restaurantes e bares, que o user poderá frequentar "fora" do tempo de realização das suas tarefas.
-Também poderao ser exibidas livrarias e  bibliotecas próximas do utilizador, caso este queira comprar ou consultar livros, por exemplo.
+Uma das suas funcionalidades será otimizar os momentos de pausa das sessões de trabalho, que, acedendo á localização do utilizador, exibirá cafés, restaurantes e bares, que o user poderá frequentar "fora" do tempo de realização das suas tarefas.
+Também serão exibidas livrarias e  bibliotecas próximas do utilizador, caso este queira comprar ou consultar livros, por exemplo.
 
-Desta forma o utilizador porde desenvolver novos pontos de interesse.
+Desta forma o utilizador pode descobrir novos pontos de interesse.
 
 ## 6. Público-Alvo
 
-O público-alvo da "BusyBrain" será toda a população que possua problemas de vicio no telemóvel, baixa concentracao e dificuldade na gestão de tempo durante a realização das suas tarefas diárias e que queiram eliminar  as distrações, aumentar a produtividade e fazer uma boa gestão do seu tempo, etc.
+O público-alvo da "BusyBrain" será toda a população que possua problemas de vicio no telemóvel e dificuldades de concentração e na gestão de tempo durante a realização das suas tarefas diárias, e que queiram eliminar  as distrações, aumentar a produtividade e fazer uma boa gestão do seu tempo.
 No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse público, qualquer pessoa poderá utilizar a "BusyBrain" e disfrutar de todas as funcionalidades e vantagens que a app oferece.
 
 ## 7. Pesquisa
 
-Para entender que configurações poderiam destacar a "BusyBrain" no mercado, foram analisadas 3 aplicações ("Brain Focus", "Focus To-Do" e "Serene") que possuem o mesmo objetivo que a "BusyBrain": Foco e Produtividade. As apps foram instaladas e testadas. Ainda estao em analise as críticas publicadas na página da app na Play Store (excepto a app "Serene", que somente funciona para sistemas macOS). Tambem foram analisadas as diversas configurações de todas as apps selecionadas.
+Para entender que configurações poderiam destacar a "BusyBrain" no mercado, foram analisadas 3 aplicações ("Brain Focus", "Focus To-Do" e "Serene") que possuem o mesmo objetivo que a "BusyBrain": Foco e Produtividade. As apps foram instaladas e testadas. Ainda estão em análise as críticas publicadas na página da app na Play Store (excepto a app "Serene", que somente funciona para sistemas macOS). 
 
 ### Brain Focus:
 
-A "Brain Focus Productivity Timer" é uma app desenvolvida pela empresa "Brain Focus", que serve para gerir melhor o tempo, utilizando essencialmente a técnica Pomodoro.
-Após a instalação, foram listadas algumas configurações que podiam tornar a "BusyBrain" mais interessante e completa:
+A "Brain Focus Productivity Timer" é uma app desenvolvida pela empresa "Brain Focus", que serve para gerir melhor o tempo, utilizando somente a técnica Pomodoro.
+Após a instalação, foram retiradas e anotadas algumas configurações que podiam tornar a "BusyBrain" mais interessante e completa (baseada em algumas funcionalidades da "Brain Focus"):
 
 * Desativar Wi-Fi quando iniciada uma sessão de trabalho.
 * Diversos "themes" (Vermelho, Verde, Azul, Dark, etc.).
 * Notificação antes do fim de uma sessão de trabalho.
 * Timer definido pelo user.
-* Remoção de anuncios (somente na versão Pro).
+* Remoção de anuncios (somente na versão Pro do "Brain Focus").
 
 ### Focus To-Do:
 
 A "Focus To-Do" é uma app que foi desenvolvida pela empresa "Pomodoro Timer & To Do List - SuperElement SoftProdutividade". Esta app combina a técnica Pomodoro com sistema de criação e gestão de tarefas a serem realizadas.
-Após a análise desta app, foram também listadas algumas das funcionalidades que esta aplicação oferece:
+Após a análise desta app, foram também retiradas e anotadas algumas das funcionalidades que esta aplicação oferece:
 
-* Criar tarefas e planear o dia.
+* Criar tarefas (planeamento do dia).
 * Adicionar notas ás tarefas.
-* Bloqueio de apps
+* Bloqueio de apps (definidas pelo utilizador).
 * Som ambiente para a sessão de trabalho.
-* Tela sempre ativada.
+* Tela sempre ativada durante as sessões de trabalho.
 
 ### Serene:
 
-A "Serene" é uma aplicação desenvolvida pela empresa "Serene". É uma das apps mais completas do género e possui uma grande variedade de opções e funcionalidades. Por ser somente desenvolvida para macOS, esta não pôde ser instalada, no entanto foram verificadas algumas configurações interessantes, a partir do website da própria app, que pudessem servir de base para outras funcionalidades na "BusyBrain":
+A "Serene" é uma aplicação desenvolvida pela empresa "Serene". É uma das apps mais completas do género e possui uma grande variedade de opções e funcionalidades. Por ser somente desenvolvida para macOS, esta não pôde ser instalada, no entanto foram analisadas algumas configurações e funcionalidades  interessantes, a partir do website da própria app, que pudessem servir de base para outras funcionalidades na "BusyBrain":
 
 * Bloqueio de websites
 * Silenciador de telemóvel
@@ -159,16 +161,16 @@ A "Serene" é uma aplicação desenvolvida pela empresa "Serene". É uma das app
 
 ### BusyBrain:
 
-Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Focus To-Do, Serene), foi estruturada uma lista de várias funcionalidades que irão compor a app da "BusyBrain":
+Baseada nalgumas funcionalidades retiradas da análise das 3 apps selecionadas (Brain Focus, Focus To-Do, Serene), foi estruturada uma lista de várias funcionalidades que irão compor a app da "BusyBrain":
 
 * Timers com diversos métodos de foco, concentração e produtividade durante a execução de tarefas
-* Adicionar, editar e eliminar tarefas (e descrições das tarefas)
+* Adicionar e eliminar tarefas 
 * Bloquear apps (escolhidas pelo utilizador)
 * Bloquear websites (escolhidos pelo utilizador)
 * Desativar o Wi-Fi quando uma sessão de trabalho é iniciada
 * Som ambiente para as sessões de trabalho
 * Small breaks e Long breaks (variam de acordo com o tipo de timer)
-* Exibir lista de cafés, bares e restaurantes para os breaks (com GPS em tempo real)
+* Exibir lista de cafés, bares e restaurantes para os long breaks (com GPS em tempo real)
 * Exibir lista de livrarias e bibliotecas (com GPS em tempo real)
 * Modo "Hardcore Timer"
 * Silenciador de telemóvel
@@ -192,17 +194,17 @@ Baseada nas configurações disponiveis nas 3 apps selecionadas (Brain Focus, Fo
                    
 * Uso da Localização:
 
-     * Procurar por cafés, restaurantes e bares perto do local do utilizador (raio de 10 km | GPS Tracker em tempo real)
+     * Procura de cafés, restaurantes e bares perto do local do utilizador (raio de 10 km | GPS Tracker em tempo real)
      
-     * Procurar por livrarias e bibliotecas (raio de 50 km | GPS Tracker em tempo real)
+     * Procura de livrarias e bibliotecas (raio de 50 km | GPS Tracker em tempo real)
      
 * Infos sobre os locais exibidos:
 
      * Nome do local 
      * Endereço
-     * Distância
+     * Distância do utilizador ao local selecionado
 
-//Nota: O Hardcore Timer bloqueia totalmente o telemóvel (Wi-Fi, telemovel silenciado, apps bloqueadas e websites bloqueados durante o timer). Até o timer não acabar, não será possivel reativar o uso do telemóvel (bloqueio total).
+//Nota: O Hardcore Timer bloqueia totalmente o telemóvel (Wi-Fi, telemovel silenciado, apps bloqueadas e websites bloqueados durante o timer). Até o timer terminar, não será possivel alterar as configurações(bloqueio, silenciamento do dispositivo, etc.). O objetivo do Hardcore timer será obrigar o utilizador a focar-se nas suas tarefas.
 
 # 9. Guiões de Teste
 
@@ -212,8 +214,9 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 ### Splash-Screen:
 
-A primeira tela a surgir quando a app é iniciada, será uma tela do tipo "Splash-Screen". Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Geralmente, este tipo de tela apresenta o logótipo da app ou uma barra de "loading". 
+A primeira tela a surgir quando a app é iniciada, será uma tela do tipo "Splash-Screen". Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Geralmente, este tipo de tela apresenta o logótipo da app ou uma barra de loading (ou ambos). 
 Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 5/6 segundos, redirecionando o utilizador para a tela de login da app, após esse tempo de espera.
+Esta "activity" apenas exibirá o logótipo da app.
 
 ![Splash Screen](https://static.wixstatic.com/media/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.png/v1/fill/w_408,h_750,al_c,lg_1,q_85/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.webp)
 
