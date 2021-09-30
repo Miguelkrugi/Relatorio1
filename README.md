@@ -210,6 +210,8 @@ Baseada nalgumas funcionalidades retiradas da análise das 3 apps selecionadas (
 
 Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de teste. O primeiro guião inclui o uso dos timers ("core" da aplicação), e os outros 2 guiões de teste incluem o uso de funcionalidades secundárias:
 
+*NOTA: Todas as interfaces exibidas nos guiões são interfaces-demo, sendo utilizadas somente para fins ilustrativos.
+
 ## Guião de Teste - Core 
 
 ### Splash-Screen:
@@ -220,24 +222,22 @@ Esta "activity" apenas exibirá o logótipo da app.
 
 ![Splash Screen](https://static.wixstatic.com/media/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.png/v1/fill/w_408,h_750,al_c,lg_1,q_85/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.webp)
 
-*Nota: Imagem utilizada somente para fins ilustrativos.
-
 ### Login Activity
 
-Após o tempo de espera na tela de Splash-Screen, o utilizador é redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login (da app), o utilizador terá de introduzir o seu Username e a sua password (métodos de login com a Google ou Facebook podem variar). Após a inserção dos dados, o user será redirecionado para a tela principal da app (Main Activity).
+Após o tempo de espera na tela de Splash-Screen, o utilizador é automaticamente redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login (da app), o utilizador terá de introduzir o seu Username e a sua password (métodos de login com a Google ou Facebook podem variar). Após a inserção dos dados, o user será redirecionado para a tela principal da app (Main Activity).
 ![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
                    
 ### Register Activity
 
 Caso o utilizador não possua uma conta na "BusyBrain", este deve-se registar na tela de Registo, que pode ser acedida pela tela de Login. 
-Para o registo do user na app, este terá que introduzir o seu username, email, password, sexo (Masculino ou Feminino) e numero de telemóvel. O username será posteriormente exibido na barra lateral da "activity" principal, e o Email e Numero de telemóvel serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso o mesmo deseje recebê-las.
+Para o registo do user na app, este terá que introduzir o seu username, email, password, sexo (Masculino ou Feminino) e numero de telemóvel. O Email e Número de telemóvel serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso este deseje recebê-las.
 
 ![Register Page](https://static.wixstatic.com/media/302737_038b203d0fd148fa84eca913ee70e754~mv2.png/v1/fill/w_411,h_733,al_c,lg_1,q_85/302737_038b203d0fd148fa84eca913ee70e754~mv2.webp)
 
 ### Main Activity
 
-Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. Na parte inferior da tela principal, estão exibidos os botões "Small Break" e "Long Break". Ao clicar num desses botões, o utilizador será novamente redirecionado para as activities de "Small Break" ou "Long Break", dependendo do botão ativado. 
-Na tela principal ainda se encontra um botão "hamburguer", que exibirá uma barra lateral com diversas configurações que podem ser personalizadas durante a sessão de trabalho.
+Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. Na parte inferior da tela principal, estão exibidos os botões "Small Break" e "Long Break". Ao clicar num desses botões, o utilizador será redirecionado para as activities de "Small Break" ou "Long Break", dependendo do botão ativado. 
+Na tela principal ainda se encontra um botão do tipo "hambúrguer", que exibirá uma barra lateral com diversas configurações que podem ser personalizadas durante a sessão de trabalho.
 
 ![](https://user-images.githubusercontent.com/48087662/135121934-1200cc74-2da8-464c-b97d-a429140bde45.png)
 
@@ -249,35 +249,28 @@ Na tela principal ainda se encontra um botão "hamburguer", que exibirá uma bar
 
 ![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
 
-*Nota: Todos os timers terão o mesmo "layout", no entanto com gradientes distintos.
-
 ### Small Break Activity
 
-A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer e FlowTime Timer). As telas de "Small Breaks" possuem os mesmos layouts das telas de "timer", no entanto, com algumas diferenças:
+A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer< Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
 
-* O botão com o icone de uma "roda dentada", permite aceder ás definições.
-* O menu "hamburguer", permite aceder ás funcionalidades que utilizam a localização do user.
+* O botão que se localiza no canto superior direito da tela, permite aceder ás activities de adicionar e eliminar tarefas.
+* O botão do tipo "hambúrguer", permite a configurações de bloqueio (apps e websites), silenciamento do dispositivo, desativação do Wi-Fi quando um timer é iniciado e o Logout.
 * A opção "Back to Timer", permite regressar á tela do timer que está a ser utilizado.
 * A opção "Long Break", permite aceder á tela do "intervalo maior".
 * O botão de "Play" permite iniciar o "break timer". 
 
-#POMODORO SMALL BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135128980-c72fc8f0-5c12-4681-8a2d-5c24169c5a5d.png)
 
-#DESKTIME SMALL BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135129313-d5b8e308-f76a-4a91-a343-f32466cff689.png)
 
-#ULTRADIAN SMALL BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135130244-7c4c1276-7560-4a62-ac7d-450bbb225a63.png)
 
-#FLOWTIME SMALL BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135130854-572e38fc-d56f-4787-85bf-b47b3a017c3d.png)
 
-#HARDCORE SMALL BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135132042-e7d21f0d-817b-4bc4-b9c6-e9b8303aff9e.png)
 
@@ -289,24 +282,17 @@ A opção representada com o icone de uma chávena de café, exibe os cafés, ba
 A opção representada com o icone de um livro, exibe livrarias e bibliotecas perto do utilizador (utilizando a localização).
 Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona novamente o utilizador á tela do timer.
 
-
-#HARDCORE LONG BREAK
-
 ![](https://user-images.githubusercontent.com/48087662/135132687-7cd66428-2ad4-4b19-b6a5-7088f26f599c.png)
 
-#POMODORO LONG BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135132879-7591726a-161f-4078-a9c7-56daba9060bf.png)
 
-#DESKTIME LONG BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135133194-3a0d94a6-596b-4fc9-ae5f-acdd5ad9fb1b.png)
 
-#ULTRADIAN LONG BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135133486-42d47824-4e2c-49c0-a111-36cc6fc77730.png)
 
-#FLOWTIME LONG BREAK
 
 ![](https://user-images.githubusercontent.com/48087662/135133682-84568b49-fbdb-42bf-a028-2a713445fca5.png)
 
@@ -318,16 +304,11 @@ O botão com um icone de uma chávena de café, ao ser clicado, exibe uma ListVi
 O botão com um icone de um livro, ao ser clicado, exibe uma ListView de livrarias e bibliotecas próximas ao utilizador.
 Ambas as telas de Listview apresentam o mesmo layout e as mesmas funcionalidades, no entanto, com "backgrounds" distintos.
 
-A exibição destes locais variará com a localização atual do user e com o tempo de "long break" do timer selecionado.
-
+A exibição de locais variará com a localização atual do user e com o tempo de "long break" do timer selecionado, isto é, o ajuste de distâncias de acordo com o tempo do "long break").
 
 ![ListView de Cafes Bares e Restaurantes](https://static.wixstatic.com/media/302737_d249333949c64c578fbcb8182a7c0b4a~mv2.png/v1/fill/w_406,h_731,al_c,lg_1,q_85/302737_d249333949c64c578fbcb8182a7c0b4a~mv2.webp)
 
-*Interface demo da ListView de Cafés, Restaurantes e Bares
-
 ![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
-
-*Interface demo da ListView de Livrarias e Bibliotecas
 
 ### "Search" de ListView
 
@@ -336,14 +317,15 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 
 ![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
 
-*Icone de pesquisa na zona inferior da tela.
+*Icone de pesquisa na zona inferior da tela (o mesmo se aplica á ListView de cafés, bares e restaurantes).
 
 ### GPS Tracker
 
 Após selecionar um item da ListView, o utilizador será redirecionado para um GPS Tracker (em tempo real). O GPS Tracker definirá automaticamente uma rota entre a posição atual do utilizador e o local selecionado, acompanhando em tempo real o progresso do percurso do utilizador até ao seu destino. 
-O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na zona inferior da tela.
+O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na tool bar, na zona inferior da tela.
+Na tool bar inferior ainda se encontram outros tipos de informações como o nome do local selecionado, o endereço do local e a distância a percorrer.
 
-![Eliminar Rota](https://user-images.githubusercontent.com/48087662/135146147-7dcc090d-164a-4b35-91a9-f74c9a00faee.png)
+![](https://user-images.githubusercontent.com/48087662/135146147-7dcc090d-164a-4b35-91a9-f74c9a00faee.png)
 
 
 ## Guião de Teste - Funcionalidades Secundárias
