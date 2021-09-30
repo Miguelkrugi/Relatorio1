@@ -247,7 +247,16 @@ Na tela principal ainda se encontra um botão do tipo "hambúrguer", que exibir�
 
 ![](https://user-images.githubusercontent.com/48087662/135125054-a66411fc-15bd-432d-a9a9-3a607f2ad0bd.png)
 
+#### Editar Timer
+
+A possibilidade de editar a duração de cada sessão de trabalho é exclusiva do método "FlowTime". Neste timer, o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
+
 ![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
+
+A personalização do tempo pode ser realizada clicando no botão "Editar Timer", que se encontra debaixo do contador. Após o clique, surgirá um pequeno pop-up onde o utilizador poderá definir um novo tempo (minutos e segundos). 
+Definido o tempo, basta clicar no botão "Alterar" ou "Guardar", e o contador será atualizado com uma nova duração.
+
+![]()
 
 ### Small Break Activity
 
