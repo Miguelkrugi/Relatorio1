@@ -21,6 +21,7 @@
 * Pesquisa
 * Informações Adicionais
 * Guiões de Utilização
+* Pitch
 
 
 ## 1. Resumo
@@ -31,7 +32,7 @@ Os dispositivos são um foco de distração, pelo numero de aplicações dispon�
 A facilidade de acesso e a rapidez com que se pode aceder a qualquer "coisa" cria dependência nos seus utilizadores, afectando seriamente a sua saúde.
 
 Esta aplicação pretende ser uma ferramenta de ajuda na melhoria da produtividade, maior concentração e melhor gestão do tempo nas mais variadas tarefas do dia-a-dia.
-Para além disso pretende diminuir gradualmente a dependência de "estar sempre ligado", permitindo ao utilizador descobrir outros pontos de interesse.
+Para além disso pretende diminuir gradualmente a dependência de "estar sempre ligado", permitindo ao utilizador descobrir outros pontos de interesse (pesquisa por cafés, restaurantes, bares, livrarias e bibliotecas).
 
 Pretende ser uma aplicação simples, com diversas funcionalidades, versátil e útil.
 É uma app direcionada a pessoas com grandes dificuldades de gestão de tempo, concentração e produtividade no dia-a-dia, devido á aquisição de dependência dos aparelhos.
