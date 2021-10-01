@@ -456,7 +456,9 @@ Para selecionar as tarefas já realizadas, basta clicar no "Radio Button" de uma
 
 Caso o utilizador queira sair da sua conta na app, deverá aceder á barra lateral e clicar no icone de "Turn Off". Ao clicar, o utilizador será redirecionado para a tela de Login.
 
-![](https://www.youtube.com/watch?v=BrEmhTXTBs8)
+# PITCH (BusyBrain)
+
+![](<iframe width="560" height="315" src="https://www.youtube.com/embed/BrEmhTXTBs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
 
 
 
