@@ -456,7 +456,7 @@ Para selecionar as tarefas já realizadas, basta clicar no "Radio Button" de uma
 
 Caso o utilizador queira sair da sua conta na app, deverá aceder á barra lateral e clicar no icone de "Turn Off". Ao clicar, o utilizador será redirecionado para a tela de Login.
 
-
+![](https://www.youtube.com/watch?v=BrEmhTXTBs8)
 
 
 
