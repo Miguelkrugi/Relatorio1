@@ -226,23 +226,28 @@ Esta "activity" apenas exibirá o logótipo da app.
 
 Após o tempo de espera na tela de Splash-Screen, o utilizador é automaticamente redirecionado para a tela de Login. 
 Esta activity exibirá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook - uso de API's Google e Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. 
-Para efetuar o Login na app, o utilizador deverá introduzir o seu Username e a sua password nos respetivos campos (métodos de login com a Google ou Facebook poderão variar).
+Para efetuar o Login na app, o utilizador deverá introduzir o seu Username e a sua Password nos respetivos campos (métodos de login com a Google ou Facebook poderão variar).
 Após a inserção dos dados, a tabela "Account" (na database), será consultada, procurando através de um ID, uma conta já registada na app que contenha o "Username" e a "Password" inseridas.
-Se este processo for realizado com sucesso, o utilizador será capaz de entrar na sua conta da "BusyBrain", sendo redirecionado para a "main activity".
+Se este processo for realizado com sucesso, o utilizador será capaz de entrar na sua conta da "BusyBrain", sendo redirecionado para a "Main Activity".
 
 ![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
                    
 ### Register Activity
 
 Caso o utilizador não possua uma conta na "BusyBrain", este deve-se registar na tela de Registo, que pode ser acedida pela tela de Login. 
-Para o registo do user na app, este terá que introduzir o seu username, email, password, sexo (Masculino ou Feminino) e numero de telemóvel. O Email e Número de telemóvel serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso este deseje recebê-las.
+Para o registo do user na app, este terá que introduzir o seu username, email, password, sexo (Masculino ou Feminino) e numero de telemóvel nos respetivos campos. 
+Após inserir os dados, estes serão registados e armazenados na database. Para cada nova conta registada, ser-lhe-á atribuida um ID único, de modo a permitir, posteriormente,  o Login do utilizador, cada vez que este desejar entrar na app. Quando o registo é concluido, o utilizador é redirecionado para a "Main Activity".
+O Email e Número de telemóvel serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso este deseje recebê-las.
 
 ![Register Page](https://static.wixstatic.com/media/302737_038b203d0fd148fa84eca913ee70e754~mv2.png/v1/fill/w_411,h_733,al_c,lg_1,q_85/302737_038b203d0fd148fa84eca913ee70e754~mv2.webp)
 
 ### Main Activity
 
-Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. Na parte inferior da tela principal, estão exibidos os botões "Small Break" e "Long Break". Ao clicar num desses botões, o utilizador será redirecionado para as activities de "Small Break" ou "Long Break", dependendo do botão ativado. 
-Na tela principal ainda se encontra um botão do tipo "hambúrguer", que exibirá uma barra lateral com diversas configurações que podem ser personalizadas durante a sessão de trabalho.
+Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. As opções de "Play", "Pause" e "Restart" são também exibidas para os restantes timers disponiveis na app (Desktime, FlowTime e Ultradian Rhythms - excepto o "Hardcore Mode"). 
+Para aceder a outros timers, basta arrastar a tela para um dos lados (esquerdo ou direito). Após o arraste
+Quando o timer terminar, soará um pequeno ruido de aviso ao utilizador, sugerindo ao utilizador que faça uma pausa.
+Na zona inferior da tela, encontram-se as opções de "Small Break" e "Long Break", que podem ser selecionadas após as sessões de trabalho. A duração de cada um dos "breaks" variará de acordo com o timer selecionado pelo user.
+Para "configurar" as sessões de trabalho, o utilizador deve aceder ao icone de "burger menu", que estará visivel no canto superior esquerdo. 
 
 ![](https://user-images.githubusercontent.com/48087662/135124843-7f38d7ad-88d8-4921-9a68-dee5a554d9ec.png)
 
