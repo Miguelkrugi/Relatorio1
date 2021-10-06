@@ -227,7 +227,7 @@ Esta "activity" apenas exibirá o logótipo da app.
 Após o tempo de espera na tela de Splash-Screen, o utilizador é automaticamente redirecionado para a tela de Login. 
 Esta activity exibirá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook - uso de API's Google e Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. 
 Para efetuar o Login na app, o utilizador deverá introduzir o seu Username e a sua password nos respetivos campos (métodos de login com a Google ou Facebook poderão variar).
-Após a inserção dos dados, a tabela "Account" (na database), será consultada, procurando o "Username" e a "Password" correspondentes a uma conta já registada na app.
+Após a inserção dos dados, a tabela "Account" (na database), será consultada, procurando através de um ID, uma conta já registada na app que contenha o "Username" e a "Password" inseridas.
 Se este processo for realizado com sucesso, o utilizador será capaz de entrar na sua conta da "BusyBrain", sendo redirecionado para a "main activity".
 
 ![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
