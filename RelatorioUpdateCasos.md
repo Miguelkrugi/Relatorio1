@@ -244,10 +244,11 @@ O Email e Número de telemóvel serão posteriormente utilizados para o utilizad
 ### Main Activity
 
 Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. As opções de "Play", "Pause" e "Restart" são também exibidas para os restantes timers disponiveis na app (Desktime, FlowTime e Ultradian Rhythms - excepto o "Hardcore Mode"). 
-Para aceder a outros timers, basta arrastar a tela para um dos lados (esquerdo ou direito). Após o arraste
+Para aceder a outros timers, basta arrastar a tela para um dos lados (esquerdo ou direito). Após o arraste, novas activities surgirão (uma activity por timer). Como alternativa, o utilizador poderá clicar nos icones de "setas", para se deslocar por todos os tipos de timer disponiveis.
 Quando o timer terminar, soará um pequeno ruido de aviso ao utilizador, sugerindo ao utilizador que faça uma pausa.
-Na zona inferior da tela, encontram-se as opções de "Small Break" e "Long Break", que podem ser selecionadas após as sessões de trabalho. A duração de cada um dos "breaks" variará de acordo com o timer selecionado pelo user.
-Para "configurar" as sessões de trabalho, o utilizador deve aceder ao icone de "burger menu", que estará visivel no canto superior esquerdo. 
+Na zona inferior da tela (de cada um dos timers / "work sessions"), encontram-se as opções de "Small Break" e "Long Break", que podem ser selecionadas após as sessões de trabalho. A duração de cada um dos "breaks" variará de acordo com o timer selecionado pelo user.
+Para "configurar" as sessões de trabalho, o utilizador deve aceder ao icone de "burger menu", que estará visivel no canto superior esquerdo. Ao selecionar essa opção, surgirá na tela uma barra lateral que permite ao utilizador personalizar as suas "work sessions".
+
 
 ![](https://user-images.githubusercontent.com/48087662/135124843-7f38d7ad-88d8-4921-9a68-dee5a554d9ec.png)
 
@@ -257,24 +258,13 @@ Para "configurar" as sessões de trabalho, o utilizador deve aceder ao icone de 
 
 ![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
 
-#### Editar Timer
-
-A possibilidade de editar a duração de cada sessão de trabalho é exclusiva do método "FlowTime". Neste timer, o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
-
-![](https://user-images.githubusercontent.com/48087662/135125054-a66411fc-15bd-432d-a9a9-3a607f2ad0bd.png)
-
-A personalização do tempo pode ser realizada clicando no botão "Editar Timer", que se encontra debaixo do contador. Após o clique, surgirá um pequeno pop-up onde o utilizador poderá definir um novo tempo (minutos e segundos). 
-Definido o tempo, basta clicar no botão "OK", e o contador será atualizado com uma nova duração.
-
-![](https://user-images.githubusercontent.com/48087662/135478953-ca04abe0-5df5-46c8-8833-ddd489f744ec.png)
-
 
 ### Small Break Activity
 
 A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer, Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
 
-* O botão que se localiza no canto superior direito da tela, permite aceder ás activities de adicionar e eliminar tarefas.
-* O botão do tipo "hambúrguer", permite a configurações de bloqueio (apps e websites), silenciamento do dispositivo, desativação do Wi-Fi quando um timer é iniciado e o Logout.
+* O botão que se localiza no canto superior direito da tela, redirecionará o user para uma nova activity de "Task Manager", onde este poderá gerir as suas tarefas a realizar durante o dia.
+* O botão do tipo "hambúrguer", permite ao utilizador aceder á barra lateral da app, onde poderá personalizar as suas "work sessions".
 * A opção "Back to Timer", permite regressar á tela do timer que está a ser utilizado.
 * A opção "Long Break", permite aceder á tela do "intervalo maior".
 * O botão de "Play" permite iniciar o "break timer". 
@@ -293,6 +283,8 @@ A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que s
 
 
 ![](https://user-images.githubusercontent.com/48087662/135132042-e7d21f0d-817b-4bc4-b9c6-e9b8303aff9e.png)
+
+*Nota: Em timers do tipo "break", não estarão disponiveis as opções de "Pause" e "Restart"
 
 ### Long Break 
 
@@ -362,6 +354,18 @@ A app terá diversas funcionalidades secundárias, tais como:
 Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), que pode ser acedida clicando no icone de "hambúrguer". 
 
 ![Barra Lateral](https://static.wixstatic.com/media/302737_6d68e942895942e4940f628ad6bf0d97~mv2.png/v1/fill/w_402,h_728,al_c,lg_1,q_85/302737_6d68e942895942e4940f628ad6bf0d97~mv2.webp)
+
+#### Editar Timer
+
+A possibilidade de editar a duração de cada sessão de trabalho é uma funcionalidade exclusiva do método "FlowTime". 
+Neste método (timer), o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
+
+![](https://user-images.githubusercontent.com/48087662/135125054-a66411fc-15bd-432d-a9a9-3a607f2ad0bd.png)
+
+A personalização do tempo pode ser realizada clicando no botão "Editar Timer", que se encontra debaixo do contador. Após o clique, surgirá um pequeno pop-up onde o utilizador poderá definir um novo tempo (minutos e segundos). 
+Definido o tempo, basta clicar no botão "OK", e o contador será atualizado com uma nova duração.
+
+![](https://user-images.githubusercontent.com/48087662/135478953-ca04abe0-5df5-46c8-8833-ddd489f744ec.png)
 
 
 ### Música Ambiente
