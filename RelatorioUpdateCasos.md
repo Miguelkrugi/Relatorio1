@@ -261,12 +261,12 @@ Para "configurar" as sessões de trabalho, o utilizador deve aceder ao icone de 
 
 ### Small Break Activity
 
-A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer, Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
+A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra no canto inferior esquerdo de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer, Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
 
-* O botão que se localiza no canto superior direito da tela, redirecionará o user para uma nova activity de "Task Manager", onde este poderá gerir as suas tarefas a realizar durante o dia.
-* O botão do tipo "hambúrguer", permite ao utilizador aceder á barra lateral da app, onde poderá personalizar as suas "work sessions".
-* A opção "Back to Timer", permite regressar á tela do timer que está a ser utilizado.
-* A opção "Long Break", permite aceder á tela do "intervalo maior".
+* O botão que se localiza no canto superior direito da tela (representado por um icone de "task list"), redirecionará o user para uma nova activity de "Task Manager", onde este poderá gerir as suas tarefas a realizar durante o dia.
+* O botão do tipo "hambúrguer" (localizado no canto superior esquerdo da tela), permite ao utilizador aceder á barra lateral da app, onde poderá personalizar as suas "work sessions".
+* O botão "Back to Timer", permite regressar á tela do timer que está a ser utilizado.
+* O botão "Long Break", permite aceder á tela do "intervalo maior".
 * O botão de "Play" permite iniciar o "break timer". 
 
 
@@ -284,15 +284,15 @@ A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que s
 
 ![](https://user-images.githubusercontent.com/48087662/135132042-e7d21f0d-817b-4bc4-b9c6-e9b8303aff9e.png)
 
-*Nota: Em timers do tipo "break", não estarão disponiveis as opções de "Pause" e "Restart"
+*Nota: Em timers do tipo "break" ("Small Breaks" e "Long Breaks"), não estarão disponiveis as opções de "Pause" e "Restart". 
 
 ### Long Break 
 
-A tela de Long Break pode ser acedida selecionando a opção "Long Break" na tela do timer. 
-Nesta tela estarão disponiveis as funcionalidades de procura de cafés, bares, restaurantes, livrarias e bibliotecas, dependendo da localização atual do user.
-A opção representada com o icone de uma chávena de café, exibe os cafés, bares e restaurantes perto do utilizador (utilizando a localização). 
-A opção representada com o icone de um livro, exibe livrarias e bibliotecas perto do utilizador (utilizando a localização).
-Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona novamente o utilizador á tela do timer.
+Para aceder á activity do "Long Break", o utilizador deverá selecionar o botão "Long Break", localizado no canto inferior direito da tela do timer a ser utilizado. 
+Após selecionar esse botão, o utilizador deverá ser redirecionado para uma nova "activity", onde estarão disponiveis as opções de procura de cafés, bares, restaurantes, livrarias e bibliotecas, dependendo da localização atual do user.
+O botão representado com o icone de uma chávena de café, que, ao ser selecionado, exibe os cafés, bares e restaurantes perto do utilizador (utilizando a localização). 
+O botão representado com o icone de um livro, que, ao ser selecionado, exibe livrarias e bibliotecas perto do utilizador (utilizando a localização).
+No canto inferior esquerdo da tela, encontra-se um botão que, ao ser clicado, deverá redirecionar novamente o utilizador á tela do timer que está a ser utilizado.
 
 ![](https://user-images.githubusercontent.com/48087662/135132687-7cd66428-2ad4-4b19-b6a5-7088f26f599c.png)
 
@@ -311,10 +311,10 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 ## Guião de Teste - Localização
 
 A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos "breaks" entre as sessões de trabalho, caso este o deseje. 
-Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
+Estas funcionalidades estão somente disponiveis nas telas de "Long Break" de cada timer. 
 O botão com um icone de uma chávena de café, ao ser clicado, exibe uma ListView com cafés, bares e restaurantes próximos ao utilizador.
 O botão com um icone de um livro, ao ser clicado, exibe uma ListView de livrarias e bibliotecas próximas ao utilizador.
-Ambas as telas de Listview apresentam o mesmo layout e as mesmas funcionalidades, no entanto, com "backgrounds" distintos.
+Para facilitar o manuseamento, a Google Maps API será utilizada em "back", ou seja, o mapa não estará visivel ao user. O mapa apenas servirá de "base" para a exibição de uma ListView de locais próximos (cafés, restaurantes, bares, livrarias e bibliotecas) perto do utilizador.
 
 A exibição de locais variará com a localização atual do user e com o tempo de "long break" do timer selecionado, isto é, o ajuste de distâncias de acordo com o tempo do "long break").
 
@@ -322,10 +322,16 @@ A exibição de locais variará com a localização atual do user e com o tempo 
 
 ![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
 
-### "Search" de ListView
+### Pesquisa de Locais
 
-Na zona inferior de ambas as telas de "ListView" (Cafés, Bares, Restaurantes, Livrarias e Bibliotecas), encontra-se um botão de "pesquisa" na ListView, representada pelo icone de uma lupa.
-Este botão permitirá ao utilizador, digitar o nome de um café, bar, restaurante, livraria ou biblioteca e pesquisar (na ListView), possiveis estabelecimentos com esse nome, de forma a encontrar um estabelecimento especifico de forma mais rápida e simples.
+Ao selecionar um dos icones ("chávena de café" e "livro"), o user deverá obter e visualizar uma ListView de vários pontos de interesse (cafés, restaurantes, bares, livrarias e bibliotecas) perto de si, baseando-se na sua localização atual.
+As informações exibidas de cada um dos locais da ListView (nome do local, endereço e distância do utilizador), serão armazenadas na database, mais precisamente na tabela "Estabelecimento". Cada estabelecimento encontrado possuirá um ID único, que irá ser utilizado para identificar um estabelecimento que seja selecionado pelo user.
+
+Para iniciar um trajeto, basta o utilizador selecionar um estabelecimento da ListView. Após a seleção, uma nova activity deverá surgir (GPS TRACKER), que irá "acompanhar" o trajeto do utilizador até ao local selecionado.
+
+No canto inferior direito de ambas as "ListView" (Cafés, Bares, Restaurantes, Livrarias e Bibliotecas), encontra-se um botão de "pesquisa" na ListView, representada pelo icone de uma lupa.
+
+Este botão permitirá ao utilizador realizar uma pesquisa mais especifica de um estabelecimento. Para tal, este deverá digitar o nome de um café, bar, restaurante, livraria ou biblioteca e pesquisar (na ListView), possiveis estabelecimentos com esse nome, de forma a encontrar um estabelecimento especifico de forma mais rápida e simples.
 
 ![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
 
@@ -333,7 +339,7 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 
 ### GPS Tracker
 
-Após selecionar um item da ListView, o utilizador será redirecionado para um GPS Tracker (em tempo real). O GPS Tracker definirá automaticamente uma rota entre a posição atual do utilizador e o local selecionado, acompanhando em tempo real o progresso do percurso do utilizador até ao seu destino. 
+Após selecionar um estabelecimento da ListView, o utilizador será ativado um GPS Tracker, que acompanhará (em tempo real), o trajeto desde a posição atual do user até ao endereço do local selecionado, definindo automaticamente uma rota.
 O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na tool bar, na zona inferior da tela.
 Na tool bar inferior ainda se encontram outros tipos de informações como o nome do local selecionado, o endereço do local e a distância a percorrer.
 
