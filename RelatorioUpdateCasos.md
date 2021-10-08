@@ -453,11 +453,11 @@ Esta opção é bastante util, uma vez que impede a total receção de notifica�
 ### Silenciar Telemóvel
 
 Esta opção permite silenciar Notificações, Vibrações e sons Multimédia de forma simultânea ao iniciar um timer, evitando possiveis distrações causadas pelo dispositivo, no entanto, mantendo a sua ligação á Internet.
-Para ativar esta opção, o user deverá aceder á barra lateral e selecionar o "switch" da opção "Silenciar Dispositivo".
+Para ativar esta opção, o user deverá aceder á barra lateral e selecionar o "switch" correspondente á opção "Silenciar Dispositivo".
+Desta forma, assim que um timer (sessão de trabalho) for iniciado(a), o dispositivo será totalmente silenciado.
+O dispositivo deixará de estar silenciado quando a sessão de trabalho terminar, ou seja, quando o timer alcançar os "00:00". 
 
 ![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
-
-Com esta função ativa, o dispositivo deixará de estar silenciado quando a sessão de trabalho terminar, ou seja, quando o timer alcançar os "00:00". 
 
 ![Modo Silencioso](https://user-images.githubusercontent.com/48087662/135116081-8e2a5be2-4e31-42a5-8639-cbf6d94e8dba.png)
 
@@ -466,27 +466,26 @@ Com esta função ativa, o dispositivo deixará de estar silenciado quando a ses
 ### Adicionar e remover tarefas
 
 De forma a ajudar o utilizador a realizar e a organizar de forma mais eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. 
-Para utilizar esta funcionalidade, o utilizador deve clicar no icone (representado por uma "Task List") que se encontra no canto superior direito (das telas de timer, "small break" ou "long break"). Após o clique, o user será redirecionado para uma nova "activity". Será nesta nova tela, onde o utilizador poderá gerir as suas tarefas:
+Para utilizar esta funcionalidade, o utilizador deverá clicar no icone (representado por uma "Task List") que se encontra no canto superior direito (das telas de timer, "small break" ou "long break"). Após o clique, o user será redirecionado para uma nova "activity". Será nesta nova tela, onde o utilizador poderá gerir as suas tarefas:
 
 ![](https://user-images.githubusercontent.com/48087662/135140514-2d935e67-7573-49c9-a305-fbcd0fac2c81.png)
 
-Para adicionar tarefas á "To-Do list", o utilizador deve clicar no simbolo "+". Ao clicar no '+', surgirá um pop-up na tela, onde o user poderá adicionar um titulo á tarefa e uma descrição. Para guardar a tarefa o user deve pressionar o botão "Adicionar".
+Para adicionar tarefas á "To-Do list", o utilizador deverá clicar no simbolo "+". Ao clicar no '+', surgirá um pop-up na tela, onde o user poderá adicionar um titulo á tarefa e uma descrição. Para guardar a tarefa o user terá que pressionar o botão "Adicionar".
 
 ![](https://user-images.githubusercontent.com/48087662/135158505-d4ea5f52-dd75-4733-9b33-92383d472705.png)
 
 Ao pressionar em "Adicionar", uma nova tarefa surgirá na lista de tarefas ("To-Do List").
-Para o utilizador remover uma tarefa, basta clicar no icone de "caixote do lixo" que se encontra exibido no item da mesma. Após o clique, a tarefa será removida da lista.
+Para o utilizador remover uma tarefa, bastará clicar no icone de "caixote do lixo" que se encontra exibido no item da mesma. Após o clique, a tarefa será removida da lista.
 
-Para marcar as tarefas já realizadas, basta clicar no "Radio Button" de uma tarefa especifica. Após marcar a checkbox, o item da tarefa marcada será preenchida com a cor verde, indicando que a mesma já foi realizada.
+Para marcar as tarefas já realizadas, o user deverá clicar no "Radio Button" de uma tarefa especifica. Após marcar a checkbox ("Radio Button"), o item da tarefa marcada será preenchida com a cor verde, indicando que a mesma já foi realizada.
 
 ![Check Tasks](https://user-images.githubusercontent.com/48087662/136602105-a640b13a-9ffe-418d-8024-6921a902f49e.png)
-
 
 
 ### Logout
 
 Caso o utilizador queira sair da sua conta na app, deverá aceder á barra lateral e clicar no icone de "Turn Off". 
-Ao clicar, o utilizador fará logout da sua conta, sendo redirecionado para a tela de Login.
+Ao clicar nesse icone, o utilizador fará logout da sua conta, sendo redirecionado para a tela de Login.
 
 # PITCH (BusyBrain)
 
