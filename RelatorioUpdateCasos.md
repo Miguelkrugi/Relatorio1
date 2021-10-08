@@ -423,20 +423,22 @@ Para desbloquear um website, basta selecionar o botão "Ver websites bloqueados"
 
 ![Websites Bloqueados #1](https://user-images.githubusercontent.com/48087662/135092625-1a6db390-f75a-461d-8914-973473c5b81c.png)
 
-![Websites Bloqueados #2](https://user-images.githubusercontent.com/48087662/135094286-b3203161-bf08-412f-aaa8-2f25e71e4b35.png)
-
 A segunda versão desta "activity", utiliza um botão de "Guardar" para guardar as alterações realizadas (remoção de bloqueio de websites). Para realizar a remoção de um bloqueio, o user deve selecionar o icone de "caixote de lixo", e de seguida clicar no botão "Guardar" para remover o bloqueio definitivamente.
+
+![Websites Bloqueados #2](https://user-images.githubusercontent.com/48087662/135094286-b3203161-bf08-412f-aaa8-2f25e71e4b35.png)
 
 *Nota: Uma das duas versões será implementada no projeto.
 
 ### Desativar Wi-Fi em sessões de trabalho:
 
-Na barra lateral das telas de timer, encontra-se a opção de desativar o Wi-Fi em sessões de trabalho, ou seja, quando o timer é iniciado. Para ativar esta opção basta clicar no "switch":
+Na barra lateral das telas de timer, encontra-se a opção de desativar o Wi-Fi em sessões de trabalho.
+Para usar esta funcionalidade, basta selecionar o "switch" correspondente á opção "Desativar Wi-Fi em sessões de trabalho":
 
 ![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
 
-Selecionando o switch, a funcionalidade irá estar ativada. Quando um dos timers for iniciado, a ligação Wi-Fi do dispositivo será desativada até o timer ser pausado ou terminar.
-Esta opção é bastante util, uma vez que impede a total receção de notificações durante a sessão de trabalho, garantindo que o utilizador seja mais produtivo, eliminando distrações e focando-se na tarefa a realizar.
+Após selecionar o switch, esta opção ("Desativar Wi-Fi em sessões de trabalho") estará ativada até o switch voltar a ser desativado. 
+Sendo assim, quando um dos timers for iniciado, a ligação Wi-Fi do dispositivo será desativada até o timer terminar.
+Esta opção é bastante util, uma vez que impede a total receção de notificações durante a sessão de trabalho, garantindo que o utilizador seja mais produtivo, eliminando distrações causadas pelo dispositivo e focando-se na tarefa a realizar.
 
 ![Wi-Fi Desativado](https://user-images.githubusercontent.com/48087662/135110301-aece6c13-c384-40fd-aac2-86bfa207e7ea.png)
 
@@ -444,32 +446,39 @@ Esta opção é bastante util, uma vez que impede a total receção de notifica�
 
 ### Silenciar Telemóvel
 
-O opção de "Silenciar Telemóvel", permite silenciar Notificações, Vibrações e Multimédia de forma simultânea ao iniciar um timer. Para ativar esta opção, o user deve aceder á barra lateral e clicar no "switch" da opção "Silenciar Dispositivo".
+Esta opção permite silenciar Notificações, Vibrações e sons Multimédia de forma simultânea ao iniciar um timer. 
+Para ativar esta opção, o user deve aceder á barra lateral e selecionar o "switch" da opção "Silenciar Dispositivo".
 
 ![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
 
+O dispositivo deixará de estar silenciado quando a sessão de trabalho terminar, ou seja, quando o timer alcançar os "00:00". 
+
 ![Modo Silencioso](https://user-images.githubusercontent.com/48087662/135116081-8e2a5be2-4e31-42a5-8639-cbf6d94e8dba.png)
 
-O dispositivo deixará de estar silenciado quando o timer for pausado, ou quando o tempo do mesmo terminar.
+*Imagem: Resultado no dispositivo, quando esta opção estiver ativada e quando o utilizador se encontrar numa sessão de trabalho.
 
 ### Adicionar e remover tarefas
 
-Para ajudar o utilizador a realizar de forma eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. Para utilizar esta funcionalidade, o utilizador deve clicar no icone que se encontra no canto superior direito (das telas de timer, break ou long break). Após o clique, o user será redirecionado para uma nova "activity":
+De forma a ajudar o utilizador a realizar e a organizar de forma mais eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. 
+Para utilizar esta funcionalidade, o utilizador deve clicar no icone (representado por uma "Task List") que se encontra no canto superior direito (das telas de timer, "small break" ou "long break"). Após o clique, o user será redirecionado para uma nova "activity". Será nesta nova tela, onde o utilizador poderá gerir as suas tarefas:
 
 ![](https://user-images.githubusercontent.com/48087662/135140514-2d935e67-7573-49c9-a305-fbcd0fac2c81.png)
 
-Para adicionar tarefas á "To-Do list", o utilizador deve clicar no simbolo "+". Ao clicar nesse simbolo, surgirá um pop-up na tela, onde o user poderá adicionar um titulo á tarefa e uma descrição. Para guardar a tarefa o user deve pressionar "Adicionar".
+Para adicionar tarefas á "To-Do list", o utilizador deve clicar no simbolo "+". Ao clicar no '+', surgirá um pop-up na tela, onde o user poderá adicionar um titulo á tarefa e uma descrição. Para guardar a tarefa o user deve pressionar o botão "Adicionar".
 
 ![](https://user-images.githubusercontent.com/48087662/135158505-d4ea5f52-dd75-4733-9b33-92383d472705.png)
 
-Ao pressionar em "Adicionar", uma nova tarefa surgirá na lista de tarefas.
-Para o utilizador remover uma tarefa, basta clicar no icone de "caixote do lixo" na tarefa desejada. Após o clique, a tarefa será removida.
+Ao pressionar em "Adicionar", uma nova tarefa surgirá na lista de tarefas ("To-Do List").
+Para o utilizador remover uma tarefa, basta clicar no icone de "caixote do lixo" que se encontra exibido no item da mesma. Após o clique, a tarefa será removida da lista.
 
-Para selecionar as tarefas já realizadas, basta clicar no "Radio Button" de uma tarefa especifica (a "box" da tarefa será preenchida com a cor verde após o clique).
+Para marcar as tarefas já realizadas, basta clicar no "Radio Button" de uma tarefa especifica. Após marcar a checkbox, o item da tarefa marcada será preenchida com a cor verde, indicando que a mesma já foi realizada.
+
+![Check Tasks](https://user-images.githubusercontent.com/48087662/136602105-a640b13a-9ffe-418d-8024-6921a902f49e.png)
 
 ### Logout
 
-Caso o utilizador queira sair da sua conta na app, deverá aceder á barra lateral e clicar no icone de "Turn Off". Ao clicar, o utilizador será redirecionado para a tela de Login.
+Caso o utilizador queira sair da sua conta na app, deverá aceder á barra lateral e clicar no icone de "Turn Off". 
+Ao clicar, o utilizador fará logout da sua conta, sendo redirecionado para a tela de Login.
 
 # PITCH (BusyBrain)
 
