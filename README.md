@@ -309,11 +309,13 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 
 ## Guião de Teste - Localização
 
-A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos "breaks" entre as sessões de trabalho, caso este o deseje. 
+A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos intervalos entre as sessões de trabalho, caso este o deseje. 
 Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
 O botão com um icone de uma chávena de café, ao ser clicado, exibe uma ListView com cafés, bares e restaurantes próximos ao utilizador.
 O botão com um icone de um livro, ao ser clicado, exibe uma ListView de livrarias e bibliotecas próximas ao utilizador.
 Ambas as telas de Listview apresentam o mesmo layout e as mesmas funcionalidades, no entanto, com "backgrounds" distintos.
+
+Para iniciar a "viagem", o utilizador deverá selecionar (da ListView), um local desejado. Cada item da lista possuirá o nome do local, o endereço e a sua distância em relação á posição atual do utilizador.
 
 A exibição de locais variará com a localização atual do user e com o tempo de "long break" do timer selecionado, isto é, o ajuste de distâncias de acordo com o tempo do "long break").
 
@@ -321,22 +323,20 @@ A exibição de locais variará com a localização atual do user e com o tempo 
 
 ![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
 
-### "Search" de ListView
-
-Na zona inferior de ambas as telas de "ListView" (Cafés, Bares, Restaurantes, Livrarias e Bibliotecas), encontra-se um botão de "pesquisa" na ListView, representada pelo icone de uma lupa.
-Este botão permitirá ao utilizador, digitar o nome de um café, bar, restaurante, livraria ou biblioteca e pesquisar (na ListView), possiveis estabelecimentos com esse nome, de forma a encontrar um estabelecimento especifico de forma mais rápida e simples.
-
-![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
-
-*Icone de pesquisa na zona inferior da tela (o mesmo se aplica á ListView de cafés, bares e restaurantes).
-
 ### GPS Tracker
 
 Após selecionar um item da ListView, o utilizador será redirecionado para um GPS Tracker (em tempo real). O GPS Tracker definirá automaticamente uma rota entre a posição atual do utilizador e o local selecionado, acompanhando em tempo real o progresso do percurso do utilizador até ao seu destino. 
 O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na tool bar, na zona inferior da tela.
-Na tool bar inferior ainda se encontram outros tipos de informações como o nome do local selecionado, o endereço do local e a distância a percorrer.
+Na tool bar ainda se encontrarão outros tipos de informações como o nome do local selecionado, o endereço do local e a distância a percorrer.
 
 ![](https://user-images.githubusercontent.com/48087662/135146147-7dcc090d-164a-4b35-91a9-f74c9a00faee.png)
+
+### "Search" de ListView
+
+Na canto inferior direito de ambas as telas de "ListView" (Cafés, Bares, Restaurantes, Livrarias e Bibliotecas), encontra-se um botão de "pesquisa" na ListView, representada pelo icone de uma lupa.
+Este botão permitirá ao utilizador, digitar o nome de um café, bar, restaurante, livraria ou biblioteca, pesquisando (na ListView), possiveis estabelecimentos com esse nome, de forma a encontrar um estabelecimento especifico de forma mais rápida e simples.
+
+![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
 
 
 ## Guião de Teste - Funcionalidades Secundárias
@@ -350,16 +350,15 @@ A app terá diversas funcionalidades secundárias, tais como:
 * Adicionar tarefas e remover tarefas
 * Silenciar telemóvel (notificações- Autorização de "Não Incomodar")
 
-Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), que pode ser acedida clicando no icone de "hambúrguer". 
+Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), que pode ser acedida clicando no icone de "hambúrguer menu", localizado no canto superior esquerdo da tela. 
 
 ![Barra Lateral](https://static.wixstatic.com/media/302737_6d68e942895942e4940f628ad6bf0d97~mv2.png/v1/fill/w_402,h_728,al_c,lg_1,q_85/302737_6d68e942895942e4940f628ad6bf0d97~mv2.webp)
-
 
 ### Música Ambiente
 
 A primeira configuração disponivel na barra lateral, será a opção de ativar música ambiente durante as sessões de trabalho. 
 Para ativar esta opção, basta clicar no icone de "burger menu", acedendo á barra lateral de configurações. 
-Na barra lateral de configurações, o utilizador deve selecionar a opção "Musica Ambiente". Selecionando esta opção, erá ser exibida um "sublayout" do tipo ListView, onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
+Na barra lateral de configurações, o utilizador deverá selecionar a opção "Musica Ambiente". Selecionando esta opção, irá ser exibido um "popup" do tipo ListView / Radio Button, onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
 
 * Nenhum (None)
 * Floresta (Florest)
@@ -378,19 +377,21 @@ Após a seleção do som, este começará a ser reproduzido. Caso o utilizador q
 
 ### Bloqueio de Apps (definidas pelo utilizador)
 
-Uma funcionalidade comum neste tipo de apps, é a possibilidade de bloqueio de algumas apps que o utilizador possua no seu dispositivo e considere distrativas (a seleção das apps é realizada pelo user). O bloqueio de apps será possivel sobrepondo a "BusyBrain" a outras apps (necessária permissão do utilizador para a sobreposição).
-A "BusyBrain" possui esta funcionalidade, que pode ser acedida selecionando a opção "Bloquear Apps" , que se encontra na barra lateral das "activities" de timer:
+Selecionando a opção "Bloquear Apps" , que se encontra na barra lateral das "activities" de cada timer, o utilizador deverá ser redirecionado para uma nova activity. Nesta nova tela, o user poderá bloquear as apps que considere distrativas, selecionando as checkboxes das apps que deseje bloquear, clicando de seguida no botão "Guardar".
+Após o clique nesse botão, as apps selecionadas ficarão inacessíveis até o utilizador voltar a desbloqueá-las (desmarcando as checkboxes).
+
+*Nota: O bloqueio de apps será possivel sobrepondo a "BusyBrain" a outras apps (necessária permissão do utilizador para a sobreposição).
 
 ![Bloquear Apps](https://static.wixstatic.com/media/302737_28e17edfd12f4240b28f6404940b3430~mv2.png/v1/fill/w_414,h_739,al_c,lg_1,q_85/302737_28e17edfd12f4240b28f6404940b3430~mv2.webp)
-
-O utilizador deve selecionar qual/quais a(s) app(s) bloquear, clicando na checkbox da app que deseja bloquear e clicar no botão "Guardar". Após clicar no botão "Guardar", as apps ficarão inacessiveis até o utilizador voltar a ativá-las (excepto no "Hardcore Mode Timer").
 
 Ao bloquear as apps, estas:
 
 * Serão ocultadas do painel de apps do dispositivo (surgirão no painel de apps, quando forem novamente ativadas).
 * Serão bloqueadas por uma tela de bloqueio após se iniciar uma delas.
 
-*Nota: Uma destas técnicas será aplicada no projeto.
+O bloqueio de apps é, no entanto, uma funcionalidade comum em apps com o mesmo propósito da "BusyBrain".
+
+*Nota: Somente uma das técnicas de bloqueio será aplicada no projeto.
 
 ### Bloqueio de Websites (definidos pelo utilizador)
 
