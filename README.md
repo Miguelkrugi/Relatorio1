@@ -358,7 +358,7 @@ Todas estas configurações serão exibidas através de uma barra lateral (prese
 
 A primeira configuração disponivel na barra lateral, será a opção de ativar música ambiente durante as sessões de trabalho. 
 Para ativar esta opção, basta clicar no icone de "burger menu", acedendo á barra lateral de configurações. 
-Na barra lateral de configurações, o utilizador deverá selecionar a opção "Musica Ambiente". Selecionando esta opção, irá ser exibido um "popup" do tipo ListView / Radio Button, onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
+Na barra lateral de configurações, o utilizador deve selecionar a opção "Musica Ambiente". Selecionando esta opção, erá ser exibida um "sublayout" do tipo ListView, onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
 
 * Nenhum (None)
 * Floresta (Florest)
@@ -377,38 +377,32 @@ Após a seleção do som, este começará a ser reproduzido. Caso o utilizador q
 
 ### Bloqueio de Apps (definidas pelo utilizador)
 
-Selecionando a opção "Bloquear Apps" , que se encontra na barra lateral das "activities" de cada timer, o utilizador deverá ser redirecionado para uma nova activity. Nesta nova tela, o user poderá bloquear as apps que considere distrativas, selecionando as checkboxes das apps que deseje bloquear, clicando de seguida no botão "Guardar".
-Após o clique nesse botão, as apps selecionadas ficarão inacessíveis até o utilizador voltar a desbloqueá-las (desmarcando as checkboxes).
-
-*Nota: O bloqueio de apps será possivel sobrepondo a "BusyBrain" a outras apps (necessária permissão do utilizador para a sobreposição).
+Uma funcionalidade comum neste tipo de apps, é a possibilidade de bloqueio de algumas apps que o utilizador possua no seu dispositivo e considere distrativas (a seleção das apps é realizada pelo user). O bloqueio de apps será possivel sobrepondo a "BusyBrain" a outras apps (necessária permissão do utilizador para a sobreposição).
+A "BusyBrain" possui esta funcionalidade, que pode ser acedida selecionando a opção "Bloquear Apps" , que se encontra na barra lateral das "activities" de timer:
 
 ![Bloquear Apps](https://static.wixstatic.com/media/302737_28e17edfd12f4240b28f6404940b3430~mv2.png/v1/fill/w_414,h_739,al_c,lg_1,q_85/302737_28e17edfd12f4240b28f6404940b3430~mv2.webp)
+
+O utilizador deve selecionar qual/quais a(s) app(s) bloquear, clicando na checkbox da app que deseja bloquear e clicar no botão "Guardar". Após clicar no botão "Guardar", as apps ficarão inacessiveis até o utilizador voltar a ativá-las (excepto no "Hardcore Mode Timer").
 
 Ao bloquear as apps, estas:
 
 * Serão ocultadas do painel de apps do dispositivo (surgirão no painel de apps, quando forem novamente ativadas).
 * Serão bloqueadas por uma tela de bloqueio após se iniciar uma delas.
 
-O bloqueio de apps é, no entanto, uma funcionalidade comum em apps com o mesmo propósito da "BusyBrain".
-
-*Nota: Somente uma das técnicas de bloqueio será aplicada no projeto.
+*Nota: Uma destas técnicas será aplicada no projeto.
 
 ### Bloqueio de Websites (definidos pelo utilizador)
 
-A possibilidade de bloquear websites é menos comum em diversas apps, cujo objetivo é garantir que o user seja mais produtivo nas suas tarefas diárias (mesmo objetivo da "BusyBrain").
-Esta funcionalidade, assim como bloqueio de apps, pode ser acedida na barra lateral, selecionando a opção "Bloqueio de Websites". Após selecionar essa opção, o user será redirecionado para uma nova activity.
+A possibilidade de bloquear websites é menos comum em diversas apps que possuem os mesmos objetivos que a "BusyBrain".
+Esta funcionalidade permite ao utilizador bloquear websites que considere distrativos.
+O bloqueio de websites, assim como bloqueio de apps, pode ser acedido na barra lateral, selecionando a opção "Bloqueio de Websites". 
+Após selecionar essa opção, o user será redirecionado para uma nova activity. Será nesta tela, onde o utilizador poderá bloquear apps padrão (pré-definidas pela app - marcando as checkboxes) ou inserindo o URL do website a ser bloqueado (de forma a bloquear um website especifico). Após inserir o URL, o utilizador deverá clicar no botão "+". Após o clique, esse dominio ficará bloqueado.
+Para desbloquear um website, basta selecionar o botão "Ver websites bloqueados". Ao clicar nesse botão, o user será redirecionado para uma nova activity, onde se encontrarão todos os websites atualmente bloqueados (dispostos através de uma ListView). Clicando no icone de um "caixote do lixo" (presente em cada um dos itens), o website será desbloqueado.
 
 ![Bloquear Websites](https://static.wixstatic.com/media/302737_be2c94b01b83426a8f891363bc1db51d~mv2.png/v1/fill/w_418,h_739,al_c,lg_1,q_85/302737_be2c94b01b83426a8f891363bc1db51d~mv2.webp)
 
-Na zona inferior da tela ("Website Suggestions") estão exibidos alguns websites de acesso rápido (por padrão). Para bloquear um dos websites padrão, basta marcar as checkboxes e clicar no botão "Save".
-
-Para um website especifico basta inserir o URL na caixa da zona superior da tela e clicar no botão "+". Se o utilizador quiser retirar algum website, basta selecionar o botão "Ver websites bloqueados". Ao clicar no botão, o utilizador será redirecionado para uma nova activity:
 
 ![Websites Bloqueados #1](https://user-images.githubusercontent.com/48087662/135092625-1a6db390-f75a-461d-8914-973473c5b81c.png)
-
-Na nova "activity", serão exibidos os websites que se encontram bloqueados.
-Para o utilizador ativar novamente o acesso a um website, este deve selecionar o icone de "caixote de lixo", que eliminará o bloqueio do website selecionado.
-
 
 ![Websites Bloqueados #2](https://user-images.githubusercontent.com/48087662/135094286-b3203161-bf08-412f-aaa8-2f25e71e4b35.png)
 
