@@ -322,6 +322,14 @@ A exibição de locais variará com a localização atual do user e com o tempo 
 
 ![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
 
+### GPS Tracker
+
+Após selecionar um estabelecimento da ListView, o utilizador será ativado um GPS Tracker, que acompanhará (em tempo real), o trajeto desde a posição atual do user até ao endereço do local selecionado, definindo automaticamente uma rota.
+O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na tool bar, na zona inferior da tela.
+Na tool bar inferior ainda se encontram outros tipos de informações como o nome do local selecionado, o endereço do local e a distância a percorrer.
+
+![](https://user-images.githubusercontent.com/48087662/135146147-7dcc090d-164a-4b35-91a9-f74c9a00faee.png)
+
 ### Pesquisa de Locais
 
 Ao selecionar um dos icones ("chávena de café" e "livro"), o user deverá obter e visualizar uma ListView de vários pontos de interesse (cafés, restaurantes, bares, livrarias e bibliotecas) perto de si, baseando-se na sua localização atual.
@@ -337,15 +345,6 @@ Este botão permitirá ao utilizador realizar uma pesquisa mais especifica de um
 
 *Icone de pesquisa na zona inferior da tela (o mesmo se aplica á ListView de cafés, bares e restaurantes).
 
-### GPS Tracker
-
-Após selecionar um estabelecimento da ListView, o utilizador será ativado um GPS Tracker, que acompanhará (em tempo real), o trajeto desde a posição atual do user até ao endereço do local selecionado, definindo automaticamente uma rota.
-O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na tool bar, na zona inferior da tela.
-Na tool bar inferior ainda se encontram outros tipos de informações como o nome do local selecionado, o endereço do local e a distância a percorrer.
-
-![](https://user-images.githubusercontent.com/48087662/135146147-7dcc090d-164a-4b35-91a9-f74c9a00faee.png)
-
-
 ## Guião de Teste - Funcionalidades Secundárias
 
 A app terá diversas funcionalidades secundárias, tais como: 
@@ -357,7 +356,7 @@ A app terá diversas funcionalidades secundárias, tais como:
 * Adicionar tarefas e remover tarefas
 * Silenciar telemóvel (notificações- Autorização de "Não Incomodar")
 
-Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), que pode ser acedida clicando no icone de "hambúrguer". 
+Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), que pode ser acedida clicando no icone de "hambúrguer menu", localizado no canto superior esquerdo da tela. 
 
 ![Barra Lateral](https://static.wixstatic.com/media/302737_6d68e942895942e4940f628ad6bf0d97~mv2.png/v1/fill/w_402,h_728,al_c,lg_1,q_85/302737_6d68e942895942e4940f628ad6bf0d97~mv2.webp)
 
@@ -413,20 +412,16 @@ Ao bloquear as apps, estas:
 
 ### Bloqueio de Websites (definidos pelo utilizador)
 
-A possibilidade de bloquear websites é menos comum em diversas apps, cujo objetivo é garantir que o user seja mais produtivo nas suas tarefas diárias (mesmo objetivo da "BusyBrain").
-Esta funcionalidade, assim como bloqueio de apps, pode ser acedida na barra lateral, selecionando a opção "Bloqueio de Websites". Após selecionar essa opção, o user será redirecionado para uma nova activity.
+A possibilidade de bloquear websites é menos comum em diversas apps que possuem os mesmos objetivos que a "BusyBrain".
+Esta funcionalidade permite ao utilizador bloquear websites que considere distrativos.
+O bloqueio de websites, assim como bloqueio de apps, pode ser acedido na barra lateral, selecionando a opção "Bloqueio de Websites". 
+Após selecionar essa opção, o user será redirecionado para uma nova activity. Será nesta tela, onde o utilizador poderá bloquear apps padrão (pré-definidas pela app - marcando as checkboxes) ou inserindo o URL do website a ser bloqueado (de forma a bloquear um website especifico). Após inserir o URL, o utilizador deverá clicar no botão "+". Após o clique, esse dominio ficará bloqueado.
 
 ![Bloquear Websites](https://static.wixstatic.com/media/302737_be2c94b01b83426a8f891363bc1db51d~mv2.png/v1/fill/w_418,h_739,al_c,lg_1,q_85/302737_be2c94b01b83426a8f891363bc1db51d~mv2.webp)
 
-Na zona inferior da tela ("Website Suggestions") estão exibidos alguns websites de acesso rápido (por padrão). Para bloquear um dos websites padrão, basta marcar as checkboxes e clicar no botão "Save".
-
-Para um website especifico basta inserir o URL na caixa da zona superior da tela e clicar no botão "+". Se o utilizador quiser retirar algum website, basta selecionar o botão "Ver websites bloqueados". Ao clicar no botão, o utilizador será redirecionado para uma nova activity:
+Para desbloquear um website, basta selecionar o botão "Ver websites bloqueados". Ao clicar nesse botão, o user será redirecionado para uma nova activity, onde se encontrarão todos os websites atualmente bloqueados (dispostos através de uma ListView). Clicando no icone de um "caixote do lixo" (presente em cada um dos itens), o website será desbloqueado.
 
 ![Websites Bloqueados #1](https://user-images.githubusercontent.com/48087662/135092625-1a6db390-f75a-461d-8914-973473c5b81c.png)
-
-Na nova "activity", serão exibidos os websites que se encontram bloqueados.
-Para o utilizador ativar novamente o acesso a um website, este deve selecionar o icone de "caixote de lixo", que eliminará o bloqueio do website selecionado.
-
 
 ![Websites Bloqueados #2](https://user-images.githubusercontent.com/48087662/135094286-b3203161-bf08-412f-aaa8-2f25e71e4b35.png)
 
