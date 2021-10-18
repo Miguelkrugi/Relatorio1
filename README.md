@@ -18,6 +18,7 @@
 * Ideia e Conceito
 * Objetivos
 * Público-Alvo (Target e Persona)
+* Personas
 * Pesquisa
 * Informações Adicionais
 * Guiões de Utilização
@@ -122,6 +123,13 @@ Desta forma o utilizador pode descobrir novos pontos de interesse.
 
 O público-alvo da "BusyBrain" será toda a população que possua problemas de vicio no telemóvel e dificuldades de concentração e na gestão de tempo durante a realização das suas tarefas diárias, e que queiram eliminar  as distrações, aumentar a produtividade e fazer uma boa gestão do seu tempo.
 No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse público, qualquer pessoa poderá utilizar a "BusyBrain" e disfrutar de todas as funcionalidades e vantagens que a app oferece.
+
+## 7. Personas
+
+ ### Persona 1:
+ 
+ #### Perfil: 
+ 
 
 ## 7. Pesquisa
 
