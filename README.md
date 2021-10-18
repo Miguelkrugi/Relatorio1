@@ -5,7 +5,7 @@
 * Trabalho realizado por: Miguel Cruz e Wesley Augusto
 * Relatório: Conceito
 * UC's envolvidas: Projeto de Desenvolvimento Móvel, Programação Orientada a Objetos, Matemática Discreta, Base de Dados, Programação de Dispositivos Móveis e Competências Comunicacionais
-* Ferramentas utilizadas: Android Studio | VS Code | Spring Boot Framework | PostgreSQL | Asana | Odoo | GitHub | Slack
+* Ferramentas utilizadas: Android Studio | VS Code | Spring Boot Framework | PostgreSQL | ClickUp | GitHub | Slack
 * Ano de Curso: 2º Ano | 1º Semestre
 * Curso: Engenharia Informática
 * Universidade: IADE - Faculdade de Design, Tecnologia e Comunicação
@@ -130,6 +130,7 @@ No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse públi
  
  #### Perfil: 
  
+ David Rebordão, sexo masculino, tem 17 anos e vive no centro da cidade de Lisboa. Frequenta o 11º ano de escolaridade num colégio na periferia da cidade, e ambiciona graduar-se na Faculdade de Medicina de Lisboa, tornando-se num profissional de saúde na área da cardiologia. Devido á sua grande paixão por música, este possui um canal na plataforma "YouTube" onde partilha as suas produções musicais. Além da música, o David também gosta de navegar pelas redes sociais e jogar jogos no seu telemóvel. 
 
 ## 7. Pesquisa
 
