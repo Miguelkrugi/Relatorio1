@@ -135,15 +135,15 @@ No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse públi
 Durante os seus tempos livres, sempre que pode, o David frequenta workshops e feiras de ciência e medicina, devido ao seu fascinio pelo funcionamento do corpo humano. 
 Frequenta o 11º ano de escolaridade, e ambiciona formar-se em Medicina, tornando-se num especialista na área da cardiologia. Deseja também, no futuro, abrir a sua própria clinica especializada em doenças cardíacas.
 Devido á sua grande paixão por música, este possui um canal na plataforma "YouTube" onde partilha as suas produções musicais. Além da música, o David também gosta de navegar pelas redes sociais e jogar jogos no seu telemóvel. Possui um grupo bastante reduzido de amigos, dificuldade em se relacionar com outras pessoas, refugiando-se consequentemente no seu telemóvel. 
-Uma das suas maiores frustrações é a dificuldade em se concentrar nos seus TPC's, sendo facilmente distraido pelas mensagens da sua namorada, Mariana. Este problema afeta negativamente o desempenho escolar, refletindo-se em resultados negativos em diversas cadeiras. David sente-se cada vez mais desmotivado. Para resolver o problema tem procurado funcionalidades que o ajudem a gerir melhor o tempo que passa ao TM assim como as distrações que este gera. 
+Uma das suas maiores frustrações é a dificuldade em se concentrar nos seus TPC's, sendo facilmente distraido pelas mensagens da sua namorada, Mariana. Este problema afeta negativamente o desempenho escolar, refletindo-se em resultados negativos em diversas cadeiras. Como resultado, o David sente-se cada vez mais desmotivado nos seus estudos. Para resolver o seu problema, o David tem procurado ferramentas que o ajudem a se concentrar mais nos seus estudos, tornando-o mais produtivo. 
 
  ### Persona 2:
  
  Nome: Raquel Santos
  Sexo: Feminino
  Idade: 42
- Perfil: Vive no distrito de Faro juntamente com as suas duas filhas e o seu marido. A Raquel é gestora de eventos e o seu marido é professor universitário. Um dos objetivos da Raquel é fundar a sua própria agência de festivais. 
- Nos seus tempos livres gosta de ler livros, jantar com as suas amigas, passear na praia e descobrir novas receitas para cozinhar. No entanto, o seu trabalho é 
+ Perfil: Vive no distrito de Faro juntamente com as suas duas filhas (de 4-6 anos) e o seu marido. Formou-se em gestão e atualmente é gestora de eventos. O seu marido é professor universitário. Um dos objetivos da Raquel no futuro, é fundar a sua própria agência de festivais. 
+ Nos seus tempos livres gosta de ler livros, jantar com as suas amigas, passear na praia e descobrir novas receitas para cozinhar. No entanto, a Raquel possui um trabalho bastante exigente e que lhe ocupa muito tempo, impedindo-a de passar mais tempo com a sua familia e de realizar as atividades de que mais gosta. Para resolver este problema, a Raquel procura uma ferramenta que a possa ajudar a gerir melhor o seu tempo, tanto a nivel profissional quanto a nivel pessoal.
 
 
 ## 7. Pesquisa
