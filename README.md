@@ -128,8 +128,6 @@ No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse públi
 
  ### Persona 1:
  
- #### Perfil: 
- 
  Nome: David Rebordão
  Sexo: Masculino
  Idade: 17
@@ -138,6 +136,14 @@ Durante os seus tempos livres, sempre que pode, o David frequenta workshops e fe
 Frequenta o 11º ano de escolaridade, e ambiciona formar-se em Medicina, tornando-se num especialista na área da cardiologia. Deseja também, no futuro, abrir a sua própria clinica especializada em doenças cardíacas.
 Devido á sua grande paixão por música, este possui um canal na plataforma "YouTube" onde partilha as suas produções musicais. Além da música, o David também gosta de navegar pelas redes sociais e jogar jogos no seu telemóvel. Possui um grupo bastante reduzido de amigos, dificuldade em se relacionar com outras pessoas, refugiando-se consequentemente no seu telemóvel. 
 Uma das suas maiores frustrações é a dificuldade em se concentrar nos seus TPC's, sendo facilmente distraido pelas mensagens da sua namorada, Mariana. Este problema afeta negativamente o desempenho escolar, refletindo-se em resultados negativos em diversas cadeiras. David sente-se cada vez mais desmotivado. Para resolver o problema tem procurado funcionalidades que o ajudem a gerir melhor o tempo que passa ao TM assim como as distrações que este gera. 
+
+ ### Persona 2:
+ 
+ Nome: Raquel Santos
+ Sexo: Feminino
+ Idade: 42
+ Perfil: Vive no distrito de Faro juntamente com as suas duas filhas e o seu marido. A Raquel é gestora de eventos e o seu marido é professor universitário. Um dos objetivos da Raquel é fundar a sua própria agência de festivais. 
+ Nos seus tempos livres gosta de ler livros, jantar com as suas amigas, passear na praia e descobrir novas receitas para cozinhar. No entanto, o seu trabalho é 
 
 
 ## 7. Pesquisa
