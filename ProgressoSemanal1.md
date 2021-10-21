@@ -11,14 +11,15 @@ Foram alteradas também informações relativas ao relatório do projeto, maiori
 
 ## Semana 2 (10-17 Outubro)
 
-Ao decorrer da segunda semana de desenvolvimento da aplicação, foram implementadas as interfaces da app, relativas aos diversos timers que a aplicação disponibilizará ao utilizador. As implementações basearam-se nas "demos" das interfaces desenhadas e idealizadas na primeira semana de desenvolvimento. Juntamente com os layouts de cada tipo de timer, foram implementadas algumas funcionalidades que não envolvem uso de "database", tais como as opções de "Play", "Pause" e "Reset" dos diversos timers disponiveis (telas de timer, "Small Break" e "Long Break") e a "conexão" entre as diversas "activities" da app (baseado no progresso do utilizador na aplicação). 
-Foi também iniciado o primeiro protótipo do Modelo Entidade-Relacionamento, utilizando as entidades, atributos e relações definidas na primeira semana (4-10 Outubro).
+Ao decorrer da segunda semana de desenvolvimento da aplicação, foram implementadas as interfaces da app, relativas aos diversos timers que a aplicação disponibilizará ao utilizador. As implementações basearam-se nas "demos" das interfaces desenhadas e idealizadas na primeira semana de desenvolvimento. Juntamente com os layouts de cada tipo de timer, foram implementadas algumas funcionalidades que não envolvem uso de "database", tais como as opções de "Play", "Pause" e "Reset" dos diversos timers disponiveis (telas de timer, "Small Break" e "Long Break") e a "path" entre as diversas "activities" da app (baseado no progresso do utilizador na aplicação). 
+Foi também iniciado o desenvolvimento do primeiro protótipo do Modelo Entidade-Relacionamento, utilizando as entidades, atributos e relações definidas na primeira semana (4-10 Outubro).
 
 ## Semana 3 (18-24 Outubro)
 
 No decorrer da terceira semana de desenvolvimento do projeto, foram corrigidos alguns erros e bugs relacionados ás activities da app. Juntamente com as correções de bugs, foram criadas e implementadas as activities "Splash Screen", "Login Screen" e "Register Screen" em Android Studio.
 Foi iniciado o desenvolvimento de uma versão mais detalhada do Modelo Entidade-Relacionamento, representando de uma forma mais aprofundada as entidades envolvidas e as relações entre elas. 
 Foram criadas duas personas (posteriormente adicionadas ao relatório do projeto). Para cada uma delas, foram definidas carateristicas que justificassem a necessidade de utilização da nossa aplicação.
-Iniciado o desenvolvimento da Documentação REST API, onde foram indicados os métodos de acesso aos recursos (CRUD Operations), os seus respetivos endpoints e os titulos e descrições de cada método da API a ser implementada. Foram também incluidos na Documentação os dados necessários para cada método, o resultado esperado para cada um deles, assim como a exisência de "Exceptions", caso ocorra algum erro ao realizar o método e a descrição 
+Iniciado o desenvolvimento da Documentação REST API, onde foram indicados os métodos de acesso aos recursos (CRUD Operations), os seus respetivos endpoints e os titulos e descrições de cada método da API a ser implementada. Foram também incluidos na Documentação os dados necessários para cada método, o resultado esperado para cada um deles, assim como a "descrição" de "Exceptions", caso ocorra algum erro ao realizar o método.
+Foram também testadas algumas API's que possam vir a ser uteis para implementar algumas das funcionalidades desejadas para a app ("Google Maps API", "Google Places API" e "Facebook API").
 
 
