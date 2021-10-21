@@ -16,6 +16,9 @@ Foi também iniciado o primeiro protótipo do Modelo Entidade-Relacionamento, ut
 
 ## Semana 3 (18-24 Outubro)
 
+No decorrer da terceira semana de desenvolvimento do projeto, foram corrigidos alguns erros e bugs relacionados ás activities da app. Juntamente com as correções de bugs, foram criadas e implementadas as activities "Splash Screen", "Login Screen" e "Register Screen" em Android Studio.
+Foi iniciado o desenvolvimento de uma versão mais detalhada do Modelo Entidade-Relacionamento, representando de uma forma mais aprofundada as entidades envolvidas e as relações entre elas. 
+Foram criadas duas personas (posteriormente adicionadas ao relatório do projeto). Para cada uma delas, foram definidas carateristicas que justificassem a necessidade de utilização da nossa aplicação.
 
 
 
