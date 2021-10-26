@@ -476,7 +476,8 @@ Para ajudar o utilizador a realizar de forma eficiente as suas tarefas, a "BusyB
 
 Para adicionar tarefas á "To-Do list", o utilizador deve clicar no simbolo "+". Ao clicar nesse simbolo, surgirá um pop-up na tela, onde o user poderá adicionar um titulo á tarefa e uma descrição. Para guardar a tarefa o user deve pressionar "Adicionar".
 
-![](https://user-images.githubusercontent.com/48087662/135158505-d4ea5f52-dd75-4733-9b33-92383d472705.png)
+![image](https://user-images.githubusercontent.com/48087662/138931981-dc1e655e-f6a2-48c7-a17a-f510aba5e794.png)
+
 
 Ao pressionar em "Adicionar", uma nova tarefa surgirá na lista de tarefas.
 Para o utilizador remover uma tarefa, basta clicar no icone de "caixote do lixo" na tarefa desejada. Após o clique, a tarefa será removida.
