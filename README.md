@@ -239,7 +239,12 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 ### On-Boarding Screen:
 
+Após a primeira abertura da app no dispositivo, surgirá na tela um sistema de "On-Boarding Screen" com 3 activities, que "explicam", de forma resumida, os objetivos da app e quais os seus benificios.
 
+
+
+
+*Nota: O sistema de "On-Boarding" surgirá somente na primeira vez que o user utilizar a app. 
 
 
 ### Splash-Screen:
@@ -467,7 +472,7 @@ O dispositivo deixará de estar silenciado quando o timer for pausado, ou quando
 
 Para ajudar o utilizador a realizar de forma eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. Para utilizar esta funcionalidade, o utilizador deve clicar no icone que se encontra no canto superior direito (das telas de timer, break ou long break - "To-Do List Icon"). Após o clique, o user será redirecionado para uma nova "activity":
 
-![](https://user-images.githubusercontent.com/48087662/135140514-2d935e67-7573-49c9-a305-fbcd0fac2c81.png)
+![image](https://user-images.githubusercontent.com/48087662/138931633-d15ca081-258f-4e98-b870-465f561b9717.png)
 
 Para adicionar tarefas á "To-Do list", o utilizador deve clicar no simbolo "+". Ao clicar nesse simbolo, surgirá um pop-up na tela, onde o user poderá adicionar um titulo á tarefa e uma descrição. Para guardar a tarefa o user deve pressionar "Adicionar".
 
