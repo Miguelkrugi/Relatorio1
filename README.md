@@ -237,6 +237,11 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 ## Guião de Teste - Core 
 
+### On-Boarding Screen:
+
+
+
+
 ### Splash-Screen:
 
 A primeira tela a surgir quando a app é iniciada, será uma tela do tipo "Splash-Screen". Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Geralmente, este tipo de tela apresenta o logótipo da app ou uma barra de loading (ou ambos). 
@@ -373,15 +378,17 @@ A app terá diversas funcionalidades secundárias, tais como:
 * Adicionar tarefas e remover tarefas
 * Silenciar telemóvel (notificações- Autorização de "Não Incomodar")
 
-Todas estas configurações serão exibidas através de uma barra lateral (presente em cada tela de timer), que pode ser acedida clicando no icone de "hambúrguer menu", localizado no canto superior esquerdo da tela. 
+Todas estas configurações serão exibidas através de uma activity de personalização (acesso através de cada tela de timer), que pode ser acedida clicando no icone de "roda dentada", localizado no canto superior esquerdo da tela. 
 
-![Barra Lateral](https://static.wixstatic.com/media/302737_6d68e942895942e4940f628ad6bf0d97~mv2.png/v1/fill/w_402,h_728,al_c,lg_1,q_85/302737_6d68e942895942e4940f628ad6bf0d97~mv2.webp)
+(![settingsprintscreen](https://user-images.githubusercontent.com/48087662/138928763-2308035c-2496-4925-9631-4a8a43c59b83.PNG))
+
+*Nota: Cada elemento da lista será uma das personalizações que o utilizador poderá aplicar nas suas "Work Sessions".
 
 ### Música Ambiente
 
-A primeira configuração disponivel na barra lateral, será a opção de ativar música ambiente durante as sessões de trabalho. 
-Para ativar esta opção, basta clicar no icone de "burger menu", acedendo á barra lateral de configurações. 
-Na barra lateral de configurações, o utilizador deve selecionar a opção "Musica Ambiente". Selecionando esta opção, erá ser exibida um "sublayout" do tipo ListView, onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
+A primeira configuração disponivel na tela de personalização, será a opção de ativar música ambiente durante as sessões de trabalho. 
+Para ativar esta opção, basta clicar no icone de "roda dentada", acedendo á tela de configurações. 
+Na tela de configurações, o utilizador deve selecionar a opção "Musica Ambiente". Selecionando esta opção, irá ser exibido um "popup" do tipo ListView, onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
 
 * Nenhum (None)
 * Floresta (Florest)
@@ -401,7 +408,7 @@ Após a seleção do som, este começará a ser reproduzido. Caso o utilizador q
 ### Bloqueio de Apps (definidas pelo utilizador)
 
 Uma funcionalidade comum neste tipo de apps, é a possibilidade de bloqueio de algumas apps que o utilizador possua no seu dispositivo e considere distrativas (a seleção das apps é realizada pelo user). O bloqueio de apps será possivel sobrepondo a "BusyBrain" a outras apps (necessária permissão do utilizador para a sobreposição).
-A "BusyBrain" possui esta funcionalidade, que pode ser acedida selecionando a opção "Bloquear Apps" , que se encontra na barra lateral das "activities" de timer:
+A "BusyBrain" possui esta funcionalidade, que pode ser acedida selecionando a opção "Bloquear Apps" , que se encontra na tela de configurações:
 
 ![Bloquear Apps](https://static.wixstatic.com/media/302737_28e17edfd12f4240b28f6404940b3430~mv2.png/v1/fill/w_414,h_739,al_c,lg_1,q_85/302737_28e17edfd12f4240b28f6404940b3430~mv2.webp)
 
@@ -418,8 +425,8 @@ Ao bloquear as apps, estas:
 
 A possibilidade de bloquear websites é menos comum em diversas apps que possuem os mesmos objetivos que a "BusyBrain".
 Esta funcionalidade permite ao utilizador bloquear websites que considere distrativos.
-O bloqueio de websites, assim como bloqueio de apps, pode ser acedido na barra lateral, selecionando a opção "Bloqueio de Websites". 
-Após selecionar essa opção, o user será redirecionado para uma nova activity. Será nesta tela, onde o utilizador poderá bloquear apps padrão (pré-definidas pela app - marcando as checkboxes) ou inserindo o URL do website a ser bloqueado (de forma a bloquear um website especifico). Após inserir o URL, o utilizador deverá clicar no botão "+". Após o clique, esse dominio ficará bloqueado.
+O bloqueio de websites, assim como bloqueio de apps, pode ser acedido na tela de "Settings", selecionando a opção "Bloqueio de Websites". 
+Após selecionar essa opção, o user será redirecionado para uma nova activity. Será nesta tela, onde o utilizador poderá bloquear websites padrão (pré-definidas pela app - marcando as checkboxes) ou inserindo o URL do website a ser bloqueado (de forma a bloquear um website especifico). Após inserir o URL, o utilizador deverá clicar no botão "+". Após o clique, esse dominio ficará bloqueado.
 Para desbloquear um website, basta selecionar o botão "Ver websites bloqueados". Ao clicar nesse botão, o user será redirecionado para uma nova activity, onde se encontrarão todos os websites atualmente bloqueados (dispostos através de uma ListView). Clicando no icone de um "caixote do lixo" (presente em cada um dos itens), o website será desbloqueado.
 
 ![Bloquear Websites](https://static.wixstatic.com/media/302737_be2c94b01b83426a8f891363bc1db51d~mv2.png/v1/fill/w_418,h_739,al_c,lg_1,q_85/302737_be2c94b01b83426a8f891363bc1db51d~mv2.webp)
@@ -435,7 +442,7 @@ A segunda versão desta "activity", utiliza um botão de "Guardar" para guardar 
 
 ### Desativar Wi-Fi em sessões de trabalho:
 
-Na barra lateral das telas de timer, encontra-se a opção de desativar o Wi-Fi em sessões de trabalho, ou seja, quando o timer é iniciado. Para ativar esta opção basta clicar no "switch":
+Ainda na tela de configuraçoes das "Work Sessions", encontra-se a opção de desativar o Wi-Fi em sessões de trabalho, ou seja, quando o timer é iniciado. Para ativar esta opção basta clicar no "switch":
 
 ![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
 
@@ -448,7 +455,7 @@ Esta opção é bastante util, uma vez que impede a total receção de notifica�
 
 ### Silenciar Telemóvel
 
-O opção de "Silenciar Telemóvel", permite silenciar Notificações, Vibrações e Multimédia de forma simultânea ao iniciar um timer. Para ativar esta opção, o user deve aceder á barra lateral e clicar no "switch" da opção "Silenciar Dispositivo".
+O opção de "Modo Silencioso", permite silenciar Notificações, Vibrações e Multimédia de forma simultânea ao iniciar um timer. Para ativar esta opção, o user deve aceder ás configurações das "Work Sessions" e clicar no "switch" da opção "Modo Silencioso".
 
 ![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
 
@@ -458,7 +465,7 @@ O dispositivo deixará de estar silenciado quando o timer for pausado, ou quando
 
 ### Adicionar e remover tarefas
 
-Para ajudar o utilizador a realizar de forma eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. Para utilizar esta funcionalidade, o utilizador deve clicar no icone que se encontra no canto superior direito (das telas de timer, break ou long break). Após o clique, o user será redirecionado para uma nova "activity":
+Para ajudar o utilizador a realizar de forma eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. Para utilizar esta funcionalidade, o utilizador deve clicar no icone que se encontra no canto superior direito (das telas de timer, break ou long break - "To-Do List Icon"). Após o clique, o user será redirecionado para uma nova "activity":
 
 ![](https://user-images.githubusercontent.com/48087662/135140514-2d935e67-7573-49c9-a305-fbcd0fac2c81.png)
 
