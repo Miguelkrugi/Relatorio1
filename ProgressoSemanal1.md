@@ -25,3 +25,8 @@ Foram também testadas algumas API's que possam vir a ser uteis para implementar
 Inicio do desenvolvimento da API (baseado na Documentação REST API), utilizando dados pré-definidos (na "database") para a posterior demonstração do protótipo do projeto.
 Foi revisto ainda o "path" (progresso do utilizador na app) da aplicação. 
 
+## Semana 5 (25 Outubro - 31 Outubro)
+
+## Semana 6 (1 - 7 Novembro)
+
+Para Esta Semana foram definidos os modelos ER para base de dados do prototipo da aplicação para a segunda delivery.
