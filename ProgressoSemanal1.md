@@ -25,7 +25,10 @@ Foram também testadas algumas API's que possam vir a ser uteis para implementar
 Inicio do desenvolvimento da API (baseado na Documentação REST API), utilizando dados pré-definidos (na "database") para a posterior demonstração do protótipo do projeto.
 Foi revisto ainda o "path" (progresso do utilizador na app) da aplicação. 
 
-## Semana 5 (25 Outubro - 31 Outubro)
+## Semana 4 (25 Outubro - 31 Outubro)
+
+No decorrer da quarta semana de desenvolvimento, foi realizada uma segunda revisão dos guiões de teste e personas (presentes no relatório do projeto), sendo alteradas, removidas e adicionadas informações ao mesmo. 
+Foi revista e alterada a estrutura da Documentação REST, em que, com base no Modelo Entidade-Relação, foram adicionados novos recursos (baseados nas entidades definidas), assim como os métodos de cada Recurso.
 
 ## Semana 6 (1 - 7 Novembro)
 
