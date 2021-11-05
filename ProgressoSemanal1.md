@@ -28,8 +28,12 @@ Foi revisto ainda o "path" (progresso do utilizador na app) da aplicação.
 ## Semana 4 (25 Outubro - 31 Outubro)
 
 No decorrer da quarta semana de desenvolvimento, foi realizada uma segunda revisão dos guiões de teste e personas (presentes no relatório do projeto), sendo alteradas, removidas e adicionadas informações ao mesmo. 
-Foi revista e alterada a estrutura da Documentação REST, em que, com base no Modelo Entidade-Relação, foram adicionados novos recursos (baseados nas entidades definidas), assim como os métodos de cada Recurso.
+Foi revista e alterada a estrutura da Documentação REST, em que, com base no Modelo Entidade-Relação, foram adicionados novos recursos (baseados nas entidades definidas), assim como os métodos de cada Recurso. 
+Ainda nesta semana, foi iniciado o esboço da primeira versão definitiva do Modelo Entidade-Relação do projeto, indicando as entidades envolvidas e as relações entre elas.
+Com base na Documentação REST, e, maioritariamente no Modelo Entidade-Relação do projeto, foi iniciada a realização do Dicionário de Dados (em Excel), onde se encontram exibidas várias tabelas (indicando as entidades), juntamente com os seus respetivos atributos, restrições de atributos (NULL, NOT NULL, etc.) e tipos de chave para cada um deles.
+Ocorreram ainda várias implementações relativas ao design e funcionalidades da app, nomeadamente a tela de Definições da app, assim como a correção de bugs relativas ás telas de "Long Break" de cada timer.
+Houveram ainda avanços relativos á definição de API´s a serem utilizadas no projeto.
 
 ## Semana 6 (1 - 7 Novembro)
 
-Para Esta Semana foram definidos os modelos ER para base de dados do prototipo da aplicação para a segunda delivery.
+Na quinta semana do projeto, foi retomado e terminado o esboço da primeira versão definitiva do Modelo Entidade-Relacionamento.
