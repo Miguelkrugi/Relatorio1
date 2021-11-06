@@ -36,4 +36,10 @@ Houveram ainda avanços relativos á definição de API´s a serem utilizadas no
 
 ## Semana 6 (1 - 7 Novembro)
 
-Na quinta semana do projeto, foi retomado e terminado o esboço da primeira versão definitiva do Modelo Entidade-Relacionamento.
+Na quinta semana do projeto, foi retomado e terminado o esboço da primeira versão definitiva e detalhada do Modelo Entidade-Relação do projeto. Foram realizados avanços na estrutura da Documentação API, bem como na realização e implementação dos métodos do recurso "Utilizador" (baseados na primeira versão final do Modelo) 
+Foi realizado o "deploy" da API no servidor da plataforma Heroku (juntamente com a base de dados implementada em PostgreSQL), permitindo acessar a API a partir de qualquer PC.
+Foram iniciados ainda, os primeiros testes de conexão do Android Studio com a API implementada em Spring Boot e alojada no Heroku. 
+Houveram avanços na realização da primeira versão do Dicionário de Dados, que estará completa até dia 7 de Novembro, juntamente com a primeira versão da estrutura da Documentação Rest API.
+Foi iniciada também a realização da primeira versão do Diagrama de Classes (baseado no Modelo Entidade-Relação), e que estará completo até ao dia 7 de Novembro.
+Foram implementadas e melhoradas algumas funcionalidades da app (sistema de "timers" e definições (Wi-fi desligado em sessões de trabalho e modo silencioso)). 
+Por fim, foi terminada a primeira versão dos guiões de teste e personas (poderão sofrer alterações até á segunda entrega, prevista para o dia 12 de Novembro). 
