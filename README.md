@@ -128,23 +128,30 @@ No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse públi
 
  ### Persona 1:
  
- Nome: David Rebordão
- Sexo: Masculino
- Idade: 17
- Perfil: Vive no centro da cidade de Lisboa junto com os seus pais e o seu irmão. O pai do David é consultor e a sua mãe é recepcionista numa clinica. Ás sextas-feiras, ao final do dia, este encontra-se com a sua namorada, para jantar e para assistir a uma sessão de cinema. Aos sábados de manhã frequenta explicações de matemática. Aos domingos, ao final do dia, frequenta o ginásio local, de forma a adquirir um estilo de vida mais saudável.
-Durante os seus tempos livres, sempre que pode, o David frequenta workshops e feiras de ciência e medicina, devido ao seu fascinio pelo funcionamento do corpo humano. 
-Frequenta o 11º ano de escolaridade, e ambiciona formar-se em Medicina, tornando-se num especialista na área da cardiologia. Deseja também, no futuro, abrir a sua própria clinica especializada em doenças cardíacas.
-Devido á sua grande paixão por música, este possui um canal na plataforma "YouTube" onde partilha as suas produções musicais. Além da música, o David também gosta de navegar pelas redes sociais e jogar jogos no seu telemóvel. Possui um grupo bastante reduzido de amigos, dificuldade em se relacionar com outras pessoas, refugiando-se consequentemente no seu telemóvel. 
-Uma das suas maiores frustrações é a dificuldade em se concentrar nos seus TPC's, sendo facilmente distraido pelas mensagens da sua namorada, Mariana. Este problema afeta negativamente o desempenho escolar, refletindo-se em resultados negativos em diversas cadeiras. Como resultado, o David sente-se cada vez mais desmotivado nos seus estudos. Para resolver o seu problema, o David tem procurado ferramentas que o ajudem a se concentrar mais nos seus estudos, tornando-o mais produtivo. 
+Nome: David Rebordão
+Idade: 17
+Perfil: Vive no centro de Lisboa junto com os seus pais e o seu irmão. O pai do David é consultor e a mãe é recepcionista numa clinica. Frequenta o 11º ano na área de ciências, e ambiciona formar-se em Medicina, tornando-se num especialista em cardiologia. Deseja também, no futuro, abrir a sua própria clinica especializada em doenças cardíacas. Às sextas-feiras, ao final do dia, encontra-se com a namorada, para jantar e para ir ao cinema. Aos sábados de manhã frequenta explicações de matemática. Ao final do dia, vai ao ginásio local , de forma a adquirir um estilo de vida mais saudável.
+Durante os tempos livres, sempre que pode, o David frequenta workshops e feiras de ciência e medicina, devido ao seu fascinio pelo funcionamento do corpo humano. 
+Devido à sua grande paixão por música, tem um canal na plataforma "YouTube" onde partilha as suas produções musicais. Além da música, o David também usa redes sociais e joga consola. Possui um grupo bastante reduzido de amigos pois tem dificuldade em se relacionar com outras pessoas, refugiando-se consequentemente no telemóvel. 
+Uma das suas maiores frustrações é a dificuldade em se concentrar nos estudos, sendo facilmente distraido pelas mensagens da sua namorada, Mariana. Este problema afeta o desempenho escolar, refletindo-se em resultados insuficientes em diversas cadeiras. Como resultado, o David sente-se cada vez mais desmotivado nos seus estudos. Para resolver o seu problema, o David tem procurado ferramentas que o ajudem a concentrar-se mais nos seus estudos, tornando-o mais produtivo. 
 
  ### Persona 2:
  
- Nome: Raquel Santos
- Sexo: Feminino
- Idade: 42
- Perfil: Vive no distrito de Faro juntamente com as suas duas filhas (de 4-6 anos) e o seu marido. Formou-se em gestão e atualmente é gestora de eventos. O seu marido é professor universitário. Um dos objetivos da Raquel no futuro, é fundar a sua própria agência de festivais. 
- Nos seus tempos livres gosta de ler livros, jantar com as suas amigas, passear na praia e descobrir novas receitas para cozinhar. No entanto, a Raquel possui um trabalho bastante exigente e que lhe ocupa muito tempo, impedindo-a de passar mais tempo com a sua familia e de realizar as atividades de que mais gosta. Para resolver este problema, a Raquel procura uma ferramenta que a possa ajudar a gerir melhor o seu tempo, tanto a nivel profissional quanto a nivel pessoal.
+Nome: Raquel Santos
+Idade: 32
+Perfil: Vive no distrito de Faro com as suas duas filhas de 4 e 6 anos e o seu marido. Formou-se em gestão e atualmente é gestora de eventos. O seu marido é professor universitário. Um dos objetivos da Raquel, no futuro, é fundar a sua própria agência de festivais. 
+Nos tempos livres gosta de ler, jantar com as amigas, passear na praia e descobrir novas receitas de cozinha. 
+O trabalho da Raquel é muito exigente e ocupa-lhe muito tempo, impedindo-a de estar com a  família e de realizar as actividades de que mais gosta.
+Para resolver este problema a Raquel procura uma ferramenta que a possa ajudar a gerir melhor o seu tempo, equilibrando o profissional e o pessoal.
 
+### Persona 3:
+
+Nome: Maria De Jesus
+Idade: 72
+Perfil: Vive na vila da Sobreira Formosa, na Beira Baixa , com o marido. É aposentada depois de ter trabalhado cinquenta anos como professora primaria. Actualmente faz varias actividades relacionadas a agricultura e faz voluntariado para uma fundação que ajuda pessoas sem-abrigo , oferecendo comida e outros suplementos. A fundação fica em Castelo Branco, obrigando-a a deslocar-se para fora da sua localidade três vezes por semana. Isto impede-a de passsar mais tempo com o marido e os netos. Um dos netos, o João, procura ferramentas que possam ajudar a avó a passar mais tempo com ele e com o resto da familia.
+
+//Tem telefone de linha
+//O joão procura oferecer um telemóvel á sua avó e...
 
 ## 7. Pesquisa
 
