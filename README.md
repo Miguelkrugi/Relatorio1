@@ -291,7 +291,19 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 #### Flow Timer
 
-|Nº Passo|
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Selecionar os icones de ">" e "<"| Navegar por entre as diversas telas dos timers (Pomodoro Timer, Desktime Timer, Ultradian Timer, Hardcore Timer e Flowtime Timer)|Funcional
+|2|Preencher o "campo" com o tempo (em minutos) e clicar no icone de "Check"| O timer é atualizado com um novo tempo, de acordo com os minutos inseridos.|Funcional
+|3|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer)|Funcional
+|3.1|Clicar novamente no botão de "Play", desta vez ,"Pause"|Pausar o timer| Funcional
+|3.2|Selecionar o botão de "Reset" (quando o timer estiver pausado)|Reinicia o timer para o tempo definido pelo utilizador| Funcional
+
+#### Telas "Small Break"
+
+|Nº Passo|Passo|Resultado|Estado|
+
+####
 
 |3|Selecionar o botão "Small Break"| Redireciona o utilizador para a respetiva tela de "Small Break"| Funcional
 |3.1 - Alternativa|Selecionar 
