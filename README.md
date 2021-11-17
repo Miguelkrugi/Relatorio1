@@ -429,13 +429,13 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Com o mapa exibido na tela, o "user" deve selecionar um dos icones que representam as categorias de locais disponiveis (Bar, Café, Restaurante, Livraria e Biblioteca)| Após um clique num desses icones, somente surgirão os marcadores cujos locais possuem alguma dessas categorias (que se encontrem numa a uma distância razoável tendo em consideração a localização atual do utilizador) | Em Desenvolvimento
-|2|Através da barra de pesquisa que se encontra na tela do mapa, o utilizador pode efetuar uma pesquisa por nome, inserindo um nome que possa estar contido no nome do local a ser encontrado. |São identificados e indicados no mapa, os locais locais com o nome introduzido incluido. | Em Desenvolvimento
+|2|Através da barra de pesquisa que se encontra na tela do mapa, o utilizador pode efetuar uma pesquisa por nome, inserindo um nome que possa estar contido no nome do local a ser encontrado. |São identificados e indicados no mapa, os locais que contenham o nome introduzido | Em Desenvolvimento
 
 ### Definir Rotas
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|O utilizador deverá selecionar, na tela de informações de um local selecionado, o botão "Criar Rota" | Exibição de um mapa / GPS que acompanha em tempo real o trajeto do utilizador até ao local selecionado, definindo uma rota entre a posição atual do utilizador e o local.
+|1|O utilizador deverá selecionar, na tela de informações de um local selecionado, o botão "Criar Rota" | Exibição de um mapa / GPS que acompanha em tempo real o trajeto do utilizador até ao local selecionado, através da definição uma rota entre a posição atual do utilizador e o local.
 
 ### Locais Favoritos
 
@@ -476,6 +476,23 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 
 
 ## Guião de Teste - Funcionalidades Secundárias
+
+### Musica Ambiente --> fazer daqui a pouco
+
+
+### Silenciar Telemovel --> fazer daqui a pouco
+
+
+### Bloqueio de Apps
+
+
+### Bloqueio de Websites
+
+
+### Desativar Wi-Fi durante as sessões de trabalho --> fazer daqui a pouco
+
+
+### Adicionar e remover tarefas
 
 A app terá diversas funcionalidades secundárias, tais como: 
 
