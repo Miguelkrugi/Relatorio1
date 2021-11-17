@@ -265,9 +265,14 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |2|Introdução á app|Exibição de um sistema "On-Boarding" que resuma os objetivos e algumas funcionalidades da app|Funcional
 |3|Selecionar o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
 |3.1 - Alternativa|Selecionar os icones de "forward" e "go back", localizados nas zonas laterais de cada tela que compõe a Introdução, de forma a navegar por entre as telas, selecionando de seguida o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
-|4|Preencher os dados relativos ao Registo do utilizador na app (Username, Email e Password) e clicar no botão "Register"|O utilizador será registado na app e será redirecionado  para a tela principal da aplicação|Funcional
-|4.1 - Alternativa|Selecionar o botão "Login", que está localizado abaixo do botão "Registo", na zona lateral esquerda da tela de Registo|O user será redirecionado para a tela de Login|Funcional
-|4.1.1|Preencher os dados relativos ao login (Username e Password) e clicar no botão "Login"|Exibição da tela principal da app|Não funcional
+
+### Registo e Login
+
+|1|Preencher os dados relativos ao Registo do utilizador na app (Username, Email e Password) e clicar no botão "Register"|O utilizador será registado na app e posteriormente redirecionado  para a tela principal da aplicação|Funcional
+|1.1 - Alternativa|Selecionar o botão "Login", que está localizado abaixo do botão "Registo", na zona lateral esquerda da tela de Registo|O user será redirecionado para a tela de Login|Funcional
+|1.1.1|Preencher os dados relativos ao login (Username e Password) e clicar no botão "Login"|O utilizador fará login da app, sendo redirecionado para a tela principal da app|Não funcional
+
+### Telas de Timer
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
@@ -275,7 +280,22 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |2|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer)|Funcional
 |2.1|Clicar novamente no botão de "Play", desta vez ,"Pause"|Pausar o timer| Funcional
 |2.2|Selecionar o botão de "Reset" (quando o timer estiver pausado)|Reinicia o timer| Funcional
-|3|Selecionar o botão "Small Break"| Redirecionará o utilizador
+
+#### Hardcore Timer
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Selecionar os icones de ">" e "<"| Navegar por entre as diversas telas dos timers (Pomodoro Timer, Desktime Timer, Ultradian Timer, Hardcore Timer e Flowtime Timer)|Funcional
+|2|Clicar no botão de "Play"|Iniciar o timer (presente em qualquer tela de timer). Após o inicio da contagem, o botão de "Pause" torna-se não clicável, não sendo possivel pausar o timer. Ao clicar no botão de "Play", a ligação Wi-Fi do dispositivo deverá ser desativada e o modo silencioso deste deve ser ativado|Funcional
+|3|Selecionar o botão de "Reset" (quando o tempo do timer terminar)|Reinicia o timer (somente quando o tempo deste terminar)| Funcional
+
+#### Flow Timer
+
+|Nº Passo|
+
+|3|Selecionar o botão "Small Break"| Redireciona o utilizador para a respetiva tela de "Small Break"| Funcional
+|3.1 - Alternativa|Selecionar 
+
 
 
 
