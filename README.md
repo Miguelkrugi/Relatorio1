@@ -244,18 +244,22 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 ## Guião de Teste - Core 
 
-### On-Boarding Screen:
+### On-Boarding Screen & Splash-Screen:
 
 1. O utilizador deve selecionar o icone de um "cérebro" (logótipo da BusyBrain), iniciando a app.
 
 2. Caso seja a primeira vez do utilizador na app, ser-lhe-á apresentado uma pequena introdução á app (composta por 3 telas - On-Boarding System).
 
-3. 
+3. Se não pretender ler a introdução, o utilizador deve selecionar a opção "Get Started", localizada na zona inferior de cada uma das telas que compôem a introdução da aplicação.
 
-Após a primeira abertura da app no dispositivo, surgirá na tela um sistema de "On-Boarding Screen" com 3 activities, que "explicam", de forma resumida, os objetivos da app e quais os seus benificios.
+3.1 Caso pretenda ler a introdução, basta clicar num dos icones ("avançar" e "recuar" - representados por "setas"), permitindo avançar para a tela de introdução seguinte ou recuar para a tela de introdução anterior.
+
+4. Após clicar no botão "Get Started", surgirá na tela a Splash-Screen da app. Esta tela aparecerá quando o "histórico" de apps for "limpo" pelo utilizador ou quando o utilizador não aceder a app durante um determinado tempo.
 
 
+# TABELA 
 
+| Nº Passo | Passo | Resultado |
 
 *Nota: O sistema de "On-Boarding" surgirá somente na primeira vez que o user utilizar a app. 
 
