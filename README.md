@@ -268,6 +268,8 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 ### Registo e Login
 
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
 |1|Preencher os dados relativos ao Registo do utilizador na app (Username, Email e Password) e clicar no botão "Register"|O utilizador será registado na app e posteriormente redirecionado  para a tela principal da aplicação|Funcional
 |1.1 - Alternativa|Selecionar o botão "Login", que está localizado abaixo do botão "Registo", na zona lateral esquerda da tela de Registo|O user será redirecionado para a tela de Login|Funcional
 |1.1.1|Preencher os dados relativos ao login (Username e Password) e clicar no botão "Login"|O utilizador fará login da app, sendo redirecionado para a tela principal da app|Não funcional
@@ -302,17 +304,16 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 #### Telas "Small Break"
 
 |Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|O utilizador deve selecionar o botão "Small Break" (presente em cada tela de timer)| Redireciona o utilizador para a respetiva tela de "Small Break", do respetivo timer | Funcional
+|2|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer). Após o inicio da contagem, não será possivel pausar ou reiniciar o timer, tornando o botão de "Play" não clicável|Funcional
 
-####
+#### Telas "Long Break"
 
-|3|Selecionar o botão "Small Break"| Redireciona o utilizador para a respetiva tela de "Small Break"| Funcional
-|3.1 - Alternativa|Selecionar 
-
-
-
-
-
-*Nota: O sistema de "On-Boarding" surgirá somente na primeira vez que o user utilizar a app. 
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|O utilizador deverá selecionar o botão "Long Break" (nas telas de timer)| Redireciona o utilizador para a respetiva tela de "Long Break", do respetivo timer| Funcional
+|2|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer). Após o inicio da contagem, não será possivel pausar ou reiniciar o timer, tornando o botão de "Play" não clicável|Funcional
 
 
 ### Splash-Screen:
@@ -409,6 +410,8 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 ![](https://user-images.githubusercontent.com/48087662/135133682-84568b49-fbdb-42bf-a028-2a713445fca5.png)
 
 ## Guião de Teste - Localização
+
+
 
 A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos intervalos entre as sessões de trabalho, caso este o deseje. 
 Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
