@@ -268,7 +268,10 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |4|Preencher os dados relativos ao Registo do utilizador na app (Username, Email e Password) e clicar no botão "Register"|O utilizador será registado na app e será redirecionado  para a tela principal da aplicação|Funcional
 |4.1 - Alternativa|Selecionar o botão "Login", que está localizado abaixo do botão "Registo", na zona lateral esquerda da tela de Registo|O user será redirecionado para a tela de Login|Funcional
 |4.1.1|Preencher os dados relativos ao login (Username e Password) e clicar no botão "Login"|Exibição da tela principal da app|Não funcional
-|5|Se
+|5|Selecionar os icones de ">" e "<"| Navegar por entre as diversas telas dos timers (Pomodoro Timer, Desktime Timer, Ultradian Timer, Hardcore Timer e Flowtime Timer)|Funcional
+|5.1|Clicar no botão de "Play"|Iniciar o timer|Funcional
+|5.1.1|Clicar novamente no botão de "Play", desta vez ,"Pause"|Pausar o timer| Funcional
+
 
 
 
