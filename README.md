@@ -434,8 +434,7 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-
- 
+|1|O utilizador deverá selecionar, na tela de informações de um local selecionado, o botão "Criar Rota" | Exibição de um mapa / GPS que acompanha em tempo real o trajeto do utilizador até ao local selecionado.
 
 A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos intervalos entre as sessões de trabalho, caso este o deseje. 
 Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
