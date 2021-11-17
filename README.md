@@ -260,12 +260,12 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 # TABELA 
 
 |Nº Passo|Passo|Resultado|Estado|
-|---|---|---|
+|---|---|---|---|
 |1|Selecionar o icone de um "cérebro" (logótipo da app) do menu de apps do dispositivo|Iniciar a app|Funcional
 |2|Introdução á app|Exibição de um sistema "On-Boarding" que resuma os objetivos e algumas funcionalidades da app|Funcional
 |3|Selecionar o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
 |3.1 - Alternativa|Selecionar os icones de "forward" e "go back", localizados nas zonas laterais de cada tela que compõe a Introdução, de forma a navegar por entre as telas, selecionando de seguida o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
-|4|Preencher os dados relativos ao Registo do utilizador na app (Username, Email e Password) e clicar no botão "Register"|O utilizador será registado na app e será redirecionado para a tela principal da aplicação|Funcional
+|4|Preencher os dados relativos ao Registo do utilizador na app (Username, Email e Password) e clicar no botão "Register"|O utilizador será registado na app e será redirecionado  para a tela principal da aplicação|Funcional
 |4.1 - Alternativa|Selecionar o botão "Login", que está localizado abaixo do botão "Registo", na zona lateral esquerda da tela de Registo|O user será redirecionado para a tela de Login|Funcional
 |4.1.1|Preencher os dados relativos ao login (Username e Password) e clicar no botão "Login"|Exibição da tela principal da app|Não funcional
 
