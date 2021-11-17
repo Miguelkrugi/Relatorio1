@@ -409,9 +409,33 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 
 ![](https://user-images.githubusercontent.com/48087662/135133682-84568b49-fbdb-42bf-a028-2a713445fca5.png)
 
-## Guião de Teste - Localização
+## Guião de Teste - Visualizar locais próximos do utilizador, marcar convivios, filtrar locais e definir rotas
 
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|O utilizador deve selecionar o botão "Long Break", que se encontra na zona inferior das telas de timer)| Redireciona o utilizador para a tela de "Long Break", respetiva ao timer que está a ser utilizado| Funcional
+|2|Clicar num dos seguintes icones: "café" ou "livro"| Após o clique num desses icones, surge um mapa que exibe a posição atual do utilizador e os locais de interesse perto da sua posição|Em Desenvolvimento
+|3|Selecionar um dos pontos de interesse (marcador no mapa)| Após a seleção, são exibidas algumas informações acerca desse local (nome, endereço, categoria e distância)|Em Desenvolvimento
 
+### Marcar Convivios
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|No mapa, o utilizador deve clicar num dos pontos de interesse em que deseja marcar um convivio| Serão exibidas as informações relativas ao local selecionado, de entre elas um botão "Marcar Convivio".|Em Desenvolvimento
+|2|Após o clique, o utilizador deve selecionar um grupo onde queira marcar esse convivio.|Surgirá uma "mensagem pronta", no chat desse grupo, que indicará que foi marcado um convivio para um determinado local previamente selecionado (indicando o endereço, categoria e nome do local).| Em Desenvolvimento
+
+### Filtrar Locais
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Com o mapa exibido na tela, o "user" deve selecionar um dos icones que representam as categorias de locais disponiveis (Bar, Café, Restaurante, Livraria e Biblioteca)| Após um clique num desses icones, somente surgirão os marcadores cujos locais possuem alguma dessas categorias (que se encontrem numa a uma distância razoável tendo em consideração a localização atual do utilizador) | Em Desenvolvimento
+
+### Definir Rotas
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+
+ 
 
 A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos intervalos entre as sessões de trabalho, caso este o deseje. 
 Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
