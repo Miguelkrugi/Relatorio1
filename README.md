@@ -409,7 +409,7 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 
 ![](https://user-images.githubusercontent.com/48087662/135133682-84568b49-fbdb-42bf-a028-2a713445fca5.png)
 
-## Guião de Teste - Visualizar locais próximos do utilizador, marcar convivios, filtrar locais e definir rotas
+## Guião de Teste - Visualizar locais próximos do utilizador, marcar convivios, filtrar locais, definir rotas, marcar e filtrar locais favoritos e marcar presenças
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
@@ -429,12 +429,21 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Com o mapa exibido na tela, o "user" deve selecionar um dos icones que representam as categorias de locais disponiveis (Bar, Café, Restaurante, Livraria e Biblioteca)| Após um clique num desses icones, somente surgirão os marcadores cujos locais possuem alguma dessas categorias (que se encontrem numa a uma distância razoável tendo em consideração a localização atual do utilizador) | Em Desenvolvimento
+|2|Através da barra de pesquisa que se encontra na tela do mapa, o utilizador pode efetuar uma pesquisa por nome, inserindo um nome que possa estar contido no nome do local a ser encontrado. |São identificados e indicados no mapa, os locais locais com o nome introduzido incluido. | Em Desenvolvimento
 
 ### Definir Rotas
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|O utilizador deverá selecionar, na tela de informações de um local selecionado, o botão "Criar Rota" | Exibição de um mapa / GPS que acompanha em tempo real o trajeto do utilizador até ao local selecionado.
+|1|O utilizador deverá selecionar, na tela de informações de um local selecionado, o botão "Criar Rota" | Exibição de um mapa / GPS que acompanha em tempo real o trajeto do utilizador até ao local selecionado, definindo uma rota entre a posição atual do utilizador e o local.
+
+### Locais Favoritos
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|No mapa exibido da tela, o utilizador deve selecionar um local (marcador do mapa)| Exibição das informações do local selecionado (nome, endereço, distancia e categoria)|Em Desenvolvimento
+|2|Após a exibição das informações do local selecionado, o utilizador deve clicar na opção "Adicionar aos Favoritos"| Surgirá uma mensagem "toast", indicando que adicinou o local com sucesso á lista de favoritos. O local será então adicionado a uma lista de locais favoritos do utilizador| Em Desenvolvimento
+|3|No mapa, basta o utilizador selecionar o botão "Ver locais favoritos"| Exibição de uma lista com os locais favoritos do utilizador | Em Desenvolvimento
 
 A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos intervalos entre as sessões de trabalho, caso este o deseje. 
 Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
