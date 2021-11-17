@@ -246,6 +246,12 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 ### On-Boarding Screen:
 
+1. O utilizador deve selecionar o icone de um "cérebro" (logótipo da BusyBrain), iniciando a app.
+
+2. Caso seja a primeira vez do utilizador na app, ser-lhe-á apresentado uma pequena introdução á app (composta por 3 telas - On-Boarding System).
+
+3. 
+
 Após a primeira abertura da app no dispositivo, surgirá na tela um sistema de "On-Boarding Screen" com 3 activities, que "explicam", de forma resumida, os objetivos da app e quais os seus benificios.
 
 
