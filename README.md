@@ -526,11 +526,16 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no segundo item "Bloquear Apps" | Exibição de uma tela que contém uma lista de apps presentes no dispositivo do utilizador |Em Desenvolvimento
 |2|O utilizador deverá marcar na "checkbox", que app/apps deseja bloquear | ---- |Em Desenvolvimento
-|2.1| 
-|3|Clicar no botão "Guardar" | As alterações serão guardadas e as apps selecionadas tornam-se ocultas no menu de apps do dispositivo | Em Desenvolvimento
+|2.1|Nas "checkboxes" assinaladas, o utilizador deverá desmarcar as mesmas | --- | Em Desenvolvimento
+|3|Clicar no botão "Guardar" | As alterações serão guardadas e as apps selecionadas tornam-se ocultas no menu de apps do dispositivo. As apps desbloqueadas tornam-se visiveis no menu de apps do dispositivo | Em Desenvolvimento
 
 ### Bloqueio de Websites
 
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no terceiro item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio |Em Desenvolvimento
+|2|
+|3|
 
 ### Desativar Wi-Fi durante as sessões de trabalho --> fazer daqui a pouco
 
