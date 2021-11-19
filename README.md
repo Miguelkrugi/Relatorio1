@@ -246,25 +246,21 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 ### On-Boarding Screen & Splash-Screen:
 
-1. O utilizador deve selecionar o icone de um "cérebro" (logótipo da BusyBrain), iniciando a app.
-
-2. Caso seja a primeira vez do utilizador na app, ser-lhe-á apresentado uma pequena introdução á app (composta por 3 telas - On-Boarding System).
-
-3. Se não pretender ler a introdução, o utilizador deve selecionar a opção "Get Started", localizada na zona inferior de cada uma das telas que compôem a introdução da aplicação.
-
-3.1 Caso pretenda ler a introdução, basta clicar num dos icones ("avançar" e "recuar" - representados por "setas"), permitindo avançar para a tela de introdução seguinte ou recuar para a tela de introdução anterior.
-
-4. Após clicar no botão "Get Started", surgirá na tela a Splash-Screen da app. Esta tela aparecerá quando o "histórico" de apps for "limpo" pelo utilizador ou quando o utilizador não aceder a app durante um determinado tempo.
-
-
-# TABELA 
-
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Selecionar o icone de um "cérebro" (logótipo da app) do menu de apps do dispositivo|Iniciar a app|Funcional
 |2|Introdução á app|Exibição de um sistema "On-Boarding" que resuma os objetivos e algumas funcionalidades da app|Funcional
 |3|Selecionar o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
 |3.1 - Alternativa|Selecionar os icones de "forward" e "go back", localizados nas zonas laterais de cada tela que compõe a Introdução, de forma a navegar por entre as telas, selecionando de seguida o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
+
+##### Resumo:
+###### Splash-Screen:
+
+A primeira tela a surgir quando a app é iniciada, será uma tela do tipo "Splash-Screen". Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Geralmente, este tipo de tela apresenta o logótipo da app ou uma barra de loading (ou ambos). 
+Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 5/6 segundos, redirecionando o utilizador para a tela de login da app, após esse tempo de espera.
+Esta "activity" apenas exibirá o logótipo da app.
+
+![Splash Screen](https://static.wixstatic.com/media/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.png/v1/fill/w_408,h_750,al_c,lg_1,q_85/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.webp)
 
 ### Registo e Login
 
@@ -274,6 +270,20 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |1.1 - Alternativa|Selecionar o botão "Login", que está localizado abaixo do botão "Registo", na zona lateral esquerda da tela de Registo|O user será redirecionado para a tela de Login|Funcional
 |1.1.1|Preencher os dados relativos ao login (Username e Password) e clicar no botão "Login"|O utilizador fará login da app, sendo redirecionado para a tela principal da app|Não funcional
 
+##### Resumo
+###### Register Activity
+
+Caso o utilizador não possua uma conta na "BusyBrain", este deve-se registar na tela de Registo, que pode ser acedida pela tela de Login. 
+Para o registo do user na app, este terá que introduzir o seu username, email, password, sexo (Masculino ou Feminino) e numero de telemóvel. O Email e Número de telemóvel serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso este deseje recebê-las.
+
+![Register Page](https://static.wixstatic.com/media/302737_038b203d0fd148fa84eca913ee70e754~mv2.png/v1/fill/w_411,h_733,al_c,lg_1,q_85/302737_038b203d0fd148fa84eca913ee70e754~mv2.webp)
+
+###### Login Activity
+
+Após o tempo de espera na tela de Splash-Screen, o utilizador é automaticamente redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login (da app), o utilizador terá de introduzir o seu Username e a sua password (métodos de login com a Google ou Facebook podem variar). Após a inserção dos dados, o user será redirecionado para a tela principal da app.
+
+![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
+
 ### Telas de Timer
 
 |Nº Passo|Passo|Resultado|Estado|
@@ -282,6 +292,13 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |2|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer)|Funcional
 |2.1|Clicar novamente no botão de "Play", desta vez ,"Pause"|Pausar o timer| Funcional
 |2.2|Selecionar o botão de "Reset" (quando o timer estiver pausado)|Reinicia o timer| Funcional
+
+##### Resumo
+###### Telas de Timer
+
+Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. Na parte inferior da tela principal, estão exibidos os botões "Small Break" e "Long Break". Ao clicar num desses botões, o utilizador será redirecionado para as activities de "Small Break" ou "Long Break", dependendo do botão ativado. 
+Na tela principal ainda se encontra um icone de "Engrenagem", que exibirá uma nova tela com uma lista de diversas configurações que podem ser aplicadas durante as sessões de trabalho. Ao lado do "titulo" de cada timer, existem dois icones de "Forward" e "Back", que permitem ao utilizador "navegar" por entre os diversos tipos de timer disponiveis.
+
 
 #### Hardcore Timer
 
@@ -308,70 +325,17 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |1|O utilizador deve selecionar o botão "Small Break" (presente em cada tela de timer)| Redireciona o utilizador para a respetiva tela de "Small Break", do respetivo timer | Funcional
 |2|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer). Após o inicio da contagem, não será possivel pausar ou reiniciar o timer, tornando o botão de "Play" não clicável|Funcional
 
-#### Telas "Long Break"
+##### Resumo
+###### Telas "Small Break"
 
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|O utilizador deverá selecionar o botão "Long Break" (nas telas de timer)| Redireciona o utilizador para a respetiva tela de "Long Break", do respetivo timer| Funcional
-|2|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer). Após o inicio da contagem, não será possivel pausar ou reiniciar o timer, tornando o botão de "Play" não clicável|Funcional
-
-
-### Splash-Screen:
-
-A primeira tela a surgir quando a app é iniciada, será uma tela do tipo "Splash-Screen". Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Geralmente, este tipo de tela apresenta o logótipo da app ou uma barra de loading (ou ambos). 
-Neste contexto, quando a "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 5/6 segundos, redirecionando o utilizador para a tela de login da app, após esse tempo de espera.
-Esta "activity" apenas exibirá o logótipo da app.
-
-![Splash Screen](https://static.wixstatic.com/media/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.png/v1/fill/w_408,h_750,al_c,lg_1,q_85/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.webp)
-
-### Login Activity
-
-Após o tempo de espera na tela de Splash-Screen, o utilizador é automaticamente redirecionado para a tela de Login. Esta activity terá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. O botão de registo redirecionará o utilizador para a tela de registo ("Register Activity"). Para o Login (da app), o utilizador terá de introduzir o seu Username e a sua password (métodos de login com a Google ou Facebook podem variar). Após a inserção dos dados, o user será redirecionado para a tela principal da app.
-
-![Login Page](https://static.wixstatic.com/media/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.png/v1/fill/w_416,h_750,al_c,lg_1,q_85/302737_04ae3db966a64b748f96e91babe6cd3b~mv2.webp)
-                   
-### Register Activity
-
-Caso o utilizador não possua uma conta na "BusyBrain", este deve-se registar na tela de Registo, que pode ser acedida pela tela de Login. 
-Para o registo do user na app, este terá que introduzir o seu username, email, password, sexo (Masculino ou Feminino) e numero de telemóvel. O Email e Número de telemóvel serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso este deseje recebê-las.
-
-![Register Page](https://static.wixstatic.com/media/302737_038b203d0fd148fa84eca913ee70e754~mv2.png/v1/fill/w_411,h_733,al_c,lg_1,q_85/302737_038b203d0fd148fa84eca913ee70e754~mv2.webp)
-
-### Main Activity
-
-Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. Na parte inferior da tela principal, estão exibidos os botões "Small Break" e "Long Break". Ao clicar num desses botões, o utilizador será redirecionado para as activities de "Small Break" ou "Long Break", dependendo do botão ativado. 
-Na tela principal ainda se encontra um botão do tipo "hambúrguer", que exibirá uma barra lateral com diversas configurações que podem ser personalizadas durante a sessão de trabalho.
-
-![](https://user-images.githubusercontent.com/48087662/135124843-7f38d7ad-88d8-4921-9a68-dee5a554d9ec.png)
-
-![](https://user-images.githubusercontent.com/48087662/135124578-860c341e-92b0-4d0b-9423-3e47fd71b75f.png)
-
-![](https://user-images.githubusercontent.com/48087662/135121934-1200cc74-2da8-464c-b97d-a429140bde45.png)
-
-![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
-
-#### Editar Timer
-
-A possibilidade de editar a duração de cada sessão de trabalho é exclusiva do método "FlowTime". Neste timer, o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
-
-![](https://user-images.githubusercontent.com/48087662/135125054-a66411fc-15bd-432d-a9a9-3a607f2ad0bd.png)
-
-A personalização do tempo pode ser realizada clicando no botão "Editar Timer", que se encontra debaixo do contador. Após o clique, surgirá um pequeno pop-up onde o utilizador poderá definir um novo tempo (minutos e segundos). 
-Definido o tempo, basta clicar no botão "OK", e o contador será atualizado com uma nova duração.
-
-![](https://user-images.githubusercontent.com/48087662/135478953-ca04abe0-5df5-46c8-8833-ddd489f744ec.png)
-
-
-### Small Break Activity
 
 A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra na zona inferior de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer, Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
 
 * O botão que se localiza no canto superior direito da tela, permite aceder ás activities de adicionar e eliminar tarefas.
-* O botão do tipo "hambúrguer", permite a configurações de bloqueio (apps e websites), silenciamento do dispositivo, desativação do Wi-Fi quando um timer é iniciado e o Logout.
+* O icone de engrenagem, permite aceder a configurações de bloqueio (apps e websites), silenciamento do dispositivo, desativação do Wi-Fi quando um timer é iniciado e musica ambiente.
 * A opção "Back to Timer", permite regressar á tela do timer que está a ser utilizado.
 * A opção "Long Break", permite aceder á tela do "intervalo maior".
 * O botão de "Play" permite iniciar o "break timer". 
-
 
 ![](https://user-images.githubusercontent.com/48087662/135128980-c72fc8f0-5c12-4681-8a2d-5c24169c5a5d.png)
 
@@ -387,13 +351,39 @@ A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que s
 
 ![](https://user-images.githubusercontent.com/48087662/135132042-e7d21f0d-817b-4bc4-b9c6-e9b8303aff9e.png)
 
-### Long Break 
+
+#### Telas "Long Break"
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|O utilizador deverá selecionar o botão "Long Break" (nas telas de timer)| Redireciona o utilizador para a respetiva tela de "Long Break", do respetivo timer| Funcional
+|2|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer). Após o inicio da contagem, não será possivel pausar ou reiniciar o timer, tornando o botão de "Play" não clicável|Funcional
+
+##### Resumo
+###### Telas "Long Break"
 
 A tela de Long Break pode ser acedida selecionando a opção "Long Break" na tela do timer. 
 Nesta tela estarão disponiveis as funcionalidades de procura de cafés, bares, restaurantes, livrarias e bibliotecas, dependendo da localização atual do user.
 A opção representada com o icone de uma chávena de café, exibe os cafés, bares e restaurantes perto do utilizador (utilizando a localização). 
 A opção representada com o icone de um livro, exibe livrarias e bibliotecas perto do utilizador (utilizando a localização).
 Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona novamente o utilizador á tela do timer.
+
+![](https://user-images.githubusercontent.com/48087662/135124843-7f38d7ad-88d8-4921-9a68-dee5a554d9ec.png)
+
+![](https://user-images.githubusercontent.com/48087662/135124578-860c341e-92b0-4d0b-9423-3e47fd71b75f.png)
+
+![](https://user-images.githubusercontent.com/48087662/135121934-1200cc74-2da8-464c-b97d-a429140bde45.png)
+
+![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
+
+#### Editar Timer
+
+A possibilidade de editar a duração de cada sessão de trabalho é exclusiva do método "FlowTime". Neste timer, o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
+
+A personalização do tempo pode ser realizada clicando no botão "Editar Timer", que se encontra debaixo do contador. Após o clique, surgirá um pequeno pop-up onde o utilizador poderá definir um novo tempo (minutos e segundos). 
+Definido o tempo, basta clicar no botão "OK", e o contador será atualizado com uma nova duração.
+
+
 
 ![](https://user-images.githubusercontent.com/48087662/135132687-7cd66428-2ad4-4b19-b6a5-7088f26f599c.png)
 
