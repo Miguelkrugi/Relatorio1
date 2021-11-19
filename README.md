@@ -534,13 +534,24 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no terceiro item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio |Em Desenvolvimento
-|2|
-|3|
+|2|Na lista de websites pré-definidos, selecionar os "radio buttons" correspondentes a um/vários websites que se desejam bloquear| ---- | Em Desenvolvimento
+|3|Clicar no botão "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | Em Desenvolvimento
 
 ### Desativar Wi-Fi durante as sessões de trabalho --> fazer daqui a pouco
 
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no quarto item "Desativar Wi-Fi" | Exibição de uma tela que contém um switch para ativar ou desativar o wi-fi do dispositivo assim que um timer é iniciado (nas telas de timer) | Semi-Funcional
+|2|Clicar no "switch", para o ativar | Desativação do Wi-Fi durante as sessões de trabalho (quando um timer é iniciado)| Em Desenvolvimento
+|3|Clicar novamente no "switch", para o desativar | Desativação da opção "Desativar Wi-Fi" | Em Desenvolvimento
 
 ### Adicionar e remover tarefas
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|
+|2|
+|3|
 
 A app terá diversas funcionalidades secundárias, tais como: 
 
