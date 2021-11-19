@@ -504,19 +504,30 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 |1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "Engrenagem"| Exibição de uma tela de configurações da app, contendo uma lista com as configurações disponiveis (Musica Ambiente, Modo Silencioso, Bloqueio de Apps, Bloqueio de Websites e Wi-Fi desativado)| Funcional
 |2|Clicar num dos items da lista de configurações| Exibição do conteudo relativo á configuração selecionada (item selecionado)| Semi-Funcional
 
-### Musica Ambiente --> fazer daqui a pouco
+### Musica Ambiente
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|
-|2|
-|3|
+|1|Na lista de configurações, o utilizador deve clicar no primeiro item "Musica Ambiente"| Exibição de uma tela que contém uma lista de "background sounds" disponiveis. | Em Desenvolvimento
+|2|Selecionar um item da lista (som) | O som começa a ser reproduzido pelo dispositivo | Em Desenvolvimento
+|3|Clicar no botão "Guardar"| O som selecionado continuará a ser reproduzido por toda a app | Em Desenvolvimento
 
 ### Silenciar Telemovel --> fazer daqui a pouco
 
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no quinto item "Modo Silencioso" | Exibição de uma tela que contém um switch para ativar ou desativar o modo silencioso | Funcional
+|2|Clicar no "switch", para o ativar | Ativação do modo silencioso, silenciando volumes multimédia, notificações e "ring"| Em Desenvolvimento
+|3|Clicar novamente no "switch", para o desativar | Desativação do modo silencioso | Em Desenvolvimento
 
 ### Bloqueio de Apps
 
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no segundo item "Bloquear Apps" | Exibição de uma tela que contém uma lista de apps presentes no dispositivo do utilizador |Em Desenvolvimento
+|2|O utilizador deverá marcar na "checkbox", que app/apps deseja bloquear | ---- |Em Desenvolvimento
+|2.1| 
+|3|Clicar no botão "Guardar" | As alterações serão guardadas e as apps selecionadas tornam-se ocultas no menu de apps do dispositivo | Em Desenvolvimento
 
 ### Bloqueio de Websites
 
