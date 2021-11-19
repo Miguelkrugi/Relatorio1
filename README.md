@@ -318,6 +318,25 @@ Na tela principal ainda se encontra um icone de "Engrenagem", que exibirá uma n
 |3.1|Clicar novamente no botão de "Play", desta vez ,"Pause"|Pausar o timer| Funcional
 |3.2|Selecionar o botão de "Reset" (quando o timer estiver pausado)|Reinicia o timer para o tempo definido pelo utilizador| Funcional
 
+#### Editar Timer
+
+A possibilidade de editar a duração de cada sessão de trabalho é exclusiva do método "FlowTime". Neste timer, o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
+
+![](https://user-images.githubusercontent.com/48087662/135132687-7cd66428-2ad4-4b19-b6a5-7088f26f599c.png)
+
+
+![](https://user-images.githubusercontent.com/48087662/135132879-7591726a-161f-4078-a9c7-56daba9060bf.png)
+
+
+![](https://user-images.githubusercontent.com/48087662/135133194-3a0d94a6-596b-4fc9-ae5f-acdd5ad9fb1b.png)
+
+
+![](https://user-images.githubusercontent.com/48087662/135133486-42d47824-4e2c-49c0-a111-36cc6fc77730.png)
+
+
+![](https://user-images.githubusercontent.com/48087662/135133682-84568b49-fbdb-42bf-a028-2a713445fca5.png)
+
+
 #### Telas "Small Break"
 
 |Nº Passo|Passo|Resultado|Estado|
@@ -376,28 +395,7 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 
 ![](https://user-images.githubusercontent.com/48087662/135125451-949a9158-21b5-4aea-8ccb-81d43250200f.png)
 
-#### Editar Timer
 
-A possibilidade de editar a duração de cada sessão de trabalho é exclusiva do método "FlowTime". Neste timer, o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
-
-A personalização do tempo pode ser realizada clicando no botão "Editar Timer", que se encontra debaixo do contador. Após o clique, surgirá um pequeno pop-up onde o utilizador poderá definir um novo tempo (minutos e segundos). 
-Definido o tempo, basta clicar no botão "OK", e o contador será atualizado com uma nova duração.
-
-
-
-![](https://user-images.githubusercontent.com/48087662/135132687-7cd66428-2ad4-4b19-b6a5-7088f26f599c.png)
-
-
-![](https://user-images.githubusercontent.com/48087662/135132879-7591726a-161f-4078-a9c7-56daba9060bf.png)
-
-
-![](https://user-images.githubusercontent.com/48087662/135133194-3a0d94a6-596b-4fc9-ae5f-acdd5ad9fb1b.png)
-
-
-![](https://user-images.githubusercontent.com/48087662/135133486-42d47824-4e2c-49c0-a111-36cc6fc77730.png)
-
-
-![](https://user-images.githubusercontent.com/48087662/135133682-84568b49-fbdb-42bf-a028-2a713445fca5.png)
 
 ## Guião de Teste - Visualizar locais próximos do utilizador, marcar convivios, filtrar locais (por categoria), definir rotas, marcar e filtrar locais favoritos e marcar presenças
 
@@ -438,6 +436,14 @@ Definido o tempo, basta clicar no botão "OK", e o contador será atualizado com
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|O utilizador deverá selecionar, na tela de informações de um local selecionado, o botão "Criar Rota" | Exibição de um mapa / GPS que acompanha em tempo real o trajeto do utilizador até ao local selecionado, através da definição uma rota entre a posição atual do utilizador e o local.
+##### Resumo
+###### GPS Tracker
+
+O GPS Tracker definirá automaticamente uma rota entre a posição atual do utilizador e o local selecionado, acompanhando em tempo real o progresso do percurso do utilizador até ao seu destino. 
+O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na tool bar, na zona inferior da tela.
+Na tool bar ainda se encontrarão outros tipos de informações como o nome do local selecionado, o endereço do local e a distância a percorrer.
+
+![](https://user-images.githubusercontent.com/48087662/135146147-7dcc090d-164a-4b35-91a9-f74c9a00faee.png)
 
 ### Locais Favoritos
 
@@ -455,38 +461,6 @@ Definido o tempo, basta clicar no botão "OK", e o contador será atualizado com
 |2|Na barra de pesquisa da lista, pesquisar por um nome | Através de um "name containing", surgem na lista somente os locais favoritos do utilizador que contêm o nome introduzido na barra de pesquisa | Em Desenvolvimento
 
 
-
-
-A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos intervalos entre as sessões de trabalho, caso este o deseje. 
-Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
-O botão com um icone de uma chávena de café, ao ser clicado, exibe uma ListView com cafés, bares e restaurantes próximos ao utilizador.
-O botão com um icone de um livro, ao ser clicado, exibe uma ListView de livrarias e bibliotecas próximas ao utilizador.
-Ambas as telas de Listview apresentam o mesmo layout e as mesmas funcionalidades, no entanto, com "backgrounds" distintos.
-
-Para iniciar a "viagem", o utilizador deverá selecionar (da ListView), um local desejado. Cada item da lista possuirá o nome do local, o endereço e a sua distância em relação á posição atual do utilizador.
-
-A exibição de locais variará com a localização atual do user e com o tempo de "long break" do timer selecionado, isto é, o ajuste de distâncias de acordo com o tempo do "long break").
-
-![ListView de Cafes Bares e Restaurantes](https://static.wixstatic.com/media/302737_d249333949c64c578fbcb8182a7c0b4a~mv2.png/v1/fill/w_406,h_731,al_c,lg_1,q_85/302737_d249333949c64c578fbcb8182a7c0b4a~mv2.webp)
-
-![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
-
-### GPS Tracker
-
-Após selecionar um item da ListView, o utilizador será redirecionado para um GPS Tracker (em tempo real). O GPS Tracker definirá automaticamente uma rota entre a posição atual do utilizador e o local selecionado, acompanhando em tempo real o progresso do percurso do utilizador até ao seu destino. 
-O utilizador poderá também cancelar a sua rota clicando num botão com um icone de um "caixote de lixo" , que se encontrará na tool bar, na zona inferior da tela.
-Na tool bar ainda se encontrarão outros tipos de informações como o nome do local selecionado, o endereço do local e a distância a percorrer.
-
-![](https://user-images.githubusercontent.com/48087662/135146147-7dcc090d-164a-4b35-91a9-f74c9a00faee.png)
-
-### "Search" de ListView
-
-Na canto inferior direito de ambas as telas de "ListView" (Cafés, Bares, Restaurantes, Livrarias e Bibliotecas), encontra-se um botão de "pesquisa" na ListView, representada pelo icone de uma lupa.
-Este botão permitirá ao utilizador, digitar o nome de um café, bar, restaurante, livraria ou biblioteca, pesquisando (na ListView), possiveis estabelecimentos com esse nome, de forma a encontrar um estabelecimento especifico de forma mais rápida e simples.
-
-![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
-
-
 ## Guião de Teste - Funcionalidades Secundárias (Visualizar configurações disponiveis, selecionar musica ambiente, silenciar dispositivo, bloquear apps, bloquear websites, desativar wi-fi e gestão de tarefas)
 
 |Nº Passo|Passo|Resultado|Estado|
@@ -494,58 +468,9 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 |1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "Engrenagem"| Exibição de uma tela de configurações da app, contendo uma lista com as configurações disponiveis (Musica Ambiente, Modo Silencioso, Bloqueio de Apps, Bloqueio de Websites e Wi-Fi desativado)| Funcional
 |2|Clicar num dos items da lista de configurações| Exibição do conteudo relativo á configuração selecionada (item selecionado)| Semi-Funcional
 
-### Musica Ambiente
+##### Resumo
 
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no primeiro item "Musica Ambiente"| Exibição de uma tela que contém uma lista de "background sounds" disponiveis. | Em Desenvolvimento
-|2|Selecionar um item da lista (som) | O som começa a ser reproduzido pelo dispositivo | Em Desenvolvimento
-|3|Clicar no botão "Guardar"| O som selecionado continuará a ser reproduzido por toda a app | Em Desenvolvimento
-
-### Silenciar Telemovel --> fazer daqui a pouco
-
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no quinto item "Modo Silencioso" | Exibição de uma tela que contém um switch para ativar ou desativar o modo silencioso | Funcional
-|2|Clicar no "switch", para o ativar | Ativação do modo silencioso, silenciando volumes multimédia, notificações e "ring"| Em Desenvolvimento
-|3|Clicar novamente no "switch", para o desativar | Desativação do modo silencioso | Em Desenvolvimento
-
-### Bloqueio de Apps
-
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no segundo item "Bloquear Apps" | Exibição de uma tela que contém uma lista de apps presentes no dispositivo do utilizador |Em Desenvolvimento
-|2|O utilizador deverá marcar na "checkbox", que app/apps deseja bloquear | ---- |Em Desenvolvimento
-|2.1|Nas "checkboxes" assinaladas, o utilizador deverá desmarcar as mesmas | --- | Em Desenvolvimento
-|3|Clicar no botão "Guardar" | As alterações serão guardadas e as apps selecionadas tornam-se ocultas no menu de apps do dispositivo. As apps desbloqueadas tornam-se visiveis no menu de apps do dispositivo | Em Desenvolvimento
-
-### Bloqueio de Websites
-
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no terceiro item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio |Em Desenvolvimento
-|2|Na lista de websites pré-definidos, selecionar os "radio buttons" correspondentes a um/vários websites que se desejam bloquear| ---- | Em Desenvolvimento
-|3|Clicar no botão "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | Em Desenvolvimento
-
-### Desativar Wi-Fi durante as sessões de trabalho --> fazer daqui a pouco
-
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no quarto item "Desativar Wi-Fi" | Exibição de uma tela que contém um switch para ativar ou desativar o wi-fi do dispositivo assim que um timer é iniciado (nas telas de timer) | Semi-Funcional
-|2|Clicar no "switch", para o ativar | Desativação do Wi-Fi durante as sessões de trabalho (quando um timer é iniciado)| Em Desenvolvimento
-|3|Clicar novamente no "switch", para o desativar | Desativação da opção "Desativar Wi-Fi" | Em Desenvolvimento
-
-### Adicionar e remover tarefas
-
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "To-Do List"| Exibição de uma tela com uma lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas| Funcional
-|2|Clicar no botão "+"| Exibição da tela de criação de uma nova tarefa | Funcional
-|3|Preencher os campos relativos á tarefa a ser criada (titulo, descrição, tipo de tarefa, "deadline" e prioridade da tarefa) | ---- | Funcional
-|4|Clicar no icone "Save"| Tarefa adicionada á lista de tarefas. Insert da informação da tarefa na BD | Semi-Funcional
-|5|Selecionar botão de "Back" do dispositivo| Exibição da tela com a lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas | Funcional
-|6|Clicar no botão "Atualizar" | A lista de tarefas será atualizada caso seja realizada alguma alteração (adição ou remoção de tarefas)| Em Desenvolvimento
-|7|Clicar no icone "Lixo" respetivo a uma tarefa da lista (item) | O item (tarefa) selecionado será removido da lista de tarefas (após a remoção, atualizar novamente a lista de tarefas, clicando no botão "Atualizar")| Em Desenvolvimento
+###### Visualização de Configurações
 
 A app terá diversas funcionalidades secundárias, tais como: 
 
@@ -562,7 +487,15 @@ Todas estas configurações serão exibidas através de uma activity de personal
 
 *Nota: Cada elemento da lista será uma das personalizações que o utilizador poderá aplicar nas suas "Work Sessions".
 
-### Música Ambiente
+### Musica Ambiente
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no primeiro item "Musica Ambiente"| Exibição de uma tela que contém uma lista de "background sounds" disponiveis. | Em Desenvolvimento
+|2|Selecionar um item da lista (som) | O som começa a ser reproduzido pelo dispositivo | Em Desenvolvimento
+|3|Clicar no botão "Guardar"| O som selecionado continuará a ser reproduzido por toda a app | Em Desenvolvimento
+
+##### Resumo
 
 A primeira configuração disponivel na tela de personalização, será a opção de ativar música ambiente durante as sessões de trabalho. 
 Para ativar esta opção, basta clicar no icone de "roda dentada", acedendo á tela de configurações. 
@@ -583,7 +516,38 @@ Após a seleção do som, este começará a ser reproduzido. Caso o utilizador q
 
 *Na imagem não consta a opção "None", devido a uma falha na interface demo.
 
-### Bloqueio de Apps (definidas pelo utilizador)
+### Silenciar Telemovel --> fazer daqui a pouco
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no quinto item "Modo Silencioso" | Exibição de uma tela que contém um switch para ativar ou desativar o modo silencioso | Funcional
+|2|Clicar no "switch", para o ativar | Ativação do modo silencioso, silenciando volumes multimédia, notificações e "ring"| Em Desenvolvimento
+|3|Clicar novamente no "switch", para o desativar | Desativação do modo silencioso | Em Desenvolvimento
+
+##### Resumo
+
+###### Silenciar Telemóvel
+
+O opção de "Modo Silencioso", permite silenciar Notificações, Vibrações e Multimédia de forma simultânea ao iniciar um timer. Para ativar esta opção, o user deve aceder ás configurações das "Work Sessions" e clicar no "switch" da opção "Modo Silencioso".
+
+![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
+
+![Modo Silencioso](https://user-images.githubusercontent.com/48087662/135116081-8e2a5be2-4e31-42a5-8639-cbf6d94e8dba.png)
+
+O dispositivo deixará de estar silenciado quando o timer for pausado, ou quando o tempo do mesmo terminar.
+
+### Bloqueio de Apps
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no segundo item "Bloquear Apps" | Exibição de uma tela que contém uma lista de apps presentes no dispositivo do utilizador |Em Desenvolvimento
+|2|O utilizador deverá marcar na "checkbox", que app/apps deseja bloquear | ---- |Em Desenvolvimento
+|2.1|Nas "checkboxes" assinaladas, o utilizador deverá desmarcar as mesmas | --- | Em Desenvolvimento
+|3|Clicar no botão "Guardar" | As alterações serão guardadas e as apps selecionadas tornam-se ocultas no menu de apps do dispositivo. As apps desbloqueadas tornam-se visiveis no menu de apps do dispositivo | Em Desenvolvimento
+
+##### Resumo
+
+###### Bloqueio de Apps (definidas pelo utilizador)
 
 Uma funcionalidade comum neste tipo de apps, é a possibilidade de bloqueio de algumas apps que o utilizador possua no seu dispositivo e considere distrativas (a seleção das apps é realizada pelo user). O bloqueio de apps será possivel sobrepondo a "BusyBrain" a outras apps (necessária permissão do utilizador para a sobreposição).
 A "BusyBrain" possui esta funcionalidade, que pode ser acedida selecionando a opção "Bloquear Apps" , que se encontra na tela de configurações:
@@ -599,7 +563,17 @@ Ao bloquear as apps, estas:
 
 *Nota: Uma destas técnicas será aplicada no projeto.
 
-### Bloqueio de Websites (definidos pelo utilizador)
+### Bloqueio de Websites
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no terceiro item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio |Em Desenvolvimento
+|2|Na lista de websites pré-definidos, selecionar os "radio buttons" correspondentes a um/vários websites que se desejam bloquear| ---- | Em Desenvolvimento
+|3|Clicar no botão "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | Em Desenvolvimento
+
+##### Resumo
+
+###### Bloqueio de Websites (definidos pelo utilizador)
 
 A possibilidade de bloquear websites é menos comum em diversas apps que possuem os mesmos objetivos que a "BusyBrain".
 Esta funcionalidade permite ao utilizador bloquear websites que considere distrativos.
@@ -618,7 +592,18 @@ A segunda versão desta "activity", utiliza um botão de "Guardar" para guardar 
 
 *Nota: Uma das duas versões será implementada no projeto.
 
-### Desativar Wi-Fi em sessões de trabalho:
+
+### Desativar Wi-Fi durante as sessões de trabalho --> fazer daqui a pouco
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na lista de configurações, o utilizador deve clicar no quarto item "Desativar Wi-Fi" | Exibição de uma tela que contém um switch para ativar ou desativar o wi-fi do dispositivo assim que um timer é iniciado (nas telas de timer) | Semi-Funcional
+|2|Clicar no "switch", para o ativar | Desativação do Wi-Fi durante as sessões de trabalho (quando um timer é iniciado)| Em Desenvolvimento
+|3|Clicar novamente no "switch", para o desativar | Desativação da opção "Desativar Wi-Fi" | Em Desenvolvimento
+
+##### Resumo
+
+###### Desativar Wi-Fi em sessões de trabalho:
 
 Ainda na tela de configuraçoes das "Work Sessions", encontra-se a opção de desativar o Wi-Fi em sessões de trabalho, ou seja, quando o timer é iniciado. Para ativar esta opção basta clicar no "switch":
 
@@ -631,17 +616,21 @@ Esta opção é bastante util, uma vez que impede a total receção de notifica�
 
 *Nota: Após a ativação da opção "Desativar Wi-Fi em sessões de trabalho"
 
-### Silenciar Telemóvel
-
-O opção de "Modo Silencioso", permite silenciar Notificações, Vibrações e Multimédia de forma simultânea ao iniciar um timer. Para ativar esta opção, o user deve aceder ás configurações das "Work Sessions" e clicar no "switch" da opção "Modo Silencioso".
-
-![Ativar e Desativar](https://user-images.githubusercontent.com/48087662/135104330-c27bf5e6-5292-419b-8f6c-3179791cfe5f.png)
-
-![Modo Silencioso](https://user-images.githubusercontent.com/48087662/135116081-8e2a5be2-4e31-42a5-8639-cbf6d94e8dba.png)
-
-O dispositivo deixará de estar silenciado quando o timer for pausado, ou quando o tempo do mesmo terminar.
-
 ### Adicionar e remover tarefas
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "To-Do List"| Exibição de uma tela com uma lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas| Funcional
+|2|Clicar no botão "+"| Exibição da tela de criação de uma nova tarefa | Funcional
+|3|Preencher os campos relativos á tarefa a ser criada (titulo, descrição, tipo de tarefa, "deadline" e prioridade da tarefa) | ---- | Funcional
+|4|Clicar no icone "Save"| Tarefa adicionada á lista de tarefas. Insert da informação da tarefa na BD | Semi-Funcional
+|5|Selecionar botão de "Back" do dispositivo| Exibição da tela com a lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas | Funcional
+|6|Clicar no botão "Atualizar" | A lista de tarefas será atualizada caso seja realizada alguma alteração (adição ou remoção de tarefas)| Em Desenvolvimento
+|7|Clicar no icone "Lixo" respetivo a uma tarefa da lista (item) | O item (tarefa) selecionado será removido da lista de tarefas (após a remoção, atualizar novamente a lista de tarefas, clicando no botão "Atualizar")| Em Desenvolvimento
+
+##### Resumo
+
+###### Adicionar e remover tarefas
 
 Para ajudar o utilizador a realizar de forma eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. Para utilizar esta funcionalidade, o utilizador deve clicar no icone que se encontra no canto superior direito (das telas de timer, break ou long break - "To-Do List Icon"). Após o clique, o user será redirecionado para uma nova "activity":
 
