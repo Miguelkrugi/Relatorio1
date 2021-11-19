@@ -553,7 +553,9 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 |2|Clicar no botão "+"| Exibição da tela de criação de uma nova tarefa | Funcional
 |3|Preencher os campos relativos á tarefa a ser criada (titulo, descrição, tipo de tarefa, "deadline" e prioridade da tarefa) | ---- | Funcional
 |4|Clicar no icone "Save"| Tarefa adicionada á lista de tarefas. Insert da informação da tarefa na BD | Semi-Funcional
-|5|
+|5|Selecionar botão de "Back" do dispositivo| Exibição da tela com a lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas | Funcional
+|6|Clicar no botão "Atualizar" | A lista de tarefas será atualizada caso seja realizada alguma alteração (adição ou remoção de tarefas)| Em Desenvolvimento
+|7|Clicar no icone "Lixo" respetivo a uma tarefa da lista (item) | O item (tarefa) selecionado será removido da lista de tarefas (após a remoção, atualizar novamente a lista de tarefas, clicando no botão "Atualizar")| Em Desenvolvimento
 
 A app terá diversas funcionalidades secundárias, tais como: 
 
