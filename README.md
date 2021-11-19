@@ -409,13 +409,25 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 
 ![](https://user-images.githubusercontent.com/48087662/135133682-84568b49-fbdb-42bf-a028-2a713445fca5.png)
 
-## Guião de Teste - Visualizar locais próximos do utilizador, marcar convivios, filtrar locais, definir rotas, marcar e filtrar locais favoritos e marcar presenças
+## Guião de Teste - Visualizar locais próximos do utilizador, marcar convivios, filtrar locais (por categoria), definir rotas, marcar e filtrar locais favoritos e marcar presenças
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|O utilizador deve selecionar o botão "Long Break", que se encontra na zona inferior das telas de timer)| Redireciona o utilizador para a tela de "Long Break", respetiva ao timer que está a ser utilizado| Funcional
-|2|Clicar num dos seguintes icones: "café" ou "livro"| Após o clique num desses icones, surge um mapa que exibe a posição atual do utilizador e os locais de interesse perto da sua posição|Em Desenvolvimento
-|3|Selecionar um dos pontos de interesse (marcador no mapa)| Após a seleção, são exibidas algumas informações acerca desse local (nome, endereço, categoria e distância)|Em Desenvolvimento
+|2|Clicar num dos seguintes icones: "café" ou "livro"| Após o clique num desses icones, surge um mapa que exibe a posição atual do utilizador e os locais de interesse perto da sua posição|Semi-Funcional
+|3|Selecionar um dos pontos de interesse (marcador no mapa)| Após a seleção, são exibidas algumas informações acerca desse local (nome, endereço, categoria e distância), "oferencendo" as opções de "Marcar Presença", "Marcar Favorito" e "Marcar Convivio"|Em Desenvolvimento
+|3.1 - Alternativa| Clicar no botão "Locais Próximos"| Após o clique, é exibida uma lista de locais próximos do utilizador, baseada nos locais que surgem no mapa.
+|3.2|Selecionar a barra de pesquisa e introduzir um nome | Exibição de locais próximos que, no seu nome, contenham o nome introduzido pelo utilizador.
+|3.3|Clicar no icone "Nearby Locations"| Exibição de locais próximos, ordenados pela distância de cada local em relação á posição atual do utilizador| Em Desenvolvimento
+
+### Marcar Presenças
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|O utilizador deve selecionar um ponto de interesse no mapa | Exibição de um pop-up com as informações do local selecionado| Em Desenvolvimento
+|2|Clicar no icone "Check"| É marcada uma presença naquele local previamente selecionado| Em Desenvolvimento
+|2.1|Clicar novamente no icone de "Check"| Desmarca a presença naquele local previamente selecionado | Em Desenvolvimento
+
 
 ### Marcar Convivios
 
@@ -424,7 +436,7 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 |1|No mapa, o utilizador deve clicar num dos pontos de interesse em que deseja marcar um convivio| Serão exibidas as informações relativas ao local selecionado, de entre elas um botão "Marcar Convivio".|Em Desenvolvimento
 |2|Após o clique, o utilizador deve selecionar um grupo onde queira marcar esse convivio.|Surgirá uma "mensagem pronta", no chat desse grupo, que indicará que foi marcado um convivio para um determinado local previamente selecionado (indicando o endereço, categoria e nome do local).| Em Desenvolvimento
 
-### Filtrar Locais
+### Filtrar Locais (por categoria e nome)
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
@@ -444,6 +456,16 @@ Na zona inferior da tela, encontra-se um botão que, ao ser ativado, redireciona
 |1|No mapa exibido da tela, o utilizador deve selecionar um local (marcador do mapa)| Exibição das informações do local selecionado (nome, endereço, distancia e categoria)|Em Desenvolvimento
 |2|Após a exibição das informações do local selecionado, o utilizador deve clicar na opção "Adicionar aos Favoritos"| Surgirá uma mensagem "toast", indicando que adicinou o local com sucesso á lista de favoritos. O local será então adicionado a uma lista de locais favoritos do utilizador| Em Desenvolvimento
 |3|No mapa, basta o utilizador selecionar o botão "Ver locais favoritos"| Exibição de uma lista com os locais favoritos do utilizador | Em Desenvolvimento
+
+### Filtrar Locais Favoritos
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Na tela do mapa, selecionar o botão "Locais Favoritos"| Exibição de uma lista com os locais favoritos do utilizador| Em Desenvolvimento
+|2|Na barra de pesquisa da lista, pesquisar por um nome | Através de um "name containing", surgem na lista somente os locais favoritos do utilizador que contêm o nome introduzido na barra de pesquisa | Em Desenvolvimento
+
+
+
 
 A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos intervalos entre as sessões de trabalho, caso este o deseje. 
 Estas funcionalidades estarão somente visiveis nas telas de "Long Break" de cada timer. 
@@ -475,10 +497,20 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 ![ListView de Livrarias e Bibliotecas](https://static.wixstatic.com/media/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.png/v1/fill/w_407,h_730,al_c,lg_1,q_85/302737_d30c6c89b4cb4deaa72051ceb24081c9~mv2.webp)
 
 
-## Guião de Teste - Funcionalidades Secundárias
+## Guião de Teste - Funcionalidades Secundárias (Visualizar configurações disponiveis, selecionar musica ambiente, silenciar dispositivo, bloquear apps, bloquear websites, desativar wi-fi e gestão de tarefas)
+
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "Engrenagem"| Exibição de uma tela de configurações da app, contendo uma lista com as configurações disponiveis (Musica Ambiente, Modo Silencioso, Bloqueio de Apps, Bloqueio de Websites e Wi-Fi desativado)| Funcional
+|2|Clicar num dos items da lista de configurações| Exibição do conteudo relativo á configuração selecionada (item selecionado)| Semi-Funcional
 
 ### Musica Ambiente --> fazer daqui a pouco
 
+|Nº Passo|Passo|Resultado|Estado|
+|---|---|---|---|
+|1|
+|2|
+|3|
 
 ### Silenciar Telemovel --> fazer daqui a pouco
 
