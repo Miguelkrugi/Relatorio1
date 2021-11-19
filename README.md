@@ -549,9 +549,11 @@ Este botão permitirá ao utilizador, digitar o nome de um café, bar, restauran
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|
-|2|
-|3|
+|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "To-Do List"| Exibição de uma tela com uma lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas| Funcional
+|2|Clicar no botão "+"| Exibição da tela de criação de uma nova tarefa | Funcional
+|3|Preencher os campos relativos á tarefa a ser criada (titulo, descrição, tipo de tarefa, "deadline" e prioridade da tarefa) | ---- | Funcional
+|4|Clicar no icone "Save"| Tarefa adicionada á lista de tarefas. Insert da informação da tarefa na BD | Semi-Funcional
+|5|
 
 A app terá diversas funcionalidades secundárias, tais como: 
 
