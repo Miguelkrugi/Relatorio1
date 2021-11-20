@@ -372,3 +372,13 @@ insert into convivio(data_convivio, grupo_id, placee_id) values ('2020-04-01', '
 
 insert into convivio(data_convivio, grupo_id, placee_id)
 values('2021-11-02', '3', '4') -- Marcacao de um convivio para o grupo com ID 3, no local com id 4, na data "2021-11-02"
+
+#### Adicionar Bloqueamentos
+
+insert into bloqueamento(utilizador_id, blocked_status)
+values('1', '1')
+
+#### Bloqueamento de uma app
+
+insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name)
+values('1','1','1','Facebook')
