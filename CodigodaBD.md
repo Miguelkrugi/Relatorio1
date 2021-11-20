@@ -84,7 +84,7 @@ create table categorialocal(
 
 );
 
-### Tabela "utilizador_local" -> MANTER
+### Tabela "utilizador_local" 
 
 create table utilizador_local(
 
