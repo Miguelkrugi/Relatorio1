@@ -450,6 +450,9 @@ Caso o utilizador queira sair da sua conta na app, deverá aceder á barra later
 
 Link para o pitch: https://youtu.be/afL7qk63RFg
 
+# LINK TEMPORÁRIO PARA ACESSO AO FICHEIRO MOBILE DA "BUSYBRAIN":
+
+Link: https://www.mediafire.com/file/tbmcgjp5btqys7i/ProttipoBusyBrain.zip/file
 
 
 
