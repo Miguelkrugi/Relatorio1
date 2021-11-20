@@ -191,6 +191,10 @@ values ('Cook the dinner', 'Cook the dinner for Christmas Day', '2015-03-08', '3
 insert into tarefa (task_title, task_desc, due_date, user_task_id, task_priority_id, task_type_id) 
 values ('Buy groceries', 'Buy all the groceries to lunch', '2020-01-12', '4', '3', '2')
 
+insert into tarefa (task_title, task_desc, due_date, user_task_id, task_priority_id, task_type_id) 
+values ('Go to mall', 'Go to the mall to buy clothes', '2021-04-05', '8', 4', '2')
+
+
 ### Tabela "utilizador"
 
 insert into utilizador (user_name, user_password, user_email) 
@@ -228,6 +232,22 @@ values ('Individual')
 insert into tipotarefa (tasktype_nome) 
 values ('Grupo')
 
+insert into tipotarefa (tasktype_nome) 
+values ('Reunião')
+
+insert into tipotarefa (tasktype_nome) 
+values ('Palestra')
+
+insert into tipotarefa (tasktype_nome) 
+values ('Entrevista')
+
+insert into tipotarefa (tasktype_nome) 
+values ('Culinária')
+
+insert into tipotarefa (tasktype_nome) 
+values ('Desporto')
+
+
 ### Tabela "prioridadetarefa"
 
 insert into prioridadetarefa (taskpriority_type) 
@@ -246,61 +266,83 @@ values ('Urgent')
 ### Tabela "bloqueamento"
 
 insert into bloqueamento(utilizador_id, blocked_status) 
-values ('1', '1') --> O john doe (utilizador com ID 1) fez um bloqueio (bloqueio status = TRUE (1))
+values ('1', '1') 
 
-insert into bloqueamento(utilizador_id, blocked_status)
-values('1', '1') --> O john doe fez outro bloqueamento
+insert into bloqueamento(utilizador_id, blocked_status) 
+values('1', '1') 
 
-insert into bloqueamento(utilizador_id, blocked_status)
-values('2', '1') --> A mary doe (utilizador com ID 2) fez um bloqueio (bloqueio status = TRUE (1))
+insert into bloqueamento(utilizador_id, blocked_status) 
+values('2', '1')
 
-insert into bloqueamento(utilizador_id, blocked_status)
-values('3','1') --> A lauren doe (utilizador com ID 3) fez um bloqueio (bloqueio status = TRUE (1))
+insert into bloqueamento(utilizador_id, blocked_status) 
+values('3','1') 
 
-insert into bloqueamento(utilizador_id, blocked_status)
-values('1', '1') --> O john doe fez outro bloqueamento (website)
+insert into bloqueamento(utilizador_id, blocked_status) 
+values('1', '1')
 
-insert into bloqueamento(utilizador_id, blocked_status)
-values('4','1') --> o joaofepas (utilizador com ID 4) fez um bloqueio (bloqueio status = TRUE(1))
+insert into bloqueamento(utilizador_id, blocked_status) 
+values('4','1') 
 
+
+### Tabela "utilizador_tarefa"
+
+insert into utilizador_tarefa (user_identifier, task_identifier) 
+values ('1', '4')
+
+insert into utilizador_tarefa (user_identifier, task_identifier) 
+values ('8', '4')
+
+insert into utilizador_tarefa (user_identifier, task_identifier) 
+values ('2', '1')
+
+insert into utilizador_tarefa (user_identifier, task_identifier) 
+values ('3', '1')
 
 ### Tabela "app"
 
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name)
-values('1','1','1','Facebook') --> o bloqueamento da app facebook corresponde a um id. Este bloqueamento desta app foi feita pelo John Doe e tem um status 1, ou seja, foi bloqueada
+insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name) 
+values('1','1','1','Facebook') 
 
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name)
-values('2','1','1','YouTube') --> o bloqueamento da app youtube corresponde ao bloqueamento com ID 2, que corresponde ao utilizador com ID 1 (john doe)
+insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name) 
+values('2','1','1','YouTube') 
 
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name)
-values('3','2','1','Wikipedia') --> o bloqueamento da app wikipedia corresponde ao bloqueamento com ID 3, que corresponde ao utilizador com ID 2 (mary doe)
+insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name) 
+values('3','2','1','Wikipedia') 
 
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name)
-values('4','3','1','Kalorias') --> o bloqueamento da app kalorias corresponde ao bloqueamento com ID 4, que corresponde ao utilizador com ID 3 (lauren doe)
+insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name) 
+values('4','3','1','Kalorias') 
 
 ### Tabela "website"
 
-insert into website(bloqueamento_id, utilizador_id, blocked_status, website_domain)
-values('5','1','1','facebook.com') 
+insert into website(bloqueamento_id, utilizador_id, blocked_status, website_domain) 
+values('5','1','1','facebook.com')
 
-insert into website(bloqueamento_id, utilizador_id, blocked_status, website_domain)
-values('6','4','1','reddit.com') 
+insert into website(bloqueamento_id, utilizador_id, blocked_status, website_domain) 
+values('6','4','1','reddit.com')
 
 ### Tabela "grupo"
 
-insert into grupo(group_name, group_description, tarefa_id)
-values ('Grupo da tarefa 4', 'Isto é o grupo da tarefa 4 na BD', '4')
+insert into grupo(group_name, group_description, tarefa_id) 
+values ('Cook Dinner Group', 'Group to cook the dinner', '4')
 
-insert into grupo(group_name, group_description, tarefa_id)
-values ('Grupo da tarefa 3', 'Isto é o grupo da tarefa 3 na BD', '3') -> grupo do buy groceries
+insert into grupo(group_name, group_description, tarefa_id) 
+values ('Grupo da tarefa 4', 'Isto é o grupo da tarefa 4 na BD', '4') 
 
-insert into grupo(group_name, group_description, tarefa_id)
+insert into grupo(group_name, group_description, tarefa_id) 
+values ('Grupo da tarefa 3', 'Isto é o grupo da tarefa 3 na BD', '3') 
+
+insert into grupo(group_name, group_description, tarefa_id) 
 values('Grupo para TPC Matematica', 'Isto é um grupo para o trabalho de matematica', '1')
+
 
 ### Tabela "convivio"
 
-insert into convivio(data_convivio, grupo_id, placee_id)
-values('2021-11-02', '3', '4') -> criado um convivio na data "2021-11-02", para o grupo com ID 3, no local com ID 4. 
+insert into convivio(data_convivio, grupo_id, placee_id) 
+values('2021-11-02', '3', '4') 
+
+insert into convivio(data_convivio, grupo_id, placee_id) 
+values('2021-11-02', '3', '4') 
+
 
 ### Tabela "categorialocal"
 
@@ -331,24 +373,32 @@ insert into place (place_name, place_endereco, place_distancia, place_categoria)
 values ('Cafe Dom Joaquim','Avenida da Estrela', Nº 4B','253','2')
 
 insert into place (place_name, place_endereco, place_distancia, place_categoria) 
-values ('Restaurante O Espetadas','Rua Parlo Pinheiro, Nº 9','3141','3')
+values ('Cafe O Dante','Rua Neuracia da Alemanha, Nº 12,'1256','1')
 
 insert into place (place_name, place_endereco, place_distancia, place_categoria, place_latitude, place_longitude) 
 values ('Livraria Dom Joao I','Rua do Rossio, Nº 22','1156','4', '27372.47571937', '37471.47591811')
 
-## Queries
+### Tabela "marcacao_presenca"
 
-#### Atribuir uma tarefa a um utilizador (criador da tarefa)
+insert into marcacao_presenca (wasthere, utilizador_id, local_id) 
+values ('1', ‘1’, ‘3’)
 
-insert into tarefa (task_title, task_desc, due_date, user_task_id, task_priority_id, task_type_id) values ('Go to mall', 'Go to the mall tu buy clothes', '2021-04-05', '8', '4', '2')
+insert into marcacao_presenca (wasthere, utilizador_id, local_id) 
+values ('0', ‘3’, ‘5’)
 
-#### Adicionar um utilizador a uma tarefa (atribuir um utilizador á mesma tarefa de um outro utilizador, incluindo o criador do grupo, pois também é um participante)
+### Tabela "marcacao_favorito"
 
-insert into utilizador_tarefa(user_identifier, task_identifier) values ('1', '4')
-insert into utilizador_tarefa(user_identifier, task_identifier) values ('8', '4')
+insert into marcacao_presenca (isfavorite, utilizador_id, local_id) 
+values ('1', ‘5’, ‘3’)
 
-insert into utilizador_tarefa(user_identifier, task_identifier) values ('2', '1')
-insert into utilizador_tarefa(user_identifier, task_identifier) values ('3', '1')
+insert into marcacao_presenca (isfavorite, utilizador_id, local_id) 
+values ('0', ‘1’, ‘5’)
+
+insert into marcacao_presenca (isfavorite, utilizador_id, local_id) 
+values ('1', ‘3’, ‘5’)
+
+
+## Queries (relativas ás Custom Queries da API)
 
 #### Para ver os participantes de cada grupo criado na app
 
@@ -356,31 +406,18 @@ select * from utilizador
 inner join utilizador_tarefa on user_id = user_identifier
 inner join tarefa on task_id = task_identifier
 
-#### Marcação de um local como "Favorito"
+#### Filtrar websites bloqueados
 
-insert into marcacao_favorito (isFavorite, utilizador_id, local_id) values ('0', '1', '5') --> O utilizador 1, não tem o local 5 marcado como favorito (valor default)
+SELECT * FROM website WHERE blocked_status = '1'
 
-insert into marcacao_davorito (isFavorite, utilizador_id, local_id) values ('1', '2', '5') --> O utilizador 2, tem o local 5 marcado como favorito, após enviar o pedido (valor do isFavorite = 1 (True))
+#### Filtrar websites desbloqueados
 
-#### Marcação de presenças 
+SELECT * FROM website WHERE blocked_status = '0'
 
-insert into marcacao_presenca(wasThere, utilizador_id, local_id) values ('1','1','3') --O johndoe (utilizador 1), marcou presença no bar lemos (local com ID 3)
+#### Filtrar apps bloqueadas
 
-#### Marcacao de convivios 
+SELECT * FROM app WHERE blocked_status = '1'
 
-insert into grupo(group_name, group_description, tarefa_id) values ('Cook Dinner Group', 'Group to cook the dinner', '4') -- Para o grupo que corresponde á tarefa 4, que contém x utilizadores/utilizador...
+#### Filtrar apps desbloqueadas
 
-insert into convivio(data_convivio, grupo_id, placee_id) values ('2020-04-01', '1', '5') -- Criação/Marcação de um convivio numa x data, pertencente a um x grupo (neste caso com id '1' (correspondente ao grupo "Cook Dinner Group")), para o local com id 5.
-
-insert into convivio(data_convivio, grupo_id, placee_id)
-values('2021-11-02', '3', '4') -- Marcacao de um convivio para o grupo com ID 3, no local com id 4, na data "2021-11-02"
-
-#### Adicionar Bloqueamentos
-
-insert into bloqueamento(utilizador_id, blocked_status)
-values('1', '1')
-
-#### Bloqueamento de uma app
-
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name)
-values('1','1','1','Facebook')
+SELECT * FROM app WHERE blocked_status = '0'
