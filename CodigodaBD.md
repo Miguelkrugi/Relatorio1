@@ -1,5 +1,7 @@
 # Código de criação da Base de Dados
 
+### Próxima Atualização: 26 Novembro (correção de erros, melhoria de apresentação do documento, adicionadas novas queries, etc.)
+
 ## Criação de tabelas
 
 ### Tabela "Utilizador"
