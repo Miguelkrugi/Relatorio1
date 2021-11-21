@@ -374,7 +374,7 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "Engrenagem"| Exibição de uma tela de configurações da app, contendo uma lista com as configurações disponiveis (Musica Ambiente, Modo Silencioso, Bloqueio de Apps, Bloqueio de Websites e Wi-Fi desativado)| Funcional
+|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "Engrenagem"| Exibição de uma tela de configurações da app, contendo uma lista com as configurações disponiveis (Musica Ambiente, Modo Silencioso, Bloqueio de Apps, Bloqueio de Websites e Wi-Fi desativado)| Semi-Funcional
 |2|Clicar num dos items da lista de configurações| Exibição do conteudo relativo á configuração selecionada (item selecionado)| Semi-Funcional
 
 
