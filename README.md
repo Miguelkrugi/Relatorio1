@@ -248,7 +248,7 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Selecionar o icone de um "cérebro" (logótipo da app) do menu de apps do dispositivo|Iniciar a app|Funcional
+|1|Selecionar o icone de um "cérebro" (logótipo da app) do menu de apps do dispositivo|Iniciar a app|Semi-Funcional
 |2|Introdução á app|Exibição de um sistema "On-Boarding" que resuma os objetivos e algumas funcionalidades da app|Funcional
 |3|Selecionar o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
 |3.1 - Alternativa|Selecionar os icones de "forward" e "go back", localizados nas zonas laterais de cada tela que compõe a Introdução, de forma a navegar por entre as telas, selecionando de seguida o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
@@ -439,7 +439,6 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |5|Selecionar botão de "Back" do dispositivo| Exibição da tela com a lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas | Funcional
 |6|Clicar no botão "Atualizar" | A lista de tarefas será atualizada caso seja realizada alguma alteração (adição ou remoção de tarefas)| Em Desenvolvimento
 |7|Clicar no icone "Lixo" respetivo a uma tarefa da lista (item) | O item (tarefa) selecionado será removido da lista de tarefas (após a remoção, atualizar novamente a lista de tarefas, clicando no botão "Atualizar")| Em Desenvolvimento
-
 
 
 ### Logout
