@@ -6,20 +6,21 @@
 
 ### Tabela "Utilizador"
 
+
 create table utilizador(
 
-   user_id SERIAL primary key,
-   user_name varchar(20) not null,
-   user_password varchar(30) not null,
-   user_email varchar(50)
-
+  user_id SERIAL primary key,             
+  user_name varchar(20) not null,         
+  user_password varchar(30) not null,
+  user_email varchar(50)                            
+                                                 
 );
 
 ### Tabela "TipoTarefa"
 
 create table tipotarefa(
 
-   tasktype_id SERIAL primary key,
+   tasktype_id SERIAL primary key,                 
    tasktype_nome varchar(30) not null
 
 );
@@ -28,7 +29,7 @@ create table tipotarefa(
 
 create table prioridadetarefa(
 
-   taskpriority_id SERIAL primary key,
+   taskpriority_id SERIAL primary key,               
    taskpriority_type varchar(10)
 
 );
@@ -37,16 +38,16 @@ create table prioridadetarefa(
 
 create table tarefa(
 
-   task_id SERIAL primary key,
-   task_title varchar(50) not null,
-   task_desc varchar(500) DEFAULT 'There is no description for this task',
-   due_date date NOT NULL DEFAULT CURRENT_DATE,
-   user_task_id int,	
-   CONSTRAINT fk_usertaskid FOREIGN KEY(user_task_id) REFERENCES utilizador(user_id),
-   task_priority_id int,
-   CONSTRAINT fk_prioritytarefa FOREIGN KEY(task_priority_id) REFERENCES prioridadetarefa(taskpriority_id),
-   task_type_id int,
-   CONSTRAINT fk_tipotarefa FOREIGN KEY(task_type_id) REFERENCES tipotarefa(tasktype_id) 	
+   task_id SERIAL primary key,                     
+   task_title varchar(50) not null,                  
+   task_desc varchar(500) DEFAULT 'There is no description for this task',                  
+   due_date date NOT NULL DEFAULT CURRENT_DATE,               
+   user_task_id int,	                
+   CONSTRAINT fk_usertaskid FOREIGN KEY(user_task_id) REFERENCES utilizador(user_id),                         
+   task_priority_id int,                     
+   CONSTRAINT fk_prioritytarefa FOREIGN KEY(task_priority_id) REFERENCES prioridadetarefa(taskpriority_id),                          
+   task_type_id int,                        
+   CONSTRAINT fk_tipotarefa FOREIGN KEY(task_type_id) REFERENCES tipotarefa(tasktype_id)                  	
 
 );
 
@@ -54,11 +55,11 @@ create table tarefa(
 
 create table utilizador_tarefa(
 
-  user_id_tarefa SERIAL primary key,
-  user_identifier int,
-  CONSTRAINT fk_user_identifier FOREIGN KEY(user_identifier) REFERENCES utilizador(user_id),	
-  task_identifier int,
-  CONSTRAINT fk_task_identifier FOREIGN KEY(task_identifier) REFERENCES tarefa(task_id)	
+  user_id_tarefa SERIAL primary key,                         
+  user_identifier int,                        
+  CONSTRAINT fk_user_identifier FOREIGN KEY(user_identifier) REFERENCES utilizador(user_id),	                      
+  task_identifier int,                               
+  CONSTRAINT fk_task_identifier FOREIGN KEY(task_identifier) REFERENCES tarefa(task_id)	                             
   	
 );
 
@@ -66,14 +67,14 @@ create table utilizador_tarefa(
 
 create table place(
 
-  place_id SERIAL primary key,
-  place_name varchar(100) not null,
-  place_endereco varchar(300) not null,
-  place_distancia int, 
-  place_categoria_id int,
-  CONSTRAINT fk_placecategoriaid FOREIGN KEY(place_categoria_id) REFERENCES categorialocal(categoria_id)
-  place_latitude double,
-  place_longitude double
+  place_id SERIAL primary key,                          
+  place_name varchar(100) not null,                          
+  place_endereco varchar(300) not null,                         
+  place_distancia int,                             
+  place_categoria_id int,                              
+  CONSTRAINT fk_placecategoriaid FOREIGN KEY(place_categoria_id) REFERENCES categorialocal(categoria_id)                    
+  place_latitude double,                             
+  place_longitude double                            
 
 );
 
@@ -81,8 +82,8 @@ create table place(
 
 create table categorialocal(
 
-  categoria_id SERIAL primary key,
-  categoria_name varchar(15) not null
+  categoria_id SERIAL primary key,                                 
+  categoria_name varchar(15) not null                                 
 
 );
 
@@ -90,23 +91,23 @@ create table categorialocal(
 
 create table utilizador_local(
 
-  user_local_id SERIAL primary key,
-  utilizador_id int,
-  CONSTRAINT fk_utilizador_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id) 
-  local_id int,
-  CONSTRAINT fk_local_id FOREIGN KEY(local_id) REFERENCES place(place_id)
+  user_local_id SERIAL primary key,                                    
+  utilizador_id int,                                        
+  CONSTRAINT fk_utilizador_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id)                                    
+  local_id int,                                      
+  CONSTRAINT fk_local_id FOREIGN KEY(local_id) REFERENCES place(place_id)                               
 );
 
 ### Tabela "marcacao_presenca"
 
 create table marcacao_presenca(
 
-   presenca_id SERIAL primary key,
-   wasThere bit (boolean),
-   utilizador_id int,
-   CONSTRAINT fk_utilizador_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),
-   local_id int,
-   CONSTRAINT fk_local_id FOREIGN KEY(local_id) REFERENCES place(place_id)
+   presenca_id SERIAL primary key,                                      
+   wasThere bit (boolean),                                   
+   utilizador_id int,                                      
+   CONSTRAINT fk_utilizador_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),                              
+   local_id int,                                     
+   CONSTRAINT fk_local_id FOREIGN KEY(local_id) REFERENCES place(place_id)                            
 
 );
 
@@ -114,12 +115,12 @@ create table marcacao_presenca(
 
 create table marcacao_favorito(
 
-   favorite_id SERIAL primary key,
-   isFavorite bit (boolean),
-   utilizador_id int,
-   CONSTRAINT fk_utilizador_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),
-   local_id int,
-   CONSTRAINT fk_local_id FOREIGN KEY(local_id) REFERENCES place(place_id)
+   favorite_id SERIAL primary key,                                     
+   isFavorite bit (boolean),                                        
+   utilizador_id int,                                 
+   CONSTRAINT fk_utilizador_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),                                     
+   local_id int,                                   
+   CONSTRAINT fk_local_id FOREIGN KEY(local_id) REFERENCES place(place_id)                               
 
 );
 
@@ -127,11 +128,11 @@ create table marcacao_favorito(
 
 create table grupo(
 
-    group_id SERIAL primary key,
-    group_name varchar(30) not null,
-    group_description varchar(150),
-    tarefa_id int,
-    CONSTRAINT fk_tarefa_id FOREIGN KEY(tarefa_id) REFERENCES tarefa(task_id)
+    group_id SERIAL primary key,                                
+    group_name varchar(30) not null,                            
+    group_description varchar(150),                             
+    tarefa_id int,                                
+    CONSTRAINT fk_tarefa_id FOREIGN KEY(tarefa_id) REFERENCES tarefa(task_id)                       
 	
 );
 
@@ -139,12 +140,12 @@ create table grupo(
 
 create table convivio(
 
-    data_convivio date,
-    convivio_id SERIAL primary key,
-    grupo_id int,
-    CONSTRAINT fk_grupo_id FOREIGN KEY(grupo_id) REFERENCES grupo(group_id),
-    placee_id int,
-    CONSTRAINT fk_place_id FOREIGN KEY(placee_id) REFERENCES place(place_id)
+    data_convivio date,                           
+    convivio_id SERIAL primary key,                        
+    grupo_id int,                             
+    CONSTRAINT fk_grupo_id FOREIGN KEY(grupo_id) REFERENCES grupo(group_id),                                           
+    placee_id int,                             
+    CONSTRAINT fk_place_id FOREIGN KEY(placee_id) REFERENCES place(place_id)                             
 
 );
 
@@ -152,10 +153,10 @@ create table convivio(
 
 create table bloqueamento(
 
-    bloqueamento_id SERIAL primary key,
-    utilizador_id int,
-    CONSTRAINT fk_user_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),
-    blocked_status boolean (bit),
+    bloqueamento_id SERIAL primary key,                                   
+    utilizador_id int,                                          
+    CONSTRAINT fk_user_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),                                     
+    blocked_status boolean (bit),                                     
     
 );
 
@@ -163,8 +164,8 @@ create table bloqueamento(
 
 create table app(
 
-  app_id SERIAL primary key,
-  app_name varchar(50)
+  app_id SERIAL primary key,                                
+  app_name varchar(50)                                        
 
 ) inherits (bloqueamento);
 
@@ -173,8 +174,8 @@ create table app(
 
 create table website(
 
-  website_id SERIAL primary key,
-  website_domain varchar(150)
+  website_id SERIAL primary key,                                 
+  website_domain varchar(150)                              
 
 ) inherits (bloqueamento);
 
