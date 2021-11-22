@@ -399,7 +399,7 @@ insert into marcacao_presenca (isfavorite, utilizador_id, local_id)
 values ('1', ‘3’, ‘5’)
 
 
-## Queries (relativas ás Custom Queries da API)
+## Queries (relativas ás Custom Queries da API - podem sofrer alterações com o avanço do projeto)
 
 #### Para ver os participantes de cada grupo criado na app
 
