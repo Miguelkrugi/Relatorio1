@@ -422,3 +422,29 @@ SELECT * FROM app WHERE blocked_status = '1'
 #### Filtrar apps desbloqueadas
 
 SELECT * FROM app WHERE blocked_status = '0'
+
+# OUTROS (NECESSITAM DE SER COMENTADOS - QUERIES DA API)
+#### NOTA: AS QUERIES ENVOLVEM INNER JOINS, ETC:
+
+select marcarpresencas.presenca_id AS presencaId, users.user_name AS Username, locais.place_name AS Nameofplace
+from marcacao_presenca AS marcarpresencas
+inner join utilizador users on users.user_id = marcarpresencas.utilizador_id
+inner join place locais on marcarpresencas.local_id = locais.place_id
+where wasthere = '1' 
+
+select marcacoesp.presenca_id AS preId, userss.user_name AS username, localss.place_name AS nome
+from marcacao_presenca AS marcacoesp
+inner join utilizador userss on userss.user_id = marcacoesp.utilizador_id
+inner join place localss on marcacoesp.local_id = localss.place_id
+where wasthere = '1'and userss.user_id=:userid
+
+
+select marcacoes.favorite_id AS favId, users.user_name AS Username, locals.place_name AS Nameofplace, marcacoes.isfavorite AS Status
+from marcacao_favorito AS marcacoes 
+inner join utilizador users on users.user_id = marcacoes.utilizador_id
+inner join place locals on marcacoes.local_id = locals.place_id
+
+select * from marcacao_presenca
+
+insert into marcacao_presenca(wasthere, utilizador_id, local_id)
+values('1', 2, 4)
