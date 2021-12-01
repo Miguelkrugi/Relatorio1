@@ -448,3 +448,25 @@ select * from marcacao_presenca
 
 insert into marcacao_presenca(wasthere, utilizador_id, local_id)
 values('1', 2, 4)
+
+# Para organizar:
+
+select convivios.convivio_id AS idconvivio, convivios.data_convivio AS dataconvivio, groupss.group_name AS nomegrupo, placess.place_name
+from convivio AS convivios
+inner join grupo AS groupss on groupss.group_id = convivios.grupo_id
+inner join place AS placess on placess.place_id = convivios.placee_id
+where groupss.group_id=:grupoid
+
+--convivios.convivio_id AS idconvivio
+
+--convivios.data_convivio AS dataconvivio
+
+select * from utilizador_tarefa
+
+select participantes.user_id_tarefa AS idparticipante, usersss.user_name AS nameparticipante, tarefasss.task_title
+from utilizador_tarefa AS participantes
+inner join utilizador AS usersss on usersss.user_id = participantes.user_identifier
+inner join tarefa AS tarefasss on tarefasss.task_id = participantes.task_identifier
+
+
+select * from tarefa
