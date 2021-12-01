@@ -382,19 +382,19 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no primeiro item "Musica Ambiente"| Exibição de uma tela que contém uma lista de "background sounds" disponiveis. | Em Desenvolvimento
-|2|Selecionar um item da lista (som) | O som começa a ser reproduzido pelo dispositivo | Em Desenvolvimento
-|3|Clicar no botão "Guardar"| O som selecionado continuará a ser reproduzido por toda a app | Em Desenvolvimento
+|1|Na lista de configurações, o utilizador deve clicar no primeiro item "Musica Ambiente"| Exibição de uma tela que contém todos os "background sounds" disponiveis. | Funcional
+|2|Selecionar um item da lista (som - clicar no botão "Play") | O som começa a ser reproduzido pelo dispositivo e por toda a app | Semi-Funcional
+|2.1|Clicar no botão "Pause" | O som a ser reproduzido será "pausado" | Funcional
+|2.2|Clicar no botão "Stop" | Interrompe o som que está a ser reproduzido | Funcional
 
 
-
-### Silenciar Telemovel --> fazer daqui a pouco
+### Silenciar Telemovel 
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no quinto item "Modo Silencioso" | Exibição de uma tela que contém um switch para ativar ou desativar o modo silencioso | Funcional
-|2|Clicar no "switch", para o ativar | Ativação do modo silencioso, silenciando volumes multimédia, notificações e "ring"| Em Desenvolvimento
-|3|Clicar novamente no "switch", para o desativar | Desativação do modo silencioso | Em Desenvolvimento
+|2|Clicar no "switch", para o ativar | Ativação do modo silencioso, silenciando volumes multimédia, notificações e "ring"| Semi-Funcional
+|3|Clicar novamente no "switch", para o desativar | Desativação do modo silencioso | Semi-Funcional
 
 
 
@@ -403,29 +403,27 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no segundo item "Bloquear Apps" | Exibição de uma tela que contém uma lista de apps presentes no dispositivo do utilizador |Em Desenvolvimento
+|1.1|Selecionar o icone de "funil" do lado esquerdo | Filtrar a lista de apps por aplicações bloqueadas | Semi-Funcional
+|1.2|Selecionar o icone de funil do lado direito | Filtrar a lista de apps por aplicações desbloqueadas
 |2|O utilizador deverá marcar na "checkbox", que app/apps deseja bloquear | ---- |Em Desenvolvimento
 |2.1|Nas "checkboxes" assinaladas, o utilizador deverá desmarcar as mesmas | --- | Em Desenvolvimento
-|3|Clicar no botão "Guardar" | As alterações serão guardadas e as apps selecionadas tornam-se ocultas no menu de apps do dispositivo. As apps desbloqueadas tornam-se visiveis no menu de apps do dispositivo | Em Desenvolvimento
-
-
+|3|Clicar no botão com o icone de "Guardar" | As alterações serão guardadas e as apps selecionadas tornam-se ocultas no menu de apps do dispositivo. As apps desbloqueadas tornam-se visiveis no menu de apps do dispositivo | Em Desenvolvimento
 
 ### Bloqueio de Websites
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no terceiro item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio |Em Desenvolvimento
-|2|Na lista de websites pré-definidos, selecionar os "radio buttons" correspondentes a um/vários websites que se desejam bloquear| ---- | Em Desenvolvimento
-|3|Clicar no botão "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | Em Desenvolvimento
-
-
+|2|Na lista de websites pré-definidos, selecionar as "checkboxes" correspondentes a um/vários websites que se desejam bloquear| ---- | Funcional
+|3|Clicar no botão com o icone de "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | Em Desenvolvimento
 
 ### Desativar Wi-Fi durante as sessões de trabalho --> fazer daqui a pouco
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no quarto item "Desativar Wi-Fi" | Exibição de uma tela que contém um switch para ativar ou desativar o wi-fi do dispositivo assim que um timer é iniciado (nas telas de timer) | Semi-Funcional
-|2|Clicar no "switch", para o ativar | Desativação do Wi-Fi durante as sessões de trabalho (quando um timer é iniciado)| Em Desenvolvimento
-|3|Clicar novamente no "switch", para o desativar | Desativação da opção "Desativar Wi-Fi" | Em Desenvolvimento
+|2|Clicar no "switch", para o ativar | Desativação do Wi-Fi durante as sessões de trabalho (quando um timer é iniciado)| Semi-Funcional
+|3|Clicar novamente no "switch", para o desativar | Desativação da opção "Desativar Wi-Fi" | Funcional
 
 
 ### Adicionar e remover tarefas
@@ -439,6 +437,9 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |5|Selecionar botão de "Back" do dispositivo| Exibição da tela com a lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas | Funcional
 |6|Clicar no botão "Atualizar" | A lista de tarefas será atualizada caso seja realizada alguma alteração (adição ou remoção de tarefas)| Em Desenvolvimento
 |7|Clicar no icone "Lixo" respetivo a uma tarefa da lista (item) | O item (tarefa) selecionado será removido da lista de tarefas (após a remoção, atualizar novamente a lista de tarefas, clicando no botão "Atualizar")| Em Desenvolvimento
+|8|Selecionar um dos "Chip-Buttons" ('Low', 'Medium', 'Urgent' e 'High') | Filtrar a lista de tarefas, de acordo com o botão selecionado (filtragem por prioridade) | Semi-Funcional
+|9|Clicar no icone de uma "lupa" e pesquisar por uma palavra | Filtrar a lista de tarefas, de acordo com o titulo | Semi-Funcional
+
 
 
 ### Logout
