@@ -248,7 +248,7 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Selecionar o icone de um "cérebro" (logótipo da app) do menu de apps do dispositivo|Iniciar a app|Semi-Funcional
+|1|Selecionar o icone do logótipo da app do menu de apps do dispositivo|Iniciar a app| Funcional
 |2|Introdução á app|Exibição de um sistema "On-Boarding" que resuma os objetivos e algumas funcionalidades da app|Funcional
 |3|Selecionar o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
 |3.1 - Alternativa|Selecionar os icones de "forward" e "go back", localizados nas zonas laterais de cada tela que compõe a Introdução, de forma a navegar por entre as telas, selecionando de seguida o botão "Get Started"|Surgimento da Splash-Screen da aplicação, que, após alguns segundos, redireciona o utilizador para a tela de registo|Funcional
@@ -262,8 +262,6 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |1.1 - Alternativa|Selecionar o botão "Login", que está localizado abaixo do botão "Registo", na zona lateral esquerda da tela de Registo|O user será redirecionado para a tela de Login|Funcional
 |1.1.1|Preencher os dados relativos ao login (Username e Password) e clicar no botão "Login"|O utilizador fará login da app, sendo redirecionado para a tela principal da app|Não funcional
 
-
-
 ### Telas de Timer
 
 |Nº Passo|Passo|Resultado|Estado|
@@ -272,8 +270,6 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |2|Clicar no botão de "Play"|Iniciar o timer (em qualquer tela de timer)|Funcional
 |2.1|Clicar novamente no botão de "Play", desta vez ,"Pause"|Pausar o timer| Funcional
 |2.2|Selecionar o botão de "Reset" (quando o timer estiver pausado)|Reinicia o timer| Funcional
-
-
 
 #### Hardcore Timer
 
