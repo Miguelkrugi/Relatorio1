@@ -393,7 +393,6 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |3|Clicar novamente no "switch", para o desativar | Desativação do modo silencioso | Semi-Funcional
 
 
-
 ### Bloqueio de Apps
 
 |Nº Passo|Passo|Resultado|Estado|
@@ -411,9 +410,11 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no terceiro item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio |Em Desenvolvimento
 |2|Na lista de websites pré-definidos, selecionar as "checkboxes" correspondentes a um/vários websites que se desejam bloquear| ---- | Funcional
+|2.1|Selecionar o icone de "funil" do lado esquerdo | Filtrar a lista de websites por websites bloqueados
+|2.2|Selecionar o icone de "funil" do lado direito | Filtrar a lista de websites por websites desbloqueados
 |3|Clicar no botão com o icone de "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | Em Desenvolvimento
 
-### Desativar Wi-Fi durante as sessões de trabalho --> fazer daqui a pouco
+### Desativar Wi-Fi durante as sessões de trabalho 
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
