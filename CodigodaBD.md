@@ -174,10 +174,20 @@ create table app(
 
 create table website(
 
-  website_id SERIAL primary key,                                 
-  website_domain varchar(150)                              
+website_id SERIAL primary key,
+website_domain_id int,
+CONSTRAINT fk_domain_id FOREIGN KEY (website_domain_id) REFERENCES website_domains(id_website)	
 
 ) inherits (bloqueamento);
+
+### Tabela "website_domains"
+
+create table website_domains(
+
+   id_website SERIAL primary key,
+   domain_website varchar(120)
+
+);
 
 ## Inserts em tabelas
 
@@ -470,3 +480,5 @@ inner join tarefa AS tarefasss on tarefasss.task_id = participantes.task_identif
 
 
 select * from tarefa
+
+
