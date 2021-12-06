@@ -408,6 +408,9 @@ values ('0', ‘1’, ‘5’)
 insert into marcacao_presenca (isfavorite, utilizador_id, local_id) 
 values ('1', ‘3’, ‘5’)
 
+### Tabela "website_domains"
+
+insert into website_domains(domain_website) values ('www.youtube.com'), ('www.facebook.com'), ('www.twitter.com'), ('www.instagram.com'),('www.wikipedia.org'),('www.yahoo.com'),('www.whatsapp.com'),('www.netflix.com'),('www.amazon.com'),('www.reddit.com');
 
 ## Queries (relativas ás Custom Queries da API - podem sofrer alterações com o avanço do projeto)
 
