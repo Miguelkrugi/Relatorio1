@@ -484,4 +484,23 @@ inner join tarefa AS tarefasss on tarefasss.task_id = participantes.task_identif
 
 select * from tarefa
 
+# CRIACAO DAS TABELAS "CHAT" E "MENSAGEM" 
 
+create table chat(
+
+   chat_id SERIAL primary key,
+   chat_grupo_id int,
+   CONSTRAINT fk_chat_grupo_id FOREIGN KEY(chat_grupo_id) REFERENCES grupo(group_id)
+
+);
+
+create table mensagem(
+
+    message_id SERIAL primary key,
+	message_content varchar(300),
+	message_chat_id int,
+	CONSTRAINT fk_chat_message_id FOREIGN KEY(message_chat_id) REFERENCES chat(chat_id),
+	message_user_id int,
+	CONSTRAINT fk_user_message_id FOREIGN KEY(message_user_id) REFERENCES utilizador_tarefa(user_id_tarefa)
+
+);
