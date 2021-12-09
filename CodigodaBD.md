@@ -504,3 +504,29 @@ create table mensagem(
 	CONSTRAINT fk_user_message_id FOREIGN KEY(message_user_id) REFERENCES utilizador_tarefa(user_id_tarefa)
 
 );
+
+select * from mensagem
+
+select * from chat
+
+select * from utilizador_tarefa
+
+select * from mensagem
+
+insert into chat(chat_grupo_id) values (1)
+
+insert into mensagem(message_content, message_chat_id, message_user_id)
+values('Ola a todos!', 1, 3)
+
+select * from marcacao_favorito
+
+UPDATE marcacao_favorito
+SET isfavorite = '1'
+WHERE utilizador_id = 3 and local_id = 5
+
+select mensagens.message_content AS messageContent, users.user_name AS Username, grupos.group_name
+from mensagem AS mensagens
+inner join utilizador_tarefa userstasks on userstasks.user_identifier = mensagens.message_user_id
+inner join utilizador users on users.user_id = userstasks.user_identifier
+inner join chat chats on chats.chat_id = mensagens.message_chat_id
+inner join grupo grupos on grupos.group_id = chats.chat_id
