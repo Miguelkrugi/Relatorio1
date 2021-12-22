@@ -221,7 +221,8 @@ Quando a app da "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" s
 Esta "activity" apenas exibirá o logótipo da app.
 
 ![Splash Screen]
-file:///Users/wesley/Desktop/Captura%20de%20ecrã%202021-12-22,%20às%2012.51.54.png
+<img width="272" alt="Captura de ecrã 2021-12-22, às 12 51 54" src="https://user-images.githubusercontent.com/90727242/147099083-3200b4ba-dcb9-443d-8dc9-cbfda2ebab3c.png">
+
 
 ### Login Activity
 
