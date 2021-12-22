@@ -231,31 +231,29 @@ Esta "activity" apenas exibirá o logótipo da app.
 ### Login Activity
 
 Após o tempo de espera na tela de Splash-Screen, o utilizador é automaticamente redirecionado para a tela de Login. 
-Esta activity exibirá várias opções de Login (Login pela app, pela conta Google ou pelo Facebook - uso de API's Google e Facebook). Além destas opções, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. 
-Para efetuar o Login na app, o utilizador deverá introduzir o seu Username e a sua Password nos respetivos campos (métodos de login com a Google ou Facebook poderão variar).
+Esta activity exibirá a opção de Login. Além destas opção, a tela de Login exibirá também a possibilidade de "Registo", caso o user ainda não possua uma conta na app. 
+Para efetuar o Login na app, o utilizador deverá introduzir o seu Username e a sua Password nos respetivos campos.
 Após a inserção dos dados, a tabela "Account" (na database), será consultada, procurando através de um ID, uma conta já registada na app que contenha o "Username" e a "Password" inseridas.
-Se este processo for realizado com sucesso, o utilizador será capaz de entrar na sua conta da "BusyBrain", sendo redirecionado para a "Main Activity".
+Se este processo for realizado com sucesso, o utilizador será capaz de entrar na sua conta da "BusyBrain", sendo redirecionado para a "Main Activity" (surgindo também uma mensagem "Toast" de boas-vindas).
 
 <img width="310" alt="Captura de ecrã 2021-12-22, às 02 56 41" src="https://user-images.githubusercontent.com/90727242/147099515-1a8dee80-9ea2-41c8-aa5e-730acc3b0aac.png">
                    
 ### Register Activity
 
 Caso o utilizador não possua uma conta na "BusyBrain", este deve-se registar na tela de Registo, que pode ser acedida pela tela de Login. 
-Para o registo do user na app, este terá que introduzir o seu username, email, password, sexo (Masculino ou Feminino) e numero de telemóvel nos respetivos campos. 
+Para o registo do user na app, este terá que introduzir o seu username, email e password nos respetivos campos. 
 Após inserir os dados, estes serão registados e armazenados na database. Para cada nova conta registada, ser-lhe-á atribuida um ID único, de modo a permitir, posteriormente,  o Login do utilizador, cada vez que este desejar entrar na app. Quando o registo é concluido, o utilizador é redirecionado para a "Main Activity".
-O Email e Número de telemóvel serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso este deseje recebê-las.
+O Email  serão posteriormente utilizados para o utilizador receber notificações de atualizações, caso este deseje recebê-las (funcionalidade para o update da app).
 
 <img width="312" alt="Captura de ecrã 2021-12-22, às 03 13 38" src="https://user-images.githubusercontent.com/90727242/147099369-2f4041b9-0231-43a5-b6df-a64030439801.png">
 
-
-
 ### Main Activity
 
-Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play", "Pause" e "Restart", para iniciar, pausar e reiniciar o Timer. As opções de "Play", "Pause" e "Restart" são também exibidas para os restantes timers disponiveis na app (Desktime, FlowTime e Ultradian Rhythms - excepto o "Hardcore Mode"). 
-Para aceder a outros timers, basta arrastar a tela para um dos lados (esquerdo ou direito). Após o arraste, novas activities surgirão (uma activity por timer). Como alternativa, o utilizador poderá clicar nos icones de "setas", para se deslocar por todos os tipos de timer disponiveis.
-Quando o timer terminar, soará um pequeno ruido de aviso ao utilizador, sugerindo ao utilizador que faça uma pausa.
+Após o Registo (ou Login) do utilizador, este será redirecionado para a "Main Page" da app. A tela principal exibirá um timer por definição (Pomodoro Timer), assim como os botões de "Play" e "Restart", para iniciar e reiniciar o Timer (a opção de "Pause" surge quando um timer é iniciado (após pressionar o botão "Play")). As opções de "Play"" e "Restart" são também exibidas para os restantes timers disponiveis na app (Desktime, FlowTime e Ultradian Rhythms - excepto o "Hardcore Mode"). 
+Para aceder a outros timers, basta selecionar os icones de "arrows" (esquerdo ou direito). Após o clique, novas activities surgirão (uma activity por timer). 
+Quando o timer terminar, soará uma vibração de 3 segundos, servindo de aviso ao utilizador, sugerindo-lhe que faça uma pausa.
 Na zona inferior da tela (de cada um dos timers / "work sessions"), encontram-se as opções de "Small Break" e "Long Break", que podem ser selecionadas após as sessões de trabalho. A duração de cada um dos "breaks" variará de acordo com o timer selecionado pelo user.
-Para "configurar" as sessões de trabalho, o utilizador deve aceder ao icone de "burger menu", que estará visivel no canto superior esquerdo. Ao selecionar essa opção, surgirá na tela uma barra lateral que permite ao utilizador personalizar as suas "work sessions".
+Para "configurar" as sessões de trabalho, o utilizador deve aceder ao icone de "roda dentada", que estará visivel no canto superior esquerdo. Ao selecionar essa opção, surgirá uma nova tela com todas as configurações possiveis de realizar, de modo a personalizar a experiência do utiliador.
 
 <img width="313" alt="Captura de ecrã 2021-12-22, às 02 29 29" src="https://user-images.githubusercontent.com/90727242/147099953-5f712dac-64e9-4884-9e46-708f14f55518.png">
 
@@ -266,13 +264,13 @@ Para "configurar" as sessões de trabalho, o utilizador deve aceder ao icone de 
 
 ### Small Break Activity
 
-A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra no canto inferior esquerdo de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Ultradian Timer, Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
+A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que se encontra no canto inferior esquerdo de cada uma das telas de "timer" (Pomodoro Timer, DeskTime Timer, Flowtime Timer e Hardcore Timer). As telas de "Small Break's" possuem os mesmos layout's das telas de "timer", no entanto, com algumas diferenças:
 
 * O botão que se localiza no canto superior direito da tela (representado por um icone de "task list"), redirecionará o user para uma nova activity de "Task Manager", onde este poderá gerir as suas tarefas a realizar durante o dia.
 * O botão do tipo "Roda" (localizado no canto superior esquerdo da tela), permite ao utilizador aceder o menu das definições, onde poderá personalizar as suas "work sessions".
 * O botão "com a seta", permite regressar á tela do timer que está a ser utilizado.
 * O botão "com o cafe", permite aceder á tela do "intervalo maior".
-* O botão de "Play" permite iniciar o "break timer". 
+* O botão de "Play" permite iniciar o "break timer" (não sendo possivel pausá-lo ou reiniciá-lo). 
 
 
 <img width="313" alt="Captura de ecrã 2021-12-22, às 13 34 28" src="https://user-images.githubusercontent.com/90727242/147100845-76132ab7-de23-4114-91b0-f12fbf023d5d.png">
@@ -289,10 +287,10 @@ A tela de "Small Break" pode ser acedida clicando no botão "Small Break", que s
 ### Long Break 
 
 Para aceder á activity do "Long Break", o utilizador deverá selecionar o botão "Long Break", localizado no canto inferior direito da tela do timer a ser utilizado. 
-Após selecionar esse botão, o utilizador deverá ser redirecionado para uma nova "activity", onde estarão disponiveis as opções de procura de cafés, bares, restaurantes, livrarias e bibliotecas, dependendo da localização atual do user.
-O botão representado com o icone de uma chávena de café, que, ao ser selecionado, exibe os cafés, bares e restaurantes perto do utilizador (utilizando a localização). 
-O botão representado com o icone de um livro, que, ao ser selecionado, exibe livrarias e bibliotecas perto do utilizador (utilizando a localização).
-No canto inferior esquerdo da tela, encontra-se um botão que, ao ser clicado, deverá redirecionar novamente o utilizador á tela do timer que está a ser utilizado.
+Após selecionar esse botão, o utilizador deverá ser redirecionado para uma nova "activity", onde se encontrará um timer de "Long Break" (a sua duração varia com o timer selecionado pelo utilizador).
+O botão representado com o icone de uma chávena de café, que, ao ser selecionado, exibe os cafés, bares, restaurantes, livrarias e biliotecas perto do utilizador (utilizando a localização). 
+O botão representado com o icone de um livro, que, ao ser selecionado, exibe cafés, bares, restaurantes, livrarias e bibliotecas perto do utilizador (utilizando a localização).
+No "bottom" da tela, encontra-se um botão que, ao ser clicado, deverá redirecionar novamente o utilizador á tela do timer que está a ser utilizado (botão "Back To Timer").
 
 <img width="310" alt="Captura de ecrã 2021-12-22, às 13 44 16" src="https://user-images.githubusercontent.com/90727242/147102285-2ea32e9d-68c7-4c0d-a9d0-bf2553a34f9a.png">
 
@@ -308,15 +306,14 @@ No canto inferior esquerdo da tela, encontra-se um botão que, ao ser clicado, d
 
 A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos "breaks" entre as sessões de trabalho, caso este o deseje. 
 Estas funcionalidades estão somente disponiveis nas telas de "Long Break" de cada timer. 
-Ao selecionar um dos icones ("chávena de café" e "livro"), o user deverá obter e visualizar uma activity google maps e nesta activity com os botões que tem acima pode filtrar os locais por categoria ( bares, restaurantes, livrarias e mais ).
-
-A exibição de locais variará com a localização atual do user e com o tempo de "long break" do timer selecionado, isto é, o ajuste de distâncias de acordo com o tempo do "long break").
+Ao selecionar um dos icones ("chávena de café" e "livro"), o user deverá obter e visualizar uma activity google maps e nesta activity com os botões que tem acima pode filtrar os locais por categoria ( bares, restaurantes, cafés, livrarias e bibliotecas ).
 
 ![PHOTO-2021-12-22-10-46-11](https://user-images.githubusercontent.com/90727242/147103539-3309900f-a700-4e48-a9e1-55464e9e72da.jpg)
 
 ![PHOTO-2021-12-22-10-46-11 2](https://user-images.githubusercontent.com/90727242/147103863-ad2a0cf5-59ed-41bf-8c26-bfd2526da473.jpg)
 
-O user também podera adicionar locais ao favoritos e marcar presenças.
+O user também podera adicionar locais ao favoritos e marcar presenças nesses mesmos locais, assim como visualizar rotas que o auxiliem a chegar ao destino que pretende.
+Na tela de marcação de favoritos e presenças, o utilizador poderá ver detalhes do local selecionado: nome, endereço, latitude, longitude e categoria.
 
 ![PHOTO-2021-12-22-10-45-46 2](https://user-images.githubusercontent.com/90727242/147109232-fb2f8a8c-7ca5-4f56-a2bf-5f43ca26d4a6.jpg)
 
@@ -328,11 +325,11 @@ A app terá diversas funcionalidades secundárias, tais como:
 
 * Editar Timer (funcionalidade exclusiva do método "FlowTime")
 * Música ambiente (durante as sessões de trabalho)
-* Bloquear apps (definidos pelo utilizador)
 * Bloquear websites (definidos pelo utilizador)
 * Desativar Wi-Fi durante as sessões de trabalho
 * Adicionar tarefas e remover tarefas
 * Silenciar telemóvel 
+* Minha conta (logout e informações sobre a conta do utilizador - username, email e ID)
 
 Para ir as definições basta clicar no botão das definições (canto superior esquerdo mostrado anteriormente nas activitys dos timers e breaks).
 
@@ -342,20 +339,18 @@ Para ir as definições basta clicar no botão das definições (canto superior 
 #### Editar Timer
 
 A possibilidade de editar a duração de cada sessão de trabalho é uma funcionalidade exclusiva do método "FlowTime". 
-Neste método (timer), o utilizador poderá personalizar o tempo de duração de cada sessão. Por pré-definição, o timer tem uma duração de 30 minutos:
+Neste método (timer), o utilizador poderá personalizar o tempo de duração de cada sessão (em minutos). Por pré-definição, o timer tem uma duração de 30 minutos:
 
 <img width="310" alt="Captura de ecrã 2021-12-22, às 14 06 07" src="https://user-images.githubusercontent.com/90727242/147105113-74476962-f230-4eaf-819d-b7c452431023.png">
-
 
 
 ### Música Ambiente
 
 A primeira configuração disponivel na barra lateral, será a opção de ativar música ambiente durante as sessões de trabalho. 
-Para ativar esta opção, basta clicar no icone de "burger menu", acedendo assim á barra lateral de configurações. 
-Na barra lateral de configurações, o utilizador deverá selecionar a opção "Musica Ambiente". 
-Selecionando esta opção, será exibido um "popup" do tipo ListView, onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
+Para ativar esta opção, basta clicar no icone de "roda dentada", acedendo assim á tela de configurações. 
+Na tela de configurações, o utilizador deverá selecionar a opção "Musica Ambiente". 
+Selecionando esta opção, será exibida nova uma tela onde o user poderá selecionar um dos sons ambientes disponiveis (pré-definidos pela app):
 
-* Nenhum (None)
 * Floresta (Florest)
 * Noite (Night)
 * Praia (Beach)
@@ -364,27 +359,21 @@ Selecionando esta opção, será exibido um "popup" do tipo ListView, onde o use
 * Lo-Fi #1 (Lo-Fi Music #1)
 * Lo-Fi #2 (Lo-Fi Music #2)
 
-Após a seleção do som, este começará a ser reproduzido. Caso o utilizador queira "desativar" o som ambiente, basta selecionar a opção "Nenhum".
+Após a seleção do som, este começará a ser reproduzido. Caso o utilizador queira "desativar" o som ambiente, basta selecionar clicar no botão "STOP" do som que estiver a ser reproduzido.
 
 <img width="309" alt="Captura de ecrã 2021-12-22, às 14 07 38" src="https://user-images.githubusercontent.com/90727242/147105299-de3db8c8-1339-45f8-8ff2-2756b895eb34.png">
 
-
-*Na imagem não consta a opção "None", devido a uma falha na interface demo.
 
 ### Bloqueio de Websites (definidos pelo utilizador)
 
 A possibilidade de bloquear websites é menos comum em diversas apps que possuem os mesmos objetivos que a "BusyBrain".
 Esta funcionalidade permite ao utilizador bloquear websites que considere distrativos.
-O bloqueio de websites, assim como bloqueio de apps, pode ser acedido na barra lateral, selecionando a opção "Bloqueio de Websites". 
-Após selecionar essa opção, o user será redirecionado para uma nova activity. Será nesta tela, onde o utilizador poderá bloquear apps padrão (pré-definidas pela app - marcando as checkboxes e clicando no botão "Guardar"), ou inserindo o URL do website a ser bloqueado (de forma a bloquear um website especifico). Após inserir o URL na respetiva "caixa", o utilizador deverá selecionar o botão "+". Após o clique, esse dominio ficará bloqueado.
+O bloqueio de websites, pode ser acedido na tela de configurações, selecionando a opção "Bloqueio de Websites". 
+Após selecionar essa opção, o user será redirecionado para uma nova activity. Será nesta tela, onde o utilizador poderá bloquear apps padrão (pré-definidas pela app - marcando as checkboxes e clicando no icone "Guardar"). Após inserir o URL na respetiva "caixa", o utilizador deverá selecionar o botão "BLOCKED". Após o clique, serã exibidos os sites que não estão bloqueados, permitindo acedê-los numa nova tela, utilizando uma WebView.
 
 <img width="310" alt="Captura de ecrã 2021-12-22, às 14 11 01" src="https://user-images.githubusercontent.com/90727242/147105902-fc9ebbd8-7248-404b-bd85-b89b98b96ef1.png">
 
-
-Para desbloquear o website basta fazer desmarcar a check box.
-
-A segunda versão desta "activity", utiliza um botão de "Guardar" para guardar as alterações realizadas (remoção de bloqueio de websites). 
-Para realizar a remoção de um bloqueio, o user deve selecionar o icone de "caixote de lixo" (presente em cada item), e de seguida clicar no botão "Guardar" para remover o bloqueio.
+Para desbloquear o website basta desmarcar a check box e clicar novamente no botão "Guardar".
 
 ![Websites Bloqueados #2](https://user-images.githubusercontent.com/48087662/135094286-b3203161-bf08-412f-aaa8-2f25e71e4b35.png)
 
@@ -397,7 +386,7 @@ Para usar esta funcionalidade, basta selecionar o "switch" correspondente á op�
 ![WhatsApp Image 2021-12-22 at 12 36 49](https://user-images.githubusercontent.com/90727242/147106901-6bf6d9a3-a9eb-4ca9-b956-2d5b8fd32149.jpeg)
 
 Após selecionar o switch, esta opção ("Desativar Wi-Fi em sessões de trabalho") estará ativada até o switch voltar a ser desativado. 
-Sendo assim, quando um dos timers for iniciado, a ligação Wi-Fi do dispositivo será desativada até o timer terminar.
+Sendo assim, toda a aplicação proibirá o acesso ao Wi-Fi até que o switch seja desativado novamente.
 Esta opção é bastante util, uma vez que impede a total receção de notificações durante a sessão de trabalho, garantindo que o utilizador seja mais produtivo, eliminando distrações causadas pelo dispositivo.
 
 ![Wi-Fi Desativado](https://user-images.githubusercontent.com/48087662/135110301-aece6c13-c384-40fd-aac2-86bfa207e7ea.png)
@@ -405,13 +394,11 @@ Esta opção é bastante util, uma vez que impede a total receção de notifica�
 
 ### Silenciar Telemóvel
 
-Esta opção permite silenciar Notificações, Vibrações e sons Multimédia de forma simultânea ao iniciar um timer, evitando possiveis distrações causadas pelo dispositivo, no entanto, mantendo a sua ligação á Internet.
+Esta opção permite silenciar Notificações, Ringer, Alarme ou até todos em simultâneo, evitando possiveis distrações causadas pelo dispositivo, no entanto, mantendo a sua ligação á Internet (só pode ser desativada na opção "Desativar Wi-Fi em sessões de trabalho"). 
 Para ativar esta opção, o user deverá abrir as definições e selecionar a opção correspondente á opção "Modo silencioso".
-Desta forma, assim que um timer (sessão de trabalho) for iniciado(a), o dispositivo será totalmente silenciado.
-O dispositivo deixará de estar silenciado quando a sessão de trabalho terminar, ou seja, quando o timer alcançar os "00:00". 
+Desta forma, assim que o switch(es) for(em) ativado(s), as definições serão aplicadas até voltarem a ser desativados.
 
 ![WhatsApp Image 2021-12-22 at 12 36 50](https://user-images.githubusercontent.com/90727242/147107466-09adb831-5ea1-4bae-903b-4f16c2876433.jpeg)
-
 
 ![Modo Silencioso](https://user-images.githubusercontent.com/48087662/135116081-8e2a5be2-4e31-42a5-8639-cbf6d94e8dba.png)
 
@@ -420,20 +407,20 @@ O dispositivo deixará de estar silenciado quando a sessão de trabalho terminar
 ### Adicionar e remover tarefas
 
 De forma a ajudar o utilizador a realizar e a organizar de forma mais eficiente as suas tarefas, a "BusyBrain" dispõe de uma funcionalidade que permite ao user criar e eliminar tarefas. 
-Para utilizar esta funcionalidade, o utilizador deverá clicar no icone (representado por uma "Task List") que se encontra no canto superior direito das telas dos timers. Após o clique, o user será redirecionado para uma nova "activity". Será nesta nova tela, onde o utilizador poderá gerir as suas tarefas:
+Para utilizar esta funcionalidade, o utilizador deverá clicar no icone (representado por uma "Task List") que se encontra no canto superior direito das telas dos timers, "small break's" e "long break's". Após o clique, o user será redirecionado para uma nova "activity". Será nesta nova tela, onde o utilizador poderá gerir as suas tarefas:
 
 ![PHOTO-2021-12-22-10-45-45 2](https://user-images.githubusercontent.com/90727242/147108303-a1d44dac-8c84-4b87-b3b5-4f86484daf6e.jpg)
 
 
-Para adicionar tarefas á "To-Do list", o utilizador deverá clicar no simbolo "+". Ao clicar no '+', surgirá um pop-up na tela, onde o user poderá adicionar um titulo á tarefa e uma descrição. Para guardar a tarefa o user terá que pressionar o botão "Adicionar".
+Para adicionar tarefas á "To-Do list", o utilizador deverá clicar no simbolo "+". Ao clicar no '+', surgirá uma nova tela, onde o user poderá adicionar um titulo á tarefa e uma descrição. Para guardar a tarefa o user terá que pressionar o botão "Adicionar".
 
 ![PHOTO-2021-12-22-10-45-45](https://user-images.githubusercontent.com/90727242/147108411-d5270392-e134-410e-8f2c-b71bb1a1577d.jpg)
 
 
 Ao pressionar em "Adicionar", uma nova tarefa surgirá na lista de tarefas ("To-Do List").
-Para o utilizador remover uma tarefa, bastará clicar no icone de "caixote do lixo" que se encontra exibido no item da mesma. Após o clique, a tarefa será removida da lista.
+Para o utilizador remover uma tarefa, bastará clicar no icone de "caixote do lixo" que se encontra exibido no "bottom" da tela. Após o clique, será exibida uma lista das tarefas criadas pelo utilizador. Para eliminar uma tarefa, deverá inserir o ID da mesma na edittext e pressionar o botão "Delete Task"
 
-Para marcar as tarefas já realizadas, o user deverá clicar no "Radio Button" de uma tarefa especifica. Após marcar a checkbox ("Radio Button"), o item da tarefa marcada será preenchida com a cor verde, indicando que a mesma já foi realizada.
+Para filtrar tarefas pela sua prioridade, o utilizador poderá selecionar um dos 4 chip-buttons disponiveis (Low, Medium, Urgent,High). Por cada clique, as tarefas serão filtradas pela prioridade correspondente.
 
 ![PHOTO-2021-12-22-10-45-46](https://user-images.githubusercontent.com/90727242/147108522-88d7909d-ed15-4c2f-862b-e05fa8ae94b7.jpg)
 
@@ -441,8 +428,8 @@ Para marcar as tarefas já realizadas, o user deverá clicar no "Radio Button" d
 
 ### Logout
 
-Caso o utilizador queira sair da sua conta na app, ao menu das definições, clicar em informações da conta. 
-em seguida clicar em logout, fará logout da sua conta, sendo redirecionado para a tela de Login.
+Caso o utilizador queira sair da sua conta na app, ao menu das definições, este deverá clicar na opção "A minha conta". 
+De seguida, clicar em logout, confirmar a ação, e após a confirmação, a sessão será terminado, redirecionando o utilizador para a tela de Login.
 
 ![PHOTO-2021-12-22-10-45-45 5](https://user-images.githubusercontent.com/90727242/147108759-c371111d-e56a-499d-832e-43202484c127.jpg)
 
