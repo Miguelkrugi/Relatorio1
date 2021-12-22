@@ -313,7 +313,7 @@ Ao selecionar um dos icones ("chávena de café" e "livro"), o user deverá obte
 ![PHOTO-2021-12-22-10-46-11 2](https://user-images.githubusercontent.com/90727242/147103863-ad2a0cf5-59ed-41bf-8c26-bfd2526da473.jpg)
 
 O user também podera adicionar locais ao favoritos e marcar presenças nesses mesmos locais, assim como visualizar rotas que o auxiliem a chegar ao destino que pretende.
-Na tela de marcação de favoritos e presenças, o utilizador poderá ver detalhes do local selecionado: nome, endereço, latitude, longitude e categoria.
+Na tela de marcação de favoritos e presenças, o utilizador poderá ver detalhes do local selecionado: nome, endereço, latitude, longitude e categoria, bem como aceder á lista "geral" de locais favoritos.
 
 ![PHOTO-2021-12-22-10-45-46 2](https://user-images.githubusercontent.com/90727242/147109232-fb2f8a8c-7ca5-4f56-a2bf-5f43ca26d4a6.jpg)
 
@@ -416,9 +416,14 @@ Para adicionar tarefas á "To-Do list", o utilizador deverá clicar no simbolo "
 
 ![PHOTO-2021-12-22-10-45-45](https://user-images.githubusercontent.com/90727242/147108411-d5270392-e134-410e-8f2c-b71bb1a1577d.jpg)
 
+Na parte inferior da tela de "Task Manager", o utilizador deve selecionar o botão "Criar Grupo", de modo a criar um grupo para uma tarefa. Para criar um grupo, deverá definir um nome, descrição e o ID da tarefa (será posteriormente substituido por um spinner).
+Para aceder a um chat de um grupo (não implementado), o utilizador deverá selecionar a opção "Ver Grupos", que se encontra do lado da opção "Criar Grupo". Após o clique, surgirá uma lista dos grupos criados, bem como as opções de apagar um grupo (inserindo o ID do mesmo) e aceder ao chat de um grupo, selecionando um grupo da lista (item).
+
 
 Ao pressionar em "Adicionar", uma nova tarefa surgirá na lista de tarefas ("To-Do List").
-Para o utilizador remover uma tarefa, bastará clicar no icone de "caixote do lixo" que se encontra exibido no "bottom" da tela. Após o clique, será exibida uma lista das tarefas criadas pelo utilizador. Para eliminar uma tarefa, deverá inserir o ID da mesma na edittext e pressionar o botão "Delete Task"
+Para o utilizador remover uma tarefa, bastará clicar no icone de "caixote do lixo" que se encontra exibido no "bottom" da tela. Após o clique, será exibida uma lista das tarefas criadas pelo utilizador. Para eliminar uma tarefa, deverá inserir o ID da mesma na edittext e pressionar o botão "Delete Task".
+
+*Nota: Não é possivel apagar uma tarefa que contenha um grupo. Caso ocorra essa situação, o utilizador deve apagar primeiramente o grupo, e só depois, a tarefa.
 
 Para filtrar tarefas pela sua prioridade, o utilizador poderá selecionar um dos 4 chip-buttons disponiveis (Low, Medium, Urgent,High). Por cada clique, as tarefas serão filtradas pela prioridade correspondente.
 
@@ -437,4 +442,12 @@ De seguida, clicar em logout, confirmar a ação, e após a confirmação, a ses
 # PITCH (BusyBrain)
 
 Link para o pitch: https://youtu.be/afL7qk63RFg
+
+# UPDATE DA APP (até dia 10 de Janeiro de 20022):
+
+ ### Correção de Rotas
+ ### Melhoria na dinamização da app
+ ### Adicionar e remover participantes
+ ### Melhorias na marcação de locais favoritos e presenças
+ ### Chat em grupo
 
