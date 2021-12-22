@@ -57,13 +57,13 @@ Tendo como factores principais a falta de produtividade, má gestão do tempo e 
 
 A "BusyBrain" (cérebro ocupado / cérebro focado), será uma aplicação simples e fácil de usar, com uma interface atrativa e moderna. Apesar de existirem várias apps com o mesmo propósito, a “BusyBrain” pretende "expandir" as configurações e funcionalidades presentes em qualquer app que possua o mesmo objetivo, distinguindo-a no mercado.  
 
-Entre diversas configurações e funcionalidades, o utilizador poderá escolher de entre 4 técnicas comprovadas que irão contribuir para um maior foco e produtividade ao realizar tarefas do quotidiano (Pomodoro Timer, DeskTime, Ritmos Ultradian e FlowTime), selecionar música ambiente durante as sessões de trabalho, bloquear Wi-Fi quando uma "sessão de trabalho" (timer) iniciar, bloquear outras apps que o utilizador considere distrativas e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações e websites que considere distrativas(os), até o tempo do timer estipulado (30 minutos ou 60 minutos), terminar. 
+Entre diversas configurações e funcionalidades, o utilizador poderá escolher de entre 4 técnicas comprovadas que irão contribuir para um maior foco e produtividade ao realizar tarefas do quotidiano (Pomodoro Timer, DeskTime, Hardcore Mode e FlowTime), selecionar música ambiente durante as sessões de trabalho, bloquear Wi-Fi quando uma "sessão de trabalho" (timer) iniciar, bloquear websites distrativos e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a quaisquer outra tela do dispositivo até o tempo do timer estipulado (30 minutos ou 60 minutos), terminar. 
 
-Além disso, a app também permitirá adicionar tarefas a serem realizadas durante o dia. 
+Além disso, a app também permitirá adicionar tarefas a serem realizadas durante o dia, bem como criação de grupos de trabalho. 
 
 A localização (requisito obrigatório para a realização do projeto) será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as sessões de trabalho. Caso o utilizador tenha interesse, poderá também procurar por livrarias e bibliotecas próximas de si, caso queira consultar ou comprar livros. Estas duas funcionalidades contribuem para que o utilizador descubra novos pontos de interesse.
 
-Após selecionar o local, um GPS/Tracker será ativado (em tempo real), exibindo a rota, que se inicia na localização atual do utilizador, terminando no local previamente selecionado. 
+Após selecionar o local, uma rota será exibida desde a localização atual do utilizador até ao local selecionado. Caso deseje, o utilizador poderá ainda marcar locais favoritos e presenças nos mesmos.
 
 Para tornar a app mais acessivel, esta será totalmente gratuita, sem planos pagos (algo bastante comum em aplicações do mesmo género).  
 
@@ -125,7 +125,7 @@ No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse públi
 
 ## 7. Pesquisa
 
-Para entender que configurações poderiam destacar a "BusyBrain" no mercado, foram analisadas 3 aplicações ("Brain Focus", "Focus To-Do" e "Serene") que possuem o mesmo objetivo que a "BusyBrain": Foco e Produtividade. As apps foram instaladas e testadas. Ainda estão em análise as críticas publicadas na página da app na Play Store (excepto a app "Serene", que somente funciona para sistemas macOS). 
+Para entender que configurações poderiam destacar a "BusyBrain" no mercado, foram analisadas 3 aplicações ("Brain Focus", "Focus To-Do" e "Serene") que possuem o mesmo objetivo que a "BusyBrain": Foco e Produtividade. As apps foram instaladas e testadas:
 
 ### Brain Focus:
 
@@ -165,13 +165,12 @@ Baseada nalgumas funcionalidades retiradas da análise das 3 apps selecionadas (
 
 * Timers com diversos métodos de foco, concentração e produtividade durante a execução de tarefas
 * Adicionar e eliminar tarefas 
-* Bloquear apps (escolhidas pelo utilizador)
 * Bloquear websites (escolhidos pelo utilizador)
 * Desativar o Wi-Fi quando uma sessão de trabalho é iniciada
 * Som ambiente para as sessões de trabalho
 * Small breaks e Long breaks (variam de acordo com o tipo de timer)
-* Exibir lista de cafés, bares e restaurantes para os long breaks (com GPS em tempo real)
-* Exibir lista de livrarias e bibliotecas (com GPS em tempo real)
+* Exibir pontos de interesse próximos do utilizador (através de filtragem - cafés, bares, restaurantes, livrarias e bibliotecas)
+* Rotas entre a localização atual do utilizador e um local selecionado
 * Modo "Hardcore Timer"
 * Silenciador de telemóvel
 
@@ -184,27 +183,29 @@ Baseada nalgumas funcionalidades retiradas da análise das 3 apps selecionadas (
                    
      * Pomodoro Timer (Foco: 25 minutos | Small Break: 5 minutos | Long Break: 30 minutos --> Aconselhado realizar 4 sessões antes do Long Break)
      
-     * DeskTime Extra (Foco: 57 minutos | Break: 17 minutos | Long Break: 45 minutos --> Aconselhado realizar 2 sessões antes do Long Break)
+     * DeskTime Extra (Foco: 57 minutos | Break: 17 minutos | Long Break: 30 minutos --> Aconselhado realizar 2 sessões antes do Long Break 
      
-     * Ultradian Rhythm (Foco: 90 minutos | Break: 30 minutos | Long Break: 60 minutos --> Aconselhado realizar 2 sessões antes do Long Break)
-     
-     * FlowTime (Foco: Até o utilizador se sentir distraido/cansado | Break: 5 minutos | Long Break: 15 minutos)
+     * FlowTime (Foco: Até o utilizador se sentir distraido/cansado (tempo personalizável) | Break: 5 minutos | Long Break: 15 minutos)
      
      * Hardcore Timer (Foco: 45 minutos | Break: 10 minutos | Long Break: 30 minutos --> Aconselhado realizar 4 sessões antes do Long Break)
                    
 * Uso da Localização:
 
-     * Procura de cafés, restaurantes e bares perto do local do utilizador (raio de 10 km | GPS Tracker em tempo real)
+     * Procura de cafés, restaurantes e bares perto do utilizador 
      
-     * Procura de livrarias e bibliotecas (raio de 50 km | GPS Tracker em tempo real)
+     * Procura de livrarias e bibliotecas perto do utilizador
+     
+     * Descoberta de outros pontos de interesse
      
 * Infos sobre os locais exibidos:
 
      * Nome do local 
      * Endereço
-     * Distância do utilizador ao local selecionado
+     * Latitude
+     * Longitude
+     * Categoria
 
-//Nota: O Hardcore Timer bloqueia totalmente o telemóvel (Wi-Fi, telemovel silenciado, apps bloqueadas e websites bloqueados durante o timer). Até o timer terminar, não será possivel alterar as configurações(bloqueio, silenciamento do dispositivo, etc.). O objetivo do Hardcore timer será obrigar o utilizador a focar-se nas suas tarefas.
+//Nota: O Hardcore Timer bloqueia totalmente o telemóvel ("freeze screen"). Até o timer terminar, não será possivel aceder a nenhuma outra tela do telemóvel, conectar-se ao Wi-Fi, etc. O objetivo do Hardcore timer será obrigar o utilizador a focar-se nas suas tarefas.
 
 # 9. Guiões de Teste
 
@@ -213,6 +214,10 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 *NOTA: Todas as interfaces exibidas nos guiões são interfaces-demo, sendo utilizadas somente para fins ilustrativos.
 
 ## Guião de Teste - Core 
+
+### Slide-Introduction:
+
+Ao abrir a app pela primeira vez, surge um conjunto de 3 telas (slide screen's), que dão uma breve introdução da app ao utilizador. Este sistema só surge na primeira vez em que o utilizador utiliza a app. Após clicar no botão "Get Started", o utilizador é redirecionado para a Splash-Screen.
 
 ### Splash-Screen:
 
