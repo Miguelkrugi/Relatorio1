@@ -220,7 +220,8 @@ Uma tela "Splash-Screen", é uma "Activity" utilizada em quase todas as apps. Ge
 Quando a app da "BusyBrain" for iniciada, uma activity do tipo "Splash-Screen" surgirá na tela do dispositivo. Esta tela ficará visivel por 5/6 segundos, redirecionando o utilizador para a tela de login da app, após esse tempo de espera.
 Esta "activity" apenas exibirá o logótipo da app.
 
-![Splash Screen](https://static.wixstatic.com/media/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.png/v1/fill/w_408,h_750,al_c,lg_1,q_85/302737_b85bc4b786b3456a8a92fcbf6e48d220~mv2.webp)
+![Splash Screen]
+file:///Users/wesley/Desktop/Captura%20de%20ecrã%202021-12-22,%20às%2012.51.54.png
 
 ### Login Activity
 
