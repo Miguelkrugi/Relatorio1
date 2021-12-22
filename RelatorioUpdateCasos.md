@@ -299,7 +299,7 @@ No canto inferior esquerdo da tela, encontra-se um botão que, ao ser clicado, d
 
 
 
-## Guião de Teste - Localização
+## Guião de Teste - Localização 
 
 A Localização do utilizador será utilizada para exibir locais que o user poderá frequentar nos "breaks" entre as sessões de trabalho, caso este o deseje. 
 Estas funcionalidades estão somente disponiveis nas telas de "Long Break" de cada timer. 
@@ -310,6 +310,11 @@ A exibição de locais variará com a localização atual do user e com o tempo 
 ![PHOTO-2021-12-22-10-46-11](https://user-images.githubusercontent.com/90727242/147103539-3309900f-a700-4e48-a9e1-55464e9e72da.jpg)
 
 ![PHOTO-2021-12-22-10-46-11 2](https://user-images.githubusercontent.com/90727242/147103863-ad2a0cf5-59ed-41bf-8c26-bfd2526da473.jpg)
+
+O user também podera adicionar locais ao favoritos e marcar presenças.
+
+![PHOTO-2021-12-22-10-45-46 2](https://user-images.githubusercontent.com/90727242/147109232-fb2f8a8c-7ca5-4f56-a2bf-5f43ca26d4a6.jpg)
+
 
 
 ## Guião de Teste - Funcionalidades Secundárias
