@@ -484,13 +484,6 @@ inner join place locals on marcacoes.local_id = locals.place_id
 
 #### Descrição: Locais (nome) favoritos pelo utilizador
 
-select * from marcacao_presenca
-
-insert into marcacao_presenca(wasthere, utilizador_id, local_id)
-values('1', 2, 4)
-
-# Para organizar:
-
 select convivios.convivio_id AS idconvivio, convivios.data_convivio AS dataconvivio, groupss.group_name AS nomegrupo, placess.place_name
 from convivio AS convivios
 inner join grupo AS groupss on groupss.group_id = convivios.grupo_id
@@ -653,3 +646,7 @@ UPDATE marcacao_favorito
 SET isfavorite = '1'
 WHERE utilizador_id = 3 and local_id = 5
 
+select * from marcacao_presenca
+
+insert into marcacao_presenca(wasthere, utilizador_id, local_id)
+values('1', 2, 4)
