@@ -397,9 +397,9 @@ Caso o utilizador queira sair da sua conta na app, deverá aceder á barra later
 
 Link para o pitch: https://youtu.be/afL7qk63RFg
 
-# LINK DO FICHEIRO MOBILE (ATUALIZADO 26/11/2021):
+# LINK DO FICHEIRO MOBILE (ATUALIZADO 22/12/2021):
 
-Link: https://www.mediafire.com/file/c15zus10bg9chb6/PROTOTYPEBUSY.zip/file
+Link: https://www.mediafire.com/file/wh0ix9wdujnies4/Prot%25C3%25B3tipoBusyBrain.zip/file
 
 # VIDEO DE APRESENTAÇÃO (LINK PARA ASSISTIR):
 
