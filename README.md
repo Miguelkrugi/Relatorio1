@@ -334,8 +334,8 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "Engrenagem"| Exibição de uma tela de configurações da app, contendo uma lista com as configurações disponiveis (Musica Ambiente, Modo Silencioso, Bloqueio de Apps, Bloqueio de Websites e Wi-Fi desativado)| Semi-Funcional
-|2|Clicar num dos items da lista de configurações| Exibição do conteudo relativo á configuração selecionada (item selecionado)| Semi-Funcional
+|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "Engrenagem"| Exibição de uma tela de configurações da app, contendo uma lista com as configurações disponiveis (Musica Ambiente, Modo Silencioso, Bloqueio de Websites, Wi-Fi desativado e "A Minha Conta")| Funcional
+|2|Clicar num dos items da lista de configurações| Exibição do conteudo relativo á configuração selecionada (item selecionado)| Funcional
 
 
 ### Musica Ambiente
@@ -343,47 +343,35 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no primeiro item "Musica Ambiente"| Exibição de uma tela que contém todos os "background sounds" disponiveis. | Funcional
-|2|Selecionar um item da lista (som - clicar no botão "Play") | O som começa a ser reproduzido pelo dispositivo e por toda a app | Semi-Funcional
-|2.1|Clicar no botão "Pause" | O som a ser reproduzido será "pausado" | Funcional
-|2.2|Clicar no botão "Stop" | Interrompe o som que está a ser reproduzido | Funcional
+|2|Selecionar um item da lista (som - clicar no botão "Play") | O som começa a ser reproduzido pelo dispositivo e por toda a app | Funcional
+|2.1|Clicar no botão "Stop" | Interrompe o som que está a ser reproduzido | Funcional
 
 
 ### Silenciar Telemovel 
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no quinto item "Modo Silencioso" | Exibição de uma tela que contém um switch para ativar ou desativar o modo silencioso | Funcional
-|2|Clicar no "switch", para o ativar | Ativação do modo silencioso, silenciando volumes multimédia, notificações e "ring"| Semi-Funcional
-|3|Clicar novamente no "switch", para o desativar | Desativação do modo silencioso | Semi-Funcional
+|1|Na lista de configurações, o utilizador deve clicar no quarto item "Modo Silencioso" | Exibição de uma tela que contém um switch para ativar ou desativar o modo silencioso (Ringer, Notificações, Alarmes) | Funcional
+|2|Clicar no "switch", para o ativar | Ativação do modo silencioso, silenciando alarmes, chamadas telefónicas, notificações e "ring" (por toda a app)| Funcional
+|3|Clicar novamente no "switch", para o desativar | Desativação do modo silencioso | Funcional
 
-
-### Bloqueio de Apps
-
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no segundo item "Bloquear Apps" | Exibição de uma tela que contém uma lista de apps presentes no dispositivo do utilizador |Em Desenvolvimento
-|1.1|Selecionar o icone de "funil" do lado esquerdo | Filtrar a lista de apps por aplicações bloqueadas | Semi-Funcional
-|1.2|Selecionar o icone de funil do lado direito | Filtrar a lista de apps por aplicações desbloqueadas
-|2|O utilizador deverá marcar na "checkbox", que app/apps deseja bloquear | ---- |Em Desenvolvimento
-|2.1|Nas "checkboxes" assinaladas, o utilizador deverá desmarcar as mesmas | --- | Em Desenvolvimento
-|3|Clicar no botão com o icone de "Guardar" | As alterações serão guardadas e as apps selecionadas tornam-se ocultas no menu de apps do dispositivo. As apps desbloqueadas tornam-se visiveis no menu de apps do dispositivo | Em Desenvolvimento
 
 ### Bloqueio de Websites
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no terceiro item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio |Em Desenvolvimento
-|2|Na lista de websites pré-definidos, selecionar as "checkboxes" correspondentes a um/vários websites que se desejam bloquear| ---- | Funcional
-|2.1|Selecionar o icone de "funil" do lado esquerdo | Filtrar a lista de websites por websites bloqueados
-|2.2|Selecionar o icone de "funil" do lado direito | Filtrar a lista de websites por websites desbloqueados
-|3|Clicar no botão com o icone de "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | Em Desenvolvimento
+|1|Na lista de configurações, o utilizador deve clicar no segundo item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio (através de checkboxes)| Funcional
+|2|Na lista de websites pré-definidos, selecionar as "checkboxes" correspondentes a um/vários websites que se desejam bloquear| ---- | Funcional 
+|3|Clicar no botão com o icone de "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | 90% Funcional
+|3.2|Clicar no botão 'Blocked'| Exibir uma lista de url's não bloqueados e ocultar os bloqueados | Funcional
+|3.2.1|Clicar em cada item da lista| Abrir uma webView do url correspondente | 90% Funcional
 
 ### Desativar Wi-Fi durante as sessões de trabalho 
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Na lista de configurações, o utilizador deve clicar no quarto item "Desativar Wi-Fi" | Exibição de uma tela que contém um switch para ativar ou desativar o wi-fi do dispositivo assim que um timer é iniciado (nas telas de timer) | Semi-Funcional
-|2|Clicar no "switch", para o ativar | Desativação do Wi-Fi durante as sessões de trabalho (quando um timer é iniciado)| Semi-Funcional
+|1|Na lista de configurações, o utilizador deve clicar no terceiro item "Desativar Wi-Fi" | Exibição de uma tela que contém um switch para ativar ou desativar o wi-fi do dispositivo assim que o switch é ativado (por toda a app)| Funcional
+|2|Clicar no "switch", para o ativar | Desativação do Wi-Fi durante o uso da app| Funcional
 |3|Clicar novamente no "switch", para o desativar | Desativação da opção "Desativar Wi-Fi" | Funcional
 
 
@@ -391,13 +379,11 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "To-Do List"| Exibição de uma tela com uma lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas| Funcional
+|1|Nas telas principais de cada timer, telas de "Small Break" ou telas de "Long Break", o utilizador deve clicar no icone de uma "To-Do List"| Exibição de uma tela com uma lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa, um botão para adicionar um grupo e para ver a lista de grupos criados| Funcional
 |2|Clicar no botão "+"| Exibição da tela de criação de uma nova tarefa | Funcional
-|3|Preencher os campos relativos á tarefa a ser criada (titulo, descrição, tipo de tarefa, "deadline" e prioridade da tarefa) | ---- | Funcional
-|4|Clicar no icone "Save"| Tarefa adicionada á lista de tarefas. Insert da informação da tarefa na BD | Semi-Funcional
-|5|Selecionar botão de "Back" do dispositivo| Exibição da tela com a lista de tarefas criadas pelo utilizador, um botão para adicionar uma nova tarefa e um botão para atualizar a lista de tarefas | Funcional
-|6|Clicar no botão "Atualizar" | A lista de tarefas será atualizada caso seja realizada alguma alteração (adição ou remoção de tarefas)| Em Desenvolvimento
-|7|Clicar no icone "Lixo" respetivo a uma tarefa da lista (item) | O item (tarefa) selecionado será removido da lista de tarefas (após a remoção, atualizar novamente a lista de tarefas, clicando no botão "Atualizar")| Em Desenvolvimento
+|3|Preencher os campos relativos á tarefa a ser criada (titulo, descrição, tipo de tarefa, "deadline",prioridade da tarefa, tipo da tarefa, ID do criador (user)) | ---- | Funcional
+|4|Clicar no icone "Save"| Tarefa adicionada á lista de tarefas. Insert da informação da tarefa na BD | Funcinal
+|5|Clicar no icone "Lixo" respetivo a uma tarefa da lista (item) | O item (tarefa) selecionado será removido da lista de tarefas (após a remoção, atualizar novamente a lista de tarefas, clicando no botão "Atualizar")| Em Desenvolvimento
 |8|Selecionar um dos "Chip-Buttons" ('Low', 'Medium', 'Urgent' e 'High') | Filtrar a lista de tarefas, de acordo com o botão selecionado (filtragem por prioridade) | Semi-Funcional
 |9|Clicar no icone de uma "lupa" e pesquisar por uma palavra | Filtrar a lista de tarefas, de acordo com o titulo | Semi-Funcional
 
