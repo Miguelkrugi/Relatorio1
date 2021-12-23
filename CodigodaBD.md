@@ -2,6 +2,8 @@
 
 ### Próxima Atualização: 22 Novembro (correção de erros, melhoria de apresentação do documento, adicionadas novas queries, etc.)
 
+### AVISO: Este documento pertence á Base de Dados DEMO. 
+
 ## Criação de tabelas
 
 ### Tabela "Utilizador"
@@ -69,9 +71,22 @@ create table place(
 
   place_id SERIAL primary key,                          
   place_name varchar(100) not null,                          
-  place_endereco varchar(300) not null,                         
-  place_distancia int,                             
-  place_categoria_id int,                              
+  place_endereco varchar(300) not null,                                                  
+  place_categoria varchar(70)                                               
+  place_latitude double,                             
+  place_longitude double   
+  place_google_id int
+
+);
+
+### Tabela "Local" - B ALTERNATIVE
+
+create table place(
+
+  place_id SERIAL primary key,                          
+  place_name varchar(100) not null,                          
+  place_endereco varchar(300) not null,                                                  
+  place_categoria_id int,                            
   CONSTRAINT fk_placecategoriaid FOREIGN KEY(place_categoria_id) REFERENCES categorialocal(categoria_id)                    
   place_latitude double,                             
   place_longitude double                            
@@ -160,7 +175,7 @@ create table bloqueamento(
     
 );
 
-### Tabela "app"
+### Tabela "app" (REMOVIDA)
 
 create table app(
 
@@ -177,19 +192,25 @@ create table website(
 website_id SERIAL primary key,
 website_domain_id int,
 CONSTRAINT fk_domain_id FOREIGN KEY (website_domain_id) REFERENCES website_domains(id_website)	
+website_blocked_status bit,
+website_user_block int,
+CONSTRAINT fk_user_block FOREIGN KEY (website_user_block) REFERENCES utilizador(user_id)
 
-) inherits (bloqueamento);
+);
 
 ### Tabela "website_domains"
 
 create table website_domains(
 
    id_website SERIAL primary key,
-   domain_website varchar(120)
+   domain_website varchar(120),
+   website_name varchar(80)
 
 );
 
-## Inserts em tabelas
+
+
+## Inserts em tabelas 
 
 ### Tabela "tarefa"
 
@@ -436,7 +457,7 @@ SELECT * FROM app WHERE blocked_status = '1'
 
 SELECT * FROM app WHERE blocked_status = '0'
 
-# OUTROS (NECESSITAM DE SER COMENTADOS - QUERIES DA API)
+# OUTRAS QUERIES
 #### NOTA: AS QUERIES ENVOLVEM INNER JOINS, ETC:
 
 select marcarpresencas.presenca_id AS presencaId, users.user_name AS Username, locais.place_name AS Nameofplace
@@ -445,17 +466,23 @@ inner join utilizador users on users.user_id = marcarpresencas.utilizador_id
 inner join place locais on marcarpresencas.local_id = locais.place_id
 where wasthere = '1' 
 
+#### Descrição: Locais (nome) em que o utilizador marcou presenças
+
 select marcacoesp.presenca_id AS preId, userss.user_name AS username, localss.place_name AS nome
 from marcacao_presenca AS marcacoesp
 inner join utilizador userss on userss.user_id = marcacoesp.utilizador_id
 inner join place localss on marcacoesp.local_id = localss.place_id
 where wasthere = '1'and userss.user_id=:userid
 
+#### Descrição: Locais (nome) em que o utilizador marcou presenças
+
 
 select marcacoes.favorite_id AS favId, users.user_name AS Username, locals.place_name AS Nameofplace, marcacoes.isfavorite AS Status
 from marcacao_favorito AS marcacoes 
 inner join utilizador users on users.user_id = marcacoes.utilizador_id
 inner join place locals on marcacoes.local_id = locals.place_id
+
+#### Descrição: Locais (nome) favoritos pelo utilizador
 
 select * from marcacao_presenca
 
@@ -470,6 +497,8 @@ inner join grupo AS groupss on groupss.group_id = convivios.grupo_id
 inner join place AS placess on placess.place_id = convivios.placee_id
 where groupss.group_id=:grupoid
 
+#### Descrição: Informação dos convivios feitos por um grupo
+
 --convivios.convivio_id AS idconvivio
 
 --convivios.data_convivio AS dataconvivio
@@ -481,10 +510,21 @@ from utilizador_tarefa AS participantes
 inner join utilizador AS usersss on usersss.user_id = participantes.user_identifier
 inner join tarefa AS tarefasss on tarefasss.task_id = participantes.task_identifier
 
+#### Descrição: Participantes de uma tarefa / grupo  (uso da tabela "intermédia" -> utilizador_tarefa)
+
+select mensagens.message_content AS messageContent, users.user_name AS Username, grupos.group_name
+from mensagem AS mensagens
+inner join utilizador_tarefa userstasks on userstasks.user_identifier = mensagens.message_user_id
+inner join utilizador users on users.user_id = userstasks.user_identifier
+inner join chat chats on chats.chat_id = mensagens.message_chat_id
+inner join grupo grupos on grupos.group_id = chats.chat_id
+
+#### Descrição: Obter mensagens de um grupo (para a update da app)
+
 
 select * from tarefa
 
-# CRIACAO DAS TABELAS "CHAT" E "MENSAGEM" 
+# CRIACAO DAS TABELAS "CHAT" E "MENSAGEM" (PARA A UPDATE DA APP)
 
 create table chat(
 
@@ -505,6 +545,8 @@ create table mensagem(
 
 );
 
+#### Outras Queries
+
 select * from mensagem
 
 select * from chat
@@ -524,9 +566,3 @@ UPDATE marcacao_favorito
 SET isfavorite = '1'
 WHERE utilizador_id = 3 and local_id = 5
 
-select mensagens.message_content AS messageContent, users.user_name AS Username, grupos.group_name
-from mensagem AS mensagens
-inner join utilizador_tarefa userstasks on userstasks.user_identifier = mensagens.message_user_id
-inner join utilizador users on users.user_id = userstasks.user_identifier
-inner join chat chats on chats.chat_id = mensagens.message_chat_id
-inner join grupo grupos on grupos.group_id = chats.chat_id
