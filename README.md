@@ -383,9 +383,12 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |2|Clicar no botão "+"| Exibição da tela de criação de uma nova tarefa | Funcional
 |3|Preencher os campos relativos á tarefa a ser criada (titulo, descrição, tipo de tarefa, "deadline",prioridade da tarefa, tipo da tarefa, ID do criador (user)) | ---- | Funcional
 |4|Clicar no icone "Save"| Tarefa adicionada á lista de tarefas. Insert da informação da tarefa na BD | Funcinal
-|5|Clicar no icone "Lixo" respetivo a uma tarefa da lista (item) | O item (tarefa) selecionado será removido da lista de tarefas (após a remoção, atualizar novamente a lista de tarefas, clicando no botão "Atualizar")| Em Desenvolvimento
-|8|Selecionar um dos "Chip-Buttons" ('Low', 'Medium', 'Urgent' e 'High') | Filtrar a lista de tarefas, de acordo com o botão selecionado (filtragem por prioridade) | Semi-Funcional
-|9|Clicar no icone de uma "lupa" e pesquisar por uma palavra | Filtrar a lista de tarefas, de acordo com o titulo | Semi-Funcional
+|5|Clicar no icone "Lixo" na tela de tarefas e inserir o ID da tarefa a remover | Remoção de uma tarefa| Funcional
+|6|Selecionar um dos "Chip-Buttons" ('Low', 'Medium', 'Urgent' e 'High') | Filtrar a lista de tarefas, de acordo com o botão selecionado (filtragem por prioridade) | Funcional
+|7|Clicar no botão "Criar Grupo" e inserir os dados nas 'caixas' | Criação de um grupo para uma tarefa | Funcional
+|8|Clicar no botão "Ver Grupos" e selecionar um item da lista | Acesso á tela de chat de um grupo | Não-Funcional
+|8.1|Na tela de chat, clicar no icone de participante | Exibição de uma tela para adicionar ou remover um participante do grupo | Não-Funcional
+|8.2|Na tela de grupos, clicar no icone de 'Lixo' na parte inferior da tela | Exibição de uma tela para remover um grupo através do ID | Funcional
 
 
 
