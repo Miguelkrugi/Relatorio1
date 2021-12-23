@@ -5,7 +5,7 @@
 * Trabalho realizado por: Miguel Cruz e Wesley Augusto
 * Relatório: Conceito
 * UC's envolvidas: Projeto de Desenvolvimento Móvel, Programação Orientada a Objetos, Matemática Discreta, Base de Dados, Programação de Dispositivos Móveis e Competências Comunicacionais
-* Ferramentas utilizadas: Android Studio | VS Code | Spring Boot Framework | PostgreSQL | ClickUp | GitHub | Slack
+* Ferramentas utilizadas: Android Studio | VS Code | Spring Boot Framework | PostgreSQL | Asana | Odoo | GitHub | Slack
 * Ano de Curso: 2º Ano | 1º Semestre
 * Curso: Engenharia Informática
 * Universidade: IADE - Faculdade de Design, Tecnologia e Comunicação
@@ -18,7 +18,6 @@
 * Ideia e Conceito
 * Objetivos
 * Público-Alvo (Target e Persona)
-* Personas
 * Pesquisa
 * Informações Adicionais
 * Guiões de Utilização
@@ -58,13 +57,13 @@ Tendo como factores principais a falta de produtividade, má gestão do tempo e 
 
 A "BusyBrain" (cérebro ocupado / cérebro focado), será uma aplicação simples e fácil de usar, com uma interface atrativa e moderna. Apesar de existirem várias apps com o mesmo propósito, a “BusyBrain” pretende "expandir" as configurações e funcionalidades presentes em qualquer app que possua o mesmo objetivo, distinguindo-a no mercado.  
 
-Entre diversas configurações e funcionalidades, o utilizador poderá escolher de entre 4 técnicas comprovadas que irão contribuir para um maior foco e produtividade ao realizar tarefas do quotidiano (Pomodoro Timer, DeskTime, Ritmos Ultradian e FlowTime), selecionar música ambiente durante as sessões de trabalho, bloquear Wi-Fi quando uma "sessão de trabalho" (timer) iniciar, bloquear outras apps que o utilizador considere distrativas e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a aplicações e websites que considere distrativas(os), até o tempo do timer estipulado (30 minutos ou 60 minutos), terminar. 
+Entre diversas configurações e funcionalidades, o utilizador poderá escolher de entre 4 técnicas comprovadas que irão contribuir para um maior foco e produtividade ao realizar tarefas do quotidiano (Pomodoro Timer, DeskTime, Hardcore Mode e FlowTime), selecionar música ambiente durante as sessões de trabalho, bloquear Wi-Fi quando uma "sessão de trabalho" (timer) iniciar, bloquear websites distrativos e silenciar totalmente o telemóvel durante o periodo(s) de execução das tarefas. Caso o utilizador tenha muita dificuldade em se concentrar, poderá optar pelo "Hardcore Timer", que proibe obrigatoriamente o utilizador de aceder a quaisquer outra tela do dispositivo até o tempo do timer estipulado (30 minutos ou 60 minutos), terminar. 
 
-Além disso, a app também permitirá adicionar tarefas a serem realizadas durante o dia. 
+Além disso, a app também permitirá adicionar tarefas a serem realizadas durante o dia, bem como criação de grupos de trabalho. 
 
 A localização (requisito obrigatório para a realização do projeto) será utilizada para exibir cafés, bares e restaurantes próximos do utilizador, cujos estabelecimentos poderá frequentar nos intervalos entre as sessões de trabalho. Caso o utilizador tenha interesse, poderá também procurar por livrarias e bibliotecas próximas de si, caso queira consultar ou comprar livros. Estas duas funcionalidades contribuem para que o utilizador descubra novos pontos de interesse.
 
-Após selecionar o local, um GPS/Tracker será ativado (em tempo real), exibindo a rota, que se inicia na localização atual do utilizador, terminando no local previamente selecionado. 
+Após selecionar o local, uma rota será exibida desde a localização atual do utilizador até ao local selecionado. Caso deseje, o utilizador poderá ainda marcar locais favoritos e presenças nos mesmos.
 
 Para tornar a app mais acessivel, esta será totalmente gratuita, sem planos pagos (algo bastante comum em aplicações do mesmo género).  
 
@@ -124,38 +123,9 @@ Desta forma o utilizador pode descobrir novos pontos de interesse.
 O público-alvo da "BusyBrain" será toda a população que possua problemas de vicio no telemóvel e dificuldades de concentração e na gestão de tempo durante a realização das suas tarefas diárias, e que queiram eliminar  as distrações, aumentar a produtividade e fazer uma boa gestão do seu tempo.
 No entanto, apesar da "BusyBrain" ser especificamente desenhada para esse público, qualquer pessoa poderá utilizar a "BusyBrain" e disfrutar de todas as funcionalidades e vantagens que a app oferece.
 
-## 7. Personas
-
- ### Persona 1:
- 
-Nome: David Rebordão
-Idade: 17
-Perfil: Vive no centro de Lisboa junto com os seus pais e o seu irmão. O pai do David é consultor e a mãe é recepcionista numa clinica. Frequenta o 11º ano na área de ciências, e ambiciona formar-se em Medicina, tornando-se num especialista em cardiologia. Deseja também, no futuro, abrir a sua própria clinica especializada em doenças cardíacas. Às sextas-feiras, ao final do dia, encontra-se com a namorada, para jantar e para ir ao cinema. Aos sábados de manhã frequenta explicações de matemática. Ao final do dia, vai ao ginásio local , de forma a adquirir um estilo de vida mais saudável.
-Durante os tempos livres, sempre que pode, o David frequenta workshops e feiras de ciência e medicina, devido ao seu fascinio pelo funcionamento do corpo humano. 
-Devido à sua grande paixão por música, tem um canal na plataforma "YouTube" onde partilha as suas produções musicais. Além da música, o David também usa redes sociais e joga consola. Possui um grupo bastante reduzido de amigos pois tem dificuldade em se relacionar com outras pessoas, refugiando-se consequentemente no telemóvel. 
-Uma das suas maiores frustrações é a dificuldade em se concentrar nos estudos, sendo facilmente distraido pelas mensagens da sua namorada, Mariana. Este problema afeta o desempenho escolar, refletindo-se em resultados insuficientes em diversas cadeiras. Como resultado, o David sente-se cada vez mais desmotivado nos seus estudos. Para resolver o seu problema, o David tem procurado ferramentas que o ajudem a concentrar-se mais nos seus estudos, tornando-o mais produtivo. 
-
- ### Persona 2:
- 
-Nome: Raquel Santos
-Idade: 32
-Perfil: Vive no distrito de Faro com as suas duas filhas de 4 e 6 anos e o seu marido. Formou-se em gestão e atualmente é gestora de eventos. O seu marido é professor universitário. Um dos objetivos da Raquel, no futuro, é fundar a sua própria agência de festivais. 
-Nos tempos livres gosta de ler, jantar com as amigas, passear na praia e descobrir novas receitas de cozinha. 
-O trabalho da Raquel é muito exigente e ocupa-lhe muito tempo, impedindo-a de estar com a  família e de realizar as actividades de que mais gosta.
-Para resolver este problema a Raquel procura uma ferramenta que a possa ajudar a gerir melhor o seu tempo, equilibrando o profissional e o pessoal.
-
-### Persona 3:
-
-Nome: Maria De Jesus
-Idade: 72
-Perfil: Vive na vila da Sobreira Formosa, na Beira Baixa , com o marido. É aposentada depois de ter trabalhado cinquenta anos como professora primaria. Actualmente faz varias actividades relacionadas a agricultura e faz voluntariado para uma fundação que ajuda pessoas sem-abrigo , oferecendo comida e outros suplementos. A fundação fica em Castelo Branco, obrigando-a a deslocar-se para fora da sua localidade três vezes por semana. Isto impede-a de passsar mais tempo com o marido e os netos. Um dos netos, o João, procura ferramentas que possam ajudar a avó a passar mais tempo com ele e com o resto da familia.
-
-//Tem telefone de linha
-//O joão procura oferecer um telemóvel á sua avó e...
-
 ## 7. Pesquisa
 
-Para entender que configurações poderiam destacar a "BusyBrain" no mercado, foram analisadas 3 aplicações ("Brain Focus", "Focus To-Do" e "Serene") que possuem o mesmo objetivo que a "BusyBrain": Foco e Produtividade. As apps foram instaladas e testadas. Ainda estão em análise as críticas publicadas na página da app na Play Store (excepto a app "Serene", que somente funciona para sistemas macOS). 
+Para entender que configurações poderiam destacar a "BusyBrain" no mercado, foram analisadas 3 aplicações ("Brain Focus", "Focus To-Do" e "Serene") que possuem o mesmo objetivo que a "BusyBrain": Foco e Produtividade. As apps foram instaladas e testadas:
 
 ### Brain Focus:
 
@@ -195,13 +165,12 @@ Baseada nalgumas funcionalidades retiradas da análise das 3 apps selecionadas (
 
 * Timers com diversos métodos de foco, concentração e produtividade durante a execução de tarefas
 * Adicionar e eliminar tarefas 
-* Bloquear apps (escolhidas pelo utilizador)
 * Bloquear websites (escolhidos pelo utilizador)
 * Desativar o Wi-Fi quando uma sessão de trabalho é iniciada
 * Som ambiente para as sessões de trabalho
 * Small breaks e Long breaks (variam de acordo com o tipo de timer)
-* Exibir lista de cafés, bares e restaurantes para os long breaks (com GPS em tempo real)
-* Exibir lista de livrarias e bibliotecas (com GPS em tempo real)
+* Exibir pontos de interesse próximos do utilizador (através de filtragem - cafés, bares, restaurantes, livrarias e bibliotecas)
+* Rotas entre a localização atual do utilizador e um local selecionado
 * Modo "Hardcore Timer"
 * Silenciador de telemóvel
 
@@ -214,27 +183,29 @@ Baseada nalgumas funcionalidades retiradas da análise das 3 apps selecionadas (
                    
      * Pomodoro Timer (Foco: 25 minutos | Small Break: 5 minutos | Long Break: 30 minutos --> Aconselhado realizar 4 sessões antes do Long Break)
      
-     * DeskTime Extra (Foco: 57 minutos | Break: 17 minutos | Long Break: 45 minutos --> Aconselhado realizar 2 sessões antes do Long Break)
+     * DeskTime Extra (Foco: 57 minutos | Break: 17 minutos | Long Break: 30 minutos --> Aconselhado realizar 2 sessões antes do Long Break 
      
-     * Ultradian Rhythm (Foco: 90 minutos | Break: 30 minutos | Long Break: 60 minutos --> Aconselhado realizar 2 sessões antes do Long Break)
-     
-     * FlowTime (Foco: Até o utilizador se sentir distraido/cansado | Break: 5 minutos | Long Break: 15 minutos)
+     * FlowTime (Foco: Até o utilizador se sentir distraido/cansado (tempo personalizável) | Break: 5 minutos | Long Break: 15 minutos)
      
      * Hardcore Timer (Foco: 45 minutos | Break: 10 minutos | Long Break: 30 minutos --> Aconselhado realizar 4 sessões antes do Long Break)
                    
 * Uso da Localização:
 
-     * Procura de cafés, restaurantes e bares perto do local do utilizador (raio de 10 km | GPS Tracker em tempo real)
+     * Procura de cafés, restaurantes e bares perto do utilizador 
      
-     * Procura de livrarias e bibliotecas (raio de 50 km | GPS Tracker em tempo real)
+     * Procura de livrarias e bibliotecas perto do utilizador
+     
+     * Descoberta de outros pontos de interesse
      
 * Infos sobre os locais exibidos:
 
      * Nome do local 
      * Endereço
-     * Distância do utilizador ao local selecionado
+     * Latitude
+     * Longitude
+     * Categoria
 
-//Nota: O Hardcore Timer bloqueia totalmente o telemóvel (Wi-Fi, telemovel silenciado, apps bloqueadas e websites bloqueados durante o timer). Até o timer terminar, não será possivel alterar as configurações(bloqueio, silenciamento do dispositivo, etc.). O objetivo do Hardcore timer será obrigar o utilizador a focar-se nas suas tarefas.
+//Nota: O Hardcore Timer bloqueia totalmente o telemóvel ("freeze screen"). Até o timer terminar, não será possivel aceder a nenhuma outra tela do telemóvel, conectar-se ao Wi-Fi, etc. O objetivo do Hardcore timer será obrigar o utilizador a focar-se nas suas tarefas.
 
 # 9. Guiões de Teste
 
@@ -314,56 +285,49 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|O utilizador deve selecionar o botão "Long Break", que se encontra na zona inferior das telas de timer)| Redireciona o utilizador para a tela de "Long Break", respetiva ao timer que está a ser utilizado| Funcional
-|2|Clicar num dos seguintes icones: "café" ou "livro"| Após o clique num desses icones, surge um mapa que exibe a posição atual do utilizador e os locais de interesse perto da sua posição|Semi-Funcional
-|3|Selecionar um dos pontos de interesse (marcador no mapa)| Após a seleção, são exibidas algumas informações acerca desse local (nome, endereço, categoria e distância), "oferencendo" as opções de "Marcar Presença", "Marcar Favorito" e "Marcar Convivio"|Em Desenvolvimento
-|3.1 - Alternativa| Clicar no botão "Locais Próximos"| Após o clique, é exibida uma lista de locais próximos do utilizador, baseada nos locais que surgem no mapa.
-|3.2|Selecionar a barra de pesquisa e introduzir um nome | Exibição de locais próximos que, no seu nome, contenham o nome introduzido pelo utilizador.
-|3.3|Clicar no icone "Nearby Locations"| Exibição de locais próximos, ordenados pela distância de cada local em relação á posição atual do utilizador| Em Desenvolvimento
+|2|Clicar num dos seguintes icones: "café" ou "livro"| Após o clique num desses icones, surge um mapa que exibe a posição atual do utilizador e os locais de interesse perto da sua posição|Funcional
+|3|Selecionar um dos pontos de interesse (marcador no mapa)| Após a seleção, são exibidas algumas informações acerca desse local (nome, endereço, categoria e distância), "oferencendo" as opções de "Marcar Presença", "Marcar Favorito" e "Marcar Convivio"|Semi-Funcional 
+|3.2|Selecionar cada um dos icones de filtragem (cafés, bares, restaurantes, livrarias, bibliotecas e outros) | Filtragem de locais próximos do utilizador por categoria| Funcional
+|3.3|Selecionar o "title" de um marcador| Criação e exibição de uma rota desde a posição atual do utilizador até ao local selecionado | Funcional
+|3.4|Selecionar um marcador | Exibição de uma tela com informações sobre o local selecionado, opção de marcar o local como favorito e marcar presena num local|Semi-Funcional
 
-### Marcar Presenças
+
+### Marcar Presenças (update da app)
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|O utilizador deve selecionar um ponto de interesse no mapa | Exibição de um pop-up com as informações do local selecionado| Em Desenvolvimento
-|2|Clicar no icone "Check"| É marcada uma presença naquele local previamente selecionado| Em Desenvolvimento
-|2.1|Clicar novamente no icone de "Check"| Desmarca a presença naquele local previamente selecionado | Em Desenvolvimento
+|1|O utilizador deve selecionar um ponto de interesse no mapa | Exibição de uma tela com as informações do local selecionado| Semi-Funcional
+|2|Clicar no botão "Presença"| É marcada uma presença naquele local previamente selecionado| Semi-Funcional
+|2.1|Clicar novamente no botão "Presenca"| Desmarca a presença naquele local previamente selecionado | Semi-Funcional
 
 
-### Marcar Convivios
+### Marcar Convivios (update da app)
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|No mapa, o utilizador deve clicar num dos pontos de interesse em que deseja marcar um convivio| Serão exibidas as informações relativas ao local selecionado, de entre elas um botão "Marcar Convivio".|Em Desenvolvimento
 |2|Após o clique, o utilizador deve selecionar um grupo onde queira marcar esse convivio.|Surgirá uma "mensagem pronta", no chat desse grupo, que indicará que foi marcado um convivio para um determinado local previamente selecionado (indicando o endereço, categoria e nome do local).| Em Desenvolvimento
 
-### Filtrar Locais (por categoria e nome)
+### Filtrar Locais (por categoria )
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|Com o mapa exibido na tela, o "user" deve selecionar um dos icones que representam as categorias de locais disponiveis (Bar, Café, Restaurante, Livraria e Biblioteca)| Após um clique num desses icones, somente surgirão os marcadores cujos locais possuem alguma dessas categorias (que se encontrem numa a uma distância razoável tendo em consideração a localização atual do utilizador) | Em Desenvolvimento
+|1|Com o mapa exibido na tela, o "user" deve selecionar um dos icones que representam as categorias de locais disponiveis (Bar, Café, Restaurante, Livraria e Biblioteca)| Após um clique num desses icones, somente surgirão os marcadores cujos locais possuem alguma dessas categorias (próximos do utilizador) | Funcional
 |2|Através da barra de pesquisa que se encontra na tela do mapa, o utilizador pode efetuar uma pesquisa por nome, inserindo um nome que possa estar contido no nome do local a ser encontrado. |São identificados e indicados no mapa, os locais que contenham o nome introduzido | Em Desenvolvimento
 
 ### Definir Rotas
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|O utilizador deverá selecionar, na tela de informações de um local selecionado, o botão "Criar Rota" | Exibição de um mapa / GPS que acompanha em tempo real o trajeto do utilizador até ao local selecionado, através da definição uma rota entre a posição atual do utilizador e o local.
-
+|1|O utilizador deverá selecionar, o "title" de um local | Exibição de uma rota entre a posição atual do utilizador e o local selecionado| Funcinal
 
 ### Locais Favoritos
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|No mapa exibido da tela, o utilizador deve selecionar um local (marcador do mapa)| Exibição das informações do local selecionado (nome, endereço, distancia e categoria)|Em Desenvolvimento
-|2|Após a exibição das informações do local selecionado, o utilizador deve clicar na opção "Adicionar aos Favoritos"| Surgirá uma mensagem "toast", indicando que adicinou o local com sucesso á lista de favoritos. O local será então adicionado a uma lista de locais favoritos do utilizador| Em Desenvolvimento
-|3|No mapa, basta o utilizador selecionar o botão "Ver locais favoritos"| Exibição de uma lista com os locais favoritos do utilizador | Em Desenvolvimento
-
-### Filtrar Locais Favoritos
-
-|Nº Passo|Passo|Resultado|Estado|
-|---|---|---|---|
-|1|Na tela do mapa, selecionar o botão "Locais Favoritos"| Exibição de uma lista com os locais favoritos do utilizador| Em Desenvolvimento
-|2|Na barra de pesquisa da lista, pesquisar por um nome | Através de um "name containing", surgem na lista somente os locais favoritos do utilizador que contêm o nome introduzido na barra de pesquisa | Em Desenvolvimento
+|2|Após a exibição das informações do local selecionado, o utilizador deve clicar na opção "Favorito"| Surgirá uma mensagem "toast", indicando que adicinou o local com sucesso á lista de favoritos. O local será então adicionado a uma lista de locais favoritos do utilizador| Semi-Funcional
+|3|No mapa, basta o utilizador selecionar o botão "Ver locais favoritos"| Exibição de uma lista com os locais favoritos do utilizador | Semi-Funcional
 
 
 ## Guião de Teste - Funcionalidades Secundárias (Visualizar configurações disponiveis, selecionar musica ambiente, silenciar dispositivo, bloquear apps, bloquear websites, desativar wi-fi e gestão de tarefas)
@@ -447,7 +411,7 @@ Caso o utilizador queira sair da sua conta na app, deverá aceder á barra later
 
 Link para o pitch: https://youtu.be/afL7qk63RFg
 
-# LINK DO FICHEIRO MOBILE (ATUALIZADO 22/12/2021):
+# LINK DO FICHEIRO MOBILE (ATUALIZADO 26/11/2021):
 
 Link: https://www.mediafire.com/file/c15zus10bg9chb6/PROTOTYPEBUSY.zip/file
 
