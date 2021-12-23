@@ -443,7 +443,7 @@ De seguida, clicar em logout, confirmar a ação, e após a confirmação, a ses
 
 Link para o pitch: https://youtu.be/afL7qk63RFg
 
-# UPDATE DA APP (até dia 10 de Janeiro de 20022):
+# UPDATE DA APP (até dia 10 de Janeiro de 2022):
 
  ### Correção de Rotas
  ### Melhoria na dinamização da app
