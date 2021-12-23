@@ -1,6 +1,6 @@
 # Código de criação da Base de Dados
 
-### Próxima Atualização: 22 Novembro (correção de erros, melhoria de apresentação do documento, adicionadas novas queries, etc.)
+### Próxima Atualização: 24 Novembro (correção de erros, melhoria de apresentação do documento, adicionadas novas queries, etc.)
 
 ### AVISO: Este documento pertence á Base de Dados DEMO. 
 
@@ -521,8 +521,95 @@ inner join grupo grupos on grupos.group_id = chats.chat_id
 
 #### Descrição: Obter mensagens de um grupo (para a update da app)
 
+select grupos.group_id AS groupId, grupos.group_name AS groupName, grupos.group_description AS groupDesc, tarefas.task_title AS taskTitle, tarefas.user_task_id AS usertaskId 
+from grupo AS grupos 
+inner join tarefa tarefas on tarefas.task_id = grupos.tarefa_id 
+where tarefas.user_task_id=:usertaskid
 
-select * from tarefa
+#### Descrição: Obter os grupos de um utilizador
+
+select marcacoes.favorite_id AS favId, users.user_name AS Username, locals.place_name AS Nameofplace, marcacoes.isfavorite AS Status 
+from marcacao_favorito AS marcacoes 
+inner join utilizador users on users.user_id = marcacoes.utilizador_id 
+inner join place locals on marcacoes.local_id = locals.place_id
+where users.user_id=:userid
+    
+#### Descrição: Locais favoritos de um utilizador
+
+select marcacoesp.presenca_id AS preId, userss.user_name AS username, localss.place_name AS nome, marcacoesp.wasthere AS presenca 
+from marcacao_presenca AS marcacoesp 
+inner join utilizador userss on userss.user_id = marcacoesp.utilizador_id 
+inner join place localss on marcacoesp.local_id = localss.place_id
+where userss.user_id=:userid
+
+#### Descrição: Locais onde o utilizador marcou presença
+
+select mensagens.message_content AS messageContent, users.user_name AS Username, grupos.group_name AS groupName  
+from mensagem AS mensagens 
+inner join utilizador_tarefa userstasks on userstasks.user_identifier = mensagens.message_user_id 
+inner join utilizador users on users.user_id = userstasks.user_identifier
+inner join chat chats on chats.chat_id = mensagens.message_chat_id 
+inner join grupo grupos on grupos.group_id = chats.chat_id
+where chats.chat_id=:chatid
+
+#### Descrição: Obter mensagens de um grupo
+
+select tarefas.task_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
+from tarefa AS tarefas 
+inner join prioridadetarefa priority on priority.taskpriority_id = tarefas.task_priority_id  
+inner join tipotarefa tipo on tarefas.task_type_id = tipo.tasktype_id
+
+#### Descrição: Obter detalhes sobre as tarefas de um utilizador (complementado no Android Studio)
+
+select tarefas.task_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
+from tarefa AS tarefas 
+inner join prioridadetarefa priority on priority.taskpriority_id = tarefas.task_priority_id 
+inner join tipotarefa tipo on tarefas.task_type_id = tipo.tasktype_id 
+inner join utilizador users on tarefas.user_task_id = users.user_id
+where tarefas.user_task_id=:usertaskid
+
+#### Descrição: Obter detalhes sobre as tarefas de um utilizador
+
+select tarefas.tas_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
+from tarefa AS tarefas 
+inner join prioridadetarefa priority on priority.taskpriority_id = tarefas.task_priority_id 
+inner join tipotarefa tipo on tarefas.task_type_id = tipo.tasktype_id
+where priority.taskpriority_id=:priority
+
+#### Descrição: Filtrar tarefas pela prioridade (geral)
+
+select tarefas.tas_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
+from tarefa AS tarefas 
+inner join prioridadetarefa priority on priority.taskpriority_id = tarefas.task_priority_id 
+inner join tipotarefa tipo on tarefas.task_type_id = tipo.tasktype_id
+where tarefas.user_task_id=:usertaskid and priority.taskpriority_id=:priority
+
+#### Descrição: Filtrar tarefas de um utilizador pela prioridade
+
+select participantes.user_id_tarefa AS idparticipante, usersss.user_name AS nameparticipante, tarefasss.task_title AS nametarefa 
+from utilizador_tarefa AS participantes 
+inner join utilizador AS usersss on usersss.user_id = participantes.user_identifier 
+inner join tarefa AS tarefasss on tarefasss.task_id = participantes.task_identifier 
+
+#### Descrição: Obter participantes dos grupos criados na app
+
+select groups.group_id AS groupId, groups.group_name AS groupName, groups.group_description AS groupDesc, users.user_name AS userName, users.user_id AS userId
+from grupo AS groups 
+inner join tarefa tarefas on tarefa_id = task_id  
+inner join utilizador_tarefa usertask on task_id = task_identifier 
+inner join utilizador users on user_identifier = user_id
+where groups.group_id=:groupid
+
+#### Descrição: Obter participantes de um grupo especifico
+
+select websites.blocked_status AS blockedStatus, dominios_website.website_name AS nomeWebsite, dominios_website.domain_website  
+from website AS websites 
+inner join website_domains dominios_website on websites.website_domain_id = dominios_website.id_website 
+inner join bloqueamento blocks on websites.utilizador_id = blocks.utilizador_id 
+inner join utilizador users on blocks.utilizador_id = users.user_id
+where blocks.utilizador_id=:utilizadorid
+
+#### Descrição: Obter status de websites de um utilizador (em desenvolvimento)
 
 # CRIACAO DAS TABELAS "CHAT" E "MENSAGEM" (PARA A UPDATE DA APP)
 
