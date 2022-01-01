@@ -53,6 +53,15 @@ create table tarefa(
 
 );
 
+### Tabela "tarefa_grupo"
+
+create table tarefa_grupo(
+
+  task_group_id int,	
+  CONSTRAINT fk_task_group_id FOREIGN KEY(task_group_id) REFERENCES grupo(group_id)	
+
+) inherits tarefa;
+
 ### Tabela "utilizador_tarefa"
 
 create table utilizador_tarefa(
