@@ -301,14 +301,14 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |2.1|Clicar novamente no botão "Presenca"| Desmarca a presença naquele local previamente selecionado | Semi-Funcional
 
 
-### Marcar Convivios (update da app)
+### Marcar Convivios 
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
 |1|No mapa, o utilizador deve clicar num dos pontos de interesse em que deseja marcar um convivio| Serão exibidas as informações relativas ao local selecionado, de entre elas um botão "Marcar Convivio".|Em Desenvolvimento
 |2|Após o clique, o utilizador deve selecionar um grupo onde queira marcar esse convivio.|Surgirá uma "mensagem pronta", no chat desse grupo, que indicará que foi marcado um convivio para um determinado local previamente selecionado (indicando o endereço, categoria e nome do local).| Em Desenvolvimento
 
-### Filtrar Locais (por categoria )
+### Filtrar Locais (por categoria | Google Places API)
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
@@ -319,7 +319,7 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 
 |Nº Passo|Passo|Resultado|Estado|
 |---|---|---|---|
-|1|O utilizador deverá selecionar, o "title" de um local | Exibição de uma rota entre a posição atual do utilizador e o local selecionado| Funcinal
+|1|O utilizador deverá selecionar, o "title" de um local | Exibição de uma rota entre a posição atual do utilizador e o local selecionado| Funcional (Bug)
 
 ### Locais Favoritos
 
@@ -387,14 +387,15 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |6|Selecionar um dos "Chip-Buttons" ('Low', 'Medium', 'Urgent' e 'High') | Filtrar a lista de tarefas, de acordo com o botão selecionado (filtragem por prioridade) | Funcional
 |7|Clicar no botão "Criar Grupo" e inserir os dados nas 'caixas' | Criação de um grupo para uma tarefa | Funcional
 |8|Clicar no botão "Ver Grupos" e selecionar um item da lista | Acesso á tela de chat de um grupo | Não-Funcional
-|8.1|Na tela de chat, clicar no icone de participante | Exibição de uma tela para adicionar ou remover um participante do grupo | Não-Funcional
+|8.1|Na tela de tarefas de grupo, clicar no icone de participante | Exibição de uma tela para adicionar ou remover um participante do grupo | Não-Funcional
 |8.2|Na tela de grupos, clicar no icone de 'Lixo' na parte inferior da tela | Exibição de uma tela para remover um grupo através do ID | Funcional
 
 
 
 ### Logout
 
-Caso o utilizador queira sair da sua conta na app, deverá aceder á barra lateral e clicar no icone de "Turn Off". Ao clicar, o utilizador será redirecionado para a tela de Login.
+Caso o utilizador queira sair da sua conta na app, deverá aceder á tela de configurações da app e clicar na opção "A minha conta". Ao clicar, o utilizador será redirecionado para a uma nova tela que exibirá informações sobre a conta do utilizador e a opção de "Logout". 
+Após clicar no botão "Logout", o utilizador terminará a sua sessão.
 
 # PITCH (BusyBrain)
 
