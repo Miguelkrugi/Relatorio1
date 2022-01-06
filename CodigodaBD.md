@@ -158,25 +158,6 @@ create table convivio(
 
 );
 
-### Tabela "bloqueamento"
-
-create table bloqueamento(
-
-    bloqueamento_id SERIAL primary key,                                   
-    utilizador_id int,                                          
-    CONSTRAINT fk_user_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),                                     
-    blocked_status boolean (bit),                                     
-    
-);
-
-### Tabela "app" (REMOVIDA)
-
-create table app(
-
-  app_id SERIAL primary key,                                
-  app_name varchar(50)                                        
-
-) inherits (bloqueamento);
 
 
 ### Tabela "website"
