@@ -1,7 +1,5 @@
 # Código de criação da Base de Dados
 
-### Próxima Atualização: 24 Novembro (correção de erros, melhoria de apresentação do documento, adicionadas novas queries, etc.)
-
 ### AVISO: Este documento pertence á Base de Dados DEMO. 
 
 ## Criação de tabelas
@@ -58,7 +56,7 @@ create table tarefa(
 create table tarefa_grupo(
 
   task_group_id int,	
-  CONSTRAINT fk_task_group_id FOREIGN KEY(task_group_id) REFERENCES grupo(group_id)	
+  CONSTRAINT fk_task_group_id FOREIGN KEY(task_group_id) REFERENCES grupo(group_id)
 
 ) inherits tarefa;
 
@@ -74,31 +72,18 @@ create table utilizador_tarefa(
   	
 );
 
-### Tabela "Local"
+### Tabela "Place"
 
 create table place(
 
   place_id SERIAL primary key,                          
   place_name varchar(100) not null,                          
-  place_endereco varchar(300) not null,                                                  
-  place_categoria varchar(70)                                               
-  place_latitude double,                             
-  place_longitude double   
-  place_google_id int
-
-);
-
-### Tabela "Local" - B ALTERNATIVE
-
-create table place(
-
-  place_id SERIAL primary key,                          
-  place_name varchar(100) not null,                          
-  place_endereco varchar(300) not null,                                                  
-  place_categoria_id int,                            
-  CONSTRAINT fk_placecategoriaid FOREIGN KEY(place_categoria_id) REFERENCES categorialocal(categoria_id)                    
-  place_latitude double,                             
-  place_longitude double                            
+  place_endereco varchar(300) not null,  
+  place_latitude double,   
+  place_longitude double,                           
+  place_google_id varchar(100),
+  user_request_id int,
+  CONSTRAINT fk_user_request_id FOREIGN KEY(user_request_id) REFERENCES utilizador(user_id)
 
 );
 
@@ -127,7 +112,7 @@ create table utilizador_local(
 create table marcacao_presenca(
 
    presenca_id SERIAL primary key,                                      
-   wasThere bit (boolean),                                   
+   wasthere bit (boolean),                                   
    utilizador_id int,                                      
    CONSTRAINT fk_utilizador_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),                              
    local_id int,                                     
@@ -140,7 +125,7 @@ create table marcacao_presenca(
 create table marcacao_favorito(
 
    favorite_id SERIAL primary key,                                     
-   isFavorite bit (boolean),                                        
+   isfavorite bit (boolean),                                        
    utilizador_id int,                                 
    CONSTRAINT fk_utilizador_id FOREIGN KEY(utilizador_id) REFERENCES utilizador(user_id),                                     
    local_id int,                                   
@@ -164,8 +149,8 @@ create table grupo(
 
 create table convivio(
 
-    data_convivio date,                           
-    convivio_id SERIAL primary key,                        
+    convivio_id SERIAL primary key,
+    data_convivio date,                                                  
     grupo_id int,                             
     CONSTRAINT fk_grupo_id FOREIGN KEY(grupo_id) REFERENCES grupo(group_id),                                           
     placee_id int,                             
@@ -200,10 +185,10 @@ create table website(
 
 website_id SERIAL primary key,
 website_domain_id int,
-CONSTRAINT fk_domain_id FOREIGN KEY (website_domain_id) REFERENCES website_domains(id_website)	
-website_blocked_status bit,
+CONSTRAINT fk_domain_id FOREIGN KEY (website_domain_id) REFERENCES website_domains(id_website),
 website_user_block int,
-CONSTRAINT fk_user_block FOREIGN KEY (website_user_block) REFERENCES utilizador(user_id)
+CONSTRAINT fk_user_block FOREIGN KEY (website_user_block) REFERENCES utilizador(user_id),
+website_blocked_status bit DEFAULT 1::bit NOT NULL
 
 );
 
@@ -213,11 +198,9 @@ create table website_domains(
 
    id_website SERIAL primary key,
    domain_website varchar(120),
-   website_name varchar(80)
+   website_name varchar(60)
 
 );
-
-
 
 ## Inserts em tabelas 
 
@@ -235,6 +218,10 @@ values ('Buy groceries', 'Buy all the groceries to lunch', '2020-01-12', '4', '3
 insert into tarefa (task_title, task_desc, due_date, user_task_id, task_priority_id, task_type_id) 
 values ('Go to mall', 'Go to the mall to buy clothes', '2021-04-05', '8', 4', '2')
 
+### Tabela "tarefa_grupo"
+
+insert into tarefa_grupo(task_title, task_desc, due_date, user_task_id, task_priority_id, task_type_id, task_group_id, tarefa_id)
+values ('Carry shopping items', 'Help with shopping', '2022-01-01', 2,2,1,6,3)
 
 ### Tabela "utilizador"
 
@@ -273,21 +260,6 @@ values ('Individual')
 insert into tipotarefa (tasktype_nome) 
 values ('Grupo')
 
-insert into tipotarefa (tasktype_nome) 
-values ('Reunião')
-
-insert into tipotarefa (tasktype_nome) 
-values ('Palestra')
-
-insert into tipotarefa (tasktype_nome) 
-values ('Entrevista')
-
-insert into tipotarefa (tasktype_nome) 
-values ('Culinária')
-
-insert into tipotarefa (tasktype_nome) 
-values ('Desporto')
-
 
 ### Tabela "prioridadetarefa"
 
@@ -304,105 +276,46 @@ insert into prioridadetarefa (taskpriority_type)
 values ('Urgent')
 
 
-### Tabela "bloqueamento"
-
-insert into bloqueamento(utilizador_id, blocked_status) 
-values ('1', '1') 
-
-insert into bloqueamento(utilizador_id, blocked_status) 
-values('1', '1') 
-
-insert into bloqueamento(utilizador_id, blocked_status) 
-values('2', '1')
-
-insert into bloqueamento(utilizador_id, blocked_status) 
-values('3','1') 
-
-insert into bloqueamento(utilizador_id, blocked_status) 
-values('1', '1')
-
-insert into bloqueamento(utilizador_id, blocked_status) 
-values('4','1') 
-
-
 ### Tabela "utilizador_tarefa"
 
 insert into utilizador_tarefa (user_identifier, task_identifier) 
-values ('1', '4')
+values ('2', '4')
 
 insert into utilizador_tarefa (user_identifier, task_identifier) 
 values ('8', '4')
 
 insert into utilizador_tarefa (user_identifier, task_identifier) 
-values ('2', '1')
-
-insert into utilizador_tarefa (user_identifier, task_identifier) 
-values ('3', '1')
-
-### Tabela "app"
-
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name) 
-values('1','1','1','Facebook') 
-
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name) 
-values('2','1','1','YouTube') 
-
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name) 
-values('3','2','1','Wikipedia') 
-
-insert into app(bloqueamento_id, utilizador_id, blocked_status, app_name) 
-values('4','3','1','Kalorias') 
+values ('15', '4')
 
 ### Tabela "website"
 
-insert into website(bloqueamento_id, utilizador_id, blocked_status, website_domain) 
-values('5','1','1','facebook.com')
+insert into website(website_domain_id, website_user_block, website_blocked_status) 
+values('4','8','1')
 
-insert into website(bloqueamento_id, utilizador_id, blocked_status, website_domain) 
-values('6','4','1','reddit.com')
+insert into website(website_domain_id, website_user_block, website_blocked_status) 
+values('1','8','1')
 
 ### Tabela "grupo"
 
 insert into grupo(group_name, group_description, tarefa_id) 
-values ('Cook Dinner Group', 'Group to cook the dinner', '4')
+values ('Shopping group', 'Group to buy stuff in the mall', '4')
 
 insert into grupo(group_name, group_description, tarefa_id) 
-values ('Grupo da tarefa 4', 'Isto é o grupo da tarefa 4 na BD', '4') 
-
-insert into grupo(group_name, group_description, tarefa_id) 
-values ('Grupo da tarefa 3', 'Isto é o grupo da tarefa 3 na BD', '3') 
-
-insert into grupo(group_name, group_description, tarefa_id) 
-values('Grupo para TPC Matematica', 'Isto é um grupo para o trabalho de matematica', '1')
-
+values ('ajaja group', 'jaajajaj group', '33') 
 
 ### Tabela "convivio"
 
 insert into convivio(data_convivio, grupo_id, placee_id) 
-values('2021-11-02', '3', '4') 
+values('2022-01-02', '6', '22') 
 
 insert into convivio(data_convivio, grupo_id, placee_id) 
-values('2021-11-02', '3', '4') 
+values('2021-01-02', '10', '18') 
+
+insert into convivio(data_convivio, grupo_id, placee_id) 
+values('2021-01-01', '6', '22') 
 
 
-### Tabela "categorialocal"
-
-insert into categorialocal (categoria_name) 
-values ('Cafe')
-
-insert into categorialocal (categoria_name) 
-values ('Bar')
-
-insert into categorialocal (categoria_name) 
-values ('Restaurante')
-
-insert into categorialocal (categoria_name) 
-values ('Livraria')
-
-insert into categorialocal (categoria_name) 
-values ('Biblioteca')
-
-### Tabela "Local"
+### Tabela "Local" (DESATUALIZADO DEVIDO A ALTERAÇÕES NA TABELA (DADOS DEPENDEM DO 'GOOGLE PLACES API'))
 
 insert into place (place_name, place_endereco, place_distancia, place_categoria) 
 values ('Bar Lemos','Rua Joao Direitinho, Nº 13','500','1')
@@ -419,13 +332,15 @@ values ('Cafe O Dante','Rua Neuracia da Alemanha, Nº 12,'1256','1')
 insert into place (place_name, place_endereco, place_distancia, place_categoria, place_latitude, place_longitude) 
 values ('Livraria Dom Joao I','Rua do Rossio, Nº 22','1156','4', '27372.47571937', '37471.47591811')
 
-### Tabela "marcacao_presenca"
+### Tabela "marcacao_presenca" ("wasthere" possui valor 'true' por DEFAULT)
 
 insert into marcacao_presenca (wasthere, utilizador_id, local_id) 
 values ('1', ‘1’, ‘3’)
 
 insert into marcacao_presenca (wasthere, utilizador_id, local_id) 
 values ('0', ‘3’, ‘5’)
+insert into marcacao_presenca (wasthere, utilizador_id, local_id) 
+values ('1', ‘15’, ‘18’)
 
 ### Tabela "marcacao_favorito"
 
@@ -438,203 +353,143 @@ values ('0', ‘1’, ‘5’)
 insert into marcacao_presenca (isfavorite, utilizador_id, local_id) 
 values ('1', ‘3’, ‘5’)
 
+insert into marcacao_favorito (isfavorite, utilizador_id, local_id) 
+values ('1', ‘8’, ‘3’)
+
+insert into marcacao_favorito (isfavorite, utilizador_id, local_id) 
+values ('0', ‘8’, ‘1’)
+
 ### Tabela "website_domains"
 
 insert into website_domains(domain_website) values ('www.youtube.com'), ('www.facebook.com'), ('www.twitter.com'), ('www.instagram.com'),('www.wikipedia.org'),('www.yahoo.com'),('www.whatsapp.com'),('www.netflix.com'),('www.amazon.com'),('www.reddit.com');
 
-## Queries (relativas ás Custom Queries da API - podem sofrer alterações com o avanço do projeto)
+## Queries (relativas ás Custom Queries da API)
 
-#### Para ver os participantes de cada grupo criado na app
+### Obter websites desbloqueados por um utilizador
 
-select * from utilizador 
-inner join utilizador_tarefa on user_id = user_identifier
-inner join tarefa on task_id = task_identifier
+select sites.website_id AS websiteId, sites.website_user_block AS userId , users.user_name AS userName, dominios.website_name AS websiteName,dominios.domain_website AS websiteDomain, sites.website_blocked_status AS blockedStatus 
+from website AS sites 
+inner join website_domains dominios on sites.website_domain_id = id_website 
+inner join utilizador users on sites.website_user_block = users.user_id  
+where sites.website_blocked_status = '0' and sites.website_user_block=:userid
 
-#### Filtrar websites bloqueados
+### Obter websites bloqueados por um utilizador
 
-SELECT * FROM website WHERE blocked_status = '1'
+select sites.website_id AS websiteId, sites.website_user_block AS userId , users.user_name AS userName, dominios.website_name AS websiteName,dominios.domain_website AS websiteDomain, sites.website_blocked_status AS blockedStatus 
+from website AS sites 
+inner join website_domains dominios on sites.website_domain_id = id_website 
+inner join utilizador users on sites.website_user_block = users.user_id 
+where sites.website_blocked_status = '1' and sites.website_user_block=:userid
 
-#### Filtrar websites desbloqueados
+### Obter os participantes de um grupo
 
-SELECT * FROM website WHERE blocked_status = '0'
+select groups.group_id AS groupId, usertask.user_id_tarefa AS participantId, groups.group_name AS groupName, groups.group_description AS groupDesc, users.user_name AS userName, users.user_id AS userId 
+from grupo AS groups  
+inner join tarefa tarefas on tarefa_id = task_id 
+inner join utilizador_tarefa usertask on task_id = task_identifier 
+inner join utilizador users on user_identifier = user_id 
+where groups.group_id=:groupid
 
-#### Filtrar apps bloqueadas
-
-SELECT * FROM app WHERE blocked_status = '1'
-
-#### Filtrar apps desbloqueadas
-
-SELECT * FROM app WHERE blocked_status = '0'
-
-# OUTRAS QUERIES
-#### NOTA: AS QUERIES ENVOLVEM INNER JOINS, ETC:
-
-select marcarpresencas.presenca_id AS presencaId, users.user_name AS Username, locais.place_name AS Nameofplace
-from marcacao_presenca AS marcarpresencas
-inner join utilizador users on users.user_id = marcarpresencas.utilizador_id
-inner join place locais on marcarpresencas.local_id = locais.place_id
-where wasthere = '1' 
-
-#### Descrição: Locais (nome) em que o utilizador marcou presenças
-
-select marcacoesp.presenca_id AS preId, userss.user_name AS username, localss.place_name AS nome
-from marcacao_presenca AS marcacoesp
-inner join utilizador userss on userss.user_id = marcacoesp.utilizador_id
-inner join place localss on marcacoesp.local_id = localss.place_id
-where wasthere = '1'and userss.user_id=:userid
-
-#### Descrição: Locais (nome) em que o utilizador marcou presenças
-
-
-select marcacoes.favorite_id AS favId, users.user_name AS Username, locals.place_name AS Nameofplace, marcacoes.isfavorite AS Status
-from marcacao_favorito AS marcacoes 
-inner join utilizador users on users.user_id = marcacoes.utilizador_id
-inner join place locals on marcacoes.local_id = locals.place_id
-
-#### Descrição: Locais (nome) favoritos pelo utilizador
-
-select convivios.convivio_id AS idconvivio, convivios.data_convivio AS dataconvivio, groupss.group_name AS nomegrupo, placess.place_name
-from convivio AS convivios
-inner join grupo AS groupss on groupss.group_id = convivios.grupo_id
-inner join place AS placess on placess.place_id = convivios.placee_id
-where groupss.group_id=:grupoid
-
-#### Descrição: Informação dos convivios feitos por um grupo
-
---convivios.convivio_id AS idconvivio
-
---convivios.data_convivio AS dataconvivio
-
-select * from utilizador_tarefa
-
-select participantes.user_id_tarefa AS idparticipante, usersss.user_name AS nameparticipante, tarefasss.task_title
-from utilizador_tarefa AS participantes
-inner join utilizador AS usersss on usersss.user_id = participantes.user_identifier
-inner join tarefa AS tarefasss on tarefasss.task_id = participantes.task_identifier
-
-#### Descrição: Participantes de uma tarefa / grupo  (uso da tabela "intermédia" -> utilizador_tarefa)
-
-select mensagens.message_content AS messageContent, users.user_name AS Username, grupos.group_name
-from mensagem AS mensagens
-inner join utilizador_tarefa userstasks on userstasks.user_identifier = mensagens.message_user_id
-inner join utilizador users on users.user_id = userstasks.user_identifier
-inner join chat chats on chats.chat_id = mensagens.message_chat_id
-inner join grupo grupos on grupos.group_id = chats.chat_id
-
-#### Descrição: Obter mensagens de um grupo (para a update da app)
-
-select grupos.group_id AS groupId, grupos.group_name AS groupName, grupos.group_description AS groupDesc, tarefas.task_title AS taskTitle, tarefas.user_task_id AS usertaskId 
-from grupo AS grupos 
-inner join tarefa tarefas on tarefas.task_id = grupos.tarefa_id 
-where tarefas.user_task_id=:usertaskid
-
-#### Descrição: Obter os grupos de um utilizador
-
-select marcacoes.favorite_id AS favId, users.user_name AS Username, locals.place_name AS Nameofplace, marcacoes.isfavorite AS Status 
-from marcacao_favorito AS marcacoes 
-inner join utilizador users on users.user_id = marcacoes.utilizador_id 
-inner join place locals on marcacoes.local_id = locals.place_id
-where users.user_id=:userid
-    
-#### Descrição: Locais favoritos de um utilizador
-
-select marcacoesp.presenca_id AS preId, userss.user_name AS username, localss.place_name AS nome, marcacoesp.wasthere AS presenca 
-from marcacao_presenca AS marcacoesp 
-inner join utilizador userss on userss.user_id = marcacoesp.utilizador_id 
-inner join place localss on marcacoesp.local_id = localss.place_id
-where userss.user_id=:userid
-
-#### Descrição: Locais onde o utilizador marcou presença
-
-select mensagens.message_content AS messageContent, users.user_name AS Username, grupos.group_name AS groupName  
-from mensagem AS mensagens 
-inner join utilizador_tarefa userstasks on userstasks.user_identifier = mensagens.message_user_id 
-inner join utilizador users on users.user_id = userstasks.user_identifier
-inner join chat chats on chats.chat_id = mensagens.message_chat_id 
-inner join grupo grupos on grupos.group_id = chats.chat_id
-where chats.chat_id=:chatid
-
-#### Descrição: Obter mensagens de um grupo
+### Obter as tarefas (individuais) de um utilizador
 
 select tarefas.task_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
-from tarefa AS tarefas 
-inner join prioridadetarefa priority on priority.taskpriority_id = tarefas.task_priority_id  
-inner join tipotarefa tipo on tarefas.task_type_id = tipo.tasktype_id
-
-#### Descrição: Obter detalhes sobre as tarefas de um utilizador (complementado no Android Studio)
-
-select tarefas.task_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
-from tarefa AS tarefas 
+from tarefa AS tarefas
 inner join prioridadetarefa priority on priority.taskpriority_id = tarefas.task_priority_id 
 inner join tipotarefa tipo on tarefas.task_type_id = tipo.tasktype_id 
 inner join utilizador users on tarefas.user_task_id = users.user_id
 where tarefas.user_task_id=:usertaskid
 
-#### Descrição: Obter detalhes sobre as tarefas de um utilizador
+### Filtragem de tarefas de um utilizador por prioridade
 
-select tarefas.tas_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
-from tarefa AS tarefas 
-inner join prioridadetarefa priority on priority.taskpriority_id = tarefas.task_priority_id 
-inner join tipotarefa tipo on tarefas.task_type_id = tipo.tasktype_id
-where priority.taskpriority_id=:priority
-
-#### Descrição: Filtrar tarefas pela prioridade (geral)
-
-select tarefas.tas_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
+select tarefas.task_title AS taskTitle, tarefas.task_desc AS taskDesc, priority.taskpriority_type AS prioridade, tarefas.task_id AS taskId, tarefas.user_task_id AS usertaskId 
 from tarefa AS tarefas 
 inner join prioridadetarefa priority on priority.taskpriority_id = tarefas.task_priority_id 
 inner join tipotarefa tipo on tarefas.task_type_id = tipo.tasktype_id
 where tarefas.user_task_id=:usertaskid and priority.taskpriority_id=:priority
 
-#### Descrição: Filtrar tarefas de um utilizador pela prioridade
+### Obter todas as tarefas de um grupo (contendo várias informações)
 
-select participantes.user_id_tarefa AS idparticipante, usersss.user_name AS nameparticipante, tarefasss.task_title AS nametarefa 
-from utilizador_tarefa AS participantes 
-inner join utilizador AS usersss on usersss.user_id = participantes.user_identifier 
-inner join tarefa AS tarefasss on tarefasss.task_id = participantes.task_identifier 
+select tarefas.task_id AS taskId, tarefas.task_group_id AS taskgroupId,tarefas.task_title AS taskTitle, tarefas.task_desc AS taskDesc, prioridade.taskpriority_type AS priorityType, userss.user_name AS userName, participante.user_id_tarefa AS participanteId, userss.user_id AS userId  
+from tarefa_grupo AS tarefas 
+inner join prioridadetarefa AS prioridade on tarefas.task_priority_id = prioridade.taskpriority_id 
+inner join grupo AS grupos on tarefas.task_group_id = grupos.group_id 
+inner join utilizador_tarefa AS participante on tarefas.user_task_id = participante.user_identifier  
+inner join utilizador AS userss on participante.user_identifier = userss.user_id
+where tarefas.task_group_id=:taskgroupid
 
-#### Descrição: Obter participantes dos grupos criados na app
+### Obter os locais com presenças de um utilizador
 
-select groups.group_id AS groupId, groups.group_name AS groupName, groups.group_description AS groupDesc, users.user_name AS userName, users.user_id AS userId
-from grupo AS groups 
-inner join tarefa tarefas on tarefa_id = task_id  
-inner join utilizador_tarefa usertask on task_id = task_identifier 
-inner join utilizador users on user_identifier = user_id
-where groups.group_id=:groupid
+select marcacoes.presenca_id AS presencaId, marcacoes.utilizador_id AS utilizadorId, userss.user_name AS userName,locais.place_name AS placeName, locais.place_endereco AS placeEndereco, locais.place_id AS placeId 
+from marcacao_presenca AS marcacoes  
+inner join utilizador userss on marcacoes.utilizador_id = userss.user_id  
+inner join place locais on marcacoes.local_id = locais.place_id 
+where marcacoes.wasthere = '1' and marcacoes.utilizador_id=:utilizadorid
 
-#### Descrição: Obter participantes de um grupo especifico
+### Obter os locais favoritos de um utilizador
 
-select websites.blocked_status AS blockedStatus, dominios_website.website_name AS nomeWebsite, dominios_website.domain_website  
-from website AS websites 
-inner join website_domains dominios_website on websites.website_domain_id = dominios_website.id_website 
-inner join bloqueamento blocks on websites.utilizador_id = blocks.utilizador_id 
-inner join utilizador users on blocks.utilizador_id = users.user_id
-where blocks.utilizador_id=:utilizadorid
+select marcacoes.favorite_id AS favoriteId, marcacoes.utilizador_id AS utilizadorId, locais.place_name AS placeName, locais.place_endereco AS placeEndereco, locais.place_id AS placeId 
+from marcacao_favorito AS marcacoes 
+inner join utilizador userss on marcacoes.utilizador_id  = userss.user_id 
+inner join place locais on marcacoes.local_id = locais.place_id 
+where marcacoes.isfavorite = '1'
+and marcacoes.utilizador_id=:utilizadorid
 
-#### Descrição: Obter status de websites de um utilizador (em desenvolvimento)
+### Obter a informação de um local selecionado por um utilizador
 
-# CRIACAO DAS TABELAS "CHAT" E "MENSAGEM" (PARA A UPDATE DA APP)
+select locais.place_id AS placeId, locais.place_name AS placeName, locais.place_endereco AS placeEndereco, locais.place_latitude AS placeLatitude, locais.place_longitude AS placeLongitude, locais.place_favorite AS placeFavorite, locais.place_presenca AS placePresenca, userss.user_id AS userId 
+from place AS locais 
+inner join utilizador userss on userss.user_id = locais.user_request_id
+where userss.user_id=:userid and locais.place_id=:placeid
 
-create table chat(
+### Obter todos os grupos de um utilizador
 
-   chat_id SERIAL primary key,
-   chat_grupo_id int,
-   CONSTRAINT fk_chat_grupo_id FOREIGN KEY(chat_grupo_id) REFERENCES grupo(group_id)
+select grupos.group_id AS groupId, grupos.group_name AS groupName, grupos.group_description AS groupDesc, tarefas.task_title AS taskTitle, tarefas.user_task_id AS usertaskId 
+from grupo AS grupos 
+inner join tarefa tarefas on tarefas.task_id = grupos.tarefa_id
+where tarefas.user_task_id=:usertaskid
 
-);
+### Obter informações de um grupo selecionado por um utilizador (da sua lista de grupos)
 
-create table mensagem(
+select grupos.group_id AS groupId, grupos.group_name AS groupName, grupos.group_description AS groupDesc, tarefas.task_title AS taskTitle, tarefas.user_task_id AS usertaskId
+from grupo AS grupos 
+inner join tarefa tarefas on tarefas.task_id = grupos.tarefa_id
+where tarefas.user_task_id=:usertaskid and grupos.group_id=:groupid
 
-    message_id SERIAL primary key,
-	message_content varchar(300),
-	message_chat_id int,
-	CONSTRAINT fk_chat_message_id FOREIGN KEY(message_chat_id) REFERENCES chat(chat_id),
-	message_user_id int,
-	CONSTRAINT fk_user_message_id FOREIGN KEY(message_user_id) REFERENCES utilizador_tarefa(user_id_tarefa)
+### Obter o histórico de convivios de um grupo
 
-);
+select convivios.convivio_id AS convivioId, grupos.group_name AS groupName, tarefas.task_title AS taskTitle, locais.place_name AS placeName, locais.place_endereco AS placeEndereco, convivios.data_convivio AS convivioData 
+from convivio AS convivios 
+inner join grupo AS grupos on convivios.grupo_id = grupos.group_id 
+inner join place as locais on convivios.placee_id = locais.place_id 
+inner join tarefa as tarefas on grupos.tarefa_id = tarefas.task_id
+where grupos.group_id=:grupoid
 
-#### Outras Queries
+### Atualizar o bloqueio de um website 
+
+update website set website_blocked_status = '1' where sites.website_domain_id=:domainid  and sites.website_user_block=:userid
+
+### Atualizar o desbloqueio de um website
+
+update website set website_blocked_status = '0' where sites.website_domain_id=:domainid and sites.website_user_block=:userid
+
+### Atualizar a marcação de presença num local (APÓS A PRIMEIRA MARCAÇÃO)
+
+update marcacao_presenca set wasthere = '1' where marcacoes.utilizador_id=:utilizadorid and marcacoes.local_id=:placeid
+
+### Atualizar a desmarcação de presença num local
+
+update marcacao_presenca set wasthere = '0' where marcacoes.utilizador_id=:utilizadorid and marcacoes.local_id=:placeid
+
+### Atualizar a marcação de favorito num local (APÓS A PRIMEIRA MARCAÇÃO)
+
+update marcacao_favorito set isfavorite = '1' where marcacoes.utilizador_id=:utilizadorid and marcacoes.local_id=:placeid
+
+### Atualizar a desmarcação de favorito num local
+
+update marcacao_favorito set isfavorite = '0' where marcacoes.utilizador_id=:utilizadorid and marcacoes.local_id=:placeid
+
+
+#### Outros
 
 select * from mensagem
 
