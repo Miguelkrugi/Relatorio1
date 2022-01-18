@@ -362,9 +362,9 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |---|---|---|---|
 |1|Na lista de configurações, o utilizador deve clicar no segundo item "Bloquear Websites" | Exibição de uma tela que contém uma lista de websites pré-definidos da app para bloqueio (através de checkboxes)| Funcional
 |2|Na lista de websites pré-definidos, selecionar as "checkboxes" correspondentes a um/vários websites que se desejam bloquear| ---- | Funcional 
-|3|Clicar no botão com o icone de "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados | 90% Funcional
+|3|Clicar no botão com o icone de "Guardar"| Os dominios dos websites selecionados serão bloqueados, não sendo possivel acessá-los até estes voltarem a ser desmarcados |Funcional
 |3.2|Clicar no botão 'Blocked'| Exibir uma lista de url's não bloqueados e ocultar os bloqueados | Funcional
-|3.2.1|Clicar em cada item da lista| Abrir uma webView do url correspondente | 90% Funcional
+|3.2.1|Clicar em cada item da lista| Abrir uma webView do url correspondente | Funcional
 
 ### Desativar Wi-Fi durante as sessões de trabalho 
 
