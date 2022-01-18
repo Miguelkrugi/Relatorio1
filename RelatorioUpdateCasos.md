@@ -443,11 +443,4 @@ De seguida, clicar em logout, confirmar a ação, e após a confirmação, a ses
 
 Link para o pitch: https://youtu.be/afL7qk63RFg
 
-# UPDATE DA APP (até dia 10 de Janeiro de 2022):
-
- ### Correção de Rotas
- ### Melhoria na dinamização da app
- ### Adicionar e remover participantes
- ### Melhorias na marcação de locais favoritos e presenças
- ### Chat em grupo
 
