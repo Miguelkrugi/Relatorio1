@@ -392,7 +392,7 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |8.2|Na tela de tarefas do grupo, selecionar o icone de uma "casa" | Exibição do histórico de convivios de um grupo | Funcional
 |8.3|Na tela do grupo, selecionar o icone de '+' | Exibição de uma tela para criar uma nova tarefa de grupo | Funcional
 |8.4|Na tela de grupo, manter premido um item da lista | Remover uma tarefa de grupo | Funcional
-|8.2|Na tela de seleção de grupos, clicar no icone de 'Lixo' na parte inferior da tela | Exibição de uma tela para remover um grupo através do ID | Funcional
+|8.5|Na tela de seleção de grupos, clicar no icone de 'Lixo' na parte inferior da tela | Exibição de uma tela para remover um grupo através do ID | Funcional
 
 
 
