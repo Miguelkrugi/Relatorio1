@@ -386,9 +386,13 @@ Para compreender o progresso do user na app, foram desenvolvidos 3 guiões de te
 |5|Clicar no icone "Lixo" na tela de tarefas e inserir o ID da tarefa a remover | Remoção de uma tarefa| Funcional
 |6|Selecionar um dos "Chip-Buttons" ('Low', 'Medium', 'Urgent' e 'High') | Filtrar a lista de tarefas, de acordo com o botão selecionado (filtragem por prioridade) | Funcional
 |7|Clicar no botão "Criar Grupo" e inserir os dados nas 'caixas' | Criação de um grupo para uma tarefa | Funcional
-|8|Clicar no botão "Ver Grupos" e selecionar um item da lista | Acesso á tela de chat de um grupo | Não-Funcional
-|8.1|Na tela de tarefas de grupo, clicar no icone de participante | Exibição de uma tela para adicionar ou remover um participante do grupo | Não-Funcional
-|8.2|Na tela de grupos, clicar no icone de 'Lixo' na parte inferior da tela | Exibição de uma tela para remover um grupo através do ID | Funcional
+|8|Clicar no botão "Ver Grupos" e selecionar um item da lista | Acesso á tela de de um grupo (exibir tarefas do grupo) | Funcional
+|8.1|Na tela de tarefas de grupo, clicar no icone de participante | Exibição de uma tela para adicionar ou remover um participante do grupo (manter premido um item para remover participante) | Funcional
+|8.1.2| Na tela de participantes, selecionar o icone '+' | Exibição de lista de utilizadores na app, premir e adicionar um novo utilizador | Funcional
+|8.2|Na tela de tarefas do grupo, selecionar o icone de uma "casa" | Exibição do histórico de convivios de um grupo | Funcional
+|8.3|Na tela do grupo, selecionar o icone de '+' | Exibição de uma tela para criar uma nova tarefa de grupo | Funcional
+|8.4|Na tela de grupo, manter premido um item da lista | Remover uma tarefa de grupo | Funcional
+|8.2|Na tela de seleção de grupos, clicar no icone de 'Lixo' na parte inferior da tela | Exibição de uma tela para remover um grupo através do ID | Funcional
 
 
 
